@@ -27,3 +27,4 @@ echo "About to copy dashboard code from $SOURCE_FILES to $DESTN_DIR"
 sleep 3
 cp -R $SOURCE_FILES $DESTN_DIR
 
+service apache2 restart

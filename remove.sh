@@ -22,3 +22,4 @@ echo "About to Delete dashboard code from $DESTN_DIR"
 sleep 3
 rm -ir $DESTN_DIR/cloudbuilder/ 
 
+service apache2 restart
