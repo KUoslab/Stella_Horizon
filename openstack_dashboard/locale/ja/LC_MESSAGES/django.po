@@ -1,0 +1,8639 @@
+# Akihiro Motoki <amotoki@gmail.com>, 2015. #zanata
+# Yuko Katabami <yukokatabami@gmail.com>, 2015. #zanata
+# Akihiro Motoki <amotoki@gmail.com>, 2016. #zanata
+# Mie Yamamoto <myamamot@redhat.com>, 2016. #zanata
+# Yuko Katabami <yukokatabami@gmail.com>, 2016. #zanata
+# Akihiro Motoki <amotoki@gmail.com>, 2017. #zanata
+# Yuko Katabami <yukokatabami@gmail.com>, 2017. #zanata
+# Akihiro Motoki <amotoki@gmail.com>, 2018. #zanata
+# Yuko Katabami <yukokatabami@gmail.com>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2018-02-05 05:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-02-08 12:12+0000\n"
+"Last-Translator: Yuko Katabami <yukokatabami@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#, python-format
+msgid ""
+"\n"
+"      %(used)s of %(quota)s GiB Used\n"
+"      "
+msgstr ""
+"\n"
+"      %(used)s / %(quota)s GiB 使用中\n"
+"      "
+
+#, python-format
+msgid ""
+"\n"
+"      %(used)s of %(quota)s Used\n"
+"      "
+msgstr ""
+"\n"
+"      %(used)s / %(quota)s 使用中\n"
+"      "
+
+msgid " - End"
+msgstr " - 末尾"
+
+msgid " : Next hop"
+msgstr " : ネクストホップ"
+
+msgid ""
+" A protocol entry contains information that dictates which mapping rules to "
+"use for a given incoming request. An Identity Provider may have multiple "
+"supported protocols."
+msgstr ""
+"プロトコルのエントリーには、指定した受信要求に使用するマッピングルールを決定"
+"する情報が含まれます。1 つの認証プロバイダーが複数のプロトコルをサポートする"
+"ように設定することができます。"
+
+msgid ""
+" You can create a port for the network.\n"
+"     If you specify device ID to be attached, the device specified will\n"
+"     be attached to the port created.\n"
+"     "
+msgstr ""
+" ネットワークのポートを作成できます。\n"
+"    接続するデバイス ID を指定すると、\n"
+"    指定したデバイスが作成されたポートに接続されます。\n"
+"    "
+
+msgid ""
+"\"Customization Script\" is analogous to \"User Data\" in other systems."
+msgstr ""
+"「カスタマイズスクリプト」は他のシステムの「ユーザーデータ」と同じです。"
+
+msgid ""
+"\"Manage\" an existing volume from a Cinder host. This will make the volume "
+"visible within OpenStack. <br> <br> This is equivalent to the <tt>cinder "
+"manage</tt> command."
+msgstr ""
+"Cinder ホストの既存のボリュームを「管理」します。この操作を行うと、そのボ"
+"リュームは OpenStack で見えるようになります。<br><br>この操作は <tt>cinder "
+"manage</tt> コマンドに相当します。 "
+
+msgid ""
+"\"None\" indicates that no QoS Spec is currently associated. Conversely, "
+"setting the QoS Spec to \"None\" will remove the current association."
+msgstr ""
+"「なし」は QoS スペックが現在関連付けられていないことを示します。また、QoS ス"
+"ペックを「なし」に設定すると、現在の関連付けが削除されます。 "
+
+#, python-format
+msgid "%(dev)s on %(instance)s"
+msgstr "%(instance)s 上の %(dev)s"
+
+#, python-format
+msgid "%(field_name)s: Invalid IP address (value=%(ip)s)"
+msgstr "%(field_name)s: 無効な IP アドレス (値=%(ip)s)"
+
+#, python-format
+msgid "%(field_name)s: Invalid IP address (value=%(network)s)"
+msgstr "%(field_name)s: 無効な IP アドレス (値=%(network)s)"
+
+#, python-format
+msgid "%(instance_name)s %(fixed_ip)s"
+msgstr "%(instance_name)s %(fixed_ip)s"
+
+#, python-format
+msgid "%(name)s - %(size)s GB (%(label)s)"
+msgstr "%(name)s - %(size)s GB (%(label)s)"
+
+#. Translators:  UTC offset and timezone label
+#, python-format
+msgid "%(offset)s: %(label)s"
+msgstr "%(offset)s: %(label)s"
+
+#, python-format
+msgid "%(pool_name)s %(cidr)s"
+msgstr "%(pool_name)s %(cidr)s"
+
+#, python-format
+msgid "%(resource_status)s: %(resource_status_reason)s"
+msgstr "%(resource_status)s: %(resource_status_reason)s"
+
+#, python-format
+msgid "%(stack_status_title)s: %(stack_status_reason)s"
+msgstr "%(stack_status_title)s: %(stack_status_reason)s"
+
+#, python-format
+msgid "%(type)s (%(backend)s backend)"
+msgstr "%(type)s (%(backend)s バックエンド)"
+
+#, python-format
+msgid "%(used)s %(key)s used"
+msgstr "%(key)sは %(used)s 使用中"
+
+#, python-format
+msgid "%(used)s of %(quota)s GiB Used"
+msgstr "%(used)s / %(quota)s GiB 使用中"
+
+#, python-format
+msgid "%(used)s of %(quota)s MB Used"
+msgstr "%(used)s MB / %(quota)s MB 使用中"
+
+#, python-format
+msgid "%(used)s of %(quota)s Used"
+msgstr "%(used)s / %(quota)s 使用中"
+
+#, python-format
+msgid "%s (Default)"
+msgstr "%s (デフォルト)"
+
+#. Translators: The usage is "<UUID of ext_net> (Not Found)"
+#, python-format
+msgctxt "External network not found"
+msgid "%s (Not Found)"
+msgstr "%s (Not Found)"
+
+#, python-format
+msgid "%s (current)"
+msgstr "%s (このグループ)"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s instances"
+msgstr "%s インスタンス"
+
+#, python-format
+msgid "%sGB"
+msgstr "%sGB"
+
+#, python-format
+msgid "%sGiB"
+msgstr "%sGiB"
+
+#, python-format
+msgid "%sMB"
+msgstr "%sMB"
+
+msgid "(Quota exceeded)"
+msgstr "(クォータを超過しました)"
+
+msgid ", add project groups"
+msgstr "、プロジェクトグループの追加"
+
+msgid ", update project groups"
+msgstr "、プロジェクトグループの更新"
+
+msgid "-"
+msgstr "-"
+
+#, python-format
+msgid "<a href=\"%(instance_url)s\">%(instance_name)s</a> on %(device)s"
+msgstr "<a href=\"%(instance_url)s\">%(instance_name)s</a> の %(device)s"
+
+#, python-format
+msgid "<a href=\"%(volume_url)s\">%(volume_label)s</a> on %(volume_device)s"
+msgstr "%(volume_device)s (<a href=\"%(volume_url)s\">%(volume_label)s</a>)"
+
+msgid "A local environment to upload."
+msgstr "アップロードする必要のあるローカルの環境設定データ"
+
+msgid "A local image to upload."
+msgstr "アップロードするローカルのイメージ"
+
+msgid "A local metadata definition file to upload."
+msgstr "ローカルにあるメタデータ定義ファイルをアップロードします。"
+
+msgid "A local template to upload."
+msgstr "アップロードする必要のあるローカルのテンプレート"
+
+msgid ""
+"A mapping is a set of rules to map federation protocol attributes to "
+"Identity API objects. An identity provider can have a single mapping "
+"specified per protocol. A mapping is simply a list of rules. The only "
+"Identity API objects that will support mapping are: user and group."
+msgstr ""
+"マッピングは、フェデレーションプロトコルの属性を Identity API オブジェクトに"
+"マッピングするルールセットです。認証プロバイダーには、1 プロトコルにつき 1 つ"
+"のマッピングを指定することができます。マッピングは単なるルールの一覧です。"
+"マッピングをサポートする Identity API オブジェクトはユーザーとグループのみで"
+"す。"
+
+msgid ""
+"A port is a connection point for attaching a single device, such as the NIC "
+"of a virtual server, to a virtual network."
+msgstr ""
+"ポートは、仮想サーバーの NIC などの 1 つのデバイスを、仮想ネットワークに接続"
+"する接続点です。"
+
+msgid ""
+"A rule contains a remote attribute description and the destination local "
+"attribute."
+msgstr "ルールには、接続相手の属性の説明と宛先のローカル属性が含まれます。"
+
+msgid ""
+"A script or set of commands to be executed after the instance has been built "
+"(max 16kb)."
+msgstr ""
+"インスタンスが構築された後に実行されるスクリプトまたは一組のコマンドです (最"
+"大 16 kb)。"
+
+msgid "A single IP Address or CIDR"
+msgstr "単一の IP アドレスまたは CIDR"
+
+msgid ""
+"A snapshot is an image which preserves the disk state of a running instance."
+msgstr ""
+"スナップショットは、実行中のインスタンスのディスク状態を保存したイメージで"
+"す。"
+
+msgid "A valid MAC Address"
+msgstr "有効な MAC アドレス"
+
+#, python-format
+msgid ""
+"A volume of %(req)iGiB cannot be created as you only have %(avail)iGiB of "
+"your quota available."
+msgstr ""
+"利用可能なクォータは %(avail)iGiB しかないため、%(req)iGiB のボリュームは作成"
+"できません。"
+
+msgid "AKI - Amazon Kernel Image"
+msgstr "AKI - Amazon カーネルイメージ"
+
+#, python-format
+msgid "ALLOW %(ethertype)s %(proto_port)s %(direction)s %(remote)s"
+msgstr "%(ethertype)s %(proto_port)s %(direction)s %(remote)s を許可します。"
+
+msgid "AMI - Amazon Machine Image"
+msgstr "AMI - Amazon マシンイメージ"
+
+msgid "API Access"
+msgstr "API アクセス"
+
+msgid "API Endpoints"
+msgstr "API エンドポイント"
+
+msgid "ARI - Amazon Ramdisk Image"
+msgstr "ARI - Amazon RAM ディスクイメージ"
+
+msgid "Accept Transfer"
+msgstr "譲渡の受理"
+
+msgid "Accept Volume Transfer"
+msgstr "ボリュームの譲渡の受理"
+
+msgid "Access & Security"
+msgstr "アクセスとセキュリティー"
+
+msgid "Action"
+msgstr "アクション"
+
+msgid "Action Log"
+msgstr "アクションログ"
+
+msgctxt "Current status of a Floating IP"
+msgid "Active"
+msgstr "稼働中"
+
+msgctxt "Current status of a Network"
+msgid "Active"
+msgstr "稼働中"
+
+msgctxt "Current status of an Image"
+msgid "Active"
+msgstr "稼働中"
+
+msgctxt "Current status of an Instance"
+msgid "Active"
+msgstr "稼働中"
+
+msgctxt "current status of port"
+msgid "Active"
+msgstr "稼働中"
+
+msgctxt "current status of router"
+msgid "Active"
+msgstr "稼働中"
+
+msgctxt "status of a network port"
+msgid "Active"
+msgstr "稼働中"
+
+msgid "Active Instances:"
+msgstr "稼働中のインスタンス:"
+
+msgid ""
+"Actual device name may differ due to hypervisor settings. If not specified, "
+"then hypervisor will select a device name."
+msgstr ""
+"実際のデバイス名は、ハイパーバイザーの設定次第では指定したものと異なる可能性"
+"があります。指定しなかった場合は、ハイパーバイザーがデバイス名を選択します。"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Add Allowed Address Pair"
+msgstr "許可するアドレスペアの追加"
+
+msgid "Add DHCP Agent"
+msgstr "DHCP エージェントの追加"
+
+msgid "Add Group Assignment"
+msgstr "グループ割り当ての追加"
+
+msgid "Add Interface"
+msgstr "インターフェースの追加"
+
+msgid "Add Protocol"
+msgstr "プロトコルの追加"
+
+msgid "Add Router Route"
+msgstr "ルータールートの追加"
+
+msgid "Add Rule"
+msgstr "ルールの追加"
+
+msgid "Add Static Route"
+msgstr "静的ルートの追加"
+
+msgid "Add User"
+msgid_plural "Add Users"
+msgstr[0] "ユーザーの追加"
+
+msgid "Add User to Group"
+msgstr "ユーザーのグループへの追加"
+
+msgid "Add Users"
+msgstr "ユーザーの追加"
+
+msgid "Add allowed address pair"
+msgstr "許可するアドレスペアの追加"
+
+msgid ""
+"Add an allowed address pair for this port. This will allow multiple MAC/IP "
+"address (range) pairs to pass through this port."
+msgstr ""
+"このポートに許可するアドレスペアを追加してください。複数の MAC アドレスと IP "
+"アドレス (範囲) のペアにこのポートの通過を許可します。"
+
+msgid ""
+"Add and remove security groups to this instance from the list of available "
+"security groups."
+msgstr ""
+"利用可能なセキュリティーグループのリストからこのインスタンスに、セキュリ"
+"ティーグループを追加したり削除したりできます。"
+
+msgid ""
+"Add hosts to this aggregate or remove hosts from it. Hosts can be in "
+"multiple aggregates."
+msgstr ""
+"このアグリゲートのホストの追加や削除を行います。ホストは複数のアグリゲートに"
+"所属させることができます。"
+
+msgid "Add hosts to this aggregate. Hosts can be in multiple aggregates."
+msgstr ""
+"このアグリゲートにホストを追加します。ホストは複数のアグリゲートに所属させる"
+"ことができます。"
+
+msgid "Add static route to the router."
+msgstr "静的ルートをルーターに追加します。"
+
+msgid ""
+"Add volume types to this consistency group. Multiple volume types can be "
+"added to the same consistency group only if they are associated with same "
+"back end."
+msgstr ""
+"ボリューム種別をこの整合性グループに追加します。同じバックエンドに関連付けら"
+"れている場合には、複数のボリューム種別を同じ整合性グループに追加することがで"
+"きます。"
+
+msgid "Add, modify or remove the QoS Spec associated with this volume type."
+msgstr ""
+"このボリューム種別に関連付けられている QoS スペックを追加、変更、削除します。"
+
+msgid "Add/Remove Consistency Group Volumes"
+msgstr "整合性グループボリュームの追加/削除"
+
+msgid "Add/Remove Hosts to Aggregate"
+msgstr "アグリゲートのホストを追加・削除"
+
+msgid ""
+"Add/remove volumes to/from this consistency group. Only volumes associated "
+"with the volume type(s) assigned to this consistency group will be available "
+"for selection."
+msgstr ""
+"この整合性グループにボリュームを追加または削除します。この整合性グループに割"
+"り当てられているボリューム種別に関連付けられたボリュームのみを選択することが"
+"できます。"
+
+msgid "Added User"
+msgid_plural "Added Users"
+msgstr[0] "ユーザーを追加しました"
+
+msgid "Additional Routes"
+msgstr "追加のルート設定"
+
+msgid ""
+"Additional routes announced to the hosts. Each entry is: destination_cidr,"
+"nexthop (e.g., 192.168.200.0/24,10.56.1.254) and one entry per line."
+msgstr ""
+"ホストに通知される追加のルート。各項目は destination_cidr,nexthop (例: "
+"192.168.200.0/24,10.56.1.254) 形式で 1 行に 1 項目記入します。"
+
+msgid ""
+"Additionally, some resource types may require a prefix to be used when "
+"applying the metadata. In certain cases, the prefix may differ between the "
+"resource type (for example, flavor vs image)."
+msgstr ""
+"また、リソース種別によっては、メタデータを適用する際にプレフィックスが必要な"
+"ものがあります。(フレーバーとイメージのように) リソース種別によってプレフィッ"
+"クスが異なる場合もあります。"
+
+msgid "Address pool"
+msgstr "アドレスプール"
+
+msgid "Admin"
+msgstr "管理"
+
+msgid "Admin Password"
+msgstr "管理者パスワード"
+
+msgid "Admin State"
+msgstr "管理状態"
+
+msgid "Admin State ="
+msgstr "管理状態 ="
+
+msgid "Admin:"
+msgstr "管理:"
+
+msgid ""
+"Administrator Note: Use the following CLI command to import the default "
+"definitions into Glance: "
+msgstr ""
+"管理者向けの注記: Glance にデフォルトの定義をインポートするには以下の CLI コ"
+"マンドを使ってください。"
+
+msgctxt "current status of stack"
+msgid "Adopt Complete"
+msgstr "導入完了"
+
+msgctxt "current status of stack"
+msgid "Adopt Failed"
+msgstr "導入に失敗"
+
+msgctxt "current status of stack"
+msgid "Adopt In Progress"
+msgstr "導入中"
+
+msgid "Advanced Options"
+msgstr "高度な設定"
+
+msgid ""
+"After launching an instance, you login using the private key (the username "
+"might be different depending on the image you launched):"
+msgstr ""
+"インスタンス起動後に秘密鍵を使ってログインします(ユーザー名は起動したイメージ"
+"によって異なります)"
+
+#, python-format
+msgid "Agent %s was successfully added."
+msgstr "エージェント %s が正常に追加されました。"
+
+msgid "All Available Hosts"
+msgstr "使用可能なすべてのホスト"
+
+msgid "All Groups"
+msgstr "すべてのグループ"
+
+msgid "All Hypervisors"
+msgstr "すべてのハイパーバイザー"
+
+msgid "All ICMP"
+msgstr "すべての ICMP"
+
+msgid "All Projects"
+msgstr "すべてのプロジェクト"
+
+msgid "All Security Groups"
+msgstr "すべてのセキュリティーグループ"
+
+msgid "All TCP"
+msgstr "すべての TCP"
+
+msgid "All UDP"
+msgstr "すべての UDP"
+
+msgid "All Users"
+msgstr "すべてのユーザー"
+
+msgid "All available hosts"
+msgstr "使用可能なすべてのホスト"
+
+msgid "All available volume types"
+msgstr "利用可能な全ボリューム種別"
+
+msgid "All available volumes"
+msgstr "利用可能な全ボリューム"
+
+msgid "All ports"
+msgstr "すべてのポート"
+
+msgid ""
+"All selected volume types must be associated with the same volume backend "
+"name."
+msgstr ""
+"選択したボリューム種別がすべて同じボリュームバックエンド名に関連付けられてい"
+"る必要があります。"
+
+msgid "Allocate Floating IP"
+msgstr "Floating IP の確保"
+
+msgid "Allocate IP"
+msgstr "IP の確保"
+
+msgid "Allocate IP To Project"
+msgstr "Floating IP の確保"
+
+msgid "Allocate Network Address from a pool"
+msgstr "プールからネットワークアドレスを確保"
+
+msgid "Allocate a floating IP from a given floating IP pool."
+msgstr "指定した Floating IP プールから Floating IP を確保します。"
+
+msgid "Allocated"
+msgstr "割り当て済み"
+
+#, python-format
+msgid "Allocated Floating IP %(ip)s."
+msgstr "Floating IP %(ip)s を確保しました。"
+
+#, python-format
+msgid "Allocated floating IP %(ip)s."
+msgstr "Floating IP %(ip)s を確保しました。"
+
+msgid "Allocation Pools"
+msgstr "IP アドレス割り当てプール"
+
+msgid "Allowed Address Pairs"
+msgstr "許可するアドレスペア"
+
+msgid "An external (HTTP) URL to load the template from."
+msgstr "テンプレートを読み込む外部 (HTTP) URL"
+
+msgid "An external (HTTP/HTTPS) URL to load the image from."
+msgstr "イメージを読み込む外部 (HTTP/HTTPS) URL。"
+
+msgid "An image file or an external location must be specified."
+msgstr "イメージファイルまたは外部の場所を指定する必要があります。"
+
+msgid ""
+"An instance can be launched with varying types of attached storage. You may "
+"select from those options here."
+msgstr ""
+"インスタンスはさまざまな形式のストレージを接続して起動できます。これらのオプ"
+"ションをここから選択できます。"
+
+msgid ""
+"An unexpected error has occurred. Try refreshing the page. If that doesn't "
+"help, contact your local administrator."
+msgstr ""
+"予期しないエラーが発生しました。ページの再読み込みを試してください。解決しな"
+"ければ、管理者に連絡してください。"
+
+msgid "Another Plugin-based Panel"
+msgstr "他のプラグインベースのパネル"
+
+msgid "Any"
+msgstr "ANY"
+
+msgid "Any Availability Zone"
+msgstr "すべてのアベイラビリティーゾーン"
+
+msgid "Architecture"
+msgstr "アーキテクチャー"
+
+msgid "Associate"
+msgstr "割り当て"
+
+msgid "Associate Floating IP"
+msgstr "Floating IP の割り当て"
+
+msgid "Associate QoS Spec"
+msgstr "QoS スペックの関連付け"
+
+msgid "Associate QoS Spec with Volume Type"
+msgstr "QoS スペックのボリューム種別との関連付け"
+
+msgid "Associated QoS Spec"
+msgstr "QoS スペックの関連付け"
+
+msgid "Associated Resource Types"
+msgstr "関連リソース種別"
+
+msgid "At least one network must be specified."
+msgstr "ネットワークを少なくとも 1 つ指定する必要があります。"
+
+msgid "At least one volume type must be assigned to a consistency group."
+msgstr ""
+"整合性グループには、ボリューム種別を少なくとも 1 つ割り当てる必要があります。"
+
+msgid "Attach Interface"
+msgstr "インターフェースの接続"
+
+msgid "Attach To Instance"
+msgstr "インスタンスへの接続"
+
+msgid "Attach Volume"
+msgstr "ボリュームの接続"
+
+msgid "Attach Volume to Running Instance."
+msgstr "実行中のインスタンスにボリュームを接続します。"
+
+msgid "Attach a Volume"
+msgstr "ボリュームの接続"
+
+msgid "Attach to Instance"
+msgstr "インスタンスへの接続"
+
+msgid "Attached"
+msgstr "接続中"
+
+msgid "Attached Device"
+msgstr "接続中のデバイス"
+
+msgid "Attached To"
+msgstr "接続先"
+
+msgctxt "Current status of a Volume"
+msgid "Attaching"
+msgstr "接続中"
+
+#, python-format
+msgid "Attaching interface for instance %s."
+msgstr "インスタンス %s のインターフェースを接続中"
+
+#, python-format
+msgid "Attaching volume %(vol)s to instance %(inst)s on %(dev)s."
+msgstr ""
+"ボリューム %(vol)s をインスタンス %(inst)s の %(dev)s に接続しています。"
+
+msgid "Attachments"
+msgstr "接続状況"
+
+msgid "Attribute Mappings"
+msgstr "属性のマッピング"
+
+msgid "Attributes"
+msgstr "属性"
+
+msgid "Authentication URL"
+msgstr "認証 URL"
+
+msgid "Authorization Key"
+msgstr "認証キー"
+
+msgid "Automatic"
+msgstr "自動"
+
+msgid ""
+"Automatic: The entire disk is a single partition and automatically resizes. "
+"Manual: Results in faster build times but requires manual partitioning."
+msgstr ""
+"自動: ディスク全体が 1 つのパーティションになります。自動的にリサイズを行いま"
+"す。手動: 構築時間は早いですが、手動でのパーティション設定が必要です。"
+
+msgid "Automatically schedule new host."
+msgstr "自動で新しいホストをスケジュールします。"
+
+msgid "Availability Zone"
+msgstr "アベイラビリティーゾーン"
+
+msgid "Availability Zone ="
+msgstr "アベイラビリティーゾーン ="
+
+msgid "Availability Zone Name"
+msgstr "アベイラビリティーゾーン名"
+
+msgid "Availability Zones"
+msgstr "アベイラビリティーゾーン"
+
+msgid "Availability zone"
+msgstr "アベイラビリティーゾーン"
+
+msgid "Available"
+msgstr "利用可能"
+
+msgctxt "Current status of Consistency Group"
+msgid "Available"
+msgstr "利用可能"
+
+msgctxt "Current status of Consistency Group Snapshot"
+msgid "Available"
+msgstr "利用可能"
+
+msgctxt "Current status of a Volume"
+msgid "Available"
+msgstr "利用可能"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Available"
+msgstr "利用可能"
+
+msgid "Available Types"
+msgstr "利用可能な種別"
+
+msgid "Available networks"
+msgstr "利用可能なネットワーク"
+
+msgctxt "Current status of a Volume"
+msgid "Backing Up"
+msgstr "バックアップ中"
+
+msgid "Backup Name"
+msgstr "バックアップ名"
+
+msgid "Backup Size (GiB)"
+msgstr "バックアップサイズ (GiB)"
+
+msgid "Backups"
+msgstr "バックアップ"
+
+msgid "Bare Metal"
+msgstr "Bare Metal"
+
+msgid "Binding"
+msgstr "バインド"
+
+msgid "Binding: Host"
+msgstr "バインド: ホスト"
+
+msgid "Binding: VNIC Type"
+msgstr "バインド: 仮想 NIC の種別"
+
+msgctxt "Task status of an Instance"
+msgid "Block Device Mapping"
+msgstr "ブロックデバイスのマッピング中"
+
+msgid "Block Migration"
+msgstr "ブロックマイグレーション"
+
+msgid "Block Storage Services"
+msgstr "ブロックストレージサービス"
+
+msgctxt "Power state of an Instance"
+msgid "Blocked"
+msgstr "実行待ち"
+
+msgid "Boot from image"
+msgstr "イメージから起動"
+
+msgid "Boot from image (creates a new volume)"
+msgstr "イメージから起動 (新しいボリュームを作成)"
+
+msgid "Boot from snapshot"
+msgstr "スナップショットから起動"
+
+msgid "Boot from volume"
+msgstr "ボリュームから起動"
+
+msgid "Boot from volume snapshot (creates a new volume)"
+msgstr "ボリュームスナップショットから起動 (新しいボリュームを作成)"
+
+msgid "Bootable"
+msgstr "起動可能"
+
+msgid "Bootable ="
+msgstr "起動可能 ="
+
+msgid "Bootstrap Theme Preview"
+msgstr "Bootstrap テーマのプレビュー"
+
+msgctxt "Current status of a Network"
+msgid "Build"
+msgstr "作成中"
+
+msgctxt "Current status of an Instance"
+msgid "Build"
+msgstr "作成中"
+
+msgctxt "current status of port"
+msgid "Build"
+msgstr "作成中"
+
+msgctxt "status of a network port"
+msgid "Build"
+msgstr "作成中"
+
+msgctxt "Current status of an Instance"
+msgid "Building"
+msgstr "作成中"
+
+msgctxt "Power state of an Instance"
+msgid "Building"
+msgstr "作成中"
+
+msgid ""
+"By default, volume type is created as public. To create a private volume "
+"type, uncheck this field."
+msgstr ""
+"デフォルトでは、ボリューム種別はパブリックで作成されます。プライベートなボ"
+"リューム種別を作成するには、このフィールドのチェックを外してください。"
+
+msgid "CIDR"
+msgstr "CIDR"
+
+msgid "CIDR must be specified."
+msgstr "CIDR は指定する必要があります。"
+
+#, python-format
+msgid "CIDRs allowed for user private %(ip_ver)s networks are %(allowed)s."
+msgstr ""
+"ユーザーのプライベート %(ip_ver)s ネットワークに許可されている CIDR  は "
+"%(allowed)s です。"
+
+msgid "CPU architecture of the image."
+msgstr "このイメージの CPU アーキテクチャー。"
+
+msgid "Cancel"
+msgstr "取り消し"
+
+msgid "Cancel Transfer"
+msgstr "譲渡のキャンセル"
+
+#, python-format
+msgid "Cannot find instance %s."
+msgstr "インスタンス %s が見つかりません。"
+
+#, python-format
+msgid "Cannot get console for instance %s."
+msgstr "インスタンス %s のコンソールを取得できません。"
+
+msgid "Cannot specify both file and direct input."
+msgstr "ファイルと直接入力の両方を指定することはできません。"
+
+msgid "Case sensitive"
+msgstr "大文字小文字を区別"
+
+msgid "Case-sensitive"
+msgstr "大文字小文字を区別"
+
+msgid "Centralized"
+msgstr "集中ルーター"
+
+msgid "Change"
+msgstr "変更"
+
+msgid "Change Password"
+msgstr "パスワードの変更"
+
+msgid "Change Stack Template"
+msgstr "スタックテンプレートの変更"
+
+msgid "Change Template"
+msgstr "テンプレートの変更"
+
+msgid "Change Volume Type"
+msgstr "ボリューム種別の変更"
+
+msgid ""
+"Change the volume type of a volume after its creation. This is equivalent to "
+"the <tt>openstack volume set --type</tt> command."
+msgstr ""
+"ボリューム作成後にボリュームの種別を変更します。これは、<tt>openstack volume "
+"set --type</tt> コマンドに相当します。"
+
+msgid "Change user's password. We highly recommend you create a strong one."
+msgstr ""
+"ユーザーのパスワードを変更します。強力なパスワードにすることを強く推奨しま"
+"す。"
+
+msgid "Change your password. We highly recommend you create a strong one. "
+msgstr "パスワードを変更します。強力なパスワードにすることを強く推奨します。"
+
+msgid "Changes Since"
+msgstr "指定時刻以降に更新"
+
+msgid "Changing password is not supported."
+msgstr "パスワードの変更はサポートされていません。"
+
+msgctxt "current status of stack"
+msgid "Check Complete"
+msgstr "チェック完了"
+
+msgctxt "current status of stack"
+msgid "Check Failed"
+msgstr "チェックに失敗"
+
+msgctxt "current status of stack"
+msgid "Check In Progress"
+msgstr "チェック中"
+
+msgid "Check Stack"
+msgid_plural "Check Stacks"
+msgstr[0] "スタックのチェック"
+
+msgid ""
+"Check the &quot;Delete Volumes&quot; box to also delete any volumes "
+"associated with this consistency group."
+msgstr ""
+"この整合性グループに関連付けられているボリュームも削除するには、&quot;ボ"
+"リュームの削除&quot; のボックスにチェックを付けてください。"
+
+msgid "Checked Stack"
+msgid_plural "Checked Stacks"
+msgstr[0] "チェック済みのスタック"
+
+msgid "Checksum"
+msgstr "チェックサム"
+
+msgid ""
+"Choose \"Disk Format\" for the image. The volume images are created with the "
+"QEMU disk image utility."
+msgstr ""
+"イメージの「ディスク形式」を選択してください。ボリュームイメージの作成は "
+"QEMU ディスクイメージツールを使って行われます。"
+
+msgid "Choose Your Boot Source Type."
+msgstr "ブートソース種別を選択してください。"
+
+msgid ""
+"Choose a Host to evacuate servers to. If not selected, the scheduler will "
+"auto select target host."
+msgstr ""
+"サーバーの退避先のホストを選択します。選択されていない場合、スケジューラーは"
+"ターゲットホストを自動的に選択します。"
+
+msgid "Choose a Host to migrate to."
+msgstr "マイグレーション先のホストを選択"
+
+msgid ""
+"Choose a key pair name you will recognise and paste your SSH public key into "
+"the space provided."
+msgstr ""
+"自分で認識できるキーペア名を付けて、SSH 公開鍵を入力欄に貼り付けてください。"
+
+msgid "Choose a snapshot"
+msgstr "スナップショットを選択してください"
+
+msgid "Choose a volume"
+msgstr "ボリュームを選択してください"
+
+msgid "Choose an DHCP Agent to attach to."
+msgstr "追加する DHCP エージェントを選択してください。"
+
+msgid "Choose an image"
+msgstr "イメージを選択してください"
+
+msgid "Choose associated QoS Spec."
+msgstr "関連付ける QoS スペックを選択してください"
+
+msgid "Choose consumer for this QoS Spec."
+msgstr "この QoS スペックの使用者を選択してください"
+
+msgid ""
+"Choose network from Available networks to Selected networks by push button "
+"or drag and drop, you may change NIC order by drag and drop as well. "
+msgstr ""
+"ボタンを押すかドラッグアンドドロップで、「利用可能なネットワーク」から「選択"
+"済みネットワーク」にネットワークを移動します。ドラッグアンドドロップにより "
+"NIC の順番を変更できます。"
+
+msgid "Choose the flavor to launch."
+msgstr "起動するフレーバーを選択してください。"
+
+msgid ""
+"Cinder host on which the existing volume resides; takes the form: "
+"host@backend-name#pool"
+msgstr ""
+"既存のボリュームが存在する Cinder ホスト (形式: host@backend-name#pool)"
+
+msgid "Cipher"
+msgstr "暗号"
+
+msgid "Classless Inter-Domain Routing (e.g. 192.168.0.0/24, or 2001:db8::/128)"
+msgstr "ネットワークアドレス (例: 192.168.0.0/24、2001:db8::/128)"
+
+msgid "Clear Domain Context"
+msgstr "ドメインコンテキストのクリア"
+
+msgid "Clear Gateway"
+msgid_plural "Clear Gateways"
+msgstr[0] "ゲートウェイの削除"
+
+msgid "Cleared Gateway"
+msgid_plural "Cleared Gateways"
+msgstr[0] "ゲートウェイを削除しました"
+
+msgid "Click here to show only console"
+msgstr "コンソールのみを表示するにはここをクリックします"
+
+msgid "Clone Consistency Group"
+msgstr "整合性グループのクローン作成"
+
+msgid ""
+"Clone each of the volumes in the source Consistency Group, and then add them "
+"to a newly created Consistency Group."
+msgstr ""
+"ソースの整合性グループ内の各ボリュームをクローン作成してから、新規作成した整"
+"合性グループに追加します。"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Code"
+msgstr "コード"
+
+msgid "Cold Migrate"
+msgstr "コールドマイグレーション"
+
+msgid "Comma-delimited list of valid remote IDs from the identity provider."
+msgstr "認証プロバイダーからの有効な接続相手の ID のコンマ区切りリスト。"
+
+msgid "Comma-separated key=value pairs"
+msgstr "コンマ区切りの key=value ペア"
+
+msgid "Compute"
+msgstr "コンピュート"
+
+msgid "Compute Host"
+msgstr "コンピュートホスト"
+
+msgid "Compute Services"
+msgstr "コンピュートサービス"
+
+msgid "Configuration Drive"
+msgstr "コンフィグドライブ"
+
+msgid ""
+"Configure OpenStack to write metadata to a special configuration drive that "
+"attaches to the instance when it boots."
+msgstr ""
+"起動時にインスタンスに接続される特別なコンフィグドライブにメタデータを書き込"
+"むように OpenStack に指定します。"
+
+msgid "Confirm Admin Password"
+msgstr "管理者パスワード (確認)"
+
+msgid "Confirm Password"
+msgstr "パスワード (確認)"
+
+msgid "Confirm Rebuild Password"
+msgstr "再作成するパスワード (確認)"
+
+msgctxt "Action log of an instance"
+msgid "Confirm Resize"
+msgstr "リサイズの確定"
+
+msgid "Confirm Resize/Migrate"
+msgstr "リサイズ/マイグレーションの確定"
+
+msgid "Confirm new password"
+msgstr "新しいパスワード (確認)"
+
+msgctxt "Current status of an Instance"
+msgid "Confirm or Revert Resize/Migrate"
+msgstr "リサイズ/マイグレーションの確認待ち"
+
+msgctxt "Task status of an Instance"
+msgid "Confirming Resize or Migrate"
+msgstr "リサイズ/マイグレーションの確定中"
+
+msgid "Consistency Group"
+msgstr "整合性グループ"
+
+msgid "Consistency Group Information"
+msgstr "整合性グループの情報"
+
+msgid "Consistency Group Name"
+msgstr "整合性グループ名"
+
+msgid "Consistency Group Snapshots"
+msgstr "整合性グループのスナップショット"
+
+msgid "Consistency Groups"
+msgstr "整合性グループ"
+
+msgid "Console"
+msgstr "コンソール"
+
+msgid "Console is currently unavailable."
+msgstr "コンソールは現在利用できません。"
+
+#, python-format
+msgid "Console type \"%s\" not supported."
+msgstr "コンソール種別 \"%s\" には対応していません。"
+
+msgid "Consumer"
+msgstr "使用者"
+
+msgid "Container Format"
+msgstr "格納形式"
+
+msgid "Container Name"
+msgstr "コンテナー名"
+
+msgid "Containers"
+msgstr "コンテナー"
+
+msgid "Contents"
+msgstr "内容"
+
+msgid "Control Location"
+msgstr "制御場所"
+
+msgid ""
+"Control access to your instance via key pairs, security groups, and other "
+"mechanisms."
+msgstr ""
+"キーペア、セキュリティーグループやその他の仕組みを使用して、インスタンスへの"
+"アクセスを制御します。"
+
+msgid "Copy Data"
+msgstr "データのコピー"
+
+#, python-format
+msgid "Cores(Available: %(avail)s, Requested: %(req)s)"
+msgstr "コア (利用可能: %(avail)s, 要求: %(req)s)"
+
+#, python-format
+msgid "Could not find default role \"%s\" in Keystone"
+msgstr "Keystone においてデフォルトのロール \"%s\" を見つけられませんでした。"
+
+msgctxt "Power state of an Instance"
+msgid "Crashed"
+msgstr "クラッシュ"
+
+msgid "Create"
+msgstr "作成"
+
+msgctxt "Action log of an instance"
+msgid "Create"
+msgstr "作成"
+
+msgid "Create An Image"
+msgstr "イメージの作成"
+
+msgid "Create Backup"
+msgstr "バックアップの作成"
+
+msgctxt "current status of stack"
+msgid "Create Complete"
+msgstr "作成完了"
+
+msgid "Create Consistency Group"
+msgstr "整合性グループの作成"
+
+msgid "Create Consistency Group Snapshot"
+msgstr "整合性グループのスナップショットの作成"
+
+msgid "Create Domain"
+msgstr "ドメインの作成"
+
+msgid "Create Encrypted Volume Type"
+msgstr "ボリューム種別の暗号化設定の作成"
+
+msgid "Create Encryption"
+msgstr "暗号化設定の作成"
+
+msgid "Create Extra Spec For {{ qos_spec_name }}"
+msgstr "{{ qos_spec_name }} の追加スペックの作成"
+
+msgctxt "current status of stack"
+msgid "Create Failed"
+msgstr "作成に失敗"
+
+msgid "Create Flavor"
+msgstr "フレーバーの作成"
+
+msgid "Create Group"
+msgstr "グループの作成"
+
+msgid "Create Host Aggregate"
+msgstr "ホストアグリゲートの作成"
+
+msgid "Create Image"
+msgstr "イメージの作成"
+
+msgctxt "current status of stack"
+msgid "Create In Progress"
+msgstr "作成中"
+
+msgid "Create Key Pair"
+msgstr "キーペアの作成"
+
+msgid "Create Mapping"
+msgstr "マッピングの作成"
+
+msgid "Create Network"
+msgstr "ネットワークの作成"
+
+msgid "Create Network (Quota exceeded)"
+msgstr "ネットワークの作成 (クォータを超過しました)"
+
+msgid "Create Port"
+msgstr "ポートの作成"
+
+msgid "Create Project"
+msgstr "プロジェクトの作成"
+
+msgid "Create Protocol"
+msgstr "プロトコルの作成"
+
+msgid "Create QoS Spec"
+msgstr "QoS スペックの作成"
+
+msgid "Create Role"
+msgstr "ロールの作成"
+
+msgid "Create Router"
+msgstr "ルーターの作成"
+
+msgid "Create Router (Quota exceeded)"
+msgstr "ルーターの作成 (クォータを超過しました)"
+
+msgid "Create Security Group"
+msgstr "セキュリティーグループの作成"
+
+msgid "Create Security Group (Quota exceeded)"
+msgstr "セキュリティーグループの作成 (クォータを超過しました)"
+
+msgid "Create Snapshot"
+msgstr "スナップショットの作成"
+
+msgid "Create Spec"
+msgstr "スペックの作成"
+
+msgid "Create Stack"
+msgstr "スタックの作成"
+
+msgid "Create Subnet"
+msgstr "サブネットの作成"
+
+msgid "Create Subnet (Quota exceeded)"
+msgstr "サブネットの作成 (クォータを超過しました)"
+
+msgid "Create Transfer"
+msgstr "譲渡の作成"
+
+msgid "Create User"
+msgstr "ユーザーの作成"
+
+msgid "Create Volume"
+msgstr "ボリュームの作成"
+
+msgid "Create Volume Backup"
+msgstr "ボリュームバックアップの作成"
+
+msgid "Create Volume Consistency Group"
+msgstr "ボリュームの整合性グループの作成"
+
+msgid "Create Volume Snapshot"
+msgstr "ボリュームスナップショットの作成"
+
+msgid "Create Volume Snapshot (Force)"
+msgstr "ボリュームスナップショットの作成 (強制)"
+
+msgid "Create Volume Transfer"
+msgstr "ボリュームの譲渡の作成"
+
+msgid "Create Volume Type"
+msgstr "ボリューム種別の作成"
+
+msgid "Create Volume Type Encryption"
+msgstr "ボリューム種別の暗号化設定の作成"
+
+msgid "Create Volume Type Extra Spec"
+msgstr "ボリューム種別の追加スペックの作成"
+
+msgid ""
+"Create a Consistency Group that will contain newly created volumes cloned "
+"from each of the snapshots in the source Consistency Group Snapshot."
+msgstr ""
+"ソースの整合性グループのスナップショット内の各スナップショットからクローンし"
+"て新規作成したボリュームが含まれる整合性グループを作成します。"
+
+msgid "Create a Metadata Namespace"
+msgstr "メタデータ名前空間の作成"
+
+msgid "Create a New Volume"
+msgstr "新規ボリュームの作成"
+
+msgid "Create a Router"
+msgstr "ルーターの作成"
+
+msgid "Create a identity provider protocol."
+msgstr "認証プロバイダーのプロトコルを作成します。"
+
+msgid "Create a mapping."
+msgstr "マッピングの作成"
+
+msgid "Create a new \"extra spec\" key-value pair for a volume type."
+msgstr ""
+"ボリューム種別に対する「追加スペック」のキーと値のペアを新規作成します。 "
+
+#, python-format
+msgid ""
+"Create a new \"spec\" key-value pair for QoS Spec \"%(qos_spec_name)s\".\n"
+"      Valid key names are expected in the QoS specs. The acceptable values "
+"for key are\n"
+"  <tt>\"minIOPS\", \"maxIOPS\" and \"burstIOPS\"</tt>. \n"
+"  <br>\n"
+"  <br>\n"
+"  Example:\n"
+"  <br>\n"
+"  Key: minIOPS and Value:20 (number value less than maxIOPS)\n"
+"  <br>\n"
+"  Key: maxIOPS and Value:5000 (number value bigger than minIOPS)\n"
+"  <br>\n"
+"  Key: burstIOPS and Value:5000 (number value bigger than minIOPS)\n"
+"  "
+msgstr ""
+"QoS スペック \"%(qos_spec_name)s\" に新しいキーと値のペアを作成します。\n"
+"      QoS スペックでは、有効なキー名が必要です。キー名に許容される値は、\n"
+"  <tt>\"minIOPS\" 、 \"maxIOPS\" 、 \"burstIOPS\"</tt>です。\n"
+"  <br>\n"
+"  <br>\n"
+"  例:\n"
+"  <br>\n"
+"  キー: minIOPS と 値: 20 (maxIOPS 未満の数値)\n"
+"  <br>\n"
+"  キー: maxIOPS と 値: 5000 (minIOPS より大きい数値)\n"
+"  <br>\n"
+"  キー: burstIOPS と 値: 5000 (minIOPS より大きい数値)\n"
+"  "
+
+msgid ""
+"Create a new network. In addition, a subnet associated with the network can "
+"be created in the following steps of this wizard."
+msgstr ""
+"新しいネットワークを作成します。このウィザードの次のステップでは、そのネット"
+"ワークに割り当てるサブネットを作成できます。"
+
+msgid "Create a new role."
+msgstr "新しいロールを作成します。"
+
+msgid "Create a new stack with the provided values."
+msgstr "指定された値を用いて新しいスタックを作成します。"
+
+msgid ""
+"Create a new user and set related properties including the Primary Project "
+"and Role."
+msgstr ""
+"新しいユーザーを作成し、主プロジェクトやロールなどの関連情報を設定します。"
+
+msgid "Create a project to organize users."
+msgstr "プロジェクトを作成して、ユーザーをまとめることができます。"
+
+msgid "Create a snapshot for each volume contained in the Consistency Group."
+msgstr "整合性グループに含まれる各ボリュームのスナップショットを作成します。"
+
+msgid ""
+"Create a subnet associated with the network. Advanced configuration is "
+"available by clicking on the \"Subnet Details\" tab."
+msgstr ""
+"ネットワークに割り当てられたサブネットを作成できます。「サブネットの詳細」タ"
+"ブで高度な設定ができます。"
+
+msgid "Create an Encrypted Volume Type"
+msgstr "ボリューム種別の暗号化設定の作成"
+
+msgid "Created"
+msgstr "作成時刻"
+
+msgctxt "Created time"
+msgid "Created"
+msgstr "作成時刻"
+
+#, python-format
+msgid "Created extra spec \"%s\"."
+msgstr "追加スペック \"%s\" を作成しました。"
+
+#, python-format
+msgid "Created network \"%s\"."
+msgstr "ネットワーク \"%s\" を作成しました。"
+
+#, python-format
+msgid "Created new domain \"%s\"."
+msgstr "新規ドメイン \"%s\" を作成しました。"
+
+#, python-format
+msgid "Created new flavor \"%s\"."
+msgstr "新しいフレーバー \"%s\" を作成しました。"
+
+#, python-format
+msgid "Created new host aggregate \"%s\"."
+msgstr "新しいホストアグリゲート \"%s\" が作成されました。"
+
+#, python-format
+msgid "Created new project \"%s\"."
+msgstr "新規プロジェクト \"%s\" を作成しました。"
+
+msgid "Created new volume consistency group"
+msgstr "新しいボリュームの整合性グループを作成しました"
+
+#, python-format
+msgid "Created spec \"%s\"."
+msgstr "スペック \"%s\" を作成しました。"
+
+#, python-format
+msgid "Created subnet \"%s\"."
+msgstr "サブネット \"%s\" を作成しました。"
+
+#, python-format
+msgid "Created volume transfer: \"%s\"."
+msgstr "ボリュームの譲渡 \"%s\" を作成しました。"
+
+msgid "Creates a router with specified parameters."
+msgstr "指定したパラメーターでルーターを作成します。"
+
+msgid ""
+"Creates a subnet associated with the network. You need to enter a valid "
+"\"Network Address\" and \"Gateway IP\". If you did not enter the \"Gateway IP"
+"\", the first value of a network will be assigned by default. If you do not "
+"want gateway please check the \"Disable Gateway\" checkbox. Advanced "
+"configuration is available by clicking on the \"Subnet Details\" tab."
+msgstr ""
+"ネットワークに割り当てられたサブネットを作成します。有効な「ネットワークアド"
+"レス」と「ゲートウェイ IP」を入力する必要があります。「ゲートウェイ IP」を入"
+"力しなかった場合、デフォルトでネットワークの最初の値が割り当てられます。ゲー"
+"トウェイが不要な場合は、「ゲートウェイなし」チェックボックスをチェックしてく"
+"ださい。「サブネットの詳細」タブで高度な設定ができます。"
+
+msgctxt "Current status of a Volume"
+msgid "Creating"
+msgstr "作成中"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Creating"
+msgstr "作成中"
+
+#, python-format
+msgid "Creating consistency group \"%s\"."
+msgstr "整合性グループ \"%s\" を作成します。"
+
+#, python-format
+msgid "Creating consistency group snapshot \"%s\"."
+msgstr "整合性グループのスナップショット \"%s\" を作成中"
+
+msgid ""
+"Creating encryption for a volume type causes all volumes with that volume "
+"type to be encrypted.  Encryption information cannot be added to a volume "
+"type if volumes are currently in use with that volume type."
+msgstr ""
+"ボリューム種別の暗号化設定を作成すると、このボリューム種別のボリュームがすべ"
+"て暗号化されます。このボリューム種別を現在使用しているボリュームがある場合"
+"は、暗号化情報はボリューム種別に追加できません。"
+
+#, python-format
+msgid "Creating volume \"%s\""
+msgstr "ボリューム \"%s\" を作成中"
+
+#, python-format
+msgid "Creating volume backup \"%s\""
+msgstr "ボリュームバックアップ \"%s\" を作成中"
+
+#, python-format
+msgid "Creating volume snapshot \"%s\"."
+msgstr "ボリュームスナップショット \"%s\" を作成しています。"
+
+msgid "Creation Timeout (minutes)"
+msgstr "作成タイムアウト時間 (分単位)"
+
+msgid "Current Host"
+msgstr "現在のホスト"
+
+msgid "Current Size (GiB)"
+msgstr "現在のサイズ (GiB)"
+
+msgid "Current consumer"
+msgstr "現在の使用者"
+
+msgid "Current password"
+msgstr "現在のパスワード"
+
+msgid ""
+"Currently only images available via an HTTP/HTTPS URL are supported. The "
+"image location must be accessible to the Image Service."
+msgstr ""
+"現在、HTTP/HTTPS URLから取得できるイメージのみがサポートされています。イメー"
+"ジの場所から Image サービスへアクセスできるようにしてください。"
+
+msgid ""
+"Currently only images uploaded from your local file system are supported."
+msgstr ""
+"現在サポートされているのは、ローカルファイルシステムからアップロードしたイ"
+"メージのみです。"
+
+msgctxt "Custom style theme"
+msgid "Custom"
+msgstr "カスタム"
+
+msgid "Custom ICMP Rule"
+msgstr "カスタム ICMP ルール"
+
+msgid "Custom Properties"
+msgstr "カスタム属性"
+
+msgid "Custom TCP Rule"
+msgstr "カスタム TCP ルール"
+
+msgid "Custom UDP Rule"
+msgstr "カスタム UDP ルール"
+
+msgid "Customization Script Source"
+msgstr "カスタマイズスクリプトの入力方法"
+
+msgid "DHCP Agents"
+msgstr "DHCP エージェント"
+
+msgid "DHCP Enabled"
+msgstr "DHCP 有効"
+
+msgid "DHCPv6 stateful: Address discovered from OpenStack DHCP"
+msgstr "DHCPv6: アドレスを OpenStack DHCP から取得"
+
+msgid ""
+"DHCPv6 stateless: Address discovered from OpenStack Router and additional "
+"information from OpenStack DHCP"
+msgstr ""
+"DHCPv6 stateless: アドレスを OpenStack ルーターから、追加情報を OpenStack "
+"DHCP から取得"
+
+msgid "DNS Assignment"
+msgstr "DNS 割り当て"
+
+msgid "DNS Name"
+msgstr "DNS 名"
+
+msgid "DNS Name Servers"
+msgstr "DNS サーバー"
+
+msgctxt "Admin state of a Network"
+msgid "DOWN"
+msgstr "DOWN"
+
+msgctxt "Admin state of a Port"
+msgid "DOWN"
+msgstr "DOWN"
+
+msgctxt "Admin state of a Router"
+msgid "DOWN"
+msgstr "DOWN"
+
+msgid "Date Updated"
+msgstr "更新日"
+
+msgctxt "Current status of an Image"
+msgid "Deactivated"
+msgstr "非アクティブ"
+
+msgid "Decrypt Password"
+msgstr "パスワードの復号"
+
+msgctxt "Default style theme"
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Default Quotas"
+msgstr "標準のクォータ"
+
+msgid "Default quotas updated for Cinder."
+msgstr "Cinder の標準のクォータを更新しました。"
+
+msgid "Default quotas updated for Nova."
+msgstr "Nova の標準のクォータを更新しました。"
+
+msgid "Default quotas updated."
+msgstr "標準のクォータを更新しました。"
+
+msgid "Defaults"
+msgstr "デフォルト値"
+
+msgid "Delete"
+msgid_plural "Delete"
+msgstr[0] "削除"
+
+msgctxt "current status of stack"
+msgid "Delete Complete"
+msgstr "削除完了"
+
+msgid "Delete Consistency Group"
+msgstr "整合性グループの削除"
+
+msgid "Delete DHCP Agent"
+msgid_plural "Delete DHCP Agents"
+msgstr[0] "DHCP エージェントの削除"
+
+msgid "Delete Domain"
+msgid_plural "Delete Domains"
+msgstr[0] "ドメインの削除"
+
+msgid "Delete Encryption"
+msgid_plural "Delete Encryptions"
+msgstr[0] "暗号化設定の削除"
+
+msgid "Delete Extra Spec"
+msgid_plural "Delete Extra Specs"
+msgstr[0] "追加スペックの削除"
+
+msgctxt "current status of stack"
+msgid "Delete Failed"
+msgstr "削除に失敗"
+
+msgid "Delete Flavor"
+msgid_plural "Delete Flavors"
+msgstr[0] "フレーバーの削除"
+
+msgid "Delete Group"
+msgid_plural "Delete Groups"
+msgstr[0] "グループの削除"
+
+msgid "Delete Host Aggregate"
+msgid_plural "Delete Host Aggregates"
+msgstr[0] "ホストアグリゲートの削除"
+
+msgid "Delete Image"
+msgid_plural "Delete Images"
+msgstr[0] "イメージの削除"
+
+msgctxt "current status of stack"
+msgid "Delete In Progress"
+msgstr "削除中"
+
+msgid "Delete Instance"
+msgid_plural "Delete Instances"
+msgstr[0] "インスタンスの削除"
+
+msgid "Delete Interface"
+msgid_plural "Delete Interfaces"
+msgstr[0] "インタフェースの削除"
+
+msgid "Delete Key Pair"
+msgid_plural "Delete Key Pairs"
+msgstr[0] "キーペアの削除"
+
+msgid "Delete Mapping"
+msgid_plural "Delete Mappings"
+msgstr[0] "マッピングの削除"
+
+msgid "Delete Namespace"
+msgid_plural "Delete Namespaces"
+msgstr[0] "名前空間の削除"
+
+msgid "Delete Network"
+msgid_plural "Delete Networks"
+msgstr[0] "ネットワークの削除"
+
+msgid "Delete Port"
+msgid_plural "Delete Ports"
+msgstr[0] "ポートの削除"
+
+msgid "Delete Project"
+msgid_plural "Delete Projects"
+msgstr[0] "プロジェクトの削除"
+
+msgid "Delete Protocol"
+msgid_plural "Delete Protocols"
+msgstr[0] "プロトコルの削除"
+
+msgid "Delete QoS Spec"
+msgid_plural "Delete QoS Specs"
+msgstr[0] "QoS スペックの削除"
+
+msgid "Delete Role"
+msgid_plural "Delete Roles"
+msgstr[0] "ロールの削除"
+
+msgid "Delete Router"
+msgid_plural "Delete Routers"
+msgstr[0] "ルーターの削除"
+
+msgid "Delete Rule"
+msgid_plural "Delete Rules"
+msgstr[0] "ルールの削除"
+
+msgid "Delete Security Group"
+msgid_plural "Delete Security Groups"
+msgstr[0] "セキュリティーグループの削除"
+
+msgid "Delete Snapshot"
+msgid_plural "Delete Snapshots"
+msgstr[0] "スナップショットの削除"
+
+msgid "Delete Spec"
+msgid_plural "Delete Specs"
+msgstr[0] "スペックの削除"
+
+msgid "Delete Stack"
+msgid_plural "Delete Stacks"
+msgstr[0] "スタックの削除"
+
+msgid "Delete Static Route"
+msgid_plural "Delete Static Routes"
+msgstr[0] "静的ルートの削除"
+
+msgid "Delete Subnet"
+msgid_plural "Delete Subnets"
+msgstr[0] "サブネットの削除"
+
+msgid "Delete User"
+msgid_plural "Delete Users"
+msgstr[0] "ユーザーの削除"
+
+msgid "Delete Volume"
+msgid_plural "Delete Volumes"
+msgstr[0] "ボリュームの削除"
+
+msgid "Delete Volume Backup"
+msgid_plural "Delete Volume Backups"
+msgstr[0] "ボリュームバックアップの削除"
+
+msgid "Delete Volume Snapshot"
+msgid_plural "Delete Volume Snapshots"
+msgstr[0] "ボリュームスナップショットの削除"
+
+msgid "Delete Volume Type"
+msgid_plural "Delete Volume Types"
+msgstr[0] "ボリューム種別の削除"
+
+msgid "Delete Volume on Instance Delete"
+msgstr "インスタンス削除時にボリュームを削除"
+
+msgid "Delete Volumes"
+msgstr "ボリュームの削除"
+
+#, python-format
+msgid "Delete the created network \"%s\" due to subnet creation failure."
+msgstr ""
+"サブネット作成に失敗したため、作成したネットワーク \"%s\" を削除しました。"
+
+msgid "Delete volume when the instance is deleted"
+msgstr "インスタンスの削除時にボリュームを削除します"
+
+msgid "Deleted"
+msgstr "削除"
+
+msgctxt "Current status of an Image"
+msgid "Deleted"
+msgstr "削除"
+
+msgctxt "Current status of an Instance"
+msgid "Deleted"
+msgstr "削除"
+
+msgid "Deleted DHCP Agent"
+msgid_plural "Deleted DHCP Agents"
+msgstr[0] "DHCP エージェントを削除しました"
+
+msgid "Deleted Domain"
+msgid_plural "Deleted Domains"
+msgstr[0] "ドメインを削除しました"
+
+msgid "Deleted Encryption"
+msgid_plural "Deleted Encryptions"
+msgstr[0] "暗号化設定を削除しました"
+
+msgid "Deleted Extra Spec"
+msgid_plural "Deleted Extra Specs"
+msgstr[0] "追加スペックを削除しました"
+
+msgid "Deleted Flavor"
+msgid_plural "Deleted Flavors"
+msgstr[0] "フレーバーを削除しました"
+
+msgid "Deleted Group"
+msgid_plural "Deleted Groups"
+msgstr[0] "グループを削除しました"
+
+msgid "Deleted Host Aggregate"
+msgid_plural "Deleted Host Aggregates"
+msgstr[0] "ホストアグリゲートを削除しました"
+
+msgid "Deleted Image"
+msgid_plural "Deleted Images"
+msgstr[0] "イメージを削除しました"
+
+msgid "Deleted Interface"
+msgid_plural "Deleted Interfaces"
+msgstr[0] "インターフェースを削除しました"
+
+msgid "Deleted Key Pair"
+msgid_plural "Deleted Key Pairs"
+msgstr[0] "キーペアを削除しました"
+
+msgid "Deleted Mapping"
+msgid_plural "Deleted Mappings"
+msgstr[0] "マッピングを削除しました"
+
+msgid "Deleted Namespace"
+msgid_plural "Deleted Namespaces"
+msgstr[0] "名前空間を削除しました"
+
+msgid "Deleted Network"
+msgid_plural "Deleted Networks"
+msgstr[0] "ネットワークを削除しました"
+
+msgid "Deleted Port"
+msgid_plural "Deleted Ports"
+msgstr[0] "ポートを削除しました"
+
+msgid "Deleted Project"
+msgid_plural "Deleted Projects"
+msgstr[0] "プロジェクトを削除しました"
+
+msgid "Deleted Protocol"
+msgid_plural "Deleted Protocols"
+msgstr[0] "プロトコルを削除しました"
+
+msgid "Deleted QoS Spec"
+msgid_plural "Deleted QoS Specs"
+msgstr[0] "QoS スペックの削除"
+
+msgid "Deleted Role"
+msgid_plural "Deleted Roles"
+msgstr[0] "ロールを削除しました"
+
+msgid "Deleted Router"
+msgid_plural "Deleted Routers"
+msgstr[0] "ルーターを削除しました"
+
+msgid "Deleted Rule"
+msgid_plural "Deleted Rules"
+msgstr[0] "ルールを削除しました"
+
+msgid "Deleted Security Group"
+msgid_plural "Deleted Security Groups"
+msgstr[0] "セキュリティーグループを削除しました"
+
+msgid "Deleted Spec"
+msgid_plural "Deleted Specs"
+msgstr[0] "スペックを削除しました"
+
+msgid "Deleted Stack"
+msgid_plural "Deleted Stacks"
+msgstr[0] "スタックを削除しました"
+
+msgid "Deleted Static Route"
+msgid_plural "Deleted Static Routes"
+msgstr[0] "削除された静的ルート"
+
+msgid "Deleted Subnet"
+msgid_plural "Deleted Subnets"
+msgstr[0] "サブネットを削除しました"
+
+msgid "Deleted User"
+msgid_plural "Deleted Users"
+msgstr[0] "ユーザーを削除しました"
+
+msgid "Deleted Volume Type"
+msgid_plural "Deleted Volume Types"
+msgstr[0] "ボリューム種別を削除しました"
+
+msgid "Deleted address pair"
+msgid_plural "Deleted address pairs"
+msgstr[0] "アドレスペアを削除しました"
+
+msgid "Deleted images are not recoverable."
+msgstr "削除されたイメージは元に戻せません。"
+
+msgid "Deleted instances are not recoverable."
+msgstr "削除されたインスタンスは元に戻すことはできません。"
+
+msgid "Deleted volume backups are not recoverable."
+msgstr "削除されたボリュームバックアップは元に戻せません。"
+
+msgid "Deleted volume snapshots are not recoverable."
+msgstr "削除されたボリュームスナップショットは元に戻せません。"
+
+msgid ""
+"Deleted volumes are not recoverable. All data stored in the volume will be "
+"removed."
+msgstr ""
+"削除されたボリュームは元に戻せません。ボリュームに格納されたデータはすべて削"
+"除されます。"
+
+msgctxt "Current status of a Volume"
+msgid "Deleting"
+msgstr "削除中"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Deleting"
+msgstr "削除中"
+
+msgctxt "Task status of an Instance"
+msgid "Deleting"
+msgstr "削除中"
+
+#, python-format
+msgid "Deleting volume consistency group \"%s\""
+msgstr "ボリュームの整合性グループ \"%s\" を削除中"
+
+msgid "Description"
+msgstr "説明"
+
+msgid "Description is required."
+msgstr "説明は必要です。"
+
+msgid "Description:"
+msgstr "説明:"
+
+msgid "Destination"
+msgstr "宛先"
+
+msgid "Destination CIDR"
+msgstr "宛先 CIDR"
+
+msgid "Destination Host"
+msgstr "移行先ホスト"
+
+msgid "Detach Interface"
+msgstr "インターフェースの切り離し"
+
+msgid "Detach Volume"
+msgstr "ボリュームの切断"
+
+msgctxt "Action to perform (the volume is currently attached)"
+msgid "Detach Volume"
+msgid_plural "Detach Volumes"
+msgstr[0] "ボリュームの切断"
+
+msgid "Detach Volume from Running Instance."
+msgstr "実行中のインスタンスからボリュームを切断します。"
+
+msgid "Detach a Volume"
+msgstr "ボリュームの切断"
+
+msgid "Detached"
+msgstr "未接続"
+
+#, python-format
+msgid "Detached interface %(port)s for instance %(instance)s."
+msgstr "インスタンス %(instance)s のインターフェース %(port)s を切断しました。"
+
+msgctxt "Current status of a Volume"
+msgid "Detaching"
+msgstr "切断中"
+
+msgctxt "Past action (the volume is currently being detached)"
+msgid "Detaching Volume"
+msgid_plural "Detaching Volumes"
+msgstr[0] "ボリュームを切断中です"
+
+#, python-format
+msgid "Detaching volume %(vol)s from instance %(inst)s."
+msgstr "ボリューム %(vol)s をインスタンス %(inst)s から切断しています。"
+
+msgid "Details"
+msgstr "詳細"
+
+msgid "Developer"
+msgstr "開発者"
+
+msgid "Device"
+msgstr "デバイス"
+
+msgid "Device ID"
+msgstr "デバイス ID"
+
+msgid "Device ID attached to the port"
+msgstr "ポートに接続されるデバイスの ID"
+
+msgid "Device Name"
+msgstr "デバイス名"
+
+msgid "Device Owner"
+msgstr "デバイス所有者"
+
+msgid "Device owner attached to the port"
+msgstr "ポートに接続されるデバイスの所有者"
+
+msgid "Device size (GB)"
+msgstr "デバイスサイズ (GB)"
+
+msgid "Direct"
+msgstr "Direct"
+
+msgid "Direct Input"
+msgstr "直接入力"
+
+msgid "Direct Physical"
+msgstr "Direct Physical"
+
+msgid "Direction"
+msgstr "方向"
+
+msgid "Disable Domain"
+msgid_plural "Disable Domains"
+msgstr[0] "ドメインの無効化"
+
+msgid "Disable Domains"
+msgstr "ドメインの無効化"
+
+msgid "Disable Gateway"
+msgstr "ゲートウェイなし"
+
+msgid "Disable HA mode"
+msgstr "HA モード無効"
+
+msgid "Disable Service"
+msgstr "サービスの無効化"
+
+msgid "Disable User"
+msgid_plural "Disable Users"
+msgstr[0] "ユーザーの無効化"
+
+msgid "Disable the compute service."
+msgstr "指定したコンピュートサービスを無効にします。"
+
+msgid "Disabled"
+msgstr "無効"
+
+msgctxt "Current status of a Hypervisor"
+msgid "Disabled"
+msgstr "無効"
+
+msgid "Disabled Domain"
+msgid_plural "Disabled Domains"
+msgstr[0] "ドメインを無効にしました"
+
+msgid "Disabled User"
+msgid_plural "Disabled Users"
+msgstr[0] "ユーザーを無効にしました"
+
+#, python-format
+msgid "Disabled compute service for host: %s."
+msgstr "ホスト %s のコンピュートサービスを無効にしました。"
+
+msgid "Disassociate"
+msgstr "割り当て解除"
+
+msgid "Disassociate Floating IP"
+msgstr "Floating IP の割り当て解除"
+
+msgid "Disk"
+msgstr "ディスク"
+
+msgid "Disk (GB)"
+msgstr "ディスク (GB)"
+
+msgid "Disk Format"
+msgstr "ディスク形式"
+
+msgid "Disk GB Hours"
+msgstr "ディスク GB 時間"
+
+msgid "Disk Over Commit"
+msgstr "ディスクのオーバーコミット"
+
+msgid "Disk Partition"
+msgstr "ディスクパーティション"
+
+msgid "Display Name"
+msgstr "表示名"
+
+msgid "Distributed"
+msgstr "分散ルーター"
+
+msgid ""
+"Do not use a colon ':' with OS::Glance::Images. This resource type does not "
+"support the use of colons."
+msgstr ""
+"OS::Glance::Images ではコロン ':' は使用しないこと。このリソース種別ではコロ"
+"ンは使用できません。"
+
+msgid "Docker"
+msgstr "Docker"
+
+msgctxt "Image format for display in table"
+msgid "Docker"
+msgstr "Docker"
+
+#, python-format
+msgid "Domain \"%s\" must be disabled before it can be deleted."
+msgstr "ドメイン \"%s\" は削除する前に無効化する必要があります。"
+
+msgid "Domain Context cleared."
+msgstr "ドメインコンテキストをクリアしました。"
+
+#, python-format
+msgid "Domain Context updated to Domain %s."
+msgstr "ドメインコンテキストをドメイン %s に更新しました。"
+
+msgid "Domain Groups"
+msgstr "ドメイングループ"
+
+msgid "Domain ID"
+msgstr "ドメイン ID"
+
+msgid "Domain Information"
+msgstr "ドメイン情報"
+
+msgid "Domain Members"
+msgstr "ドメインメンバー"
+
+msgid "Domain Name"
+msgstr "ドメイン名"
+
+msgid "Domains"
+msgstr "ドメイン"
+
+msgid ""
+"Domains provide separation between users and infrastructure used by "
+"different organizations."
+msgstr ""
+"ドメインを使うと、異なる組織間でユーザーやインフラストラクチャーを分離するこ"
+"とができます。"
+
+msgid ""
+"Domains provide separation between users and infrastructure used by "
+"different organizations. Edit the domain details to add or remove groups in "
+"the domain."
+msgstr ""
+"ドメインを使うと、異なる組織間でユーザーやインフラストラクチャーを分離するこ"
+"とができます。ドメインに所属させるユーザー、グループを追加・削除できます。"
+
+msgid "Domains:"
+msgstr "ドメイン:"
+
+msgid "Down"
+msgstr "停止中"
+
+msgctxt "Current state of a Hypervisor"
+msgid "Down"
+msgstr "停止中"
+
+msgctxt "Current status of a Floating IP"
+msgid "Down"
+msgstr "停止中"
+
+msgctxt "Current status of a Network"
+msgid "Down"
+msgstr "停止中"
+
+msgctxt "current status of port"
+msgid "Down"
+msgstr "停止中"
+
+msgctxt "status of a network port"
+msgid "Down"
+msgstr "停止中"
+
+msgid "Download CSV Summary"
+msgstr "サマリー (CSV) のダウンロード"
+
+msgid "Download OpenStack RC File"
+msgstr "OpenStack RC ファイルのダウンロード"
+
+msgid "Download transfer credentials"
+msgstr "譲渡認証情報のダウンロード"
+
+msgid "EC2 Access Key"
+msgstr "EC2 アクセスキー"
+
+msgid "EC2 Credentials"
+msgstr "EC2 認証情報"
+
+msgid "EC2 Secret Key"
+msgstr "EC2 秘密鍵"
+
+msgid "EC2 URL"
+msgstr "EC2 URL"
+
+msgid ""
+"Each QoS Specs entity will have a \"Consumer\" value which indicates where "
+"the administrator would like the QoS policy to be enforced. This value can "
+"be \"front-end\" (Nova Compute), \"back-end\" (Cinder back-end), or \"both\"."
+msgstr ""
+"各 QoS スペックには「使用者」という設定値があり、これは管理者がこの QoS ポリ"
+"シーをどこで適用したいかを指定するものです。指定できる値は「フロントエンド」"
+"(Nova Compute)、「バックエンド」(Cinder のバックエンド)、「両方」です。"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Edit Access"
+msgstr "アクセス権の編集"
+
+msgid "Edit Consistency Group"
+msgstr "整合性グループの編集"
+
+msgid "Edit Consumer"
+msgstr "使用者の編集"
+
+msgid "Edit Domain"
+msgstr "ドメインの編集"
+
+#, python-format
+msgid "Edit Extra Spec Value: %s"
+msgstr "追加スペック値の編集: %s"
+
+msgid "Edit Flavor"
+msgstr "フレーバーの編集"
+
+msgid "Edit Group"
+msgstr "グループの編集"
+
+msgid "Edit Host Aggregate"
+msgstr "ホストアグリゲートの編集"
+
+msgid "Edit Image"
+msgstr "イメージの編集"
+
+msgid "Edit Instance"
+msgstr "インスタンスの編集"
+
+msgid "Edit Metadata Namespace"
+msgstr "メタデータ名前空間の編集"
+
+msgid "Edit Namespace"
+msgstr "名前空間の編集"
+
+msgid "Edit Namespace Attributes"
+msgstr "名前空間属性の編集"
+
+msgid "Edit Network"
+msgstr "ネットワークの編集"
+
+msgid "Edit Port"
+msgstr "ポートの編集"
+
+msgid "Edit Project"
+msgstr "プロジェクトの編集"
+
+msgid "Edit Public/Protected attributes for the namespace."
+msgstr "名前空間のパブリック属性、保護属性を編集します。"
+
+msgid "Edit QoS Spec Consumer"
+msgstr "QoS スペックの使用者の編集"
+
+msgid "Edit Router"
+msgstr "ルーターの編集"
+
+msgid "Edit Security Group"
+msgstr "セキュリティーグループの編集"
+
+msgid "Edit Security Groups"
+msgstr "セキュリティーグループの編集"
+
+msgid "Edit Snapshot"
+msgstr "スナップショットの編集"
+
+msgid "Edit Spec"
+msgstr "スペックの編集"
+
+msgid "Edit Subnet"
+msgstr "サブネットの編集"
+
+msgid "Edit Template"
+msgstr "テンプレートの編集"
+
+msgid "Edit Volume"
+msgstr "ボリュームの編集"
+
+msgid "Edit Volume Type"
+msgstr "ボリューム種別の編集"
+
+msgid "Edit Volume Type Access"
+msgstr "ボリューム種別のアクセス権の編集"
+
+msgid "Edit Volume Type Extra Spec"
+msgstr "ボリューム種別の追加スペックの編集"
+
+msgid ""
+"Edit the flavor details. Flavors define the sizes for RAM, disk, number of "
+"cores, and other resources. Flavors are selected when users deploy instances."
+msgstr ""
+"フレーバーの詳細を編集します。フレーバーは、メモリーサイズ、ディスク、コア"
+"数、その他のリソースを定義します。フレーバーは、ユーザーがインスタンスを起動"
+"する際に選択することができます。"
+
+msgid "Edit the identity provider's details."
+msgstr "認証プロバイダーの詳細を編集します。"
+
+msgid "Edit the image details."
+msgstr "イメージ詳細を編集します。"
+
+msgid "Edit the instance details."
+msgstr "インスタンスの詳細を編集します。"
+
+msgid "Edit the mapping's details."
+msgstr "マッピングの詳細を編集します。"
+
+msgid "Edit the project details."
+msgstr "プロジェクトの詳細を編集します。"
+
+msgid "Edit the role's details."
+msgstr "ロールの詳細を編集します。"
+
+msgid "Edit the user's details, including the Primary Project."
+msgstr "ユーザーの詳細を編集します。主プロジェクトなどが編集できます。"
+
+msgid "Edit {{ qos_spec_name }} Spec Value"
+msgstr "{{ qos_spec_name }} のスペック値の編集"
+
+msgid "Egress"
+msgstr "送信"
+
+msgid "Email"
+msgstr "メール"
+
+msgid "Enable Admin State"
+msgstr "管理状態有効"
+
+msgid "Enable DHCP"
+msgstr "DHCP 有効"
+
+msgid "Enable Domain"
+msgid_plural "Enable Domains"
+msgstr[0] "ドメインの有効化"
+
+msgid "Enable Domains"
+msgstr "ドメインの有効化"
+
+msgid "Enable HA mode"
+msgstr "HA モード有効"
+
+msgid "Enable Service"
+msgid_plural "Enable Services"
+msgstr[0] "サービスの有効化"
+
+msgid "Enable User"
+msgid_plural "Enable Users"
+msgstr[0] "ユーザーの有効化"
+
+msgid "Enable anti-spoofing rules for the port"
+msgstr "このポートの詐称防止ルールを有効にします"
+
+msgid "Enable rollback on create/update failure."
+msgstr "作成/更新失敗時のロールバックを有効にします。"
+
+msgid "Enabled"
+msgstr "有効"
+
+msgctxt "Current status of a Hypervisor"
+msgid "Enabled"
+msgstr "有効"
+
+msgid "Enabled ="
+msgstr "有効 ="
+
+msgid "Enabled Domain"
+msgid_plural "Enabled Domains"
+msgstr[0] "ドメインを有効にしました"
+
+msgid "Enabled Service"
+msgid_plural "Enabled Services"
+msgstr[0] "サービスを有効にしました"
+
+msgid "Enabled User"
+msgid_plural "Enabled Users"
+msgstr[0] "ユーザーを有効にしました"
+
+msgid "Encrypted"
+msgstr "暗号化"
+
+msgid "Encrypted ="
+msgstr "暗号化 ="
+
+msgid "Encrypted Password"
+msgstr "暗号化されたパスワード"
+
+msgid "Encryption"
+msgstr "暗号化"
+
+msgid ""
+"Encryption information cannot be updated for a volume type if volumes are "
+"currently in use with the volume type."
+msgstr ""
+"ボリューム種別の暗号化設定の情報は、その種別がボリュームで現在使用されている"
+"場合には更新できません。"
+
+msgid "Endpoints"
+msgstr "エンドポイント"
+
+msgid "Engine Id"
+msgstr "エンジン ID"
+
+msgid "Enter Network Address manually"
+msgstr "ネットワークアドレスを直接指定"
+
+msgid "Enter a value for ICMP code in the range (-1: 255)"
+msgstr "ICMP コードを (-1, 255) の範囲で入力してください"
+
+msgid "Enter a value for ICMP type in the range (-1: 255)"
+msgstr "ICMP タイプを (-1, 255) の範囲で入力してください"
+
+msgid "Enter an integer value between -1 and 255 (-1 means wild card)."
+msgstr ""
+"-1 以上 255 以下の整数値を入力してください (-1 はワイルドカードを意味しま"
+"す)。"
+
+msgid "Enter an integer value between 0 and 255."
+msgstr "0 から 255 までの整数値を入力してください。"
+
+msgid "Enter an integer value between 1 and 65535."
+msgstr "1 から 65535 までの整数値を入力してください。"
+
+msgid "Environment Data"
+msgstr "環境設定データ"
+
+msgid "Environment File"
+msgstr "環境設定ファイル"
+
+msgid "Environment Source"
+msgstr "環境設定の指定方法"
+
+msgid "Ephemeral Disk"
+msgstr "一時ディスク"
+
+msgid "Ephemeral Disk (GB)"
+msgstr "一時ディスク (GB)"
+
+msgctxt "Current status of Consistency Group"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "Current status of Consistency Group Snapshot"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "Current status of a Floating IP"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "Current status of a Network"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "Current status of a Volume"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "Current status of an Instance"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "current status of port"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "current status of router"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "status of a network port"
+msgid "Error"
+msgstr "エラー"
+
+#, python-format
+msgid "Error Downloading RC File: %s"
+msgstr "RC ファイルのダウンロードに失敗しました:  %s"
+
+msgctxt "Current status of a Volume"
+msgid "Error Extending"
+msgstr "拡張中にエラー"
+
+msgctxt "Current status of a Volume"
+msgid "Error Restoring"
+msgstr "リストア中にエラー"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Error Restoring"
+msgstr "リストア中にエラー"
+
+msgid "Error adding Hosts to the aggregate."
+msgstr "アグリゲートへのホスト追加エラー"
+
+msgctxt "Current status of a Volume"
+msgid "Error deleting"
+msgstr "削除中にエラー"
+
+msgid "Error editing QoS Spec consumer."
+msgstr "QoS スペックの使用者の編集でエラーが発生しました。"
+
+msgid "Error getting metadata definitions."
+msgstr "メタデータ定義の取得時にエラーが発生しました。"
+
+msgid "Error getting resource type associations."
+msgstr "リソース種別の関連付けの取得時にエラーが発生しました。"
+
+msgid "Error updating QoS Spec association."
+msgstr "QoS スペックの関連付けの更新中にエラーが発生しました。"
+
+msgid "Error updating attributes for namespace."
+msgstr "名前空間属性の更新時にエラーが発生しました。"
+
+#, python-format
+msgid "Error updating resource types for namespace %s."
+msgstr "名前空間 %s のリソース種別の更新時にエラーが発生しました。"
+
+msgid "Error when adding or removing hosts."
+msgstr "ホストの追加、削除中にエラーがありました。"
+
+#, python-format
+msgid "Error writing zipfile: %(exc)s"
+msgstr "zip ファイルの書き込みに失敗しました: %(exc)s"
+
+msgid "Errors occurred in deleting consistency group."
+msgstr "整合性グループの削除でエラーが発生しました。"
+
+msgid "Errors occurred in removing volumes from consistency group."
+msgstr "整合性グループからのボリュームの削除でエラーが発生しました。"
+
+msgid "Ether Type"
+msgstr "Ethernet タイプ"
+
+msgid "Evacuate Host"
+msgstr "ホストからの退避"
+
+msgid ""
+"Evacuate the servers from the selected down host to an active target host."
+msgstr ""
+"サーバーを選択したダウン中のホストから稼働中の移動先ホストに退避します。"
+
+msgid "Events"
+msgstr "イベント"
+
+msgid ""
+"Example: For <tt>mod_shib</tt> this would be <tt>Shib-Identity-Provider</"
+"tt>, for <tt>mod_auth_openidc</tt>, this could be <tt>HTTP_OIDC_ISS</tt>. "
+"For <tt>mod_auth_mellon</tt>, this could be <tt>MELLON_IDP</tt>."
+msgstr ""
+"例: <tt>mod_shib</tt> の場合には <tt>Shib-Identity-Provider</tt>、"
+"<tt>mod_auth_openidc</tt> の場合には <tt>HTTP_OIDC_ISS</tt>、"
+"<tt>mod_auth_mellon</tt> の場合には <tt>MELLON_IDP</tt> など。"
+
+msgid ""
+"Example: The prefix 'hw:' is added to OS::Nova::Flavor for the Virtual CPU "
+"Topology namespace so that the properties will be prefixed with 'hw:' when "
+"applied to flavors."
+msgstr ""
+"例: Virtual CPU Topology 名前空間で、プレフィックス 'hw' を OS::Nova::Flavor "
+"に付与すると、フレーバーへの適用された際に属性に 'hw' というプレフィックスが"
+"付きます。"
+
+msgid "Extend Volume"
+msgstr "ボリュームの拡張"
+
+msgid "Extend the size of a volume."
+msgstr "ボリュームサイズを拡張します。"
+
+msgctxt "Current status of a Volume"
+msgid "Extending"
+msgstr "拡張中"
+
+#, python-format
+msgid "Extending volume: \"%s\""
+msgstr "ボリューム %s を拡張しています。"
+
+msgid "External"
+msgstr "外部"
+
+msgid "External ="
+msgstr "外部 ="
+
+msgid "External Fixed IPs"
+msgstr "外部 IP アドレス"
+
+msgid "External Gateway"
+msgstr "外部ゲートウェイ"
+
+msgid "External Network"
+msgstr "外部ネットワーク"
+
+#, python-format
+msgid ""
+"External network \"%(ext_net_id)s\" expected but not found for router "
+"\"%(router_id)s\"."
+msgstr ""
+"ルーター \"%(router_id)s\" の外部ネットワーク \"%(ext_net_id)s\" が存在するは"
+"ずですが、見つかりませんでした。"
+
+msgid "Extra Specs"
+msgstr "追加スペック"
+
+msgid "FQDN"
+msgstr "FQDN"
+
+msgctxt "Power state of an Instance"
+msgid "Failed"
+msgstr "失敗"
+
+#, python-format
+msgid ""
+"Failed to add %(users_to_add)s project members%(group_msg)s and set project "
+"quotas."
+msgstr ""
+"%(users_to_add)s 個のプロジェクトメンバー追加%(group_msg)s、プロジェクトの"
+"クォータ設定の操作に失敗しました。"
+
+#, python-format
+msgid "Failed to add %s project groups and update project quotas."
+msgstr ""
+"%s 個のプロジェクトメンバー追加、プロジェクトのクォータ更新の操作に失敗しまし"
+"た。"
+
+#, python-format
+msgid "Failed to add agent %(agent_name)s for network %(network)s."
+msgstr ""
+"ネットワーク %(network)s へのエージェント %(agent_name)s の追加に失敗しまし"
+"た。"
+
+#, python-format
+msgid "Failed to add interface: %s"
+msgstr "インターフェースの追加に失敗しました: %s"
+
+#, python-format
+msgid "Failed to add project %(project)s to volume type access."
+msgstr ""
+"ボリューム種別のアクセス権にプロジェクト %(project)s を追加できませんでした。"
+
+#, python-format
+msgid "Failed to add route: %s"
+msgstr "ルートの追加に失敗しました: %s"
+
+msgid "Failed to check if network-ip-availability extension is supported."
+msgstr ""
+"network-ip-availability 拡張機能に対応しているかどうかを確認できませんでし"
+"た。"
+
+#, python-format
+msgid "Failed to create a port for network %s"
+msgstr "ネットワーク %s のポートの作成に失敗しました"
+
+#, python-format
+msgid "Failed to create network \"%(network)s\": %(reason)s"
+msgstr "ネットワーク \"%(network)s\" の作成に失敗しました: %(reason)s"
+
+#, python-format
+msgid "Failed to create network %s"
+msgstr "ネットワーク %s の作成に失敗しました"
+
+#, python-format
+msgid "Failed to create router \"%s\"."
+msgstr "ルーター \"%s\" を作成できません。"
+
+#, python-format
+msgid "Failed to create subnet \"%(sub)s\" for network \"%(net)s\": %(reason)s"
+msgstr ""
+"ネットワーク \"%(net)s\" のサブネット \"%(sub)s\" の作成に失敗しました: "
+"%(reason)s"
+
+#, python-format
+msgid "Failed to create subnet \"%(sub)s\": %(reason)s"
+msgstr "サブネット \"%(sub)s\" の作成に失敗しました:  %(reason)s"
+
+#, python-format
+msgid "Failed to delete agent: %s"
+msgstr "エージェントを削除できませんでした: %s"
+
+#, python-format
+msgid "Failed to delete interface %s"
+msgstr "インタフェースの削除に失敗しました: %s"
+
+#, python-format
+msgid "Failed to delete network \"%s\""
+msgstr "ネットワーク \"%s\" の削除に失敗しました"
+
+#, python-format
+msgid "Failed to delete network %s"
+msgstr "ネットワーク %s の削除に失敗しました"
+
+#, python-format
+msgid "Failed to delete port %s"
+msgstr "ポート %s の削除に失敗しました。"
+
+#, python-format
+msgid "Failed to delete subnet %s"
+msgstr "サブネット %s の削除に失敗しました"
+
+#, python-format
+msgid "Failed to disable compute service for host: %s."
+msgstr "ホスト %s のコンピュートサービスの無効化に失敗しました。"
+
+#, python-format
+msgid "Failed to evacuate host: %s."
+msgstr "ホスト %s からの退避に失敗しました。"
+
+#, python-format
+msgid "Failed to evacuate instances: %s"
+msgstr "インスタンスの退避に失敗しました: %s"
+
+#, python-format
+msgid "Failed to get mapping list %s"
+msgstr "マッピング一覧 %s の取得に失敗しました。"
+
+msgid "Failed to get network list {0}"
+msgstr "ネットワーク一覧を取得できません: {0}"
+
+msgid "Failed to get network list."
+msgstr "ネットワーク一覧を取得できません。"
+
+#, python-format
+msgid "Failed to get network list: %s"
+msgstr "ネットワーク一覧を取得できません: %s"
+
+msgid "Failed to live migrate instance to a new host."
+msgstr "新しいホストへのインスタンスのライブマイグレーションに失敗しました。"
+
+#, python-format
+msgid "Failed to live migrate instance to host \"%s\"."
+msgstr "ホスト \"%s\" へのインスタンスのライブマイグレーションに失敗しました。"
+
+#, python-format
+msgid "Failed to migrate host \"%s\"."
+msgstr "ホスト \"%s\" のマイグレーションに失敗しました。"
+
+#, python-format
+msgid "Failed to migrate instances: %s"
+msgstr "インスタンス %s のマイグレーションに失敗しました。"
+
+msgid "Failed to migrate volume."
+msgstr "ボリュームのマイグレーションに失敗しました。"
+
+#, python-format
+msgid ""
+"Failed to modify %(users_to_modify)s project members%(group_msg)s and update "
+"project quotas."
+msgstr ""
+"%(users_to_modify)s 個のプロジェクトメンバー変更%(group_msg)s、プロジェクトの"
+"クォータ更新の操作に失敗しました。"
+
+#, python-format
+msgid "Failed to modify %s domain groups."
+msgstr "ドメイングループ %s の更新に失敗しました。"
+
+#, python-format
+msgid "Failed to modify %s project members and update domain groups."
+msgstr ""
+"プロジェクトメンバー変更、ドメイングループ更新のうち、%s 件を完了できませんで"
+"した。"
+
+#, python-format
+msgid ""
+"Failed to modify %s project members, update project groups and update "
+"project quotas."
+msgstr ""
+"%s 個のプロジェクトメンバー変更、プロジェクトグループ更新、プロジェクトの"
+"クォータ更新の操作に失敗しました。"
+
+#, python-format
+msgid ""
+"Failed to perform requested operation on instance \"%s\", the instance has "
+"an error status"
+msgstr ""
+"インスタンス \"%s\" に対して要求された操作を実行できませんでした。このインス"
+"タンスはエラー状態です。"
+
+#, python-format
+msgid "Failed to remove project %(project)s from volume type access."
+msgstr ""
+"ボリューム種別のアクセス権からプロジェクト %(project)s を削除できませんでし"
+"た。"
+
+#, python-format
+msgid "Failed to retrieve network %s for a subnet"
+msgstr "サブネットのネットワーク %s の取得に失敗しました"
+
+#, python-format
+msgid "Failed to set gateway: %s"
+msgstr "ゲートウェイの設定に失敗しました: %s"
+
+#, python-format
+msgid "Failed to update network %s"
+msgstr "ネットワーク %s の更新に失敗しました"
+
+#, python-format
+msgid "Failed to update port \"%s\"."
+msgstr "ポート「%s」の更新に失敗しました。"
+
+#, python-format
+msgid "Failed to update port %s"
+msgstr "ポート %s の更新に失敗しました"
+
+#, python-format
+msgid "Failed to update router %s"
+msgstr "ルーター %s の更新に失敗しました。"
+
+#, python-format
+msgid "Failed to update subnet \"%(sub)s\":  %(reason)s"
+msgstr "サブネット \"%(sub)s\" の更新に失敗しました:  %(reason)s"
+
+msgid "False"
+msgstr "False"
+
+msgid "Fault"
+msgstr "失敗"
+
+msgid "Federation"
+msgstr "フェデレーション"
+
+msgid "File"
+msgstr "ファイル"
+
+msgid "File exceeds maximum size (16kb)"
+msgstr "ファイルサイズが最大サイズ (16KB) を超えています"
+
+msgid "Filter"
+msgstr "フィルター"
+
+msgid "Filter by an ISO 8061 formatted time, e.g. 2016-06-14T06:27:59Z"
+msgstr "ISO 8061 形式の時刻によるフィルター (例: 2016-06-14T06:27:59Z)"
+
+msgid "Fingerprint"
+msgstr "フィンガープリント"
+
+msgctxt "Task status of an Instance"
+msgid "Finishing Resize or Migrate"
+msgstr "リサイズ/マイグレーションの終了中"
+
+msgid "Fixed IP Address"
+msgstr "Fixed IP アドレス"
+
+msgid "Fixed IPs"
+msgstr "Fixed IP"
+
+msgid "Flat"
+msgstr "フラット"
+
+msgid "Flavor"
+msgstr "フレーバー"
+
+msgid "Flavor Access"
+msgstr "フレーバーアクセス権"
+
+msgid "Flavor Choice"
+msgstr "フレーバーの選択"
+
+msgid "Flavor Details"
+msgstr "フレーバーの詳細"
+
+#, python-format
+msgid "Flavor Details: %(name)s\">%(name)s"
+msgstr "フレーバーの詳細: %(name)s\">%(name)s"
+
+msgid "Flavor ID"
+msgstr "フレーバー ID"
+
+msgid "Flavor ID ="
+msgstr "フレーバー ID ="
+
+msgid ""
+"Flavor ID should be UUID4 or integer. Leave this field blank or use 'auto' "
+"to set a random UUID4."
+msgstr ""
+"フレーバー ID は UUID4 か整数でなければなりません。ランダムな UUID4 を使うに"
+"はこのフィールドを空欄にするか 'auto' を指定してください。"
+
+msgid "Flavor Information"
+msgstr "フレーバー情報"
+
+msgid "Flavor Name"
+msgstr "フレーバー名"
+
+msgid "Flavor Name ="
+msgstr "フレーバー名 ="
+
+msgid "Flavor name cannot be empty."
+msgstr "フレーバー名を空にすることはできません"
+
+msgid "Flavors"
+msgstr "フレーバー"
+
+msgid ""
+"Flavors define the sizes for RAM, disk, number of cores, and other resources "
+"and can be selected when users deploy instances."
+msgstr ""
+"フレーバーは、メモリーサイズ、ディスク、コア数、その他のリソースを定義しま"
+"す。ユーザーがインスタンスを起動する際に、フレーバーを選択することができま"
+"す。"
+
+msgid "Floating IP"
+msgstr "Floating IP"
+
+msgid "Floating IP Address (optional)"
+msgstr "Floating IP アドレス (省略可能)"
+
+msgid "Floating IP Details"
+msgstr "Floating IP の詳細"
+
+msgid "Floating IP address"
+msgstr "Floating IP アドレス"
+
+msgid "Floating IPs"
+msgstr "Floating IP"
+
+msgid "Floating IPs:"
+msgstr "Floating IP:"
+
+#, python-format
+msgid "For %(type)s networks, valid IDs are %(min)s to %(max)s."
+msgstr ""
+"%(type)s ネットワークでは、有効な ID は %(min)s から %(max)s までです。"
+
+msgid ""
+"For TCP and UDP rules you may choose to open either a single port or a range "
+"of ports. Selecting the \"Port Range\" option will provide you with space to "
+"provide both the starting and ending ports for the range. For ICMP rules you "
+"instead specify an ICMP type and code in the spaces provided."
+msgstr ""
+"TCP および UDP の場合、ポート番号またはポート範囲を選択できます。「ポート範"
+"囲」オプションを選択すると、範囲の開始ポートおよび終了ポートを空白区切りで指"
+"定できます。ICMP の場合、ICMP タイプおよびコードを空白区切りで指定します。"
+
+#, python-format
+msgid ""
+"For a %(network_type)s network, valid segmentation IDs are %(min)s through "
+"%(max)s."
+msgstr ""
+"%(network_type)s ネットワークでは、有効なセグメンテーション ID は %(min)s か"
+"ら %(max)s までです。"
+
+msgid "Forbidden"
+msgstr "権限がありません"
+
+msgctxt "Force upload volume in in-use status to image"
+msgid "Force"
+msgstr "強制アップロード"
+
+msgid "Force Host Copy"
+msgstr "強制ホストコピー"
+
+#, python-format
+msgid "Forcing to create snapshot \"%s\" from attached volume."
+msgstr ""
+"接続中のボリュームからスナップショット \"%s\" を強制的に作成しています。"
+
+msgid "Form Builder"
+msgstr "フォームビルダー"
+
+msgid "Format"
+msgstr "形式"
+
+msgid "Format ="
+msgstr "形式 ="
+
+msgid "Free IPs"
+msgstr "未使用 IP"
+
+msgid "From Port"
+msgstr "ポート番号 (下限)"
+
+msgid "From here you can add a DHCP agent for the network."
+msgstr "ここから、ネットワークに DHCP エージェントを追加できます。"
+
+msgid "From here you can allocate a floating IP to a specific project."
+msgstr "指定したプロジェクトに対して Floating IP を確保できます。"
+
+msgid "From here you can create a snapshot of a volume."
+msgstr "ここから、ボリュームスナップショットを作成できます。"
+
+msgid "From here you can update the default quotas (max limits)."
+msgstr "ここから標準のクォータ (上限) を更新できます。"
+
+msgid "Function"
+msgstr "関数"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "GMT"
+msgstr "GMT"
+
+msgid "GRE"
+msgstr "GRE"
+
+msgid "Gateway IP"
+msgstr "ゲートウェイ IP"
+
+msgid "Gateway IP and IP version are inconsistent."
+msgstr "ゲートウェイの IP アドレスと IP バージョンが一致していません。"
+
+msgid "Gateway interface is added"
+msgstr "ゲートウェイインターフェースを追加しました"
+
+msgid "Geneve"
+msgstr "Geneve"
+
+msgid "GiB"
+msgstr "GiB"
+
+msgid "Go"
+msgstr "表示"
+
+msgid "Graph"
+msgstr "グラフ"
+
+#, python-format
+msgid "Group \"%s\" was successfully created."
+msgstr "グループ \"%s\" が正常に作成されました。"
+
+msgid "Group ID"
+msgstr "グループ ID"
+
+msgid "Group ID ="
+msgstr "グループ ID ="
+
+msgid "Group Management"
+msgstr "グループ管理"
+
+msgid "Group Management: {{ group.name }}"
+msgstr "グループの管理: {{ group.name }}"
+
+msgid "Group Members"
+msgstr "グループのメンバー"
+
+msgid "Group Name ="
+msgstr "グループ名 ="
+
+msgid "Group has been updated successfully."
+msgstr "グループが正常に更新されました。"
+
+msgid "Groups"
+msgstr "グループ"
+
+msgid ""
+"Groups are used to manage access and assign roles to multiple users at once. "
+"After creating the group, edit the group to add users."
+msgstr ""
+"グループを使うと、複数のユーザーに対するアクセス権やロールの割り当てを一度に"
+"行うことができます。グループを作成した後で、グループに追加するユーザーの編集"
+"を行います。"
+
+msgid ""
+"Groups are used to manage access and assign roles to multiple users at once. "
+"Edit the group's name and description."
+msgstr ""
+"グループを使うと、複数のユーザーに対するアクセス権やロールの割り当てを一度に"
+"行うことができます。グループの名前と説明を編集します。"
+
+#. Translators: High Availability mode of Neutron router
+msgid "HA mode"
+msgstr "HA モード"
+
+msgctxt "Current status of an Instance"
+msgid "Hard Reboot"
+msgstr "ハードリブート"
+
+msgid "Hard Reboot Instance"
+msgid_plural "Hard Reboot Instances"
+msgstr[0] "インスタンスのハードリブート"
+
+msgctxt "Task status of an Instance"
+msgid "Hard Reboot Pending"
+msgstr "ハードリブート待ち"
+
+msgctxt "Task status of an Instance"
+msgid "Hard Reboot Started"
+msgstr "ハードリブートが開始しました"
+
+msgid "Hard Rebooted Instance"
+msgid_plural "Hard Rebooted Instances"
+msgstr[0] "インスタンスのハードリブートを行いました"
+
+msgctxt "Task status of an Instance"
+msgid "Hard Rebooting"
+msgstr "ハードリブート中"
+
+msgid "Help"
+msgstr "ヘルプ"
+
+msgid "High Availability Mode"
+msgstr "高可用性 (HA) モード"
+
+msgid "High Availability Status"
+msgstr "高可用性ステータス"
+
+msgid "Home"
+msgstr "ホーム"
+
+msgid "Host"
+msgstr "ホスト"
+
+msgid "Host ="
+msgstr "ホスト ="
+
+msgid "Host Aggregate Information"
+msgstr "ホストアグリゲートの情報"
+
+msgid "Host Aggregates"
+msgstr "ホストアグリゲート"
+
+msgid "Host Name ="
+msgstr "ホスト名 ="
+
+msgid "Host Routes"
+msgstr "追加のルート設定"
+
+#, python-format
+msgid ""
+"Host Routes format error: Destination CIDR and nexthop must be specified "
+"(value=%s)"
+msgstr ""
+"ホストルートの形式エラー: 宛先 CIDR およびネクストホップを指定する必要があり"
+"ます (値=%s)"
+
+msgid ""
+"Host aggregates divide an availability zone into logical units by grouping "
+"together hosts. Create a host aggregate then select the hosts contained in "
+"it."
+msgstr ""
+"ホストアグリゲートは、ホストをグループ化し、1 つのアベイラビリティーゾーンを"
+"複数の論理的な単位に分割します。ホストアグリゲートを作成し、そのアグリゲート"
+"に入れるホストを選択してください。"
+
+msgid ""
+"Host aggregates divide an availability zone into logical units by grouping "
+"together hosts. Edit the aggregate host to select hosts contained in it."
+msgstr ""
+"ホストアグリゲートは、ホストをグループ化し、1 つのアベイラビリティーゾーンを"
+"複数の論理的な単位に分割します。そのアグリゲートに入れるホストを選択してくだ"
+"さい。"
+
+msgid "Hostname"
+msgstr "ホスト名"
+
+msgid "Hosts"
+msgstr "ホスト"
+
+msgid "Hypervisor"
+msgstr "ハイパーバイザー"
+
+msgid "Hypervisor Instances"
+msgstr "ハイパーバイザーインスタンス"
+
+msgid "Hypervisor Servers"
+msgstr "ハイパーバイザーサーバー"
+
+msgid "Hypervisor Summary"
+msgstr "ハイパーバイザーの概要"
+
+msgid "Hypervisors"
+msgstr "ハイパーバイザー"
+
+msgid "ICMP code is provided but ICMP type is missing."
+msgstr "ICMP コードが指定されましたが、ICMP タイプがありません。"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IP Address"
+msgstr "IP アドレス"
+
+msgid "IP Address (optional)"
+msgstr "IP アドレス (省略可能)"
+
+msgid "IP Address or CIDR"
+msgstr "IP アドレスまたは CIDR"
+
+msgid "IP Addresses"
+msgstr "IP アドレス"
+
+msgid "IP Allocation Pools"
+msgstr "IP アドレス割り当てプール"
+
+msgid "IP Protocol"
+msgstr "IP プロトコル"
+
+msgid "IP Version"
+msgstr "IP バージョン"
+
+#, python-format
+msgid "IP address %s associated."
+msgstr "IP アドレス %s を割り当てました。"
+
+msgid ""
+"IP address allocation pools. Each entry is: start_ip_address,end_ip_address "
+"(e.g., 192.168.1.100,192.168.1.120) and one entry per line."
+msgstr ""
+"IP アドレス割り当てプール。start_ip_address,end_ip_address (例: "
+"192.168.1.100,192.168.1.120) 形式で、各項目を 1 行につき 1 項目記入します。"
+
+msgid ""
+"IP address list of DNS name servers for this subnet. One entry per line."
+msgstr "このサブネットの DNS サーバーの IP アドレス一覧。1 行につき 1 項目。"
+
+msgid ""
+"IP address of Gateway (e.g. 192.168.0.254) The default value is the first IP "
+"of the network address (e.g. 192.168.0.1 for 192.168.0.0/24, 2001:DB8::1 for "
+"2001:DB8::/48). If you use the default, leave blank. If you do not want to "
+"use a gateway, check 'Disable Gateway' below."
+msgstr ""
+"ゲートウェイの IP アドレス (例: 192.168.0.254)。初期値はネットワークアドレス"
+"の最初の IP です (例: 192.168.0.0/24 の場合 192.168.0.1、2001:DB8::/48 の場"
+"合 2001:DB8::1)。初期値を使用したければ、空白のままにしておきます。ゲートウェ"
+"イを使用する必要がなければ、下の「ゲートウェイなし」をチェックします。"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv4 Address"
+msgstr "IPv4 アドレス"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv6 Address"
+msgstr "IPv6 アドレス"
+
+msgid "IPv6 Address Configuration Mode"
+msgstr "IPv6 アドレス設定モード"
+
+msgid "ISO - Optical Disk Image"
+msgstr "ISO - 光学ディスクイメージ"
+
+msgid "Identifier"
+msgstr "識別子"
+
+msgid "Identifier Type"
+msgstr "識別子の種別"
+
+msgid "Identity"
+msgstr "ユーザー管理"
+
+msgid "Identity Provider ID"
+msgstr "認証プロバイダー ID"
+
+msgid "Identity Providers"
+msgstr "認証プロバイダー"
+
+msgid "Identity provider protocol created successfully."
+msgstr "認証プロバイダーのプロトコルが正常に作成されました。"
+
+msgid "Identity provider registered successfully."
+msgstr "認証プロバイダーが正常に登録されました。"
+
+msgid "Identity provider updated successfully."
+msgstr "認証プロバイダーが正常に更新されました。"
+
+msgid "Identity service does not allow editing user data."
+msgstr "Identity サービスでは、ユーザーデータの編集は許可されていません。"
+
+msgid "Identity service does not allow editing user password."
+msgstr "Identity サービスでは、ユーザーパスワードの編集はできません。"
+
+msgid ""
+"If \"No volume type\" is selected, the volume will be created without a "
+"volume type."
+msgstr ""
+"「ボリューム種別の指定なし」を選択した場合、ボリュームはボリューム種別の指定"
+"なしで作成されます。"
+
+msgid ""
+"If console is not responding to keyboard input: click the grey status bar "
+"below."
+msgstr ""
+"コンソールがキーボード入力に応答していない場合には、以下のグレーのステータス"
+"バーをクリックしてください。"
+
+msgid ""
+"If no container name is provided, a default container named volumebackups "
+"will be provisioned for you. Backups will be the same size as the volume "
+"they originate from."
+msgstr ""
+"コンテナー名が指定されなかった場合、デフォルトでは volumebackups という名前の"
+"コンテナーが作成されます。バックアップはバックアップ対象のボリュームと同じ大"
+"きさになります。"
+
+msgid ""
+"If you don't specify an IP address here, the gateway's IP address of the "
+"selected subnet will be used as the IP address of the newly created "
+"interface of the router. If the gateway's IP address is in use, you must use "
+"a different address which belongs to the selected subnet."
+msgstr ""
+"ここで IP アドレスを指定しなかった場合には、選択したサブネットのゲートウェイ"
+"の IP アドレスが、そのルーターの新規作成されるインターフェースの IP アドレス"
+"として使用されます。ゲートウェイの IP アドレスが使用中の場合には、選択したサ"
+"ブネットに属する異なるアドレスを使用する必要があります。"
+
+msgid ""
+"If you select an image via an HTTP/HTTPS URL, the Image Location field MUST "
+"be a valid and direct URL to the image binary; it must also be accessible to "
+"the Image Service. URLs that redirect or serve error pages will result in "
+"unusable images."
+msgstr ""
+"イメージを HTTP/HTTPS URL で指定する場合には、イメージの場所のフィールドに"
+"は、イメージ (バイナリー) への有効な直接の URL を入力する必要があります。"
+"Image サービスがそのイメージの場所にアクセスできるようにしてください。URL が"
+"リダイレクトのページの場合や、エラーページが返ってきた場合には、登録されたイ"
+"メージは使用できない可能性があります。"
+
+msgid "Image"
+msgstr "イメージ"
+
+msgctxt "Type of an image"
+msgid "Image"
+msgstr "イメージ"
+
+msgctxt "Task status of an Instance"
+msgid "Image Backup"
+msgstr "イメージバックアップ"
+
+msgid "Image File"
+msgstr "イメージファイル"
+
+msgid "Image ID"
+msgstr "イメージID"
+
+msgid "Image ID ="
+msgstr "イメージ ID ="
+
+msgid "Image Location"
+msgstr "イメージの場所"
+
+msgid "Image Name"
+msgstr "イメージ名"
+
+msgid "Image Name ="
+msgstr "イメージ名 ="
+
+msgctxt "Task status of an Instance"
+msgid "Image Pending Upload"
+msgstr "イメージアップロード待ち"
+
+msgctxt "Task status of an Instance"
+msgid "Image Snapshot Pending"
+msgstr "イメージスナップショット取得待ち"
+
+msgid "Image Source"
+msgstr "イメージソース"
+
+msgctxt "Task status of an Instance"
+msgid "Image Uploading"
+msgstr "イメージアップロード中"
+
+msgid "Image source must be specified"
+msgstr "イメージを指定しなければいけません。"
+
+msgid "Image was successfully updated."
+msgstr "イメージが正常に更新されました。"
+
+msgid "Images"
+msgstr "イメージ"
+
+msgid ""
+"Images can be provided via an HTTP/HTTPS URL or be uploaded from your local "
+"file system."
+msgstr ""
+"イメージは HTTP/HTTPS URL で指定するか、ローカルファイルシステムからアップ"
+"ロードすることができます。"
+
+msgid "Import Key Pair"
+msgstr "キーペアのインポート"
+
+msgid "Import Namespace"
+msgstr "名前空間のインポート"
+
+msgctxt "Current status of Consistency Group"
+msgid "In-use"
+msgstr "使用中"
+
+msgctxt "Current status of Consistency Group Snapshot"
+msgid "In-use"
+msgstr "使用中"
+
+msgctxt "Current status of a Volume"
+msgid "In-use"
+msgstr "使用中"
+
+msgid ""
+"Indicates whether this identity provider should accept federated "
+"authentication requests."
+msgstr ""
+"この認証プロバイダーがフェデレーション認証要求を受け入れるべきかどうかを指定"
+"します。"
+
+msgid "Info"
+msgstr "情報"
+
+msgid "Information"
+msgstr "情報"
+
+msgid "Ingress"
+msgstr "受信"
+
+msgctxt "current status of stack"
+msgid "Init Complete"
+msgstr "init 完了"
+
+msgctxt "current status of stack"
+msgid "Init Failed"
+msgstr "init に失敗"
+
+msgctxt "current status of stack"
+msgid "Init In Progress"
+msgstr "init 実行中"
+
+msgid "Injected File Content (Bytes)"
+msgstr "注入ファイル (バイト)"
+
+msgid "Injected File Content Bytes"
+msgstr "注入ファイルのバイト数"
+
+msgid "Injected File Path Bytes"
+msgstr "注入ファイル のパス長"
+
+msgid "Injected Files"
+msgstr "注入ファイル"
+
+msgid "Instance"
+msgstr "インスタンス"
+
+msgid "Instance Action List"
+msgstr "インスタンスのアクション一覧"
+
+msgid "Instance Admin Password"
+msgstr "インスタンスの管理パスワード"
+
+msgid "Instance Boot Source"
+msgstr "インスタンスのブートソース"
+
+msgid "Instance Console"
+msgstr "インスタンスのコンソール"
+
+msgid "Instance Console Log"
+msgstr "インスタンスのコンソールログ"
+
+msgid "Instance ID"
+msgstr "インスタンス ID"
+
+msgid "Instance ID ="
+msgstr "インスタンス ID ="
+
+msgid "Instance Name"
+msgstr "インスタンス名"
+
+msgid "Instance Overview"
+msgstr "インスタンスの概要"
+
+msgid "Instance Password is not set or is not yet available"
+msgstr "インスタンスのパスワードが設定されていないか利用できません"
+
+msgid "Instance Security Groups"
+msgstr "インスタンスのセキュリティーグループ"
+
+msgid "Instance Snapshot"
+msgstr "インスタンススナップショット"
+
+msgid "Instances"
+msgstr "インスタンス"
+
+msgid "Insufficient privilege level to retrieve image list."
+msgstr "イメージ一覧を取得するのに必要な権限がありません。"
+
+msgid "Insufficient privilege level to retrieve key pair list."
+msgstr "キーペア一覧を取得するのに必要な権限がありません。"
+
+msgid "Insufficient privilege level to view domain information."
+msgstr "ドメイン情報を参照するのに必要な権限がありません。"
+
+msgid "Insufficient privilege level to view group information."
+msgstr "グループ情報を参照するのに必要な権限がありません。"
+
+msgid "Insufficient privilege level to view identity provider information."
+msgstr "認証プロバイダーの情報を参照するのに必要な権限がありません。"
+
+msgid "Insufficient privilege level to view mapping information."
+msgstr "マッピング情報を参照するのに必要な権限がありません。"
+
+msgid "Insufficient privilege level to view project information."
+msgstr "プロジェクト情報を参照するのに必要な権限がありません。"
+
+msgid "Insufficient privilege level to view role information."
+msgstr "ロール情報を参照するのに必要な権限がありません。"
+
+msgid "Insufficient privilege level to view user information."
+msgstr "ユーザー情報を参照するのに必要な権限がありません。"
+
+msgid "Interface added"
+msgstr "インターフェースを追加しました"
+
+msgid "Interfaces"
+msgstr "インターフェース"
+
+msgid "Internal Interface"
+msgstr "内部インタフェース"
+
+msgid "Internal:"
+msgstr "内部:"
+
+msgid "Invalid date format: Using today as default."
+msgstr "無効な日付の形式です。デフォルト値として今日の日付を使用します。"
+
+#, python-format
+msgid "Invalid format for routes: %s"
+msgstr "無効な形式のルート: %s"
+
+msgid ""
+"Invalid time period. The end date should be more recent than the start date."
+msgstr "無効な期間指定です。終了日は開始日より後でなければなりません。"
+
+msgid ""
+"Invalid time period. You are requesting data from the future which may not "
+"exist."
+msgstr "無効な期間指定です。存在しない未来のデータを要求しています。"
+
+msgid "Items Per Page"
+msgstr "ページあたりの項目数"
+
+msgid "Kernel"
+msgstr "カーネル"
+
+msgid "Kernel ID"
+msgstr "カーネル ID"
+
+msgid "Key"
+msgstr "キー"
+
+msgid "Key Name"
+msgstr "キー名"
+
+msgid "Key Pair"
+msgstr "キーペア"
+
+msgid "Key Pair Details"
+msgstr "キーペアの詳細"
+
+msgid "Key Pair Name"
+msgstr "キーペア名"
+
+msgid "Key Pairs"
+msgstr "キーペア"
+
+msgid "Key Pairs are how you login to your instance after it is launched."
+msgstr ""
+"キーペアはインスタンスを起動した後でインスタンスへのログインに使用します。"
+
+msgid "Key Size (bits)"
+msgstr "キーサイズ (ビット)"
+
+msgid ""
+"Key pair name may only contain letters, numbers, underscores, spaces, and "
+"hyphens and may not be white space."
+msgstr ""
+"キーペア名に使用できる文字は、英数字、アンダースコア、半角スペース、ハイフン"
+"のみです。半角スペース以外のホワイトスペースは使用できません。"
+
+msgid "Key pair to use for authentication."
+msgstr "認証に使用するキーペア。"
+
+msgid "Key-Value Pairs"
+msgstr "キーと値のペア"
+
+msgctxt "Current status of an Image"
+msgid "Killed"
+msgstr "強制終了"
+
+msgid "L3 Agent"
+msgstr "L3 エージェント"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Last Updated"
+msgstr "最終更新"
+
+msgctxt "Time since the last update"
+msgid "Last Updated"
+msgstr "最終更新"
+
+msgid "Launch"
+msgstr "起動"
+
+msgid "Launch Instance"
+msgstr "インスタンスの起動"
+
+msgid "Launch Instance (Quota exceeded)"
+msgstr "インスタンスの起動 (クォータを超過しました)"
+
+msgid "Launch Parameters"
+msgstr "起動パラメーター"
+
+msgid "Launch Stack"
+msgstr "スタックの起動"
+
+msgid "Launch as Instance"
+msgstr "インスタンスとして起動"
+
+msgid "Launch instance in these security groups."
+msgstr "これらのセキュリティーグループでインスタンスを起動します。"
+
+msgid "Launch instance with these networks"
+msgstr "これらのネットワークでインスタンスを起動します。"
+
+msgid "Launch instance with these ports"
+msgstr "これらのポートでインスタンスを起動します。"
+
+msgid ""
+"Launching multiple instances is only supported for images and instance "
+"snapshots."
+msgstr ""
+"複数インスタンスの起動は、イメージとインスタンスのスナップショットについての"
+"みサポートされています。"
+
+msgid "Length of Injected File Path"
+msgstr "注入ファイルのパス長"
+
+msgid "Limit"
+msgstr "上限値"
+
+msgid "Links"
+msgstr "リンク"
+
+msgid "Live Migrate"
+msgstr "ライブマイグレーション"
+
+msgid "Live Migrate Instance"
+msgstr "インスタンスのライブマイグレーション"
+
+msgid "Live migrate an instance to a specific host."
+msgstr "インスタンスを特定のホストにライブマイグレーションします。"
+
+#, python-format
+msgid "Load Balancer VIP %s"
+msgstr "ロードバランサー 仮想 IP %s"
+
+msgid "Local"
+msgstr "ローカル"
+
+msgid "Local Disk Usage"
+msgstr "ローカルディスク使用量"
+
+msgid "Local Storage (total)"
+msgstr "ローカルストレージ (総量)"
+
+msgid "Local Storage (used)"
+msgstr "ローカルストレージ (使用中)"
+
+msgid "Lock Instance"
+msgid_plural "Lock Instances"
+msgstr[0] "インスタンスのロック"
+
+msgctxt "Locked status of an instance"
+msgid "Locked"
+msgstr "ロック状態"
+
+msgid "Locked Instance"
+msgid_plural "Locked Instances"
+msgstr[0] "インスタンスをロックしました"
+
+msgid "Log"
+msgstr "ログ"
+
+msgid "Log Length"
+msgstr "ログの表示行数"
+
+msgid "Log Lines Per Instance"
+msgstr "インスタンスのログ行数"
+
+msgid "Log length must be a nonnegative integer."
+msgstr "ログの表示行数は 0 以上の整数でなければいけません。"
+
+msgid "MAC Address"
+msgstr "MAC アドレス"
+
+msgid "MAC Learning State"
+msgstr "MAC 学習状態"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "MacVTap"
+msgstr "MacVTap"
+
+msgctxt "Current status of a Volume"
+msgid "Maintenance"
+msgstr "メンテナンス"
+
+msgid "Make the image visible across projects."
+msgstr "このイメージが全プロジェクトに公開されるようにします。"
+
+msgid "Manage"
+msgstr "管理"
+
+msgid "Manage Attachments"
+msgstr "接続の管理"
+
+msgid "Manage Floating IP Associations"
+msgstr "Floating IP の割り当ての管理"
+
+msgid "Manage Hosts"
+msgstr "ホストの管理"
+
+msgid "Manage Hosts Aggregate"
+msgstr "ホストアグリゲートの管理"
+
+msgid "Manage Hosts within Aggregate"
+msgstr "アグリゲートのホストの管理"
+
+msgid "Manage Members"
+msgstr "メンバーの管理"
+
+msgid "Manage Protocols"
+msgstr "プロトコルの管理"
+
+msgid "Manage QoS Spec Association"
+msgstr "QoS スペックの関連付けの管理"
+
+msgid "Manage Rules"
+msgstr "ルールの管理"
+
+msgid ""
+"Manage Security Group Rules: {{ security_group.name }} ({{ security_group."
+"id }})"
+msgstr ""
+"セキュリティーグループのルール管理: {{ security_group.name }} "
+"({{ security_group.id }})"
+
+msgid "Manage Specs"
+msgstr "スペックの管理"
+
+msgid "Manage Volume"
+msgstr "ボリュームの管理"
+
+msgid "Manage Volume Attachments"
+msgstr "ボリュームの接続の管理"
+
+msgid "Manage Volume Types"
+msgstr "ボリューム種別の管理"
+
+msgid "Manage Volumes"
+msgstr "ボリュームの管理"
+
+msgid "Manual"
+msgstr "手動"
+
+msgid "Mapped Fixed IP Address"
+msgstr "対応する Fixed IP アドレス"
+
+msgid "Mapped IP Address"
+msgstr "対応する IP アドレス"
+
+msgid "Mapping ID"
+msgstr "マッピング ID"
+
+#, python-format
+msgid "Mapping ID \"%s\" is already used."
+msgstr "マッピング ID \"%s\" はすでに使用されています。"
+
+msgid "Mapping created successfully."
+msgstr "マッピングが正常に作成されました。"
+
+msgid "Mapping updated successfully."
+msgstr "マッピングが正常に更新されました。"
+
+msgid "Mappings"
+msgstr "マッピング"
+
+msgctxt "Google's Material Design style theme"
+msgid "Material"
+msgstr "マテリアル"
+
+msgid "Max. Size (MB) ="
+msgstr "最大サイズ (MB) = "
+
+msgid "Memory MB Hours"
+msgstr "メモリーの MB 時間"
+
+msgid "Memory Usage"
+msgstr "メモリー使用量"
+
+msgid "Message"
+msgstr "メッセージ"
+
+msgid "Messages"
+msgstr "メッセージ"
+
+msgid "Metadata"
+msgstr "メタデータ"
+
+msgid "Metadata Definition File"
+msgstr "メタデータ定義ファイル"
+
+msgid "Metadata Definitions"
+msgstr "メタデータ定義"
+
+msgid "Metadata Items"
+msgstr "メタデータ項目数"
+
+msgid "MidoNet"
+msgstr "MidoNet"
+
+msgid "MidoNet Uplink"
+msgstr "MidoNet のアップリンク"
+
+msgid "Migrate"
+msgstr "マイグレーション"
+
+msgid "Migrate Host"
+msgstr "ホストのマイグレーション"
+
+msgid "Migrate Instance"
+msgid_plural "Migrate Instances"
+msgstr[0] "インスタンスのマイグレーション"
+
+msgid "Migrate Volume"
+msgstr "ボリュームのマイグレーション"
+
+msgid ""
+"Migrate a volume to a specific host. <br> <br> Force Host Copy: Enables or "
+"disables generic host-based force-migration, which bypasses driver "
+"optimizations."
+msgstr ""
+"ボリュームを指定されたホストに移動します。<br><br>強制ホストコピー: 汎用的な"
+"ホストベースの強制マイグレーションを有効/無効にします。ドライバー最適化はス"
+"キップされます。 "
+
+msgid ""
+"Migrate all instances from a host with disabled nova-compute service. "
+"Optionally you can choose type of migration. All running instances of the "
+"host can be Live Migrated. Cold Migration is trying to use 'nova migrate' on "
+"each instance of migrated host."
+msgstr ""
+"nova-compute サービスが無効となったホストから全インスタンスを移行します。オプ"
+"ションで、マイグレーションの種別を選択することができます。ホストで実行中のイ"
+"ンスタンスはすべてライブマイグレーションすることができます。 コールドマイグ"
+"レーションでは、移行するホストの各インスタンスに対して「nova migrate」の使用"
+"を試みます。 "
+
+msgctxt "Current status of an Instance"
+msgid "Migrating"
+msgstr "マイグレーション中"
+
+msgctxt "Task status of an Instance"
+msgid "Migrating"
+msgstr "マイグレーション中"
+
+msgid "Migrating instances may cause some unrecoverable results."
+msgstr ""
+"インスタンスのマイグレーションにより、リカバリー不能な結果に陥る可能性があり"
+"ます。"
+
+msgid "Migration Policy"
+msgstr "移行ポリシー"
+
+msgid "Min Disk"
+msgstr "最小ディスク"
+
+msgid "Min RAM"
+msgstr "最小メモリー"
+
+msgid "Min. Size (MB) ="
+msgstr "最小サイズ (MB) = "
+
+msgid "Minimum Disk (GB)"
+msgstr "最小ディスク (GB)"
+
+msgid "Minimum RAM (MB)"
+msgstr "最小メモリー (MB)"
+
+msgid "Minutes"
+msgstr "分"
+
+#, python-format
+msgid "Modified domain \"%s\"."
+msgstr "ドメイン \"%s\" を変更しました。"
+
+#, python-format
+msgid "Modified flavor \"%s\"."
+msgstr "フレーバー \"%s\" を変更しました。"
+
+msgid "Modified flavor information, but unable to modify flavor access."
+msgstr ""
+"フレーバー情報は更新しましたが、フレーバーアクセス権は更新できませんでした。"
+
+#, python-format
+msgid "Modified instance \"%s\"."
+msgstr "インスタンス \"%s\" を変更しました。"
+
+#, python-format
+msgid "Modified project \"%s\"."
+msgstr "プロジェクト \"%s\" を変更しました。"
+
+msgid ""
+"Modified project information and members, but unable to modify project "
+"quotas."
+msgstr ""
+"プロジェクトの情報とメンバーを変更しましたが、プロジェクトのクォータを変更で"
+"きません。"
+
+#, python-format
+msgid "Modified volume type access: %s"
+msgstr "ボリューム種別 %s のアクセス権を変更しました"
+
+msgid "Modify Access"
+msgstr "アクセス権の変更"
+
+msgid "Modify Consumer"
+msgstr "使用者の変更"
+
+msgid "Modify Groups"
+msgstr "グループの変更"
+
+msgid "Modify Quotas"
+msgstr "クォータの変更"
+
+msgid "Modify dashboard settings for your user."
+msgstr "ユーザーのダッシュボード設定を変更できます。"
+
+msgid "Modify name and description of a volume."
+msgstr "ボリュームの名前と説明を変更します。"
+
+msgid "Modify the name and description of a snapshot."
+msgstr "スナップショットの名前と説明を変更します。"
+
+msgid "Modify the name and description of a volume consistency group snapshot."
+msgstr "ボリュームの整合性グループのスナップショットの名前と説明を変更します。"
+
+msgid "Modify the name and description of a volume consistency group."
+msgstr "ボリュームの整合性グループの名前と説明を変更します。"
+
+msgid "Modify volume type name, description, and public status."
+msgstr "ボリューム種別の名前、説明、およびパブリックステータスを変更します。"
+
+msgid "Monitoring:"
+msgstr "監視:"
+
+msgid "N/A"
+msgstr "なし"
+
+msgctxt "current status of port"
+msgid "N/A"
+msgstr "なし"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Name ="
+msgstr "名前 = "
+
+msgid ""
+"Name may only contain letters, numbers, underscores, periods and hyphens."
+msgstr "名前は、英数字、アンダースコア、ピリオド、ハイフンだけが使用できます。"
+
+msgid ""
+"Name must start with a letter and may only contain letters, numbers, "
+"underscores, periods and hyphens."
+msgstr ""
+"名前の 1 文字目にはアルファベットを指定する必要があります。また、名前に使用で"
+"きるのは、英数字、アンダースコア、ピリオド、ハイフンのみです。"
+
+msgid "Name of the stack to create."
+msgstr "作成するスタックの名前。"
+
+msgid "Name or other identifier for existing volume"
+msgstr "既存のボリュームの名前またはその他の識別子"
+
+#, python-format
+msgid "Name: %(name)s ID: %(uuid)s"
+msgstr "名前: %(name)s ID: %(uuid)s"
+
+msgid "Namespace"
+msgstr "名前空間"
+
+#, python-format
+msgid "Namespace %s has been created."
+msgstr "名前空間 %s が作成されました。"
+
+msgid "Namespace Definition Source"
+msgstr "名前空間定義の入力方法"
+
+msgid "Namespace JSON"
+msgstr "名前空間の JSON"
+
+msgid "Namespace Overview"
+msgstr "名前空間の概要"
+
+msgid "Namespace Resource Type Associations"
+msgstr "名前空間のリソース種別との関連付け"
+
+msgid "Namespace successfully updated."
+msgstr "名前空間が正常に更新されました。"
+
+msgid "Namespaces"
+msgstr "名前空間"
+
+msgid ""
+"Namespaces can be associated to different resource types. This makes the "
+"properties in the namespace visible in the 'Update Metadata' action for that "
+"type of resource."
+msgstr ""
+"名前空間はさまざまなリソース種別に関連付けることができます。関連付けを行う"
+"と、名前空間の属性がそのリソース種別の「メタデータの更新」アクションで見える"
+"ようになります。"
+
+msgid "Network"
+msgstr "ネットワーク"
+
+#, python-format
+msgid "Network %s was successfully updated."
+msgstr "ネットワーク %s が正常に更新されました。"
+
+msgid "Network Address"
+msgstr "ネットワークアドレス"
+
+msgid "Network Address Source"
+msgstr "ネットワークアドレスの指定方法"
+
+msgid "Network Address and IP version are inconsistent."
+msgstr "ネットワークアドレスと IP バージョンが一致していません。"
+
+msgid "Network Agents"
+msgstr "ネットワークエージェント"
+
+msgid "Network Details"
+msgstr "ネットワークの詳細"
+
+msgid "Network ID"
+msgstr "ネットワーク ID"
+
+msgid "Network Mask"
+msgstr "ネットマスク"
+
+msgid "Network Name"
+msgstr "ネットワーク名"
+
+msgid "Network Ports"
+msgstr "ネットワークポート"
+
+msgid "Network QoS"
+msgstr "ネットワーク QoS"
+
+msgid "Network QoS Policies"
+msgstr "ネットワーク QoS ポリシー"
+
+msgid "Network Topology"
+msgstr "ネットワークトポロジー"
+
+msgid "Network Type:"
+msgstr "ネットワーク種別:"
+
+msgid "Network address in CIDR format (e.g. 192.168.0.0/24)"
+msgstr "CIDR 形式のネットワークアドレス (例: 192.168.0.0/24)"
+
+msgid "Network address in CIDR format (e.g. 192.168.0.0/24, 2001:DB8::/48)"
+msgstr "CIDR 形式のネットワークアドレス (例: 192.168.0.0/24, 2001:DB8::/48)"
+
+msgid "Network list can not be retrieved."
+msgstr "ネットワーク一覧を取得できません。"
+
+msgid "Networking"
+msgstr "ネットワーク"
+
+msgctxt "Task status of an Instance"
+msgid "Networking"
+msgstr "ネットワーク設定中"
+
+msgid "Networks"
+msgstr "ネットワーク"
+
+msgid "Never"
+msgstr "なし"
+
+msgid "Never updated"
+msgstr "更新されていません"
+
+msgid "New DHCP Agent"
+msgstr "追加する DHCP エージェント"
+
+msgid "New Flavor"
+msgstr "新しいフレーバー"
+
+msgid "New Host"
+msgstr "新規ホスト"
+
+msgid "New QoS Spec Consumer"
+msgstr "QoS スペックの新規使用者"
+
+msgid "New Size (GiB)"
+msgstr "新しいサイズ (GiB)"
+
+msgid "New name cannot be empty."
+msgstr "新しい名前を空にすることはできません。"
+
+msgid "New name conflicts with another volume type."
+msgstr "新しい名前は別のボリューム種別で使われています。"
+
+msgid "New password"
+msgstr "新しいパスワード"
+
+msgid "New size must be greater than current size."
+msgstr "変更後のサイズは現在のサイズより大きくなければいけません。"
+
+msgid "Next"
+msgstr "次へ"
+
+msgid "Next Hop"
+msgstr "ネクストホップ"
+
+msgid ""
+"Next Hop IP must be a part of one of the subnets to which the router "
+"interfaces are connected."
+msgstr ""
+"ネクストホップは、ルーターインターフェースが接続されたサブネットのいずれかに"
+"属している必要があります。"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No Host selected."
+msgstr "ホストが選択されていません。"
+
+msgid "No Hosts found."
+msgstr "ホストが見つかりません。"
+
+msgid "No Ports available"
+msgstr "利用可能なポートがありません。"
+
+msgctxt "Power state of an Instance"
+msgid "No State"
+msgstr "状態なし"
+
+msgid "No assigned volumes"
+msgstr "割り当てられているボリュームはありません"
+
+msgid "No associated fixed IP"
+msgstr "関連付けされた Fixed IP なし"
+
+msgid "No associations defined."
+msgstr "関連付けは定義されていません。"
+
+msgid "No attached device"
+msgstr "接続中のデバイスはありません"
+
+msgid "No availability zones found"
+msgstr "アベイラビリティーゾーンがありません"
+
+msgid "No available console found."
+msgstr "利用可能なコンソールがありません。"
+
+msgid "No available projects"
+msgstr "使用可能なプロジェクトがありません"
+
+msgid "No flavors available"
+msgstr "利用可能なフレーバーがありません"
+
+msgid "No flavors meet minimum criteria for selected boot source."
+msgstr "選択したブートソースの最小限の要件を満たすフレーバーがありません。"
+
+msgid "No floating IP addresses allocated"
+msgstr "確保済みの Floating IP アドレスはありません"
+
+msgid "No floating IP pools available"
+msgstr "Floating IP プールがありません。"
+
+msgid "No floating IP pools with IPv4 subnet available"
+msgstr "IPv4 サブネットを持つ Floating IP プールがありません"
+
+msgid "No floating IPs to disassociate."
+msgstr "利用可能な Floating IP プールがありません。"
+
+msgid "No groups found."
+msgstr "グループがありません。"
+
+msgid "No groups."
+msgstr "グループがありません。"
+
+msgid "No host selected."
+msgstr "ホストが選択されていません。"
+
+msgid "No hosts found."
+msgstr "ホストが見つかりません。"
+
+msgid "No images available"
+msgstr "利用可能なイメージがありません。"
+
+msgid "No input was provided for the namespace content."
+msgstr "名前空間の内容の入力がありません。"
+
+msgid "No instances available"
+msgstr "インスタンスがありません"
+
+msgid "No key pairs available"
+msgstr "キーペアがありません"
+
+msgid "No mappings available"
+msgstr "利用可能なマッピングがありません"
+
+msgid "No networks available"
+msgstr "ネットワークがありません"
+
+msgid "No new QoS spec available"
+msgstr "利用可能な新規 QoS スペックがありません。"
+
+msgid "No options specified"
+msgstr "オプション指定なし"
+
+msgid "No other agents available."
+msgstr "他にエージェントがありません。"
+
+msgid "No other hosts available"
+msgstr "他のホストがありません"
+
+msgid "No other hosts available."
+msgstr "他のホストがありません。"
+
+msgid "No other volume types available"
+msgstr "他に利用可能なボリューム種別はありません。"
+
+msgid "No ports available"
+msgstr "ポートがありません"
+
+msgid "No project available"
+msgstr "プロジェクトがありません"
+
+msgid "No projects found."
+msgstr "プロジェクトが見つかりませんでした。"
+
+msgid "No projects selected. All projects can use the flavor."
+msgstr ""
+"どのプロジェクトも選択されていません。すべてのプロジェクトがこのフレーバーを"
+"使用できます。"
+
+msgid "No router"
+msgstr "ルーターなし"
+
+msgid "No rules defined."
+msgstr "ルールが定義されていません。"
+
+msgid "No security group is associated"
+msgstr "セキュリティーグループは関連付けられていません"
+
+msgid "No security groups available"
+msgstr "セキュリティーグループがありません。"
+
+msgid "No security groups enabled."
+msgstr "有効になっているセキュリティーグループがありません。"
+
+msgid "No security groups found."
+msgstr "セキュリティーグループがありません。"
+
+msgid "No server groups available"
+msgstr "サーバーグループがありません。"
+
+msgid "No snapshots available"
+msgstr "利用可能なスナップショットがありません"
+
+msgid "No source, empty volume"
+msgstr "ソースの指定なし (空のボリューム)"
+
+msgid "No subnets available"
+msgstr "サブネットがありません"
+
+msgid "No users found."
+msgstr "ユーザーが見つかりませんでした。"
+
+msgid "No users."
+msgstr "ユーザーがいません。"
+
+msgid "No volume snapshots available"
+msgstr "利用可能なボリュームスナップショットがありません"
+
+msgid "No volume type"
+msgstr "ボリューム種別の指定なし"
+
+msgid "No volume types found."
+msgstr "ボリューム種別が見つかりません。"
+
+msgid "No volume types selected."
+msgstr "ボリューム種別が選択されていません。"
+
+msgid "No volumes attached"
+msgstr "ボリュームが接続されていません"
+
+msgid "No volumes attached."
+msgstr "ボリュームが接続されていません。"
+
+msgid "No volumes available"
+msgstr "利用可能なボリュームがありません"
+
+msgid "No volumes found."
+msgstr "ボリュームが見つかりません。"
+
+msgid "No volumes selected."
+msgstr "ボリュームが選択されていません。"
+
+msgid "Non admin users are not allowed to make images public."
+msgstr "管理ユーザー以外はイメージをパブリックに設定できません。"
+
+msgid "Non-Members"
+msgstr "未参加メンバー"
+
+msgid "Non-Public from Other Projects"
+msgstr "他のプロジェクトには公開されません。"
+
+msgid "None"
+msgstr "なし"
+
+msgctxt "Task status of an Instance"
+msgid "None"
+msgstr "なし"
+
+msgid "None (removes spec)"
+msgstr "なし (スペックを削除)"
+
+msgid "Normal"
+msgstr "標準"
+
+msgid "Not attached"
+msgstr "未接続"
+
+msgid "Not available"
+msgstr "利用できません"
+
+msgid ""
+"Note that a volume can not be deleted if it is &quot;attached&quot; or has "
+"any dependent snapshots."
+msgstr ""
+"ボリュームが&quot;接続されている場合&quot;、または依存するスナップショットが"
+"ある場合には、そのボリュームは削除できない点に注意してください。"
+
+msgid "Note: "
+msgstr "注意: "
+
+msgid "Number of Instances"
+msgstr "インスタンス数"
+
+msgid "Number of Snapshots"
+msgstr "スナップショット数"
+
+msgid "Number of VCPUs"
+msgstr "仮想 CPU 数"
+
+msgid "Number of Volumes"
+msgstr "ボリューム数"
+
+#, python-format
+msgid ""
+"Number of items to show per page (applies to the pages that have API "
+"supported pagination, Max Value: %s)"
+msgstr ""
+"ページあたりの表示項目数 (API 対応のページネーションがあるページで使用されま"
+"す。最大値: %s)"
+
+msgid "Number of log lines to be shown per instance"
+msgstr "インスタンスの表示ログ行数"
+
+msgid "OR Copy/Paste your Private Key"
+msgstr "または、秘密鍵をコピーして貼り付けてください"
+
+msgid "OVA - Open Virtual Appliance"
+msgstr "OVA - オープン仮想アプライアンス"
+
+msgid "Object Store"
+msgstr "オブジェクトストア"
+
+msgid "Old Flavor"
+msgstr "現在のフレーバー"
+
+msgid "Old password and new password must be different"
+msgstr "新しいパスワードは古いパスワードと異なる必要があります。"
+
+msgid "On Demand"
+msgstr "要求時"
+
+msgid ""
+"Once a floating IP is released, there is no guarantee the same IP can be "
+"allocated again."
+msgstr ""
+"Floating IP が解放された後には、同じ IP アドレスが再び確保されるという保証は"
+"ありません。"
+
+msgid "Only definitions in raw JSON format are supported."
+msgstr "RAW の JSON 形式の定義のみがサポートされています。"
+
+msgid "Open Port"
+msgstr "開放するポート"
+
+msgid "Open Port/Port Range:"
+msgstr "開放するポート/ポート範囲:"
+
+msgid "OpenStack Profiler"
+msgstr "OpenStack Profiler"
+
+msgid "OpenStack RC File (Identity API v2.0)"
+msgstr "OpenStack RC ファイル (Identity API v2.0)"
+
+msgid "OpenStack RC File (Identity API v3)"
+msgstr "OpenStack RC ファイル (Identity API v3)"
+
+msgid "OpenStack RC File v2"
+msgstr "OpenStack RC ファイル v2"
+
+msgid "OpenStack RC File v3"
+msgstr "OpenStack RC ファイル v3"
+
+msgid "OpenStack clouds.yaml File"
+msgstr "OpenStack clouds.yaml ファイル"
+
+msgid "Optionally, you may choose to create a new volume."
+msgstr "新規のボリュームを作成することもできます。"
+
+msgid "Orchestration"
+msgstr "オーケストレーション"
+
+msgid "Orchestration Services"
+msgstr "オーケストレーションサービス"
+
+msgid "Orchestration service is disabled."
+msgstr "オーケストレーションサービスは無効です。"
+
+#, python-format
+msgid ""
+"Other IPv6 modes: ipv6_ra_mode=%(ra_mode)s, ipv6_address_mode=%(addr_mode)s"
+msgstr ""
+"その他の IPv6 モード: ipv6_ra_mode=%(ra_mode)s, ipv6_address_mode="
+"%(addr_mode)s"
+
+msgid "Other Protocol"
+msgstr "その他のプロトコル"
+
+#, python-format
+msgid "Out of range float values are not JSON compliant: %r"
+msgstr "範囲外の Float 値は JSON に準拠しません: %r"
+
+msgid "Outputs"
+msgstr "出力"
+
+msgid "Overview"
+msgstr "概要"
+
+msgid "Owner"
+msgstr "オーナー"
+
+msgid "Owner of the device attached to the port"
+msgstr "ポートに接続されたデバイスの所有者"
+
+msgid ""
+"Ownership of a volume can be transferred from one project to another. "
+"Accepting a transfer requires obtaining the Transfer ID and Authorization "
+"Key from the donor. This is equivalent to the <tt>openstack volume transfer "
+"request accept</tt> command."
+msgstr ""
+"ボリュームの所有権をあるプロジェクトから別のプロジェクトに譲渡することができ"
+"ます。譲渡を受理するには、譲渡元から譲渡 ID と認証キーを得る必要があります。"
+"これは <tt>openstack volume transfer request accept</tt> コマンドに相当しま"
+"す。"
+
+msgid ""
+"Ownership of a volume can be transferred from one project to another. Once a "
+"volume transfer is created in a donor project, it then can be \"accepted\" "
+"by a recipient project. This is equivalent to the <tt>openstack volume "
+"transfer create</tt> command."
+msgstr ""
+"ボリュームの所有権をあるプロジェクトから別のプロジェクトに譲渡することができ"
+"ます。いったんボリュームの譲渡が譲渡元のプロジェクトで作成されると、譲渡先の"
+"プロジェクトで「受理」できるようになります。これは <tt>openstack volume "
+"transfer create</tt> コマンドに相当します。"
+
+msgid "PLOOP - Virtuozzo/Parallels Loopback Disk"
+msgstr "PLOOP - Virtuozzo/Parallels ループバックディスク"
+
+msgid "Page Not Found"
+msgstr "ページが見つかりませんでした"
+
+msgid "Parameters"
+msgstr "パラメーター"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgctxt "Current status of an Instance"
+msgid "Password"
+msgstr "パスワード設定中"
+
+msgid "Password changed. Please log in again to continue."
+msgstr "パスワードが変更されました。続行するには、再度ログインしてください。"
+
+msgid "Password changed. Please log in to continue."
+msgstr "パスワードが変更されました。続行するには、ログインしてください。"
+
+#, python-format
+msgid "Password for user \"%s\""
+msgstr "ユーザー \"%s\" のパスワード"
+
+msgid "Passwords do not match."
+msgstr "パスワードが一致しません。"
+
+msgctxt "Action log of an instance"
+msgid "Pause"
+msgstr "一時停止"
+
+msgid "Pause Instance"
+msgid_plural "Pause Instances"
+msgstr[0] "インスタンスの一時停止"
+
+msgctxt "Current status of an Instance"
+msgid "Paused"
+msgstr "一時停止"
+
+msgctxt "Power state of an Instance"
+msgid "Paused"
+msgstr "一時停止"
+
+msgid "Paused Instance"
+msgid_plural "Paused Instances"
+msgstr[0] "インスタンスを一時停止しました"
+
+msgctxt "Task status of an Instance"
+msgid "Pausing"
+msgstr "一時停止中"
+
+msgctxt "Current status of an Image"
+msgid "Pending Delete"
+msgstr "削除待ち"
+
+msgid "Per Volume Size (GiB)"
+msgstr "1 ボリュームあたりのサイズ (GiB)"
+
+msgid "Physical Network"
+msgstr "物理ネットワーク"
+
+msgid "Physical Network:"
+msgstr "物理ネットワーク:"
+
+msgid "Please note: "
+msgstr "注意: "
+
+#, python-format
+msgid "Please specify a %s using only one source method."
+msgstr "ソースメソッドが 1 つだけの %s を指定してください。"
+
+#, python-format
+msgid "Please try again later [Error: %s]."
+msgstr "後からもう一度お試しください [エラー: %s]"
+
+msgid "Pool"
+msgstr "プール"
+
+msgid "Port"
+msgstr "ポート"
+
+#, python-format
+msgid "Port %s was successfully created."
+msgstr "ポート %s が正常に作成されました。"
+
+#, python-format
+msgid "Port %s was successfully updated."
+msgstr "ポート %s が正常に更新されました。"
+
+msgid "Port Range"
+msgstr "ポート範囲"
+
+msgid "Port Security"
+msgstr "ポートセキュリティー"
+
+msgid "Port Security Enabled"
+msgstr "ポートセキュリティー有効"
+
+msgid "Port list can not be retrieved."
+msgstr "ポート一覧を取得できません。"
+
+msgid "Port to be associated"
+msgstr "IP を割り当てるポート"
+
+msgid "Ports"
+msgstr "ポート"
+
+msgid ""
+"Ports are optional and can be used with networks to add extra IP addresses "
+"to your instances or select specific types of ports."
+msgstr ""
+"ポートは省略可能です。ネットワークに使用して、インスタンスに IP アドレスを追"
+"加したり、特定の種別のポートを選択することができます。"
+
+msgid "Post-Creation"
+msgstr "作成後"
+
+msgid "Power State"
+msgstr "電源状態"
+
+msgctxt "Task status of an Instance"
+msgid "Powering Off"
+msgstr "電源停止中"
+
+msgctxt "Task status of an Instance"
+msgid "Powering On"
+msgstr "電源投入中"
+
+msgid "Prefix: "
+msgstr "プレフィックス: "
+
+msgctxt "Task status of an Instance"
+msgid "Preparing Resize or Migrate"
+msgstr "リサイズ/マイグレーションの準備中"
+
+msgid "Prevent the deletion of the image."
+msgstr "イメージの削除を禁止します。"
+
+msgid "Preview"
+msgstr "プレビュー"
+
+msgid "Preview Stack"
+msgstr "スタックのプレビュー"
+
+msgid "Preview Stack Details"
+msgstr "プレビューしたスタックの詳細"
+
+msgid "Preview Stack Parameters"
+msgstr "プレビューするスタックのパラメーター"
+
+msgid "Preview Template"
+msgstr "テンプレートのプレビュー"
+
+msgid "Preview a new stack with the provided values."
+msgstr "指定された値を用いて新しいスタックをプレビューします。"
+
+msgid "Primary Project"
+msgstr "主プロジェクト"
+
+msgid "Primary Project ID"
+msgstr "主プロジェクト ID"
+
+msgid "Primary Project Name"
+msgstr "主プロジェクト名"
+
+msgid "Private Key File"
+msgstr "秘密鍵ファイル"
+
+msgid "Profile"
+msgstr "プロファイル"
+
+msgid "Project"
+msgstr "プロジェクト"
+
+msgid "Project & User"
+msgstr "プロジェクトとユーザー"
+
+msgid "Project ="
+msgstr "プロジェクト ="
+
+msgid "Project Details"
+msgstr "プロジェクトの詳細"
+
+msgid "Project Groups"
+msgstr "プロジェクトグループ"
+
+msgid "Project ID"
+msgstr "プロジェクト ID"
+
+msgid "Project ID ="
+msgstr "プロジェクト ID ="
+
+msgid "Project ID:"
+msgstr "プロジェクト ID:"
+
+msgid "Project Information"
+msgstr "プロジェクト情報"
+
+msgid "Project Limits"
+msgstr "プロジェクトのリソース上限"
+
+msgid "Project Members"
+msgstr "プロジェクトメンバー"
+
+msgid "Project Name"
+msgstr "プロジェクト名"
+
+msgid "Project Name ="
+msgstr "プロジェクト名 ="
+
+msgid "Project Quotas"
+msgstr "プロジェクトのクォータ"
+
+msgid "Project Usage"
+msgstr "プロジェクトの使用状況"
+
+msgid "Project Usage Overview"
+msgstr "プロジェクトの使用状況の概要"
+
+#, python-format
+msgid "Project name \"%s\" is already used."
+msgstr "プロジェクト名 \"%s\" はすでに使用されています。"
+
+msgid "Projects"
+msgstr "プロジェクト"
+
+msgid "Projects:"
+msgstr "プロジェクト:"
+
+msgid "Properties"
+msgstr "プロパティー"
+
+msgid "Properties Target: "
+msgstr "属性ターゲット: "
+
+msgid "Protected"
+msgstr "保護"
+
+msgid "Protocol ID"
+msgstr "プロトコル ID"
+
+#, python-format
+msgid "Protocol ID \"%s\" is already used."
+msgstr "プロトコル ID \"%s\" はすでに使用されています。"
+
+msgid "Protocols"
+msgstr "プロトコル"
+
+msgid "Provider"
+msgstr "プロバイダー"
+
+msgid "Provider Network"
+msgstr "プロバイダーネットワーク"
+
+msgid "Provider Network Type"
+msgstr "プロバイダーネットワーク種別"
+
+msgid "Public"
+msgstr "パブリック"
+
+msgid "Public Key"
+msgstr "公開鍵"
+
+msgid "Public:"
+msgstr "公開:"
+
+msgid "QCOW2 - QEMU Emulator"
+msgstr "QCOW2 - QEMU エミュレーター"
+
+msgid "QOS Policy ID"
+msgstr "QoS ポリシー ID"
+
+#, python-format
+msgid "QoS Spec name \"%s\" already exists."
+msgstr "QoS スペック \"%s\" はすでに存在します。"
+
+msgid "QoS Spec to be associated"
+msgstr "関連付ける QoS スペック"
+
+msgid "QoS Spec: "
+msgstr "QoS スペック:"
+
+msgid "QoS Spec: {{ qos_spec_name }}"
+msgstr "QoS スペック: {{ qos_spec_name }}"
+
+msgid "QoS Specs"
+msgstr "QoS スペック"
+
+msgid ""
+"QoS Specs can be associated with volume types. It is used to map to a set of "
+"quality of service capabilities requested by the volume owner. This is "
+"equivalent to the <tt>openstack volume qos create</tt> command. Once the QoS "
+"Spec gets created, click the \"Manage Specs\" button to manage the key-value "
+"specs for the QoS Spec. <br> <br> Each QoS Spec entity has a \"Consumer\" "
+"value which indicates where the administrator would like the QoS policy to "
+"be enforced. This value can be \"front-end\" (Compute back-end), \"back-end"
+"\" (Block Storage back-end), or \"both\"."
+msgstr ""
+"QoS スペックは、ボリューム種別と関連付けることができます。これは、ボリューム"
+"の所有者が要求する QoS 機能セットにマップするために使用され、<tt>openstack "
+"volume qos create</tt> コマンドに相当します。QoS スペックが作成されたら、「ス"
+"ペックの管理」ボタンをクリックして、その QoS スペックのキーと値のスペックを管"
+"理します。<br><br>各 QoS スペックのエンティティーには「使用者」の値が含まれま"
+"す。これは、管理者による QoS ポリシーの適用先を示します。この値は、「フロント"
+"エンド」(Compute バックエンド)、「バックエンド」(Block Storage バックエン"
+"ド)、または「両方」です。"
+
+msgctxt "Current status of an Image"
+msgid "Queued"
+msgstr "処理待ち"
+
+msgid "Quota Name"
+msgstr "クォータ名"
+
+msgid "Quota exceeded for resource router."
+msgstr "ルーターのクォータを超過しました。"
+
+#, python-format
+msgid "Quota value(s) cannot be less than the current usage value(s): %s."
+msgstr "クォータ値は現在の使用量より小さくはできません: %s"
+
+msgid "Quotas"
+msgstr "クォータ"
+
+msgid "RAM"
+msgstr "メモリー"
+
+msgid "RAM (MB)"
+msgstr "メモリー (MB)"
+
+msgid "RAM (total)"
+msgstr "メモリー (総量)"
+
+msgid "RAM (used)"
+msgstr "メモリー (使用中)"
+
+#, python-format
+msgid "RAM(Available: %(avail)s, Requested: %(req)s)"
+msgstr "メモリー (利用可能: %(avail)s, 要求: %(req)s)"
+
+msgid "RX/TX Factor"
+msgstr "RX/TX 係数"
+
+msgid "RX/TX factor"
+msgstr "RX/TX 係数"
+
+msgid "Ramdisk"
+msgstr "RAM ディスク"
+
+msgid "Ramdisk ID"
+msgstr "RAM ディスク ID"
+
+msgid "Raw"
+msgstr "RAW"
+
+msgctxt "Image format for display in table"
+msgid "Raw"
+msgstr "RAW"
+
+msgid "Reason"
+msgstr "理由"
+
+#, python-format
+msgid "Reason: %(disabled_reason)s"
+msgstr "理由: %(disabled_reason)s"
+
+msgctxt "Action log of an instance"
+msgid "Reboot"
+msgstr "再起動"
+
+msgctxt "Current status of an Instance"
+msgid "Reboot"
+msgstr "リブート"
+
+msgctxt "Task status of an Instance"
+msgid "Reboot Pending"
+msgstr "リブート待ち"
+
+msgctxt "Task status of an Instance"
+msgid "Reboot Started"
+msgstr "リブートを開始しました"
+
+msgctxt "Task status of an Instance"
+msgid "Rebooting"
+msgstr "リブート中"
+
+msgctxt "Action log of an instance"
+msgid "Rebuild"
+msgstr "再作成"
+
+msgctxt "Current status of an Instance"
+msgid "Rebuild"
+msgstr "再作成"
+
+msgctxt "Task status of an Instance"
+msgid "Rebuild Block Device Mapping"
+msgstr "再作成のブロックデバイスのマッピング中"
+
+msgid "Rebuild Instance"
+msgstr "インスタンスの再作成"
+
+msgid "Rebuild Password"
+msgstr "再作成するパスワード"
+
+msgctxt "Task status of an Instance"
+msgid "Rebuild Spawning"
+msgstr "再作成の起動中"
+
+msgctxt "Task status of an Instance"
+msgid "Rebuilding"
+msgstr "再作成中"
+
+#, python-format
+msgid "Rebuilding instance %s."
+msgstr "インスタンス %s を再作成中。"
+
+msgid "Recreate EC2 Credentials"
+msgstr "EC2 認証情報の再作成"
+
+#, python-format
+msgid "Regenerate and download Key Pair &quot;%(keypair_name)s&quot;"
+msgstr "キーペア &quot;%(keypair_name)s&quot; の再作成とダウンロード"
+
+msgid "Region"
+msgstr "リージョン"
+
+msgid "Regions:"
+msgstr "リージョン:"
+
+msgid "Register Identity Provider"
+msgstr "認証プロバイダーの登録"
+
+msgid ""
+"Register a identity provider that is trusted by the Identity API to "
+"authenticate identities."
+msgstr ""
+"ID を認証するために、Identity API により信頼されている認証プロバイダーを登録"
+"します。"
+
+msgid "Release Floating IP"
+msgid_plural "Release Floating IPs"
+msgstr[0] "Floating IP の解放"
+
+msgid "Released Floating IP"
+msgid_plural "Released Floating IPs"
+msgstr[0] "Floating IP を解放しました"
+
+msgid "Remote"
+msgstr "接続相手"
+
+msgid "Remote IDs"
+msgstr "接続相手の ID"
+
+msgid ""
+"Remote IDs are associated with the identity provider and are globally "
+"unique. This indicates the header attributes to use for mapping federation "
+"protocol attributes to Identity API objects. If no value is provided, the "
+"list will be set to empty."
+msgstr ""
+"接続相手の ID は認証プロバイダーに関連付けられており、グローバルで一意です。"
+"これは、フェデレーションプロトコルの属性を Identity API オブジェクトにマッピ"
+"ングするのに使用するヘッダー属性を示します。値が指定されていない場合には、一"
+"覧は空に設定されます。"
+
+msgid "Remote IP Prefix"
+msgstr "接続相手の IP 範囲"
+
+msgid "Remote Security Group"
+msgstr "接続相手のセキュリティーグループ"
+
+msgid "Remote:"
+msgstr "接続相手:"
+
+msgid "Remove User"
+msgid_plural "Remove Users"
+msgstr[0] "ユーザーの削除"
+
+msgid "Remove Volumes from Consistency Group"
+msgstr "整合性グループからのボリュームの削除"
+
+msgid "Removed User"
+msgid_plural "Removed Users"
+msgstr[0] "ユーザーを削除しました"
+
+msgid ""
+"Removing a key pair can leave OpenStack resources orphaned. You should not "
+"remove a key pair unless you are certain it is not being used anywhere."
+msgstr ""
+"キーペアを削除すると、OpenStack リソースが孤立する可能性があります。キーペア"
+"がどこでも使用されていないことが確認できない場合には、そのキーペアは削除すべ"
+"きではありません。"
+
+#, python-format
+msgid "Removing volumes from volume consistency group \"%s\""
+msgstr "ボリュームの整合性グループ \"%s\" からボリュームを削除中"
+
+msgid "Report Bug"
+msgstr "バグ報告"
+
+msgid "Request ID"
+msgstr "リクエスト ID"
+
+#, python-format
+msgid "Request for launching %(count)s named \"%(name)s\" has been submitted."
+msgstr "%(count)s 個の \"%(name)s\" を起動する要求を送信しました。"
+
+#, python-format
+msgid "Request for resizing of instance \"%s\" has been submitted."
+msgstr "インスタンス \"%s\" をリサイズする要求を送信しました。"
+
+#, python-format
+msgid ""
+"Request for restoring backup %(backup_name)s to volume with id: "
+"%(volume_id)s has been submitted."
+msgstr ""
+"バックアップ %(backup_name)s をボリューム %(volume_id)s に復元する要求を送信"
+"しました。"
+
+msgid "Requested snapshot would exceed the allowed quota."
+msgstr ""
+"要求があったスナップショットを作成すると、許可されたクォータを超えてしまいま"
+"す。"
+
+msgctxt "Current status of an Instance"
+msgid "Rescue"
+msgstr "レスキュー中"
+
+msgctxt "Current status of an Instance"
+msgid "Rescued"
+msgstr "レスキュー済み"
+
+msgctxt "Task status of an Instance"
+msgid "Rescuing"
+msgstr "レスキュー中"
+
+msgid "Resize"
+msgstr "リサイズ"
+
+msgctxt "Action log of an instance"
+msgid "Resize"
+msgstr "リサイズ"
+
+msgid "Resize Instance"
+msgstr "インスタンスのリサイズ"
+
+msgid ""
+"Resize the canvas by scrolling up/down with your mouse/trackpad on the "
+"topology. Pan around the canvas by clicking and dragging the space behind "
+"the topology."
+msgstr ""
+"表示の大きさを変更するには、トポロジー画面上でマウス/トラックパッドを使用して"
+"スクロールアップ／ダウンします。画面をスクロールするには、トポロジーの後ろの"
+"背景をクリックしてドラッグしてください。"
+
+msgctxt "Current status of an Instance"
+msgid "Resize/Migrate"
+msgstr "リサイズ/マイグレーション中"
+
+msgctxt "Current status of an Instance"
+msgid "Resized"
+msgstr "リサイズ済み"
+
+msgctxt "Task status of an Instance"
+msgid "Resized or Migrated"
+msgstr "リサイズ/マイグレーション済み"
+
+msgctxt "Task status of an Instance"
+msgid "Resizing or Migrating"
+msgstr "リサイズ/マイグレーションの実行中"
+
+msgid "Resource"
+msgstr "リソース"
+
+msgid "Resource ID"
+msgstr "リソース ID"
+
+msgid "Resource Metadata"
+msgstr "リソースのメタデータ"
+
+msgid "Resource Types"
+msgstr "リソース種別"
+
+msgid "Resource Types ="
+msgstr "リソース種別 ="
+
+#, python-format
+msgid "Resource types updated for namespace %s."
+msgstr "名前空間 %s のリソース種別が更新されました。"
+
+msgid "Resources"
+msgstr "リソース"
+
+msgid "Restarted instances will lose any data not saved in persistent storage."
+msgstr ""
+"インスタンスが再起動されると、永続ストレージに保存されていないデータはすべて"
+"失われます。 "
+
+msgid "Restore Backup"
+msgstr "バックアップのリストア"
+
+msgid "Restore Backup to Volume"
+msgstr "ボリュームバックアップのリストア"
+
+msgid "Restore Backup:"
+msgstr "バックアップのリストア:"
+
+msgid "Restore Volume Backup"
+msgstr "ボリュームバックアップのリストア"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Restoring"
+msgstr "リストア中"
+
+msgctxt "Task status of an Instance"
+msgid "Restoring"
+msgstr "リストア中"
+
+msgctxt "Current status of a Volume"
+msgid "Restoring Backup"
+msgstr "バックアップのリストア中"
+
+msgctxt "Action log of an instance"
+msgid "Resume"
+msgstr "再開"
+
+msgctxt "current status of stack"
+msgid "Resume Complete"
+msgstr "再開完了"
+
+msgctxt "current status of stack"
+msgid "Resume Failed"
+msgstr "再開に失敗"
+
+msgctxt "current status of stack"
+msgid "Resume In Progress"
+msgstr "再開中"
+
+msgid "Resume Instance"
+msgid_plural "Resume Instances"
+msgstr[0] "インスタンスの再開"
+
+msgid "Resume Stack"
+msgid_plural "Resume Stacks"
+msgstr[0] "スタックの再開"
+
+msgid "Resumed Instance"
+msgid_plural "Resumed Instances"
+msgstr[0] "インスタンスを再開しました"
+
+msgid "Resumed Stack"
+msgid_plural "Resumed Stacks"
+msgstr[0] "スタックを再開しました。"
+
+msgctxt "Task status of an Instance"
+msgid "Resuming"
+msgstr "再開中"
+
+msgid "Retrieve Instance Password"
+msgstr "インスタンスのパスワードの取得"
+
+msgid "Retrieve Password"
+msgstr "パスワードの取得"
+
+msgid "Revert Resize/Migrate"
+msgstr "リサイズ/マイグレーションの取り消し中"
+
+msgctxt "Current status of an Instance"
+msgid "Revert Resize/Migrate"
+msgstr "リサイズ/マイグレーションの取り消し中"
+
+msgctxt "Task status of an Instance"
+msgid "Reverting Resize or Migrate"
+msgstr "リサイズ/マイグレーションの取り消し中"
+
+msgid "Role"
+msgstr "ロール"
+
+msgid "Role ID"
+msgstr "ロール ID"
+
+msgid "Role ID ="
+msgstr "ロール ID ="
+
+msgid "Role Name"
+msgstr "ロール名"
+
+msgid "Role Name ="
+msgstr "ロール名 ="
+
+msgid "Role created successfully."
+msgstr "ロールが正常に作成されました。"
+
+msgid "Role updated successfully."
+msgstr "ロールが正常に更新されました。"
+
+msgid "Roles"
+msgstr "ロール"
+
+msgid "Rollback"
+msgstr "ロールバック"
+
+msgctxt "current status of stack"
+msgid "Rollback Complete"
+msgstr "ロールバック完了"
+
+msgctxt "current status of stack"
+msgid "Rollback Failed"
+msgstr "ロールバックに失敗"
+
+msgctxt "current status of stack"
+msgid "Rollback In Progress"
+msgstr "ロールバック中"
+
+msgid "Rollback On Failure"
+msgstr "失敗時のロールバック"
+
+msgid "Root Disk"
+msgstr "ルートディスク"
+
+msgid "Root Disk (GB)"
+msgstr "ルートディスク (GB)"
+
+msgid "Router"
+msgstr "ルーター"
+
+#, python-format
+msgid "Router %s was successfully created."
+msgstr "ルーター %s が正常に作成されました。"
+
+#, python-format
+msgid "Router %s was successfully updated."
+msgstr "ルーター %s が正常に更新されました。"
+
+msgid "Router Name"
+msgstr "ルーター名"
+
+msgid "Router Name ="
+msgstr "ルーター名 ="
+
+msgid "Router Type"
+msgstr "ルーター種別"
+
+msgid "Routers"
+msgstr "ルーター"
+
+#, python-format
+msgid "Routers on %(host)s"
+msgstr "%(host)s 上のルーター"
+
+msgid "Rule"
+msgstr "ルール"
+
+msgid "Rule:"
+msgstr "ルール:"
+
+msgid "Rules"
+msgstr "ルール"
+
+msgid ""
+"Rules define which traffic is allowed to instances assigned to the security "
+"group. A security group rule consists of three main parts:"
+msgstr ""
+"ルールは、セキュリティーグループに割り当てられたインスタンスに対して許可する"
+"通信を定義します。セキュリティーグループルールは 3 つの部分から構成されます:"
+
+msgctxt "Power state of an Instance"
+msgid "Running"
+msgstr "実行中"
+
+msgid "Running Instance Migration Type"
+msgstr "実行中のインスタンスのマイグレーション種別"
+
+msgid "S3 URL"
+msgstr "S3 URL"
+
+msgid "SLAAC: Address discovered from OpenStack Router"
+msgstr "SLAAC: アドレスを OpenStack ルーターから取得"
+
+msgid "SLAAC: Address discovered from an external router"
+msgstr "SLAAC: アドレスを外部のルーターから取得"
+
+msgid "SNAT"
+msgstr "SNAT"
+
+msgid "SSH key pairs can be generated with the ssh-keygen command:"
+msgstr "SSH キーペアは ssh-keygen コマンドを使って生成できます。"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Save Changes"
+msgstr "変更の保存"
+
+#, python-format
+msgid "Saved extra spec \"%s\"."
+msgstr "追加スペック \"%s\" を保存しました。"
+
+#, python-format
+msgid "Saved spec \"%s\"."
+msgstr "スペック \"%s\" を保存しました。"
+
+msgctxt "Current status of an Image"
+msgid "Saving"
+msgstr "保存中"
+
+msgid "Scheduled deletion of Instance"
+msgid_plural "Scheduled deletion of Instances"
+msgstr[0] "インスタンスの削除を予約しました"
+
+msgid "Scheduled deletion of Snapshot"
+msgid_plural "Scheduled deletion of Snapshots"
+msgstr[0] "スナップショットの削除を予約しました"
+
+msgid "Scheduled deletion of Volume"
+msgid_plural "Scheduled deletion of Volumes"
+msgstr[0] "ボリュームの削除を予約しました"
+
+msgid "Scheduled deletion of Volume Backup"
+msgid_plural "Scheduled deletion of Volume Backups"
+msgstr[0] "ボリュームバックアップの削除を予約しました"
+
+msgid "Scheduled deletion of Volume Snapshot"
+msgid_plural "Scheduled deletion of Volume Snapshots"
+msgstr[0] "ボリュームスナップショットの削除を予約しました"
+
+msgid "Scheduled migration (pending confirmation) of Instance"
+msgid_plural "Scheduled migration (pending confirmation) of Instances"
+msgstr[0] "(確認待ちでの) インスタンスのマイグレーションを予約しました"
+
+msgctxt "Task status of an Instance"
+msgid "Scheduling"
+msgstr "スケジューリング中"
+
+msgid "Script Data"
+msgstr "スクリプトデータ"
+
+msgid "Script File"
+msgstr "スクリプトファイル"
+
+msgid "Security Group"
+msgstr "セキュリティーグループ"
+
+msgid "Security Group ID"
+msgstr "セキュリティーグループ ID"
+
+msgid "Security Group Rules"
+msgstr "セキュリティーグループルール"
+
+msgid "Security Groups"
+msgstr "セキュリティーグループ"
+
+msgid "Security group rule already exists."
+msgstr "セキュリティーグループルールがすでに存在します。"
+
+msgid "Security group rule quotas exceed."
+msgstr "セキュリティーグループルールのクォータを超過しています。"
+
+msgid ""
+"Security groups are sets of IP filter rules that are applied to network "
+"interfaces of a VM. After the security group is created, you can add rules "
+"to the security group."
+msgstr ""
+"セキュリティーグループは、VM のネットワークインターフェースに適用される IP "
+"フィルタリングルールの集合です。セキュリティーグループ作成後に、作成したセ"
+"キュリティーグループにルールを追加することができます。"
+
+msgid ""
+"Security groups are sets of IP filter rules that are applied to network "
+"interfaces of a VM. You can edit the name and its description of the "
+"security group."
+msgstr ""
+"セキュリティーグループは、VM のネットワークインターフェースに適用される IP "
+"フィルタリングルールの集合です。セキュリティーグループの名前と説明を編集でき"
+"ます。"
+
+msgid "Segmentation ID"
+msgstr "セグメント ID"
+
+msgid "Segmentation ID:"
+msgstr "セグメント ID:"
+
+msgid "Select Flavor"
+msgstr "フレーバーを選択してください"
+
+msgid "Select Image"
+msgstr "イメージを選択してください"
+
+msgid "Select Instance Snapshot"
+msgstr "インスタンススナップショットの選択"
+
+msgid "Select Mapping"
+msgstr "マッピングの選択"
+
+msgid "Select Network"
+msgstr "ネットワークを選択してください"
+
+msgid "Select Port"
+msgstr "ポートを選択してください"
+
+msgid "Select Script Source"
+msgstr "スクリプトの入力方法を選択してください"
+
+msgid "Select Server Group"
+msgstr "サーバーグループを選択してください"
+
+msgid "Select Subnet"
+msgstr "サブネットの選択"
+
+msgid "Select Template"
+msgstr "テンプレートの選択"
+
+msgid "Select Volume"
+msgstr "ボリュームの選択"
+
+msgid "Select Volume Snapshot"
+msgstr "ボリュームスナップショットの選択"
+
+msgid "Select a New Flavor"
+msgstr "新しいフレーバーを選択してください"
+
+msgid "Select a key pair"
+msgstr "キーペアを選択してください"
+
+msgid "Select a new QoS spec"
+msgstr "新しい QoS スペックを選択してください"
+
+msgid "Select a new agent"
+msgstr "新しいエージェントを選択してください"
+
+msgid "Select a new consumer"
+msgstr "新規使用者の選択"
+
+msgid "Select a new host"
+msgstr "新しいホストを選択してください"
+
+msgid "Select a new status"
+msgstr "新しいステータスを選択してください"
+
+msgid "Select a new template to preview a stack."
+msgstr "プレビューするスタックのテンプレートを選択してください。"
+
+msgid "Select a new template to re-launch a stack."
+msgstr "スタックの再起動に使うテンプレートを選択してください"
+
+msgid "Select a new volume type"
+msgstr "新しいボリューム種別を選択してください"
+
+msgid "Select a pool"
+msgstr "プールを選択してください"
+
+msgid "Select a port"
+msgstr "ポートを選択してください"
+
+msgid "Select a project"
+msgstr "プロジェクトを選択してください"
+
+msgid "Select a subnet"
+msgstr "サブネットを選択してください"
+
+msgid "Select a target host"
+msgstr "移動先ホストを選択してください"
+
+msgid "Select a template to launch a stack."
+msgstr "スタックの起動に使うテンプレートを選択してください"
+
+msgid "Select a volume"
+msgstr "ボリュームを選択してください"
+
+msgid "Select a volume to attach to this instance."
+msgstr "このインスタンスに接続するボリュームを選択してください。"
+
+msgid "Select a volume to detach from this instance."
+msgstr "このインスタンスから切断するボリュームを選択してください。"
+
+msgid "Select a volume to restore to."
+msgstr "リストア先のボリュームを選択してください。"
+
+msgid "Select an IP address"
+msgstr "IP アドレスを選択してください"
+
+msgid "Select an instance"
+msgstr "インスタンスを選択してください"
+
+msgid "Select an instance to attach to."
+msgstr "接続するインスタンスを選択してください。"
+
+msgid "Select format"
+msgstr "形式を選択してください"
+
+msgid "Select network"
+msgstr "ネットワークの選択"
+
+msgid "Select networks for your instance."
+msgstr "インスタンスのネットワークを選択します。"
+
+msgid "Select source"
+msgstr "ソースを選択してください"
+
+msgid ""
+"Select the IP address you wish to associate with the selected instance or "
+"port."
+msgstr "選択されたインスタンスかポートに割り当てる IP アドレスを選択します。"
+
+msgid "Select the image to rebuild your instance."
+msgstr "インスタンスの再作成に使うイメージを選択してください。"
+
+msgid "Select the network for interface attaching."
+msgstr "インターフェースを接続するネットワークを選択してください。"
+
+msgid "Select the port to detach."
+msgstr "切り離すポートを選択してください。"
+
+msgid ""
+"Select the projects where the flavors will be used. If no projects are "
+"selected, then the flavor will be available in all projects."
+msgstr ""
+"このフレーバーを使用するプロジェクトを選択してください。どのプロジェクトも選"
+"択されていない場合は、すべてのプロジェクトがこのフレーバーを利用できます。"
+
+msgid ""
+"Select the projects where the volume types will be used. If no projects are "
+"selected, then volume type will be only visible by users with the admin role."
+msgstr ""
+"このボリューム種別を使用するプロジェクトを選んでください。プロジェクトを選択"
+"しなかった場合は、このボリューム種別は管理者権限を持つユーザーだけが参照でき"
+"ます。"
+
+msgid "Selected Hosts"
+msgstr "選択されたホスト"
+
+msgid "Selected Projects"
+msgstr "選択済みのプロジェクト"
+
+msgid "Selected hosts"
+msgstr "選択されたホスト"
+
+msgid "Selected networks"
+msgstr "選択済みネットワーク"
+
+msgid "Selected volume types"
+msgstr "選択したボリューム種別"
+
+msgid "Selected volumes"
+msgstr "選択済みのボリューム"
+
+msgid "Server Group"
+msgstr "サーバーグループ"
+
+msgid "Server Group Members"
+msgstr "サーバーグループのメンバー"
+
+msgid "Server Groups"
+msgstr "サーバーグループ"
+
+msgid "Server error"
+msgstr "内部サーバーエラー"
+
+msgid "Server group to associate with this instance."
+msgstr "インスタンスに関連付けるサーバーグループ。"
+
+msgid "Servers"
+msgstr "サーバー"
+
+msgid "Service"
+msgstr "サービス"
+
+msgid "Service Cinder is disabled."
+msgstr "Cinder サービスが無効になっています。"
+
+msgid "Service Endpoint"
+msgstr "サービスエンドポイント"
+
+msgid "Service Neutron is disabled or quotas extension not available."
+msgstr ""
+"Neutron サービスが無効になっているか、quotas 拡張機能が利用できません。"
+
+msgid "Service Neutron is disabled."
+msgstr "Neutron サービスが無効になっています。"
+
+msgid "Service Nova is disabled."
+msgstr "Nova サービスが無効になっています。"
+
+msgid "Services"
+msgstr "サービス"
+
+msgid "Services Down"
+msgstr "サービスダウン"
+
+msgid "Services Up"
+msgstr "サービス稼働中"
+
+msgid "Set Domain Context"
+msgstr "ドメインコンテキストの設定"
+
+msgid "Set Gateway"
+msgstr "ゲートウェイの設定"
+
+msgid "Set as Active Project"
+msgstr "現在のプロジェクトに設定"
+
+msgid "Set maximum quotas for the project."
+msgstr "このプロジェクトの最大クォータを設定します。"
+
+msgid ""
+"Set of rules to map federation protocol attributes to Identity API objects."
+msgstr ""
+"フェデレーションプロトコルの属性を Identity API オブジェクトにマッピングする"
+"ためのルールセット"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+msgid "Shared"
+msgstr "共有"
+
+msgid "Shared ="
+msgstr "共有 ="
+
+msgid "Shared Storage"
+msgstr "共有ストレージ"
+
+msgid "Shared with Project"
+msgstr "プロジェクトと共有"
+
+msgid "Shelve Instance"
+msgid_plural "Shelve Instances"
+msgstr[0] "インスタンスの退避"
+
+msgctxt "Current status of an Instance"
+msgid "Shelved"
+msgstr "退避"
+
+msgid "Shelved Instance"
+msgid_plural "Shelved Instances"
+msgstr[0] "インスタンスを退避しました"
+
+msgctxt "Current status of an Instance"
+msgid "Shelved Offloaded"
+msgstr "退避オフロード"
+
+msgctxt "Task status of an Instance"
+msgid "Shelving"
+msgstr "退避中"
+
+msgctxt "Task status of an Instance"
+msgid "Shelving Image Pending Upload"
+msgstr "退避イメージのアップロード待ち"
+
+msgctxt "Task status of an Instance"
+msgid "Shelving Image Uploading"
+msgstr "退避イメージのアップロード中"
+
+msgctxt "Task status of an Instance"
+msgid "Shelving Offloading"
+msgstr "退避インスタンスのオフロード中"
+
+msgctxt "Power state of an Instance"
+msgid "Shut Down"
+msgstr "シャットダウン済み"
+
+msgctxt "Power state of an Instance"
+msgid "Shut Off"
+msgstr "電源停止"
+
+msgctxt "Action to perform (the instance is currently running)"
+msgid "Shut Off Instance"
+msgid_plural "Shut Off Instances"
+msgstr[0] "インスタンスの停止"
+
+msgctxt "Past action (the instance is currently already Shut Off)"
+msgid "Shut Off Instance"
+msgid_plural "Shut Off Instances"
+msgstr[0] "インスタンスを停止しました"
+
+msgctxt "Current status of an Instance"
+msgid "Shutoff"
+msgstr "電源停止"
+
+msgid "Sign Out"
+msgstr "ログアウト"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Size (GiB)"
+msgstr "サイズ (GiB)"
+
+msgid "Size of image to launch."
+msgstr "起動するイメージの容量"
+
+msgid "Size(GiB) ="
+msgstr "サイズ (GiB) ="
+
+msgid "Slash is not allowed at the beginning or end of your string."
+msgstr "文字列の先頭または末尾にスラッシュを使用することはできません。"
+
+msgid "Slash is not an allowed character."
+msgstr "スラッシュ (/) は使用できません。"
+
+msgid "Small"
+msgstr "コンパクト"
+
+msgid "Snapshot"
+msgstr "スナップショット"
+
+msgctxt "Type of an image"
+msgid "Snapshot"
+msgstr "スナップショット"
+
+#, python-format
+msgid "Snapshot \"%(name)s\" created for instance \"%(inst)s\""
+msgstr ""
+"インスタンス \"%(inst)s\" のスナップショット \"%(name)s\" が作成されました"
+
+msgctxt "current status of stack"
+msgid "Snapshot Complete"
+msgstr "スナップショット作成完了"
+
+msgctxt "current status of stack"
+msgid "Snapshot Failed"
+msgstr "スナップショットの作成に失敗"
+
+msgctxt "current status of stack"
+msgid "Snapshot In Progress"
+msgstr "スナップショット作成中"
+
+msgid "Snapshot Limits"
+msgstr "スナップショットの上限"
+
+msgid "Snapshot Name"
+msgstr "スナップショット名"
+
+msgid "Snapshot Volume Types"
+msgstr "スナップショットのボリューム種別"
+
+msgid "Snapshot Volumes"
+msgstr "スナップショットのボリューム"
+
+msgid "Snapshot source must be specified"
+msgstr "スナップショットを指定しなければいけません。"
+
+msgid "Snapshots"
+msgstr "スナップショット"
+
+msgid ""
+"Snapshots can only be created for Consistency Groups that contain volumes."
+msgstr ""
+"スナップショットを作成できるのは、ボリュームが含まれている整合性グループのみ"
+"です。"
+
+msgctxt "Task status of an Instance"
+msgid "Snapshotting"
+msgstr "スナップショットの取得中"
+
+msgctxt "Current status of an Instance"
+msgid "Soft Deleted"
+msgstr "ソフト削除"
+
+msgctxt "Task status of an Instance"
+msgid "Soft Deleting"
+msgstr "ソフト削除中"
+
+msgid "Soft Reboot Instance"
+msgid_plural "Soft Reboot Instances"
+msgstr[0] "インスタンスのソフトリブート"
+
+msgid "Soft Rebooted Instance"
+msgid_plural "Soft Rebooted Instances"
+msgstr[0] "インスタンスのソフトリブートを行いました"
+
+msgid ""
+"Some flavors not meeting minimum boot source requirements have been disabled."
+msgstr ""
+"ブートソースの最小限の要件を満たしていないフレーバーが無効になっています。"
+
+msgid "Something went wrong!"
+msgstr "どこかがおかしくなりました！"
+
+msgctxt "Task status of an Instance"
+msgid "Spawning"
+msgstr "起動中"
+
+msgid ""
+"Specifies how IPv6 addresses and additional information are configured. We "
+"can specify SLAAC/DHCPv6 stateful/DHCPv6 stateless provided by OpenStack, or "
+"specify no option. 'No options specified' means addresses are configured "
+"manually or configured by a non-OpenStack system."
+msgstr ""
+"IPv6 アドレスと追加情報の設定をどのように行うかを指定します。OpenStack が提供"
+"する SLAAC/DHCPv6 stateful/DHCPv6 stateless のいずれかを指定する、もしくはオ"
+"プション指定なし、という選択肢があります。「オプション指定なし」は、アドレス"
+"の手動設定、もしくは OpenStack 外のシステムによりアドレスが設定されることを意"
+"味します。"
+
+msgid "Specifies that the newly created volume should be marked as bootable"
+msgstr "新規作成するボリュームを起動可能とマークする必要があることを指定"
+
+msgid "Specifies that the volume can be used to launch an instance"
+msgstr "このボリュームをインスタンスを起動するのに使用できることを示します。"
+
+msgid ""
+"Specify \"Address pool\" or select \"Enter Network Address manually\" and "
+"specify \"Network Address\"."
+msgstr ""
+"「アドレスプール」を指定するか、「ネットワークアドレスを直接指定」を選択して"
+"「ネットワークアドレス」を指定してください。"
+
+msgid ""
+"Specify \"Network Address\" or clear \"Create Subnet\" checkbox in previous "
+"step."
+msgstr ""
+"前のステップで「ネットワークアドレス」を指定するか、「サブネットの作成」の"
+"チェックを外してください。"
+
+msgid "Specify IP address of gateway or check \"Disable Gateway\" checkbox."
+msgstr ""
+"ゲートウェイの IP アドレスを指定するか、「ゲートウェイなし」チェックボックス"
+"をチェックしてください。"
+
+msgid "Specify IP address or subnet"
+msgstr "IP アドレスまたはサブネットの指定"
+
+msgid "Specify a metadata definition namespace to import."
+msgstr "インポートする名前空間のメタデータ定義を指定します。"
+
+msgid "Specify a new MAC address for the port"
+msgstr "このポートの新しい MAC アドレスを指定します"
+
+msgid "Specify additional attributes for the subnet."
+msgstr "サブネットの追加属性を指定します。"
+
+msgid "Specify advanced options to use when launching an instance."
+msgstr "インスタンス起動時に使用する高度な設定を行います。"
+
+msgid "Specify an IP address for the interface created (e.g. 192.168.0.254)."
+msgstr ""
+"作成するインタフェースの IP アドレスを指定できます (例: 192.168.0.254)。"
+
+msgid "Specify an image to upload to the Image Service."
+msgstr "イメージサービスにアップロードするイメージを指定します。"
+
+msgid "Specify the MAC address for the new port"
+msgstr "新規ポートの MAC アドレスを指定します"
+
+msgid "Specify the details for launching an instance."
+msgstr "インスタンスを起動するために詳細を指定します。"
+
+msgid "Specify the subnet IP address for the new port"
+msgstr "新規ポートのサブネット IP アドレスを指定します"
+
+msgid ""
+"Specify this option to copy image data to the image service. If unspecified, "
+"image data will be used in its current location."
+msgstr ""
+"イメージデータをイメージサービスにコピーするにはこのオプションを指定します。"
+"指定しなかった場合は、イメージデータはイメージの場所の URL にあるものが使用さ"
+"れます。"
+
+msgid "Specs"
+msgstr "スペック"
+
+msgid "Stack Events"
+msgstr "スタックイベント"
+
+msgid "Stack ID"
+msgstr "スタック ID"
+
+msgid "Stack ID ="
+msgstr "スタック ID ="
+
+msgid "Stack Name"
+msgstr "スタック名"
+
+msgid "Stack Name ="
+msgstr "スタック名 ="
+
+msgid "Stack Parameters"
+msgstr "スタックのパラメーター"
+
+msgid "Stack Preview"
+msgstr "スタックのプレビュー"
+
+msgid "Stack Resource"
+msgstr "スタックリソース"
+
+msgid "Stack Resource ID"
+msgstr "スタックリソース ID"
+
+msgid "Stack Resource Type"
+msgstr "スタックリソース種別"
+
+msgid "Stack Resources"
+msgstr "スタックリソース"
+
+msgid "Stack creation started."
+msgstr "スタックの作成を開始しました。"
+
+msgid "Stack creation timeout in minutes."
+msgstr "スタック作成のタイムアウト時間 (分単位)。"
+
+msgid "Stack update started."
+msgstr "スタックの更新を開始しました。"
+
+msgid "Stacks"
+msgstr "スタック"
+
+msgid "Start"
+msgstr "開始"
+
+msgctxt "Action log of an instance"
+msgid "Start"
+msgstr "開始"
+
+msgid "Start Instance"
+msgid_plural "Start Instances"
+msgstr[0] "インスタンスの起動"
+
+msgid "Start Time"
+msgstr "開始時刻"
+
+#, python-format
+msgid "Start address is larger than end address (value=%s)"
+msgstr "開始アドレスが終了アドレスより大きい (値=%s)"
+
+#, python-format
+msgid "Start and end addresses must be specified (value=%s)"
+msgstr "開始アドレスと終了アドレスを指定する必要があります (値=%s)"
+
+msgid "Started Instance"
+msgid_plural "Started Instances"
+msgstr[0] "インスタンスを開始しました"
+
+#, python-format
+msgid "Starting to evacuate host: %s."
+msgstr "ホスト %s からの退避を開始しました。"
+
+#, python-format
+msgid "Starting to migrate host: %(current)s"
+msgstr "ホスト %(current)s のマイグレーションを開始します。"
+
+msgid "State"
+msgstr "状態"
+
+msgid "Static Routes"
+msgstr "静的ルート設定"
+
+msgid "Static route added"
+msgstr "静的ルートが追加されました"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "Status ="
+msgstr "ステータス ="
+
+msgid "Status Reason"
+msgstr "ステータスの理由"
+
+msgctxt "Action log of an instance"
+msgid "Stop"
+msgstr "停止"
+
+msgctxt "Current status of an Instance"
+msgid "Stopped"
+msgstr "停止"
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Subnet"
+msgstr "サブネット"
+
+msgid "Subnet Details"
+msgstr "サブネットの詳細"
+
+msgid "Subnet ID"
+msgstr "サブネット ID"
+
+msgid "Subnet Name"
+msgstr "サブネット名"
+
+msgid "Subnet Pool"
+msgstr "サブネットプール"
+
+msgid "Subnet list can not be retrieved."
+msgstr "サブネット一覧を取得できません。"
+
+msgid "Subnets"
+msgstr "サブネット"
+
+msgid "Subnets Associated"
+msgstr "割り当てサブネット"
+
+#, python-format
+msgid "Successfully accepted volume transfer: \"%s\""
+msgstr "ボリュームの譲渡 \"%s\" を正常に受理しました。"
+
+#, python-format
+msgid "Successfully added rule: %s"
+msgstr "ルールを正常に追加しました: %s"
+
+#, python-format
+msgid "Successfully created QoS Spec: %s"
+msgstr "QoS スペック %s を正常に作成しました。"
+
+#, python-format
+msgid "Successfully created encryption for volume type: %s"
+msgstr "ボリューム種別の暗号化設定 %s を正常に作成しました。"
+
+#, python-format
+msgid "Successfully created security group: %s"
+msgstr "セキュリティーグループ %s を正常に作成しました。"
+
+#, python-format
+msgid "Successfully created volume type: %s"
+msgstr "ボリューム種別が正常に作成されました: %s"
+
+msgid "Successfully deleted volume transfer"
+msgstr "ボリュームの譲渡を正常に削除しました。"
+
+#, python-format
+msgid "Successfully deleted volume transfer \"%s\""
+msgstr "ボリュームの譲渡 \"%s\" を正常に削除しました。"
+
+#, python-format
+msgid "Successfully disassociated Floating IP: %s"
+msgstr "Floating IP の割り当て解除に成功しました: %s"
+
+#, python-format
+msgid "Successfully disassociated floating IP: %s"
+msgstr "Floating IP の割り当て解除に成功しました: %s"
+
+#, python-format
+msgid "Successfully imported public key: %s"
+msgstr "公開鍵 %s を正常に取り込みました"
+
+msgid "Successfully modified QoS Spec consumer."
+msgstr "QoS スペックの使用者を正常に更新しました。"
+
+msgid "Successfully recreated ec2 credentials."
+msgstr "EC2 認証情報の再作成に成功しました。"
+
+#, python-format
+msgid ""
+"Successfully sent the request to change the volume type to \"%(vtype)s\" for "
+"volume: \"%(name)s\""
+msgstr ""
+"ボリューム %(name)s のボリューム種別 \"%(vtype)s\" への変更要求が正常に送信さ"
+"れました。"
+
+#, python-format
+msgid "Successfully sent the request to manage volume: %s"
+msgstr "ボリューム %s の管理要求は正常に行われました。"
+
+#, python-format
+msgid "Successfully sent the request to migrate volume: %s"
+msgstr "ボリューム %s の移動要求は正常に行われました。"
+
+#, python-format
+msgid "Successfully sent the request to unmanage volume: %s"
+msgstr "ボリューム %s の管理解除要求は正常に行われました。"
+
+#, python-format
+msgid ""
+"Successfully sent the request to upload volume to image for volume: \"%s\""
+msgstr "ボリューム %s のイメージへのアップロード要求は正常に行われました。"
+
+msgid "Successfully updated QoS Spec association."
+msgstr "QoS スペックの関連付けを正常に更新しました。"
+
+#, python-format
+msgid "Successfully updated aggregate: \"%s.\""
+msgstr "アグリゲートの更新に成功しました: \"%s\""
+
+#, python-format
+msgid "Successfully updated encryption for volume type: %s"
+msgstr "ボリューム種別の暗号化設定 %s を正常に更新しました。"
+
+#, python-format
+msgid "Successfully updated security group: %s"
+msgstr "セキュリティーグループ %s が正常に更新されました。"
+
+#, python-format
+msgid "Successfully updated volume snapshot status: \"%s\"."
+msgstr "ボリュームスナップショットのステータスを \"%s\" に変更しました。"
+
+#, python-format
+msgid "Successfully updated volume status to \"%s\"."
+msgstr "ボリュームのステータスを \"%s\" に変更しました。"
+
+msgid "Successfully updated volume type."
+msgstr "ボリューム種別の更新に成功しました。"
+
+msgctxt "Action log of an instance"
+msgid "Suspend"
+msgstr "休止"
+
+msgctxt "current status of stack"
+msgid "Suspend Complete"
+msgstr "休止完了"
+
+msgctxt "current status of stack"
+msgid "Suspend Failed"
+msgstr "休止に失敗"
+
+msgctxt "current status of stack"
+msgid "Suspend In Progress"
+msgstr "休止中"
+
+msgid "Suspend Instance"
+msgid_plural "Suspend Instances"
+msgstr[0] "インスタンスの休止"
+
+msgid "Suspend Stack"
+msgid_plural "Suspend Stacks"
+msgstr[0] "スタックの休止"
+
+msgctxt "Current status of an Instance"
+msgid "Suspended"
+msgstr "休止"
+
+msgctxt "Power state of an Instance"
+msgid "Suspended"
+msgstr "休止"
+
+msgid "Suspended Instance"
+msgid_plural "Suspended Instances"
+msgstr[0] "インスタンスを休止しました"
+
+msgid "Suspended Stack"
+msgid_plural "Suspended Stacks"
+msgstr[0] "スタックを休止しました"
+
+msgctxt "Task status of an Instance"
+msgid "Suspending"
+msgstr "休止中"
+
+msgid "Swap Disk"
+msgstr "スワップディスク"
+
+msgid "Swap Disk (MB)"
+msgstr "スワップディスク (MB)"
+
+msgid "System"
+msgstr "システム"
+
+msgid "System Information"
+msgstr "システム情報"
+
+msgid "Target Host"
+msgstr "移動先ホスト"
+
+msgid "Task"
+msgstr "タスク"
+
+msgid "Template"
+msgstr "テンプレート"
+
+msgid "Template Data"
+msgstr "テンプレートデータ"
+
+msgid "Template File"
+msgstr "テンプレートファイル"
+
+msgid "Template Functions"
+msgstr "テンプレート関数"
+
+msgid "Template Source"
+msgstr "テンプレートの指定方法"
+
+msgid "Template URL"
+msgstr "テンプレート URL"
+
+msgid "Template Versions"
+msgstr "テンプレートのバージョン"
+
+msgid ""
+"The \"Bootable\" flag specifies that this volume can be used to launch an "
+"instance."
+msgstr ""
+"「起動可能」フラグは、このボリュームをインスタンスの起動に使用できることを示"
+"します。"
+
+msgid ""
+"The \"Migration Policy\" is only used if the volume retype cannot be "
+"completed. If the \"Migration Policy\" is \"On Demand\", the back end will "
+"perform volume migration. Note that migration may take a significant amount "
+"of time to complete, in some cases hours."
+msgstr ""
+"「移行ポリシー」は、ボリューム種別の変更がすぐに完了できない場合にのみ使用さ"
+"れます。「移行ポリシー」に「要求時」を指定すると、ストレージバックエンドはボ"
+"リュームの移行を実行します。移行には長時間 (場合によっては数時間) かかる場合"
+"がある点に注意してください。"
+
+msgid "The \"Type\" selected must be different from the current volume type."
+msgstr ""
+"選択する「種別」は現在のボリューム種別とは違うものでなければいけません。"
+
+msgid "The \"from\" port number is invalid."
+msgstr "「下限」ポート番号が無効です。"
+
+msgid "The \"to\" port number is invalid."
+msgstr "「上限」ポート番号が無効です。"
+
+msgid ""
+"The \"to\" port number must be greater than or equal to the \"from\" port "
+"number."
+msgstr "「上限」ポート番号は「下限」ポート番号以上でなければいけません。"
+
+msgid ""
+"The <strong>Cipher</strong> is the encryption algorithm/mode to use (e.g., "
+"aes-xts-plain64). If the field is left empty, the provider default will be "
+"used."
+msgstr ""
+"<strong>暗号</strong>は使用する暗号化アルゴリズムとモードです (例: aes-xts-"
+"plain64)。このフィールドを空欄にすると、プロバイダーのデフォルトが使用されま"
+"す。"
+
+msgid ""
+"The <strong>Control Location</strong> is the notional service where "
+"encryption is performed (e.g., front-end=Nova). The default value is 'front-"
+"end.'"
+msgstr ""
+"<strong>制御場所</strong>は暗号化が実施される場所です (例えば、フロントエンド"
+"は Nova のことです)。デフォルト値は「フロントエンド」です。"
+
+msgid ""
+"The <strong>Key Size</strong> is the size of the encryption key, in bits (e."
+"g., 128, 256). If the field is left empty, the provider default will be used."
+msgstr ""
+"<strong>キーサイズ</strong>は暗号鍵のビット単位のサイズです (例: 128、256)。"
+"このフィールドを空欄にすると、プロバイダーのデフォルトが使用されます。"
+
+msgid ""
+"The <strong>Provider</strong> is the class providing encryption support (e."
+"g. LuksEncryptor)."
+msgstr ""
+"<strong>プロバイダー</strong>は暗号化対応を提供するクラスです (例: "
+"LuksEncryptor)。"
+
+msgid ""
+"The <strong>Provider</strong> is the class providing encryption support (e."
+"g., LuksEncryptor)."
+msgstr ""
+"<strong>プロバイダー</strong>は暗号化対応を提供するクラスです (例: "
+"LuksEncryptor)。"
+
+msgid "The Aggregate was updated."
+msgstr "アグリゲートが更新されました。"
+
+msgid ""
+"The Authorization Key will not be available after closing this page, so you "
+"must capture it now or download it, or else you will be unable to use the "
+"transfer."
+msgstr ""
+"認証キーはこのページを閉じると参照できなくなるので、今の時点で書き留めておく"
+"か、ダウンロードする必要があります。認証キーがなければ、作成した譲渡は使えな"
+"くなります。"
+
+msgid "The ICMP code not in range (-1, 255)"
+msgstr "ICMP コードが (-1, 255) の範囲ではありません"
+
+msgid "The ICMP type not in range (-1, 255)"
+msgstr "ICMP タイプが (-1, 255) の範囲ではありません"
+
+#, python-format
+msgid "The ID \"%s\" is already used by another flavor."
+msgstr "ID \"%s\" はすでに別のフレーバーで使用されています。"
+
+msgid ""
+"The ID of the host where the port is allocated. In some cases, different "
+"implementations can run on different hosts."
+msgstr ""
+"ポートが割り当てられたホストの ID。場合によっては、ホスト別に異なる実装を実行"
+"している可能性があります。"
+
+msgid ""
+"The IP address of the new floating IP (e.g. 202.2.3.4). You need to specify "
+"an explicit address which is under the public network CIDR (e.g. "
+"202.2.3.0/24)."
+msgstr ""
+"新規の Floating IP の IP アドレス (例: 202.2.3.4)。外部ネットワークの CIDR "
+"(例: 202.2.3.0/24) 内の IP アドレスを指定する必要があります。"
+
+msgid ""
+"The Image Location field MUST be a valid and direct URL to the image binary. "
+"URLs that redirect or serve error pages will result in unusable images."
+msgstr ""
+"イメージの場所のフィールドは、イメージ (バイナリー) への有効かつ直接の URL を"
+"入力する必要があります。URL がリダイレクトのページの場合や、エラーページが"
+"返ってきた場合には、登録されたイメージは使用できない可能性があります。"
+
+msgid "The JSON formatted contents of a namespace."
+msgstr "JSON 形式で書かれた名前空間の内容"
+
+msgid "The Key Pair name that was associated with the instance"
+msgstr "このインスタンスに関連付けられたキーペア名"
+
+msgid "The L3 agent information could not be located."
+msgstr "L3 エージェントの情報を取得できません。"
+
+msgid ""
+"The Transfer ID and the Authorization Key are needed by the recipient in "
+"order to accept the transfer. Please capture both the Transfer ID and the "
+"Authorization Key and provide them to your transfer recipient."
+msgstr ""
+"譲渡を受理するには、譲渡 ID と認証キーが譲渡先で必要です。譲渡 ID と認証キー"
+"を記録し、譲渡を受ける人に伝えてください。"
+
+msgid "The VNIC type that is bound to the neutron port"
+msgstr "neutron ポートにバインドする仮想 NIC の種別"
+
+#, python-format
+msgid ""
+"The Volume size is too small for the '%(image_name)s' image and has to be "
+"greater than or equal to '%(smallest_size)d' GB."
+msgstr ""
+"イメージ  '%(image_name)s' に対してボリュームサイズが小さすぎます。ボリューム"
+"サイズは  '%(smallest_size)d' GB 以上でなければいけません。"
+
+msgid "The admin password is incorrect."
+msgstr "管理者パスワードが正しくありません。"
+
+msgid ""
+"The chart below shows the resources used by this project in relation to the "
+"project's quotas."
+msgstr ""
+"下のグラフは、このプロジェクトで使用しているリソースを、プロジェクトのクォー"
+"タと対比して表示しています。"
+
+msgid "The container cannot be deleted since it is not empty."
+msgstr "コンテナーが空ではないため、削除できません。"
+
+msgid ""
+"The current Horizon settings indicate no valid image creation methods are "
+"available. Providing an image location and/or uploading from the local file "
+"system must be allowed to support image creation."
+msgstr ""
+"現在 Horizon には、有効なイメージ作成方法が設定されていません。イメージの作成"
+"をサポートするには、イメージの場所を指定できるようにするか、ローカルファイル"
+"システムからのイメージのアップロードを許可する必要があります。"
+
+msgid ""
+"The data will remain in the volume and another instance will be able to "
+"access the data if you attach this volume to it."
+msgstr ""
+"データはボリュームに残ります。このボリュームを別のインスタンスに接続すると、"
+"そのインスタンスはデータにアクセスすることができます。"
+
+#, python-format
+msgid ""
+"The flavor '%(flavor)s' is too small for requested image.\n"
+"Minimum requirements: %(min_ram)s MB of RAM and %(min_disk)s GB of Root Disk."
+msgstr ""
+"要求したイメージに対してフレーバー '%(flavor)s' は小さすぎます。\n"
+"最小でも %(min_ram)s MB の RAM と %(min_disk)s GB のルートディスクが必要で"
+"す。"
+
+msgid "The instance is preparing the live migration to a new host."
+msgstr "インスタンスは新しいホストへのライブマイグレーションを準備中。"
+
+msgid "The instance password encrypted with your public key."
+msgstr "秘密鍵で暗号化されたインスタンスのパスワード"
+
+msgid "The instance(s) will be shut off."
+msgstr "インスタンスが停止されます。"
+
+#, python-format
+msgid ""
+"The key pair &quot;%(keypair_name)s&quot; should download automatically. If "
+"not, use the button below."
+msgstr ""
+"キーペア &quot;%(keypair_name)s&quot; が自動的にダウンロードされます。開始し"
+"ない場合には、以下のボタンを使用してください。"
+
+msgid ""
+"The minimum disk size required to boot the image. If unspecified, this value "
+"defaults to 0 (no minimum)."
+msgstr ""
+"イメージを起動するために必要となる最小ディスク容量。指定がなければ、この値の"
+"初期値は 0 (最小値なし) です。"
+
+msgid ""
+"The minimum memory size required to boot the image. If unspecified, this "
+"value defaults to 0 (no minimum)."
+msgstr ""
+"イメージを起動するために必要となる最小メモリー容量。指定がなければ、この値の"
+"初期値は 0 (最小値なし) です。"
+
+#, python-format
+msgid "The name \"%s\" is already used by another consistency group."
+msgstr "\"%s\" という名前はすでに別の整合性グループで使用されています。"
+
+#, python-format
+msgid "The name \"%s\" is already used by another flavor."
+msgstr "\"%s\" という名前はすでに他のフレーバーにより使用されています。"
+
+#, python-format
+msgid "The name \"%s\" is already used by another host aggregate."
+msgstr "\"%s\" という名前はすでに別のホストアグリゲートで使用されています。"
+
+msgid ""
+"The name of the physical network over which the virtual network is "
+"implemented."
+msgstr "仮想ネットワークを実装する物理ネットワーク名"
+
+msgid ""
+"The name of the physical network over which the virtual network is "
+"implemented. Specify one of the physical networks defined in your neutron "
+"deployment."
+msgstr ""
+"仮想ネットワークを実装する物理ネットワーク名。お使いの neutron 環境で定義され"
+"ている物理ネットワークのいずれかを指定してください。"
+
+msgid "The page you were looking for doesn't exist"
+msgstr "お探しのページが見つかりません"
+
+msgid "The physical mechanism by which the virtual network is implemented."
+msgstr "仮想ネットワークを実装する物理メカニズム"
+
+msgid ""
+"The port also describes the associated network configuration, such as the "
+"MAC and IP addresses to be used on that port."
+msgstr ""
+"ポートは、そのポートで使用される MAC アドレスや IP アドレスなどの関連するネッ"
+"トワーク設定の表現でもあります。"
+
+msgid ""
+"The private key will be only used in your browser and will not be sent to "
+"the server"
+msgstr "秘密鍵はブラウザー内でのみ使用され、サーバーには送信されません。"
+
+msgid "The pseudo folder cannot be deleted since it is not empty."
+msgstr "擬似フォルダーが空ではないため、削除できません。"
+
+msgid "The raw contents of the environment file."
+msgstr "環境設定ファイルの RAW データ"
+
+msgid "The raw contents of the template."
+msgstr "テンプレートの RAW データ。"
+
+#, python-format
+msgid ""
+"The requested instance cannot be launched. Requested volume exceeds quota: "
+"Available: %(avail)s, Requested: %(req)s."
+msgstr ""
+"要求されたインスタンスを起動できません。要求されたボリュームがクォータを超過"
+"しています。利用可能なクォータは %(avail)s ですが、要求された値は %(req)s で"
+"す。"
+
+#, python-format
+msgid ""
+"The requested instance cannot be launched. The following requested "
+"resource(s) exceed quota(s): %s."
+msgstr ""
+"要求されたインスタンスを起動できません。次のリソースがクォータを超過していま"
+"す: %s。"
+
+msgid ""
+"The requested instance port is already associated with another floating IP."
+msgstr ""
+"要求されたインスタンスのポートはすでに別の Floating IP に関連付けられていま"
+"す。"
+
+#, python-format
+msgid ""
+"The requested instance(s) cannot be launched as your quota will be exceeded: "
+"Available: %(avail)s, Requested: %(req)s."
+msgstr ""
+"要求されたインスタンスを起動できません。クォータが超過します。利用可能な"
+"クォータは %(avail)s ですが、要求された値は %(req)s です。"
+
+msgid "The specified port is invalid."
+msgstr "指定されたポートは無効です。"
+
+msgid "The state to start the network in."
+msgstr "ネットワークの開始時の状態"
+
+msgid ""
+"The status of a volume is normally managed automatically.  In some "
+"circumstances an administrator may need to explicitly update the status "
+"value.  This is equivalent to the <tt>openstack volume set --state</tt> "
+"command."
+msgstr ""
+"通常、ボリュームのステータスは自動的に管理されます。状況によっては、管理者が"
+"ステータス値を明示的に変更する必要があることがあります。これは <tt>openstack "
+"volume set --state</tt> コマンドに相当します。"
+
+msgid ""
+"The status of a volume snapshot is normally managed automatically. In some "
+"circumstances an administrator may need to explicitly update the status "
+"value. This is equivalent to the <tt>openstack volume snapshot set --state</"
+"tt> command."
+msgstr ""
+"通常、ボリュームスナップショットのステータスは自動的に管理されます。状況に"
+"よっては、管理者がステータス値を明示的に変更する必要がある場合があります。こ"
+"れは <tt>openstack volume snapshot set --state</tt> コマンドに相当します。"
+
+#, python-format
+msgid "The subnet in the Network Address is too small (/%s)."
+msgstr "ネットワークアドレスにおけるサブネットが小さすぎます (/%s)。"
+
+#, python-format
+msgid "The volume size cannot be less than the image minimum disk size (%sGiB)"
+msgstr ""
+"ボリュームサイズはイメージの最小ディスクサイズ (%sGiB) 未満にはできません。"
+
+#, python-format
+msgid "The volume size cannot be less than the image size (%s)"
+msgstr "ボリュームサイズはイメージサイズ (%s) 未満にはできません。"
+
+#, python-format
+msgid "The volume size cannot be less than the snapshot size (%sGiB)"
+msgstr "ボリュームサイズはスナップショットサイズ (%sGiB) 未満にはできません。"
+
+#, python-format
+msgid "The volume size cannot be less than the source volume size (%sGiB)"
+msgstr "ボリュームサイズは元のボリュームサイズ (%sGiB) 未満にはできません。"
+
+msgid "Theme Preview"
+msgstr "テーマのプレビュー"
+
+msgid "Themes:"
+msgstr "テーマ:"
+
+msgid "There are no networks, routers, or connected instances to display."
+msgstr "ネットワーク、ルーター、インスタンスがありません。"
+
+msgid ""
+"There is not enough capacity for this flavor in the selected availability "
+"zone. Try again later or select a different availability zone."
+msgstr ""
+"選択されたアベイラビリティーゾーンに十分な容量がありません。時間を置いて再度"
+"実行するか、異なるアベイラビリティーゾーンを選択してください。"
+
+#, python-format
+msgid "There was a problem loading the namespace: %s."
+msgstr "名前空間の読み込み中に問題が発生しました。 %s"
+
+#, python-format
+msgid "There was a problem parsing the %(prefix)s: %(error)s"
+msgstr "%(prefix)s の解析中に問題がありました: %(error)s"
+
+msgid "This action cannot be undone."
+msgstr "この操作は取り消せません。"
+
+msgid ""
+"This action cannot be undone. Current EC2 credentials will be deleted and "
+"not recoverable."
+msgstr ""
+"この操作は取り消せません。現在の EC2 認証情報は削除され、元に戻すことができな"
+"くなります。"
+
+msgid ""
+"This action will unassign all volumes that are currently contained in this "
+"consistency group."
+msgstr ""
+"このアクションにより、この整合性グループに現在含まれている全ボリュームの割り"
+"当てが解除されます。"
+
+msgid "This application requires JavaScript to be enabled in your web browser."
+msgstr ""
+"このアプリケーションを使うには、ブラウザーで JavaScript を有効にする必要があ"
+"ります。"
+
+msgid ""
+"This generates a pair of keys: a key you keep private (cloud.key) and a "
+"public key (cloud.key.pub). Paste the contents of the public key file here."
+msgstr ""
+"このコマンドを実行すると、鍵のペアが生成されます。秘密にしておく鍵 (cloud."
+"key) と公開鍵 (cloud.key.pub) です。公開鍵ファイルの内容をここに貼り付けてく"
+"ださい。"
+
+msgid ""
+"This instance is currently locked. To enable more actions on it, please "
+"unlock it by selecting Unlock Instance from the actions menu."
+msgstr ""
+"このインスタンスは現在ロックされています。このインスタンスに対してアクション"
+"を実行するには、アクションメニューのインスタンスのロック解除を選択して、ロッ"
+"クを解除してください。"
+
+msgid "This instance is unlocked."
+msgstr "このインスタンスはロックされていません。"
+
+msgid ""
+"This is equivalent to the <tt>openstack volume qos associate</tt> and "
+"<tt>openstack volume qos disassociate</tt> commands."
+msgstr ""
+"これは <tt>openstack volume qos associate</tt> および <tt>openstack volume "
+"qos disassociate</tt> のコマンドに相当します。"
+
+msgid ""
+"This is required for operations to be performed throughout the lifecycle of "
+"the stack"
+msgstr "スタックの生存期間全体を通して、各種操作の実行に必要です。"
+
+msgid "This panel needs JavaScript support."
+msgstr "JavaScript が有効になっている必要があります。"
+
+msgid ""
+"This volume is currently attached to an instance. In some cases, creating a "
+"snapshot from an attached volume can result in a corrupted snapshot."
+msgstr ""
+"このボリュームは現在インスタンスに接続されています。状況によっては、接続中の"
+"ボリュームからスナップショットを作成すると、壊れたスナップショットが作成され"
+"る可能性があります。"
+
+msgid "This volume type is used by one or more volumes."
+msgstr "このボリューム種別は１つ以上のボリュームで使用されています。"
+
+msgid "Time Since Created"
+msgstr "作成後経過時間"
+
+msgid "Time Since Event"
+msgstr "イベントからの経過時間"
+
+msgid "Time since created"
+msgstr "作成後経過時間"
+
+msgid "Time since created (Seconds)"
+msgstr "作成後経過時間 (秒)"
+
+msgid "Time since update"
+msgstr "更新後経過時間"
+
+msgid "Timeout"
+msgstr "タイムアウト"
+
+msgid "Timezone"
+msgstr "タイムゾーン"
+
+msgid "To Port"
+msgstr "ポート番号 (上限)"
+
+msgid ""
+"To decrypt your password you will need the private key of your key pair for "
+"this instance. Select the private key file, or copy and paste the content of "
+"your private key file into the text area below, then click Decrypt Password."
+msgstr ""
+"パスワードを復号するには、このインスタンスのキーペアの秘密鍵が必要です。秘密"
+"鍵ファイルを選択するか、秘密鍵の内容を下側のテキスト領域にコピーして貼り付け"
+"てから、パスワードの復号をクリックしてください。"
+
+msgid "To exit the fullscreen mode, click the browser's back button."
+msgstr ""
+"フルスクリーンモードを終了するには、ブラウザーの戻るボタンをクリックして下さ"
+"い。"
+
+msgid "To make volume type private, uncheck this field."
+msgstr ""
+"ボリューム種別をプライベートにするには、このフィールドのチェックを外してくだ"
+"さい。"
+
+msgid "To specify a subnet or a fixed IP, select any options."
+msgstr ""
+"サブネットや Fixed IP アドレスを指定する場合は、対応するオプションを選択して"
+"ください。"
+
+msgid ""
+"To specify an allowed IP range, select &quot;CIDR&quot;. To allow access "
+"from all members of another security group select &quot;Security Group&quot;."
+msgstr ""
+"許可 IP 範囲を指定するには、 &quot;CIDR&quot; を選択してください。他のセキュ"
+"リティーグループのすべてのメンバーからアクセスを許可するには、&quot;セキュリ"
+"ティーグループ&quot; を選択してください。"
+
+msgid "Toggle Labels"
+msgstr "ラベル表示の切り替え"
+
+msgid "Toggle Network Collapse"
+msgstr "ネットワーク詳細表示の切り替え"
+
+msgid "Toggle navigation"
+msgstr "ナビゲーションの切り替え"
+
+msgid "Topic"
+msgstr "トピック"
+
+msgid "Topology"
+msgstr "トポロジー"
+
+msgid "Total Active RAM (MB):"
+msgstr "使用中の合計メモリー量 (GB):"
+
+msgid "Total Disk"
+msgstr "合計ディスク"
+
+msgid "Total Disk Size (GB):"
+msgstr "合計ディスクサイズ (GB):"
+
+msgid "Total Disk Usage (Hours):"
+msgstr "合計ディスク使用量 (時間):"
+
+msgid "Total Gibibytes"
+msgstr "合計ギビバイト"
+
+msgid "Total Memory Usage (Hours):"
+msgstr "合計メモリー使用量 (時間):"
+
+msgid "Total RAM"
+msgstr "合計メモリー"
+
+msgid "Total Size of Volumes and Snapshots (GB)"
+msgstr "ボリュームとスナップショットの合計サイズ (GB)"
+
+msgid "Total Size of Volumes and Snapshots (GiB)"
+msgstr "ボリュームとスナップショットの合計サイズ (GiB)"
+
+#, python-format
+msgid "Total Size of Volumes and Snapshots (GiB) of Type %(type)s"
+msgstr "%(type)s 種別のボリュームとスナップショットの合計サイズ (GiB)"
+
+msgid "Total VCPU Usage (Hours):"
+msgstr "合計仮想 CPU 使用量 (時間):"
+
+msgid ""
+"Total VCPU usage (Number of VCPU in instance * Hours Used) for the project"
+msgstr ""
+"このプロジェクトの全仮想 CPU 使用量 (インスタンス内の仮想 CPU 数 * 使用時間)"
+
+msgid "Total Volume Storage"
+msgstr "全ボリューム容量"
+
+msgid "Total disk usage (GB * Hours Used) for the project"
+msgstr "このプロジェクトの全ディスク使用量 (使用 GB 時間)"
+
+msgid "Total memory usage (MB * Hours Used) for the project"
+msgstr "このプロジェクトの全メモリー使用量 (MB * 使用時間)"
+
+#, python-format
+msgid "Traced with id %(id)s. Go to <a href=\"%(url)s\">page</a>"
+msgstr "ID %(id)s で追跡されます。<a href=\"%(url)s\">ページ</a>に移動"
+
+msgid "Transfer ID"
+msgstr "譲渡 ID"
+
+msgid "Transfer Name"
+msgstr "譲渡名"
+
+msgid "Transfer name"
+msgstr "譲渡名"
+
+msgid "Trunks"
+msgstr "トランク"
+
+msgid "Type"
+msgstr "種別"
+
+msgid "Type ="
+msgstr "種別 ="
+
+msgid "Type of backend device identifier provided"
+msgstr "指定するバックエンドデバイスの識別子の種別"
+
+msgctxt "Admin state of a Network"
+msgid "UP"
+msgstr "UP"
+
+msgctxt "Admin state of a Port"
+msgid "UP"
+msgstr "UP"
+
+msgctxt "Admin state of a Router"
+msgid "UP"
+msgstr "UP"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "UTC"
+msgstr "UTC"
+
+#, python-format
+msgid "UTC %(hour)s:%(min)s"
+msgstr "UTC %(hour)s:%(min)s"
+
+msgid "Unable to accept volume transfer."
+msgstr "ボリュームの譲渡を受理できません。"
+
+msgid "Unable to add rule to security group."
+msgstr "ルールをセキュリティーグループに追加できません。"
+
+msgid "Unable to add user to primary project."
+msgstr "ユーザーを主プロジェクトに追加できません。"
+
+msgid "Unable to allocate Floating IP."
+msgstr "Floating IP を確保できません。"
+
+msgid "Unable to allocate floating IP."
+msgstr "Floating IP を確保できません。"
+
+#, python-format
+msgid "Unable to associate IP address %s."
+msgstr "IP アドレス %s を割り当てられません。"
+
+msgid "Unable to attach interface."
+msgstr "インターフェースを接続できません。"
+
+msgid "Unable to attach volume."
+msgstr "ボリュームを接続できません。"
+
+msgid "Unable to change password."
+msgstr "パスワードを変更できません。"
+
+#, python-format
+msgid "Unable to change the volume type for volume: \"%s\""
+msgstr "ボリューム \"%s\" のボリューム種別を変更できません。"
+
+msgid "Unable to check if DHCP agent scheduler extension is supported"
+msgstr "DHCP エージェントスケジューラー拡張機能に対応しているか確認できません"
+
+#, python-format
+msgid "Unable to clear gateway for router \"%(name)s\": \"%(msg)s\""
+msgstr "ルーター \"%(name)s\" のゲートウェイを削除できません: \"%(msg)s\""
+
+msgid "Unable to clone consistency group."
+msgstr "整合性グループのクローンを作成できません。"
+
+msgid "Unable to clone empty consistency group."
+msgstr "空の整合性グループのクローンは作成できません。"
+
+msgid "Unable to connect to Neutron."
+msgstr "Neutron に接続できません。"
+
+msgid "Unable to create QoS Spec."
+msgstr "QoS スペックを作成できません。"
+
+#, python-format
+msgid "Unable to create consistency group \"%s\" from snapshot."
+msgstr "整合性グループ \"%s\" をスナップショットから作成できません"
+
+msgid "Unable to create consistency group due to exceeding volume quota limit."
+msgstr ""
+"ボリュームのクォータの上限を超えているため、整合性グループを作成できません。"
+
+msgid "Unable to create consistency group snapshot."
+msgstr "整合性グループのスナップショットを作成できません。"
+
+msgid "Unable to create consistency group."
+msgstr "整合性グループを作成できません。"
+
+#, python-format
+msgid "Unable to create domain \"%s\"."
+msgstr "ドメイン \"%s\" の作成に失敗しました。"
+
+msgid "Unable to create encrypted volume type."
+msgstr "ボリューム種別の暗号化設定を作成できません。"
+
+#, python-format
+msgid "Unable to create flavor \"%s\"."
+msgstr "フレーバー \"%s\" を作成できません。"
+
+msgid "Unable to create flavor."
+msgstr "フレーバーを作成できません。"
+
+msgid "Unable to create group."
+msgstr "グループを作成できません。"
+
+#, python-format
+msgid "Unable to create host aggregate \"%s\"."
+msgstr "ホストアグリゲート \"%s\" が作成できません。"
+
+msgid "Unable to create host aggregate."
+msgstr "ホストアグリゲートを作成することができません。"
+
+msgid "Unable to create identity provider protocol."
+msgstr "認証プロバイダーのプロトコルを作成できません。"
+
+msgid "Unable to create mapping."
+msgstr "マッピングを作成できません。"
+
+msgid "Unable to create mapping. Rules has malformed JSON data."
+msgstr ""
+"マッピングを作成できません。不正な形式の JSON データがルールに含まれていま"
+"す。"
+
+#, python-format
+msgid "Unable to create network \"%s\"."
+msgstr "ネットワーク \"%s\" の作成に失敗しました。"
+
+msgid "Unable to create new image"
+msgstr "新しいイメージを作成できません。"
+
+msgid "Unable to create new image: Image name too long."
+msgstr "新しいイメージを作成できません。イメージ名が長過ぎます。"
+
+#, python-format
+msgid "Unable to create new image: Invalid disk format %s for image."
+msgstr "新しいイメージを作成できません。無効なディスクフォーマット %s。"
+
+msgid "Unable to create new image: URL scheme not supported."
+msgstr ""
+"新しいイメージを作成できません。サポートされていない URL スキーマです。"
+
+#, python-format
+msgid "Unable to create new namespace. %s"
+msgstr "新しい名前空間を作成できません。 %s"
+
+#, python-format
+msgid "Unable to create project \"%s\"."
+msgstr "プロジェクト \"%s\" を作成できません。"
+
+msgid "Unable to create role."
+msgstr "ロールを作成できません。"
+
+#, python-format
+msgid "Unable to create security group: %s"
+msgstr "セキュリティーグループを作成できません: %s"
+
+msgid "Unable to create snapshot."
+msgstr "スナップショットを作成できません。"
+
+msgid "Unable to create snapshot. Consistency group must contain volumes."
+msgstr ""
+"スナップショットを作成できません。整合性グループにはボリュームが含まれる必要"
+"があります。"
+
+msgid "Unable to create snapshots due to exceeding snapshot quota limit."
+msgstr ""
+"スナップショットのクォータの上限を超えているため、スナップショットを作成でき"
+"ません。"
+
+msgid "Unable to create spec."
+msgstr "スペックを作成できません。"
+
+#, python-format
+msgid "Unable to create subnet \"%s\"."
+msgstr "サブネット \"%s\" の作成に失敗しました。"
+
+msgid "Unable to create user."
+msgstr "ユーザーを作成できません。"
+
+msgid "Unable to create volume backup."
+msgstr "ボリュームバックアップを作成できません。"
+
+msgid "Unable to create volume snapshot."
+msgstr "ボリュームスナップショットを作成できません。"
+
+msgid "Unable to create volume transfer."
+msgstr "ボリュームの譲渡を作成できません。"
+
+msgid "Unable to create volume type extra spec."
+msgstr "ボリューム種別の追加スペックを作成できません。"
+
+msgid "Unable to create volume type."
+msgstr "ボリューム種別を作成できません。"
+
+msgid "Unable to create volume."
+msgstr "ボリュームを作成できません。"
+
+#, python-format
+msgid "Unable to delete router \"%s\""
+msgstr "ルーター \"%s\" を更新できません。"
+
+msgid "Unable to delete volume transfer."
+msgstr "ボリュームの譲渡を削除できません。"
+
+msgid "Unable to detach interface."
+msgstr "インターフェースを切断できません。"
+
+msgid "Unable to detach volume."
+msgstr "ボリュームを切断できません。"
+
+msgid "Unable to determine if availability zones extension is supported."
+msgstr ""
+"アベイラビリティーゾーン API 拡張機能をサポートしているか判定できません。"
+
+msgid "Unable to determine if volume type encryption is supported."
+msgstr "ボリューム種別の暗号化設定に対応しているか確認できません。"
+
+msgid "Unable to disassociate floating IP."
+msgstr "Floating IP の割り当てを解除できません。"
+
+msgid "Unable to display consistency group."
+msgstr "整合性グループを表示できません。"
+
+msgid "Unable to edit spec."
+msgstr "スペックを更新できません。"
+
+msgid "Unable to edit volume type extra spec."
+msgstr "ボリューム種別の追加スペックを更新できません。"
+
+msgid "Unable to extend volume."
+msgstr "ボリュームを拡張できません。"
+
+msgid "Unable to fetch EC2 credentials."
+msgstr "EC2 認証情報を取得できません"
+
+msgid "Unable to find default role."
+msgstr "デフォルトのロールが見つかりません。"
+
+msgid "Unable to get EC2 credentials"
+msgstr "EC2 認証情報を取得できません"
+
+msgid "Unable to get Orchestration service list."
+msgstr "オーケストレーションサービスの一覧を取得できません。"
+
+#, python-format
+msgid "Unable to get RDP console for instance \"%s\"."
+msgstr "インスタンス \"%s\" の RDP コンソールを取得できません。"
+
+#, python-format
+msgid "Unable to get SPICE console for instance \"%s\"."
+msgstr "インスタンス \"%s\" の SPICE コンソールを取得できません。"
+
+#, python-format
+msgid "Unable to get VNC console for instance \"%s\"."
+msgstr "インスタンス \"%s\" の VNC コンソールを取得できません。"
+
+msgid "Unable to get cinder services list."
+msgstr "Cinder のサービス一覧を取得できません。"
+
+msgid "Unable to get consistency group list"
+msgstr "整合性グループの一覧を取得できません"
+
+#, python-format
+msgid "Unable to get console for instance \"%s\"."
+msgstr "インスタンス \"%s\" のコンソールを取得できません。"
+
+#, python-format
+msgid "Unable to get events for stack \"%s\"."
+msgstr "スタック \"%s\" のイベントを取得できません。"
+
+msgid "Unable to get flavor list"
+msgstr "フレーバーの一覧を取得できません"
+
+#, python-format
+msgid "Unable to get functions for template version \"%s\"."
+msgstr "テンプレートバージョン「%s」の関数を取得できません。"
+
+msgid "Unable to get host aggregate list"
+msgstr "ホストアグリゲート一覧を取得できません。"
+
+#, python-format
+msgid "Unable to get log for instance \"%s\"."
+msgstr "インスタンス \"%s\" のログを取得できません。"
+
+msgid "Unable to get network agents info."
+msgstr "ネットワークエージェント情報を取得できません。"
+
+msgid "Unable to get network agents list."
+msgstr "ネットワークエージェントの一覧を取得できません。"
+
+msgid "Unable to get nova services list."
+msgstr "nova のサービス一覧を取得できません。"
+
+msgid "Unable to get openrc credentials"
+msgstr "openrc 認証情報を取得できません"
+
+msgid "Unable to get quota info."
+msgstr "クォータ情報を取得できません。"
+
+#, python-format
+msgid "Unable to get resources for stack \"%s\"."
+msgstr "スタック \"%s\" のリソースを取得できません。"
+
+#, python-format
+msgid "Unable to get subnet \"%s\""
+msgstr "サブネット \"%s\" を取得できません。"
+
+msgid "Unable to get the available hosts"
+msgstr "使用可能なホストを取得できません"
+
+msgid "Unable to get the available volume types"
+msgstr "利用可能なボリューム種別を取得できません"
+
+msgid "Unable to get the available volumes"
+msgstr "利用可能なボリュームを取得できません"
+
+msgid "Unable to get volume type list"
+msgstr "ボリューム種別の一覧を取得できません"
+
+msgid "Unable to import key pair."
+msgstr "キーペアをインポートできません。"
+
+msgid "Unable to initialize subnetpools"
+msgstr "サブネットプールを初期化できません。"
+
+#, python-format
+msgid "Unable to launch %(count)s named \"%(name)s\"."
+msgstr "名前が \"%(name)s\" の %(count)s が起動できません。"
+
+msgid "Unable to list dhcp agents hosting network."
+msgstr ""
+"ネットワークを担当している DHCP エージェントの一覧を取得できませんでした。"
+
+msgid "Unable to load console. Please reload page to try again."
+msgstr ""
+"コンソールをロードできません。もう一度試すには、ページを再読み込みしてくださ"
+"い。"
+
+msgid "Unable to load the specified consistency group."
+msgstr "指定した整合性グループをロードできません。"
+
+#, python-format
+msgid "Unable to load the specified image. %s"
+msgstr "指定されたイメージ %s をロードできません"
+
+msgid "Unable to load the specified snapshot."
+msgstr "指定されたスナップショットをロードできません。"
+
+#, python-format
+msgid "Unable to load the specified volume. %s"
+msgstr "指定されたボリューム %s をロードできません"
+
+msgid "Unable to lookup volume or backup information."
+msgstr "ボリュームまたはバックアップの情報を参照できません。"
+
+msgid "Unable to manage volume."
+msgstr "ボリュームを管理できません。"
+
+#, python-format
+msgid "Unable to modify domain \"%s\"."
+msgstr "ドメイン \"%s\" を変更できません。"
+
+#, python-format
+msgid "Unable to modify flavor \"%s\"."
+msgstr "フレーバー \"%s\" を更新できません。"
+
+msgid "Unable to modify flavor access."
+msgstr "フレーバーアクセス権を更新できませんでした。"
+
+#, python-format
+msgid "Unable to modify instance \"%s\"."
+msgstr "インスタンス \"%s\" のログを取得できません。"
+
+#, python-format
+msgid "Unable to modify project \"%s\"."
+msgstr "プロジェクト \"%s\" を変更できません。"
+
+#, python-format
+msgid "Unable to parse IP address %s."
+msgstr "IPアドレス %s の解析に失敗しました。"
+
+msgid "Unable to rebuild instance."
+msgstr "インスタンスを再作成できません。"
+
+msgid "Unable to recreate ec2 credentials. Failed to create ec2 credentials."
+msgstr "EC2 認証情報を再作成できません。EC2 認証情報の作成に失敗しました。"
+
+msgid "Unable to recreate ec2 credentials. Failed to delete ec2 credentials."
+msgstr "EC2 認証情報を再作成できません。EC2 認証情報の削除に失敗しました。"
+
+msgid "Unable to register identity provider."
+msgstr "認証プロバイダーを登録できません。"
+
+msgid ""
+"Unable to register identity provider. Please check that the Identity "
+"Provider ID and Remote IDs provided are not already in use."
+msgstr ""
+"認証プロバイダーを登録できません。指定した認証プロバイダーの ID と接続相手の "
+"ID がすでに使用されていないかどうかを確認してください。"
+
+#, python-format
+msgid "Unable to resize instance \"%s\"."
+msgstr "インスタンス \"%s\" をリサイズできません。"
+
+msgid "Unable to restore backup."
+msgstr "バックアップをリストアできません。"
+
+#, python-format
+msgid ""
+"Unable to retrieve IP addresses from Neutron for instance \"%(name)s"
+"\" (%(id)s)."
+msgstr ""
+"インスタンス \"%(name)s\" (%(id)s) の IP アドレスを Neutron から取得できませ"
+"ん。"
+
+msgid "Unable to retrieve IP addresses from Neutron."
+msgstr "Neutron から IP アドレスを取得できません。"
+
+msgid "Unable to retrieve IP availability."
+msgstr "IP 使用状況を取得できません"
+
+msgid "Unable to retrieve MAC learning state"
+msgstr "MAC 学習状態を取得できません"
+
+#, python-format
+msgid "Unable to retrieve Network information for instance \"%s\"."
+msgstr "インスタンス \"%s\" のネットワーク情報を取得できません。"
+
+msgid "Unable to retrieve Nova availability zones."
+msgstr "Nova のアベイラビリティーゾーンを取得できません。"
+
+msgid "Unable to retrieve Nova server groups."
+msgstr "Nova のサーバーグループを取得できません。"
+
+msgid "Unable to retrieve QoS Spec association."
+msgstr "QoS スペックの関連付けを取得できません。"
+
+msgid "Unable to retrieve QoS Spec details."
+msgstr "QoS スペックの詳細を取得できません。"
+
+msgid "Unable to retrieve QoS Specs."
+msgstr "QoS スペック一覧を取得できません。"
+
+msgid "Unable to retrieve QoS spec details."
+msgstr "QoS スペックの詳細を取得できません。"
+
+msgid "Unable to retrieve QoS spec list."
+msgstr "QoS スペック一覧を取得できません。"
+
+msgid "Unable to retrieve QoS specs"
+msgstr "QoS スペックを取得できません"
+
+#, python-format
+msgid "Unable to retrieve a list of external networks \"%s\"."
+msgstr "外部ネットワーク一覧を取得できません: \"%s\""
+
+msgid "Unable to retrieve agent list."
+msgstr "エージェントの一覧を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve an external network \"%s\"."
+msgstr "外部ネットワーク \"%s\" の情報を取得できません。"
+
+msgid "Unable to retrieve attachment information."
+msgstr "接続情報を取得できません。"
+
+msgid "Unable to retrieve availability zone list."
+msgstr "アベイラビリティーゾーン一覧を取得できません。"
+
+msgid "Unable to retrieve availability zones."
+msgstr "アベイラビリティーゾーンを取得できません。"
+
+msgid "Unable to retrieve backup details."
+msgstr "バックアップの詳細を取得できません。"
+
+msgid "Unable to retrieve compute host information."
+msgstr "コンピュートホストの情報を取得できません。"
+
+msgid "Unable to retrieve compute limit information."
+msgstr "コンピュートのリソース上限情報を取得できません。"
+
+msgid "Unable to retrieve consistency group details."
+msgstr "整合性グループの詳細を取得できません。"
+
+msgid "Unable to retrieve consistency group information."
+msgstr "整合性グループの情報を取得できません。"
+
+msgid "Unable to retrieve consistency group snapshot details."
+msgstr "整合性グループのスナップショットの詳細を取得できません。"
+
+msgid "Unable to retrieve default Neutron quota values."
+msgstr "Neutron のデフォルトクォータ値を取得できません。"
+
+msgid "Unable to retrieve default quota values."
+msgstr "クォータのデフォルト値を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve details for %(resource)s \"%(resource_id)s\"."
+msgstr "%(resource)s \"%(resource_id)s\" の詳細を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve details for instance \"%s\"."
+msgstr "インスタンス \"%s\" の詳細を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve details for keypair \"%s\"."
+msgstr "キーペア \"%s\" の詳細を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve details for network \"%s\"."
+msgstr "ネットワーク \"%s\" の詳細を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve details for router \"%s\"."
+msgstr "ルーター \"%s\" の詳細を取得できません。"
+
+msgid "Unable to retrieve domain details."
+msgstr "ドメインの詳細を取得できません。"
+
+msgid "Unable to retrieve domain information."
+msgstr "ドメイン情報を取得できません。"
+
+msgid "Unable to retrieve domain list."
+msgstr "ドメインの一覧を取得できません。"
+
+msgid "Unable to retrieve encryption type."
+msgstr "  ボリューム種別の暗号化設定を取得できません。"
+
+msgid "Unable to retrieve extensions information"
+msgstr "拡張機能の情報を取得できません。"
+
+msgid "Unable to retrieve extensions information."
+msgstr "API 拡張機能の情報を取得できません。"
+
+msgid "Unable to retrieve extra spec list."
+msgstr "追加スペックの一覧を取得できません。"
+
+msgid "Unable to retrieve flavor access list. Please try again later."
+msgstr ""
+"フレーバーアクセス権の一覧を取得できません。後からもう一度お試しください。"
+
+msgid "Unable to retrieve flavor details."
+msgstr "フレーバーの詳細を取得できません。"
+
+#, python-format
+msgid ""
+"Unable to retrieve flavor information for instance \"%(name)s\" (%(id)s)."
+msgstr "インスタンス \"%(name)s\" (%(id)s) のフレーバー情報を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve flavor information for instance \"%s\"."
+msgstr "インスタンス \"%s\" のフレーバー情報を取得できません。"
+
+msgid "Unable to retrieve flavor list."
+msgstr "フレーバーの一覧を取得できません。"
+
+msgid "Unable to retrieve flavors."
+msgstr "フレーバーの一覧を取得できません。"
+
+msgid "Unable to retrieve floating IP addresses."
+msgstr "Floating IP アドレスを取得できません。"
+
+msgid "Unable to retrieve floating IP list."
+msgstr "Floating IP の一覧を取得できません。"
+
+msgid "Unable to retrieve floating IP pools."
+msgstr "Floating IP プールを取得できません。"
+
+msgid "Unable to retrieve group list."
+msgstr "グループの一覧を取得できません。"
+
+msgid "Unable to retrieve group list. Please try again later."
+msgstr "グループ一覧を取得できません。後からもう一度お試しください。"
+
+msgid "Unable to retrieve group users."
+msgstr "グループのユーザーを取得できません。"
+
+msgid "Unable to retrieve host aggregates list."
+msgstr "ホストアグリゲート一覧を取得できません。"
+
+msgid "Unable to retrieve host information."
+msgstr "ホスト情報を取得できません。"
+
+msgid "Unable to retrieve hypervisor information."
+msgstr "ハイパーバイザーの情報を取得できません。"
+
+msgid "Unable to retrieve hypervisor instances list."
+msgstr "ハイパーバイザーのインスタンス一覧を取得できません。"
+
+msgid "Unable to retrieve hypervisor statistics."
+msgstr "ハイパーバイザーの統計を取得できません。"
+
+msgid "Unable to retrieve identity provider information."
+msgstr "認証プロバイダーの情報を取得できません。"
+
+msgid "Unable to retrieve identity provider list."
+msgstr "認証プロバイダー一覧を取得できません。"
+
+msgid "Unable to retrieve image details."
+msgstr "イメージの詳細を取得できません。"
+
+msgid "Unable to retrieve image list."
+msgstr "イメージの一覧を取得できません。"
+
+msgid "Unable to retrieve image."
+msgstr "イメージ情報を取得できません。"
+
+msgid "Unable to retrieve images"
+msgstr "イメージ一覧を取得できません"
+
+msgid "Unable to retrieve images for the current project."
+msgstr "このプロジェクトのイメージ一覧を取得できません。"
+
+msgid "Unable to retrieve images."
+msgstr "イメージ一覧を取得できません。"
+
+msgid "Unable to retrieve information about the networks' projects."
+msgstr "ネットワークのプロジェクトに関する情報を取得できません。"
+
+msgid "Unable to retrieve instance action list."
+msgstr "インスタンスのアクション一覧を取得できません。"
+
+msgid "Unable to retrieve instance details."
+msgstr "インスタンスの詳細を取得できません。"
+
+msgid "Unable to retrieve instance flavors."
+msgstr "フレーバーの一覧を取得できません。"
+
+msgid "Unable to retrieve instance list."
+msgstr "インスタンスの一覧を取得できません。"
+
+msgid "Unable to retrieve instance password."
+msgstr "インスタンスのパスワードを取得できません。"
+
+msgid "Unable to retrieve instance project information."
+msgstr "インスタンスのプロジェクト情報を取得できません。"
+
+msgid "Unable to retrieve instance size information."
+msgstr "インスタンスのサイズ情報を取得できません。"
+
+msgid "Unable to retrieve instance."
+msgstr "インスタンス情報を取得できません。"
+
+msgid "Unable to retrieve instances."
+msgstr "インスタンス一覧を取得できません。"
+
+msgid "Unable to retrieve key pair list."
+msgstr "キーペアの一覧を取得できません。"
+
+msgid "Unable to retrieve key pairs."
+msgstr "キーペアの一覧を取得できません。"
+
+msgid "Unable to retrieve limit information."
+msgstr "リソース上限情報を取得できません。"
+
+msgid "Unable to retrieve list of security groups"
+msgstr "セキュリティーグループの一覧を取得できません"
+
+msgid "Unable to retrieve list of volume snapshots."
+msgstr "ボリュームスナップショットの一覧を取得できません。"
+
+msgid "Unable to retrieve list of volumes."
+msgstr "ボリュームの一覧を取得できません。"
+
+msgid "Unable to retrieve mapping list."
+msgstr "マッピング一覧を取得できません。"
+
+msgid "Unable to retrieve metadata."
+msgstr "メタデータを取得できません。"
+
+msgid "Unable to retrieve namespace contents."
+msgstr "名前空間の内容を取得できません。"
+
+msgid "Unable to retrieve namespace details."
+msgstr "名前空間の詳細を取得できません。"
+
+msgid "Unable to retrieve network details."
+msgstr "ネットワークの詳細を取得できません。"
+
+msgid "Unable to retrieve network quota information."
+msgstr "ネットワークのクォータ情報を取得できません。"
+
+msgid "Unable to retrieve network."
+msgstr "ネットワークを取得できません。"
+
+msgid "Unable to retrieve pools information."
+msgstr "プール情報を取得できません。"
+
+msgid "Unable to retrieve port details"
+msgstr "ポートの詳細を取得できません"
+
+msgid "Unable to retrieve port details."
+msgstr "ポートの詳細を取得できません。"
+
+msgid "Unable to retrieve port security state"
+msgstr "ポートセキュリティーの状態を取得できません"
+
+msgid "Unable to retrieve ports information."
+msgstr "ポート情報を取得できません。"
+
+msgid "Unable to retrieve project details."
+msgstr "プロジェクトの詳細を取得できません。"
+
+msgid "Unable to retrieve project domain."
+msgstr "プロジェクトドメインを取得できません。"
+
+msgid "Unable to retrieve project information."
+msgstr "プロジェクト情報を取得できません。"
+
+msgid "Unable to retrieve project list."
+msgstr "プロジェクト一覧を取得できません。"
+
+msgid "Unable to retrieve protocol list."
+msgstr "プロトコル一覧を取得できません。"
+
+msgid "Unable to retrieve public images."
+msgstr "公開イメージの一覧を取得できません。"
+
+msgid "Unable to retrieve quota information."
+msgstr "クォータ情報を取得できません。"
+
+msgid "Unable to retrieve resource type details."
+msgstr "リソース種別の詳細を取得できません。"
+
+msgid "Unable to retrieve resource."
+msgstr "リソースを取得できません。"
+
+msgid "Unable to retrieve role list."
+msgstr "ロール一覧を取得できません。"
+
+msgid "Unable to retrieve roles list."
+msgstr "ロール一覧を取得できません。"
+
+msgid "Unable to retrieve router details."
+msgstr "ルーターの詳細を取得できません。"
+
+msgid "Unable to retrieve router list."
+msgstr "ルーターの一覧を取得できません。"
+
+msgid "Unable to retrieve router."
+msgstr "ルーター情報を取得できません。"
+
+msgid "Unable to retrieve security group list. Please try again later."
+msgstr ""
+"セキュリティーグループの一覧を取得できません。後からもう一度お試しください。"
+
+msgid "Unable to retrieve security group."
+msgstr "セキュリティーグループ情報を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve security groups for instance \"%(name)s\" (%(id)s)."
+msgstr ""
+"インスタンス \"%(name)s\" (%(id)s) のセキュリティーグループを取得できません。"
+
+msgid "Unable to retrieve security groups for the port."
+msgstr "このポートのセキュリティーグループの一覧を取得できません。"
+
+msgid "Unable to retrieve security groups."
+msgstr "セキュリティーグループの一覧を取得できません。"
+
+msgid "Unable to retrieve shared images."
+msgstr "共有イメージの一覧を取得できません。"
+
+msgid "Unable to retrieve snapshot data."
+msgstr "スナップショットのデータを取得できません。"
+
+msgid "Unable to retrieve snapshot details."
+msgstr "スナップショットの詳細を取得できません。"
+
+msgid "Unable to retrieve snapshot list."
+msgstr "スナップショット一覧を取得できません。"
+
+msgid "Unable to retrieve stack list."
+msgstr "スタック一覧を取得できません。"
+
+msgid "Unable to retrieve stack resource types."
+msgstr "スタックのリソース種別の一覧を取得できません。"
+
+msgid "Unable to retrieve stack template."
+msgstr "スタックテンプレートを取得できません"
+
+msgid "Unable to retrieve stack."
+msgstr "スタックを取得できません。"
+
+msgid "Unable to retrieve subnet details"
+msgstr "サブネットの詳細を取得できません。"
+
+msgid "Unable to retrieve subnet details."
+msgstr "サブネットの詳細を取得できません。"
+
+msgid "Unable to retrieve template functions."
+msgstr "テンプレートの関数一覧を取得できません。"
+
+msgid "Unable to retrieve template versions."
+msgstr "テンプレートのバージョン一覧を取得できません。"
+
+msgid "Unable to retrieve tenant limits."
+msgstr "プロジェクトのリソース上限を取得できません。"
+
+msgid "Unable to retrieve the aggregate to be updated"
+msgstr "更新対象のアグリゲートを取得できません。"
+
+msgid "Unable to retrieve the instance."
+msgstr "インスタンス情報を取得できません。"
+
+msgid "Unable to retrieve the project information of the image."
+msgstr "イメージのプロジェクト情報を取得できません。"
+
+msgid "Unable to retrieve the volume type list."
+msgstr "ボリューム種別の一覧を取得できません。"
+
+msgid "Unable to retrieve usage information."
+msgstr "使用状況を取得できません。"
+
+msgid "Unable to retrieve user details."
+msgstr "ユーザーの詳細を取得できません。"
+
+msgid "Unable to retrieve user domain role assignments."
+msgstr "ドメインのユーザーのロール割り当てを取得できません。"
+
+msgid "Unable to retrieve user information."
+msgstr "ユーザー情報を取得できません。"
+
+msgid "Unable to retrieve user list."
+msgstr "ユーザーの一覧を取得できません。"
+
+msgid "Unable to retrieve user list. Please try again later."
+msgstr "ユーザー一覧を取得できません。後からもう一度お試しください。"
+
+msgid "Unable to retrieve user roles."
+msgstr "ユーザーのロールを取得できません。"
+
+msgid "Unable to retrieve users."
+msgstr "ユーザー一覧を取得できません。"
+
+msgid "Unable to retrieve version information."
+msgstr "バージョン情報を取得できません。"
+
+msgid "Unable to retrieve volume backups."
+msgstr "ボリュームバックアップ一覧を取得できません。"
+
+msgid "Unable to retrieve volume consistency group snapshots."
+msgstr "整合性グループのスナップショットの一覧を取得できません。"
+
+msgid "Unable to retrieve volume consistency groups."
+msgstr "ボリュームの整合性グループを取得できません。"
+
+#, python-format
+msgid "Unable to retrieve volume details for volume %s."
+msgstr "ボリューム %s のボリューム詳細を取得できません。"
+
+msgid "Unable to retrieve volume details."
+msgstr "ボリュームの詳細を取得できません。"
+
+msgid "Unable to retrieve volume encryption details."
+msgstr "ボリュームの暗号化の詳細を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve volume information for volume: \"%s\""
+msgstr "ボリューム \"%s\" のボリューム情報を取得できません。"
+
+msgid "Unable to retrieve volume information."
+msgstr "ボリューム情報を取得できません。"
+
+msgid "Unable to retrieve volume limit information."
+msgstr "ボリュームのリソース上限情報を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve volume list for instance \"%(name)s\" (%(id)s)."
+msgstr ""
+"インスタンス \"%(name)s\" (%(id)s) のボリュームの一覧を取得できません。"
+
+msgid "Unable to retrieve volume list."
+msgstr "ボリューム一覧を取得できません。"
+
+msgid "Unable to retrieve volume messages."
+msgstr "ボリュームのメッセージを取得できません。"
+
+msgid "Unable to retrieve volume project information."
+msgstr "ボリュームのプロジェクト情報を取得できません。"
+
+msgid "Unable to retrieve volume snapshot."
+msgstr "ボリュームスナップショットの詳細を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve volume snapshots for volume %s."
+msgstr "ボリューム %s のボリュームスナップショット一覧を取得できません。"
+
+msgid "Unable to retrieve volume snapshots."
+msgstr "ボリュームスナップショットの一覧を取得できません。"
+
+msgid "Unable to retrieve volume transfer."
+msgstr "ボリュームの譲渡を取得できません。"
+
+msgid "Unable to retrieve volume type access list."
+msgstr "ボリューム種別のアクセスの一覧を取得できません。"
+
+msgid "Unable to retrieve volume type details."
+msgstr "ボリューム種別の詳細を取得できません。"
+
+msgid "Unable to retrieve volume type encryption details."
+msgstr "ボリューム種別の暗号化設定の詳細を取得できません。"
+
+msgid "Unable to retrieve volume type encryption information."
+msgstr "ボリューム種別の暗号化設定の情報を取得できません。"
+
+msgid "Unable to retrieve volume type extra spec details."
+msgstr "ボリューム種別の追加スペックの詳細を取得できません。"
+
+#, python-format
+msgid "Unable to retrieve volume type for: \"%s\""
+msgstr "ボリューム種別 \"%s\" を取得できません。"
+
+msgid "Unable to retrieve volume type list."
+msgstr "ボリューム種別の一覧を取得できません。"
+
+msgid "Unable to retrieve volume type name."
+msgstr "ボリューム種別名を取得できません。"
+
+msgid "Unable to retrieve volume type qos."
+msgstr "ボリューム種別の QoS 情報を取得できません。"
+
+msgid "Unable to retrieve volume types"
+msgstr "ボリューム種別を取得できません。"
+
+msgid "Unable to retrieve volume."
+msgstr "ボリューム情報を取得できません。"
+
+msgid "Unable to retrieve volume/instance attachment information"
+msgstr "ボリューム / インスタンスの接続情報を取得できません。"
+
+msgid "Unable to retrieve volumes availability zones."
+msgstr "ボリュームアベイラビリティーゾーンを取得できません。"
+
+msgid "Unable to set Domain Context."
+msgstr "ドメインコンテキストを設定できません。"
+
+msgid "Unable to set bootable flag on volume."
+msgstr "ボリュームに起動可能フラグをセットできません。"
+
+#, python-format
+msgid "Unable to set flavor access for project %s."
+msgstr "プロジェクト \"%s\" へのフレーバーアクセス権を設定できません。"
+
+msgid "Unable to set gateway."
+msgstr "ゲートウェイを設定できません。"
+
+msgid "Unable to set project quotas."
+msgstr "プロジェクトのクォータを設定できません。"
+
+msgid "Unable to sort instance flavors."
+msgstr "インスタンスのフレーバーの並び替えができません。"
+
+msgid "Unable to unmanage volume."
+msgstr "ボリュームの管理を解除できません。"
+
+msgid "Unable to update default quotas for Cinder."
+msgstr "Cinder の標準のクォータを更新できません。"
+
+msgid "Unable to update default quotas for Nova."
+msgstr "Nova の標準のクォータを更新できません。"
+
+msgid "Unable to update default quotas."
+msgstr "標準のクォータを更新できません。"
+
+msgid "Unable to update encrypted volume type."
+msgstr "ボリューム種別の暗号化設定を更新できません。"
+
+msgid "Unable to update group."
+msgstr "グループを更新できません。"
+
+msgid "Unable to update identity provider."
+msgstr "認証プロバイダーを更新できません。"
+
+msgid ""
+"Unable to update identity provider. Please check that the Remote IDs "
+"provided are not already in use."
+msgstr ""
+"認証プロバイダーを更新できません。指定した接続相手の ID がすでに使用されてい"
+"ないかどうかを確認してください。"
+
+#, python-format
+msgid "Unable to update image \"%s\"."
+msgstr "イメージ \"%s\" を更新できません。"
+
+msgid "Unable to update mapping."
+msgstr "マッピングを更新できません。"
+
+msgid "Unable to update mapping. Rules has malformed JSON data."
+msgstr ""
+"マッピングを更新できません。不正な形式の JSON データがルールに含まれていま"
+"す。"
+
+msgid "Unable to update role."
+msgstr "ロールを更新できません。"
+
+#, python-format
+msgid "Unable to update security group: %s"
+msgstr "セキュリティーグループを更新できません: %s"
+
+#, python-format
+msgid "Unable to update subnet \"%s\"."
+msgstr "サブネット \"%s\" を更新できません。"
+
+msgid "Unable to update subnets with availability."
+msgstr "サブネットへ使用状況を追加できませんでした。"
+
+msgid "Unable to update the aggregate."
+msgstr "アグリゲートの更新に失敗しました。"
+
+msgid "Unable to update the group."
+msgstr "グループを更新できません。"
+
+msgid "Unable to update the user password."
+msgstr "ユーザーのパスワードを更新できません。"
+
+msgid "Unable to update the user."
+msgstr "ユーザーを更新できません。"
+
+msgid "Unable to update volume consistency group."
+msgstr "ボリュームの整合性グループを更新できません。"
+
+msgid "Unable to update volume snapshot status."
+msgstr "ボリュームスナップショットのステータスを変更できません。"
+
+msgid "Unable to update volume snapshot."
+msgstr "ボリュームスナップショットの詳細を取得できません。"
+
+#, python-format
+msgid "Unable to update volume status to \"%s\"."
+msgstr "ボリュームのステータスを %s に変更できません。"
+
+msgid "Unable to update volume type."
+msgstr "ボリューム種別を更新できません。"
+
+msgid "Unable to update volume."
+msgstr "ボリュームを更新できません。"
+
+msgid "Unable to update volumes for consistency group"
+msgstr "整合性グループのボリュームを更新できません。"
+
+#, python-format
+msgid "Unable to upload volume to image for volume: \"%s\""
+msgstr "ボリューム %s をイメージにアップロードできません。"
+
+msgid "Unable to verify Neutron service providers"
+msgstr "Neutron のサービスプロバイダーを検証できません"
+
+msgid "Unable to verify the VNIC types extension in Neutron"
+msgstr "Neutron が仮想 NIC の種別の拡張機能に対応しているか検証できません"
+
+msgid "Unknown"
+msgstr "不明"
+
+msgid "Unknown instance"
+msgstr "不明なインスタンス"
+
+msgid "Unknown instance (None)"
+msgstr "不明なインスタンス"
+
+msgid "Unknown resource type for detail API."
+msgstr "詳細 API で不明なリソース種別が指定されました。"
+
+msgid "Unknown volume (None)"
+msgstr "不明なボリューム"
+
+msgid "Unlock Instance"
+msgid_plural "Unlock Instances"
+msgstr[0] "インスタンスのロック解除"
+
+msgid "Unlocked Instance"
+msgid_plural "Unlocked Instances"
+msgstr[0] "インスタンスのロックを解除しました"
+
+msgid "Unmanage"
+msgstr "管理解除"
+
+msgid "Unmanage Volume"
+msgstr "ボリュームの管理解除"
+
+msgctxt "Action log of an instance"
+msgid "Unpause"
+msgstr "一時停止解除"
+
+msgid "Unregister Identity Provider"
+msgid_plural "Unregister Identity Providers"
+msgstr[0] "認証プロバイダーの登録解除"
+
+msgid "Unregistered Identity Provider"
+msgid_plural "Unregistered Identity Providers"
+msgstr[0] "認証プロバイダーが登録解除されました"
+
+msgctxt "Task status of an Instance"
+msgid "Unrescuing"
+msgstr "アンレスキュー中"
+
+msgid "Unshelve Instance"
+msgid_plural "Unshelve Instances"
+msgstr[0] "インスタンスの復元"
+
+msgid "Unshelved Instance"
+msgid_plural "Unshelved Instances"
+msgstr[0] "インスタンスを復元しました"
+
+msgctxt "Task status of an Instance"
+msgid "Unshelving"
+msgstr "インスタンスの復元中"
+
+msgid "Unspecified"
+msgstr "指定なし"
+
+msgid "Up"
+msgstr "動作中"
+
+msgctxt "Current state of a Hypervisor"
+msgid "Up"
+msgstr "動作中"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Update Associations"
+msgstr "関連付けの更新"
+
+msgctxt "current status of stack"
+msgid "Update Complete"
+msgstr "更新完了"
+
+msgid "Update Default Quotas"
+msgstr "標準のクォータの更新"
+
+msgid "Update Defaults"
+msgstr "デフォルト値の変更"
+
+msgid "Update Encrypted Volume Type"
+msgstr "ボリューム種別の暗号化設定の更新"
+
+msgid "Update Encryption"
+msgstr "暗号化設定の更新"
+
+msgctxt "current status of stack"
+msgid "Update Failed"
+msgstr "更新に失敗"
+
+msgid "Update Group"
+msgstr "グループの更新"
+
+msgid "Update Identity Provider"
+msgstr "認証プロバイダーの更新"
+
+msgctxt "current status of stack"
+msgid "Update In Progress"
+msgstr "更新中"
+
+msgid "Update Mapping"
+msgstr "マッピングの更新"
+
+msgid "Update Metadata"
+msgstr "メタデータの更新"
+
+msgid "Update Network"
+msgstr "ネットワークの更新"
+
+msgid "Update Port"
+msgstr "ポートの更新"
+
+msgid "Update Role"
+msgstr "ロールの更新"
+
+msgid "Update Router"
+msgstr "ルーターの編集"
+
+msgid "Update Stack"
+msgstr "スタックの更新"
+
+msgid "Update Stack Parameters"
+msgstr "スタックのパラメーターの更新"
+
+msgid "Update Status"
+msgstr "ステータスの変更"
+
+msgid "Update User"
+msgstr "ユーザーの更新"
+
+msgid "Update Volume Snapshot Status"
+msgstr "ボリュームスナップショットのステータスの変更"
+
+msgid "Update Volume Status"
+msgstr "ボリュームのステータスの変更"
+
+msgid "Update Volume Type Encryption"
+msgstr "ボリューム種別の暗号化設定の更新"
+
+msgid "Update a Metadata Namespace"
+msgstr "メタデータ名前空間の更新"
+
+msgid ""
+"Update a stack with the provided values. Please note that any encrypted "
+"parameters, such as passwords, will be reset to default if you do not change "
+"them here."
+msgstr ""
+"スタックを指定した値で更新します。パスワードなどの、暗号化されるパラメーター"
+"は、ここで指定しなかった場合、デフォルト値にリセットされる点には注意してくだ"
+"さい。"
+
+msgid ""
+"Update a subnet associated with the network. Advanced configuration are "
+"available at \"Subnet Details\" tab."
+msgstr ""
+"ネットワークに割り当てられたサブネットを更新します。高度な設定は「サブネット"
+"の詳細」タブにあります。"
+
+msgid "Update an Encrypted Volume Type"
+msgstr "ボリューム種別の暗号化設定の更新"
+
+#, python-format
+msgid "Update the \"extra spec\" value for \"%(key)s\""
+msgstr "「追加スペック」の \"%(key)s\" の値を更新します。"
+
+#, python-format
+msgid "Update the spec value for \"%(key)s\""
+msgstr "スペック \"%(key)s\" の値を更新します。"
+
+msgid "Updated"
+msgstr "更新日時"
+
+msgid "Updated At"
+msgstr "最終更新"
+
+#, python-format
+msgid "Updated subnet \"%s\"."
+msgstr "サブネット \"%s\" を更新しました。"
+
+#, python-format
+msgid "Updated volumes for consistency group \"%s\"."
+msgstr "整合性グループ \"%s\" のボリュームを更新しました。"
+
+msgctxt "Task status of an Instance"
+msgid "Updating Password"
+msgstr "パスワード更新中"
+
+msgid ""
+"Updating encryption is not implemented.  Unable to update  encrypted volume "
+"type."
+msgstr ""
+"暗号化設定の更新は実装されていません。ボリューム種別の暗号化設定を更新できま"
+"せん。"
+
+#, python-format
+msgid "Updating volume \"%s\""
+msgstr "ボリューム \"%s\" を更新中"
+
+#, python-format
+msgid "Updating volume consistency group \"%s\""
+msgstr "ボリュームの整合性グループ \"%s\" を更新中"
+
+#, python-format
+msgid "Updating volume snapshot \"%s\""
+msgstr "ボリュームスナップショット \"%s\" を更新中"
+
+msgid "Upload"
+msgstr "アップロード"
+
+msgid "Upload Volume to Image"
+msgstr "ボリュームをイメージにアップロード"
+
+msgid ""
+"Upload the volume to the Image Service as an image. This is equivalent to "
+"the <tt>cinder upload-to-image</tt> command."
+msgstr ""
+"このボリュームをイメージサービスにイメージとしてアップロードします。これは、"
+"<tt>cinder upload-to-image</tt> コマンドに相当します。"
+
+msgid "Upload to Image"
+msgstr "イメージにアップロード"
+
+msgid "Usage"
+msgstr "使用状況"
+
+msgid "Usage (Hours)"
+msgstr "使用状況 (時間)"
+
+msgid "Usage Overview"
+msgstr "使用状況"
+
+msgid "Usage Report For Period:"
+msgstr "期間中の使用状況レポート:"
+
+msgid "Use Server Default"
+msgstr "デフォルト設定を使用"
+
+msgid "Use a consistency group as source"
+msgstr "整合性グループをソースとして使用する"
+
+msgid "Use a volume as source"
+msgstr "ボリュームをソースとして使用する"
+
+msgid "Use image as a source"
+msgstr "イメージをソースとして使用する"
+
+msgid ""
+"Use one of the available template source options to specify the template to "
+"be used in creating this stack."
+msgstr ""
+"利用可能なテンプレートの指定方法のオプションから、このスタックの作成に使用す"
+"るテンプレートの指定方法を選択してください。"
+
+msgid ""
+"Use one of the available template source options to specify the template to "
+"be used in previewing this stack."
+msgstr ""
+"利用可能なテンプレートの指定方法のオプションから、このスタックのプレビューに"
+"使用するテンプレートの指定方法を選択してください。"
+
+msgid "Use snapshot as a source"
+msgstr "スナップショットをソースとして使用する"
+
+#, python-format
+msgid "Used <span> %(used)s </span> of <span> %(available)s </span>"
+msgstr "<span>%(used)s</span> / <span>%(available)s</span> 使用中"
+
+msgid "Used IPs"
+msgstr "使用中 IP"
+
+msgid "User"
+msgstr "ユーザー"
+
+#, python-format
+msgid "User \"%s\" was successfully created."
+msgstr "ユーザー \"%s\" を作成しました。"
+
+#, python-format
+msgid "User %s has no role defined for that project."
+msgstr "ユーザー %s はこのプロジェクトではロールが定義されていません。"
+
+msgid "User Credentials Details"
+msgstr "ユーザー認証情報の詳細"
+
+msgid "User Details"
+msgstr "ユーザーの詳細"
+
+msgid "User ID"
+msgstr "ユーザー ID"
+
+msgid "User ID ="
+msgstr "ユーザー ID ="
+
+msgid "User Name"
+msgstr "ユーザー名"
+
+msgid "User Name ="
+msgstr "ユーザー名 ="
+
+msgid "User Settings"
+msgstr "ユーザー設定"
+
+msgid "User has been updated successfully."
+msgstr "ユーザーが正常に更新されました。"
+
+#, python-format
+msgid "User name \"%s\" is already used."
+msgstr "ユーザー名 \"%s\" はすでに使用されています。"
+
+msgid "User password has been updated successfully."
+msgstr "ユーザーのパスワードが正常に更新されました。"
+
+msgid "User-defined unique id to identify the identity provider."
+msgstr "認証プロバイダーを識別するためのユーザー定義の一意な ID"
+
+msgid "User-defined unique id to identify the mapping."
+msgstr "マッピングを識別するためのユーザー定義の一意な ID"
+
+msgid "Users"
+msgstr "ユーザー"
+
+msgid "VCPU"
+msgstr "仮想 CPU"
+
+msgid "VCPU Hours"
+msgstr "仮想 CPU 時間"
+
+msgid "VCPU Usage"
+msgstr "仮想 CPU 使用量"
+
+msgid "VCPUs"
+msgstr "仮想 CPU"
+
+msgid "VCPUs (total)"
+msgstr "仮想 CPU (総量)"
+
+msgid "VCPUs (used)"
+msgstr "仮想 CPU (使用中)"
+
+msgid "VDI - Virtual Disk Image"
+msgstr "VDI - 仮想ディスクイメージ"
+
+msgid "VHD - Virtual Hard Disk"
+msgstr "VHD - 仮想ハードディスク"
+
+msgid "VHDX - Large Virtual Hard Disk"
+msgstr "VHDX - 大きい仮想ハードディスク"
+
+msgid "VIF Details"
+msgstr "VIF の詳細"
+
+msgid "VIF Type"
+msgstr "VIF の種別"
+
+msgid "VLAN"
+msgstr "VLAN"
+
+msgid "VMDK - Virtual Machine Disk"
+msgstr "VMDK - 仮想マシンディスク"
+
+msgid "VNIC Type"
+msgstr "仮想 NIC の種別"
+
+msgid "VXLAN"
+msgstr "VXLAN"
+
+msgid "Value"
+msgstr "値"
+
+msgid "Version"
+msgstr "バージョン"
+
+#, python-format
+msgid "Version: %(version_info)s"
+msgstr "バージョン: %(version_info)s"
+
+msgid "View Credentials"
+msgstr "認証情報の表示"
+
+msgid "View Extra Specs"
+msgstr "追加スペックの表示"
+
+msgid "View Full Log"
+msgstr "すべてのログの表示"
+
+msgid "View Log"
+msgstr "ログの参照"
+
+msgid "View Routers"
+msgstr "ルーターの表示"
+
+msgid "View Usage"
+msgstr "使用状況の表示"
+
+msgid "Virtio Forwarder"
+msgstr "virtio forwarder"
+
+msgid "Virtual Size"
+msgstr "仮想サイズ"
+
+msgid "Volume"
+msgstr "ボリューム"
+
+#, python-format
+msgid "Volume %(volume_name)s on instance %(instance_name)s"
+msgstr "インスタンス %(instance_name)s のボリューム %(volume_name)s"
+
+msgid "Volume Backup:"
+msgstr "ボリュームバックアップ:"
+
+msgid "Volume Backups"
+msgstr "ボリュームバックアップ"
+
+msgid ""
+"Volume Backups are stored using the Object Storage service. You must have "
+"this service activated in order to create a backup."
+msgstr ""
+"ボリュームバックアップはオブジェクトストレージサービスを使って格納されます。"
+"バックアップを作成するには、オブジェクトストレージサービスを有効しなければい"
+"けません。"
+
+msgid "Volume Consistency Groups"
+msgstr "ボリュームの整合性グループ"
+
+msgid "Volume Encryption Details"
+msgstr "ボリュームの暗号化の詳細"
+
+#, python-format
+msgid "Volume Encryption Details: %(volume_name)s"
+msgstr "ボリュームの暗号化の詳細: %(volume_name)s"
+
+msgid "Volume Encryption Details: {{ volume.name }}"
+msgstr "ボリュームの暗号化の詳細: {{ volume.name }}"
+
+msgid "Volume Encryption Overview"
+msgstr "ボリュームの暗号化の概要"
+
+msgid "Volume Groups"
+msgstr "ボリュームグループ"
+
+msgid "Volume ID"
+msgstr "ボリューム ID"
+
+msgid "Volume Limits"
+msgstr "ボリュームの上限"
+
+msgid "Volume Name"
+msgstr "ボリューム名"
+
+msgid "Volume Name ="
+msgstr "ボリューム名 ="
+
+msgid "Volume Snapshot"
+msgstr "ボリュームスナップショット"
+
+msgid "Volume Snapshots"
+msgstr "ボリュームスナップショット"
+
+#, python-format
+msgid "Volume Snapshots of Type %(type)s"
+msgstr "%(type)s 種別のボリュームスナップショット"
+
+msgid "Volume Source"
+msgstr "ボリュームソース"
+
+msgid "Volume Storage"
+msgstr "ボリューム容量"
+
+msgid "Volume Transfer"
+msgstr "ボリュームの譲渡"
+
+msgid "Volume Transfer Details"
+msgstr "ボリュームの譲渡の詳細"
+
+msgid "Volume Type"
+msgstr "ボリューム種別"
+
+msgid "Volume Type Description:"
+msgstr "ボリューム種別の説明:"
+
+msgid "Volume Type Encryption Details"
+msgstr "ボリューム種別の暗号化設定の詳細"
+
+msgid "Volume Type Encryption Overview"
+msgstr "ボリューム種別の暗号化設定の概要"
+
+msgid "Volume Type Extra Specs"
+msgstr "ボリューム種別の追加スペック"
+
+msgid "Volume Type Name"
+msgstr "ボリューム種別名"
+
+msgid "Volume Type is Unencrypted."
+msgstr "このボリューム種別は暗号化されません。"
+
+msgid "Volume Type(s)"
+msgstr "ボリューム種別"
+
+#, python-format
+msgid "Volume Type: %(volume_type_name)s"
+msgstr "ボリューム種別: %(volume_type_name)s"
+
+#, python-format
+msgid "Volume Type: %(volume_type_name)s "
+msgstr "ボリューム種別: %(volume_type_name)s"
+
+msgid "Volume Types"
+msgstr "ボリューム種別"
+
+#, python-format
+msgid ""
+"Volume cannot be extended to %(req)iGiB as you only have %(avail)iGiB of "
+"your quota available."
+msgstr ""
+"ボリュームを %(req)iGiB に拡張することができません。利用できるクォータは "
+"%(avail)iGiB しかありません。"
+
+msgid "Volume consistency groups can not be deleted if they contain volumes."
+msgstr ""
+"ボリュームが含まれている場合には、ボリュームの整合性グループは削除できませ"
+"ん。"
+
+msgid ""
+"Volume consistency groups provide a mechanism for creating snapshots of "
+"multiple volumes at the same point-in-time to ensure data consistency\n"
+"\n"
+"A consistency group can support more than one volume type, but it can only "
+"contain volumes hosted by the same back end."
+msgstr ""
+"ボリュームの整合性グループは、複数のボリュームスナップショットを同一時点に作"
+"成してデータの整合性を確保するためのメカニズムを提供します。\n"
+"\n"
+"整合性グループは、複数のボリューム種別をサポートすることが可能ですが、グルー"
+"プに入れることができるのは、同じバックエンドがホストするボリュームのみです。"
+
+msgid "Volume is Unencrypted"
+msgstr "ボリュームは暗号化されていません。"
+
+msgid ""
+"Volume mount point (e.g. 'vda' mounts at '/dev/vda'). Leave this field blank "
+"to let the system choose a device name for you."
+msgstr ""
+"ボリュームのマウントポイント (例: 'vda' と指定すると '/dev/vda' にマウントさ"
+"れます)。このフィールドを空欄にすると、システム側でデバイス名が選択されます。"
+
+msgid "Volume name to be assigned"
+msgstr "割り当てるボリューム名"
+
+msgid "Volume size in gigabytes (integer value)."
+msgstr "ギガバイト単位のボリュームサイズ (整数値)"
+
+#, python-format
+msgid ""
+"Volume size must be equal to or greater than the image minimum disk size "
+"(%sGiB)"
+msgstr ""
+"ボリュームサイズはイメージの最小ディスクサイズ (%sGiB) 以上でなければいけませ"
+"ん。"
+
+#, python-format
+msgid "Volume size must be equal to or greater than the image size (%s)"
+msgstr "ボリュームサイズはイメージサイズ (%s) 以上でなければなりません。"
+
+#, python-format
+msgid ""
+"Volume size must be equal to or greater than the origin volume size (%sGiB)"
+msgstr ""
+"ボリュームサイズは元のボリュームサイズ (%sGiB) 以上でなければなりません。"
+
+#, python-format
+msgid "Volume size must be equal to or greater than the snapshot size (%sGiB)"
+msgstr ""
+"ボリュームサイズはスナップショットサイズ (%sGiB) 以上でなければいけません。"
+
+msgid "Volume size must be greater than 0"
+msgstr "ボリュームサイズは 0 より大きい値でなければなりません。"
+
+msgid "Volume source must be specified"
+msgstr "ボリュームを指定しなければいけません。"
+
+msgid "Volume transfer name cannot be empty."
+msgstr "ボリュームの譲渡名を空にすることはできません。"
+
+msgid ""
+"Volume type is a type or label that can be selected at volume creation time "
+"in OpenStack. It usually maps to a set of capabilities of the storage back-"
+"end driver to be used for this volume. Examples: \"Performance\", \"SSD\", "
+"\"Backup\", etc. This is equivalent to the <tt>openstack volume type create</"
+"tt> command. Once the volume type gets created, click the \"View Extra Specs"
+"\" button to set up extra specs key-value pair(s) for that volume type."
+msgstr ""
+"ボリューム種別は OpenStack でボリュームを作成する際に選択する種別を示すラベル"
+"です。通常、ボリューム種別は、作成するボリュームが使用する、バックエンドのス"
+"トレージドライバーが持つ機能セットにマッピングされます。例えば「性能」「SSD」"
+"「バックアップ」などです。これは <tt>openstack volume type create</tt> に相当"
+"します。ボリューム種別を作成した後は、「追加スペックの表示」ボタンをクリック"
+"して、このボリューム種別の追加スペックのキーと値のペアを設定します。"
+
+#, python-format
+msgid "Volume type name \"%s\" already exists."
+msgstr "ボリューム種別 \"%s\" はすでに存在します。"
+
+msgid "Volume type name can not be empty."
+msgstr "ボリューム種別名を空にすることはできません"
+
+msgid "Volumes"
+msgstr "ボリューム"
+
+msgid "Volumes Attached"
+msgstr "接続されているボリューム"
+
+msgid "Volumes are block devices that can be attached to instances."
+msgstr "ボリュームは、インスタンスに接続できるブロックデバイスです。"
+
+#, python-format
+msgid "Volumes of Type %(type)s"
+msgstr "%(type)s 種別のボリューム"
+
+msgid "Warning: "
+msgstr "警告: "
+
+msgid ""
+"When a volume is \"unmanaged\", the volume will no longer be visible within "
+"OpenStack. Note that the volume will not be deleted from the Cinder host. "
+"<br> <br> This is equivalent to the <tt>cinder unmanage</tt> command."
+msgstr ""
+"ボリュームが「管理解除」されると、そのボリュームは OpenStack 内では見えなくな"
+"ります。ボリュームは Cinder ホストから削除されるわけではない点に注意してくだ"
+"さい。<br><br>この操作は <tt>cinder unmanage</tt> コマンドに相当します。"
+
+msgid ""
+"When the volume status is \"in-use\", you can use \"Force\" to upload the "
+"volume to an image."
+msgstr ""
+"ボリュームの状態が「使用中」の場合、ボリュームをイメージにアップロードするに"
+"は「強制アップロード」にチェックを付けてください。"
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "You are already using all of your available floating IPs."
+msgstr "すでに利用可能な Floating IP 数を使い切っています。"
+
+msgid "You are already using all of your available volumes."
+msgstr "すでに利用可能なボリューム数を使い切っています。"
+
+#, python-format
+msgid "You are not allowed to create a port for network %s."
+msgstr "ネットワーク %s のポートの作成は許可されていません。"
+
+msgid ""
+"You can connect a specified external network to the router. The external "
+"network is regarded as a default route of the router and the router acts as "
+"a gateway for external connectivity."
+msgstr ""
+"指定した外部ネットワークをルーターに接続できます。外部ネットワークはルーター"
+"のデフォルトルートとして扱われます。また、ルーターは外部接続用のゲートウェイ"
+"として動作します。"
+
+msgid "You can connect a specified subnet to the router."
+msgstr "指定したサブネットをルーターに接続できます。"
+
+msgid ""
+"You can create a port for the network. If you specify device ID to be "
+"attached, the device specified will be attached to the port created."
+msgstr ""
+"ネットワークのポートを作成できます。接続するデバイス ID を指定すると、指定し"
+"たデバイスが作成されたポートに接続されます。"
+
+msgid ""
+"You can customize your instance after it has launched using the options "
+"available here."
+msgstr ""
+"ここにあるオプションを使って、インスタンス起動後にインスタンスをカスタマイズ"
+"することができます。"
+
+msgid ""
+"You can specify the desired rule template or use custom rules, the options "
+"are Custom TCP Rule, Custom UDP Rule, or Custom ICMP Rule."
+msgstr ""
+"希望のルールテンプレートを指定するか、カスタムルールを設定することができま"
+"す。カスタムルールには TCP、UDP、ICMP  ルールがあります。"
+
+msgid "You cannot disable your current project"
+msgstr "現在使用しているプロジェクトは無効化できません。"
+
+msgid ""
+"You cannot revoke your administrative privileges from the domain you are "
+"currently logged into. Please switch to another domain with administrative "
+"privileges or remove the administrative role manually via the CLI."
+msgstr ""
+"現在ログインしているドメインから自分の管理権限を削除することはできません。管"
+"理権限を持つ別のドメインに切り替えるか、CLI を使って手動で管理権限を削除して"
+"ください。"
+
+msgid ""
+"You cannot revoke your administrative privileges from the project you are "
+"currently logged into. Please switch to another project with administrative "
+"privileges or remove the administrative role manually via the CLI."
+msgstr ""
+"現在ログインしているプロジェクトから自分の管理権限を削除することはできませ"
+"ん。管理権限を持つ別のプロジェクトに切り替えるか、CLI を使って手動で管理権限"
+"を削除してください。"
+
+msgid ""
+"You do not have the required privileges to access this content. If you "
+"believe this message to be in error, please contact your project manager."
+msgstr ""
+"このコンテンツにアクセスするために必要な権限がありません。このメッセージがエ"
+"ラーで表示されていると思われる場合には、担当のプロジェクトマネージャーにお問"
+"い合わせください。"
+
+msgid "You have selected:"
+msgstr "以下の項目を選択しました。"
+
+msgid "You may have mistyped the address or the page may have moved."
+msgstr ""
+"入力したアドレスが間違っているか、またはそのページが移動された可能性がありま"
+"す。"
+
+msgid "You may optionally set a password on the rebuilt instance."
+msgstr "追加で、再作成するインスタンスのパスワードを設定することができます。"
+
+msgid ""
+"You may reset the gateway later by using the set gateway action, but the "
+"gateway IP may change."
+msgstr ""
+"「ゲートウェイの設定」で再度ゲートウェイを設定することはできますが、ゲート"
+"ウェイ側の IP アドレスが変更される可能性があります。"
+
+msgid "You may update the editable properties of your network here."
+msgstr "ネットワークの編集可能な属性をここから更新できます。"
+
+msgid "You may update the editable properties of your port here."
+msgstr "ポートの編集可能な属性をここから更新できます。"
+
+msgid "You may update the editable properties of your router here."
+msgstr "ルーターの変更可能な属性を更新できます。"
+
+msgid "You must select a snapshot."
+msgstr "スナップショットを選択しなければいけません。"
+
+msgid "You must select a volume."
+msgstr "ボリュームを選択しなければいけません。"
+
+msgid "You must select an image."
+msgstr "イメージを選択しなければいけません。"
+
+msgid "You must set volume size"
+msgstr "ボリュームサイズを指定しなければいけません。"
+
+msgid "You must specify a template via one of the available sources."
+msgstr "いずれかの方法でテンプレートを指定する必要があります。"
+
+msgid ""
+"You must specify the source of the traffic to be allowed via this rule. You "
+"may do so either in the form of an IP address block (CIDR) or via a source "
+"group (Security Group). Selecting a security group as the source will allow "
+"any other instance in that security group access to any other instance via "
+"this rule."
+msgstr ""
+"このルールにより許可される通信のソースを指定する必要があります。IP アドレスブ"
+"ロック (CIDR) またはソースグループ (セキュリティーグループ) で指定します。接"
+"続元としてセキュリティーグループを選択すると、そのセキュリティーグループに所"
+"属するすべてのインスタンスが、このルールが適用されるすべてのインスタンスにア"
+"クセスできるようになります。"
+
+#, python-format
+msgid "Your image %s has been queued for creation."
+msgstr "イメージ %s が作成用のキューに追加されました。"
+
+msgid "Zone"
+msgstr "ゾーン"
+
+msgid "back-end"
+msgstr "バックエンド"
+
+msgctxt "Both of front-end and back-end"
+msgid "both"
+msgstr "両方"
+
+msgid "dm-crypt"
+msgstr "dm-crypt"
+
+msgid "down"
+msgstr "down"
+
+msgid "e.g. UP / DOWN"
+msgstr "例: UP / DOWN"
+
+msgid "e.g. Yes / No"
+msgstr "例: Yes / No"
+
+msgid "e.g. Yes/No"
+msgstr "例: Yes/No"
+
+msgid "environment"
+msgstr "環境設定"
+
+msgid "front-end"
+msgstr "フロントエンド"
+
+msgid "instance"
+msgstr "インスタンス"
+
+msgid "no"
+msgstr "いいえ"
+
+msgid "template"
+msgstr "テンプレート"
+
+msgid "undefined"
+msgstr "未定義"
+
+msgid "unknown IP address"
+msgstr "不明な IP アドレス"
+
+msgid "up"
+msgstr "up"
+
+msgid "vCPUs ="
+msgstr "仮想 CPU 数 ="
+
+msgid "yes"
+msgstr "はい"

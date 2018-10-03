@@ -1,0 +1,39 @@
+{% load i18n %}
+
+<div class="detail">
+  <dl class="dl-horizontal">
+    {% if domain_id %}
+      <dt>{% trans "Domain ID" %}</dt>
+      <dd>{{ domain_id }}</dd>
+    {% endif %}
+    {% if domain_name %}
+      <dt>{% trans "Domain Name" %}</dt>
+      <dd>{{ domain_name }}</dd>
+    {% endif %}
+    <dt>{% trans "User Name" %}</dt>
+    <dd data-display="{{ user.name|default:user.id }}">{{ user.name }}</dd>
+    {% if description %}
+      <dt>{% trans "Description" %}</dt>
+      <dd>{{ description }}</dd>
+    {% endif %}
+    <dt>{% trans "ID" %}</dt>
+    <dd>{{ user.id }}</dd>
+    <dt>{% trans "Email" %}</dt>
+    <dd>{{ user.email|default:_("None") }}</dd>
+    <dt>{% trans "Enabled" %}</dt>
+    <dd>{{ user.enabled|yesno|capfirst }}</dd>
+    <dt>{% trans "Primary Project ID" %}</dt>
+    <dd>{{ user.project_id }}</dd>
+    {% if tenant_name %}
+      <dt>{% trans "Primary Project Name" %}</dt>
+      <dd>{{ tenant_name }}</dd>
+    {% endif %}
+    {% if extras %}
+      {% for key, value in extras.items %}
+        <dt>{{ key }}</dt>
+        <dd>{{ value }}</dd>
+      {% endfor %}
+    {% endif %}
+  </dl>
+</div>
+

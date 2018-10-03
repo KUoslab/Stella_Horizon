@@ -1,0 +1,6 @@
+# ESLint styles for Horizon's Legacy javascript code. These rule overrides exist to enforce an
+# older linting style, to ensure backward compatibility.
+
+# Enable eslint-plugin-angular
+plugins:
+  - angular

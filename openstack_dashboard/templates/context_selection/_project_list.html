@@ -1,0 +1,17 @@
+{% load i18n %}
+
+<ul class="dropdown-menu">
+  <li class="dropdown-header">{% trans "Projects:" %}</li>
+  {% for project in projects %}
+  <li>
+    <a class="{% if project.enabled and project.id == project_id %} dropdown-selected{% endif %}"
+       href="{% url 'switch_tenants' project.id %}?next={{ page_url }}"
+       target="_self">
+      <span class="fa fa-check dropdown-selected-icon"></span>
+      <span class="dropdown-title">
+        {{ project.name }}
+      </span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

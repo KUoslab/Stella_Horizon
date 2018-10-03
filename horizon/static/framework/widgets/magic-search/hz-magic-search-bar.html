@@ -1,0 +1,18 @@
+<div class="form-group has-feedback magic-search-bar">
+  <div class="input-group">
+    <span class="input-group-addon">
+      <span class="fa fa-search"></span>
+    </span>
+    <magic-search
+      ng-if="filterStrings && filterFacets"
+      class="form-control"
+      strings="filterStrings"
+      facets="{{ filterFacets }}">
+    </magic-search>
+    <span ng-if="showSettings" class="input-group-btn" ng-click="searchSettingsCallback()">
+      <button class="btn btn-default" type="button">
+        <span class="fa fa-cog fa-lg"></span>
+      </button>
+    </span>
+  </div>
+</div>

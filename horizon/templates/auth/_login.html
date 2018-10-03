@@ -1,0 +1,7 @@
+{% load i18n %}
+
+{% if 'is_modal' in request.GET or 'is_modal' in request.POST %}
+  {% include 'auth/_login_modal.html' %}
+{% else %}
+  {% include 'auth/_login_page.html' %}
+{% endif %}

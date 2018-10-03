@@ -1,0 +1,420 @@
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+# zhangjingwen <zhangjingwen@cn.fujitsu.com>, 2015. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2016. #zanata
+# Long Yu <yulong10@163.com>, 2016. #zanata
+# Tony <tfu@redhat.com>, 2016. #zanata
+# maoshuai <fwsakura@163.com>, 2016. #zanata
+# vuuv <froms2008@gmail.com>, 2016. #zanata
+# zzxwill <zzxwill@gmail.com>, 2016. #zanata
+# TigerFang <tigerfun@126.com>, 2017. #zanata
+# Tony <tfu@redhat.com>, 2017. #zanata
+# bkb <bakbad2015@gmail.com>, 2017. #zanata
+# vuuv <froms2008@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2018-02-17 05:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-08-12 08:05+0000\n"
+"Last-Translator: TigerFang <tigerfun@126.com>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#, python-format
+msgid ""
+"\n"
+"            Displaying %(counter)s item"
+msgid_plural ""
+"\n"
+"            Displaying %(counter)s items"
+msgstr[0] ""
+"\n"
+"           显示 %(counter)s 个项"
+
+#, python-format
+msgid "%(action)s: %(objs)s"
+msgstr "%(action)s: %(objs)s"
+
+#, python-format
+msgid "%(context_name)s:"
+msgstr "%(context_name)s:"
+
+#, python-format
+msgid "%(name)s: %(error)s"
+msgstr "%(name)s: %(error)s"
+
+#, python-format
+msgid "%(size)d Byte"
+msgid_plural "%(size)d Bytes"
+msgstr[0] "%(size)d 字节"
+
+#, python-format
+msgid "%s EB"
+msgstr "%s EB"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s YB"
+msgstr "%s YB"
+
+#, python-format
+msgid "%s ZB"
+msgstr "%s ZB"
+
+#, python-format
+msgid "%s completed successfully."
+msgstr "%s 成功完成。"
+
+#, python-format
+msgid "%s did not complete."
+msgstr "%s 没有完成。"
+
+msgid "&laquo;&nbsp;Prev"
+msgstr "&laquo;&nbsp;前页"
+
+msgid "(No Limit)"
+msgstr "(无限制)"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 Bytes"
+msgstr "0 字节"
+
+#, python-format
+msgid "A %(resource)s with the name \"%(name)s\" already exists."
+msgstr "已经存在名为 \"%(name)s\" 的 %(resource)s。"
+
+msgid "Actions"
+msgstr "动作"
+
+msgid "Active Instances:"
+msgstr "运行的实例："
+
+msgid "Active RAM:"
+msgstr "启用的内存："
+
+msgid "Add a row"
+msgstr "增加一行"
+
+msgid "All available"
+msgstr "所有可用成员"
+
+msgid "Available"
+msgstr "可用配额"
+
+msgid "Back"
+msgstr "返回"
+
+#. Translators: test code, don't really have to translate
+msgid "Batch Item"
+msgid_plural "Batch Items"
+msgstr[0] "Batch Item"
+
+#. Translators: test code, don't really have to translate
+msgid "Batched Item"
+msgid_plural "Batched Items"
+msgstr[0] "Batched Item"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Connect"
+msgstr "连接"
+
+#, python-format
+msgid "Displaying %(content_items)s item"
+msgid_plural "Displaying %(content_items)s items"
+msgstr[0] "正在显示 %(content_items)s 项"
+
+#, python-format
+msgid "Displaying %(nav_items)s item"
+msgid_plural "Displaying %(nav_items)s items"
+msgstr[0] "正在显示 %(nav_items)s 项"
+
+#. Translators: test code, don't really have to translate
+msgid "Down Item"
+msgid_plural "Down Items"
+msgstr[0] "Down Item"
+
+#. Translators: test code, don't really have to translate
+msgid "Downed Item"
+msgid_plural "Downed Items"
+msgstr[0] "Downed Item"
+
+#, python-format
+msgid "Error processing message json file '%(path)s': %(exception)s"
+msgstr "处理json消息文件 '%(path)s' 时出错: %(exception)s"
+
+msgid "Error: "
+msgstr "错误："
+
+msgid "Fake"
+msgstr "Fake"
+
+msgid "Filter"
+msgstr "筛选"
+
+msgid "Horizon"
+msgstr "Horizon"
+
+msgid ""
+"If you are not sure which authentication method to use, contact your "
+"administrator."
+msgstr "如果您不确定使用哪种认证方式，请联系管理员。"
+
+msgid "Incorrect format for IP address"
+msgstr "IP地址格式不对"
+
+msgid "Infinity"
+msgstr "无穷大"
+
+msgid "Info: "
+msgstr "信息："
+
+msgid "Invalid MAC Address format"
+msgstr "无效的MAC（硬件地址）地址格式"
+
+msgid "Invalid metadata entry. Use comma-separated key=value pairs"
+msgstr "无效的元数据条目，请使用逗号分隔的 key=value 组合"
+
+msgid "Invalid subnet mask"
+msgstr "无效的子网掩码"
+
+msgid "Invalid version for IP address"
+msgstr "无效的 IP 地址版本"
+
+msgid "Keystone Providers:"
+msgstr "Keystone 供应商："
+
+msgid "Limit Summary"
+msgstr "上限摘要"
+
+msgid "Log in"
+msgstr "登录"
+
+msgid "Login"
+msgstr "登录"
+
+#, python-format
+msgid ""
+"Login as different user or go back to <a href=\"%(home_url)s\">home page</a>"
+msgstr "用其他账户登陆或后退至<a href=\"%(home_url)s\">home page</a>"
+
+msgid "Members"
+msgstr "成员"
+
+#, python-format
+msgid "Message json file '%(path)s' is malformed. %(exception)s"
+msgstr "json 消息文件 '%(path)s' 内容格式不对: %(exception)s"
+
+msgid "More Actions"
+msgstr "更多操作"
+
+msgid "Navigation Item"
+msgstr "导航条目"
+
+msgid "Never"
+msgstr "从不"
+
+msgid "Next"
+msgstr "下一步"
+
+msgid "Next&nbsp;&raquo;"
+msgstr "后页&nbsp;&raquo;"
+
+msgid "No items to display."
+msgstr "没有要显示的条目。"
+
+#, python-format
+msgid "No match returned for the id \"%s\"."
+msgstr "id为 \"%s\" 的对象没有匹配项。"
+
+msgid "No members."
+msgstr "没有成员。"
+
+msgid "None available."
+msgstr "没有可用成员。"
+
+msgid "Not a valid ICMP code"
+msgstr "无效的ICMP码"
+
+msgid "Not a valid ICMP type"
+msgstr "无效的ICMP类型"
+
+msgid "Not a valid IP protocol number"
+msgstr "不是一个有效的IP协议号"
+
+msgid "Not a valid port number"
+msgstr "不是一个有效的端口号"
+
+msgid "One colon allowed in port range"
+msgstr "端口范围只能使用一个冒号"
+
+msgid "Other"
+msgstr "其它"
+
+msgid "Password is not accepted"
+msgstr "密码不符合要求"
+
+msgid "Please confirm your selection."
+msgstr "请确认您的选择。"
+
+msgid "Please log in to continue."
+msgstr "请先登录。"
+
+msgid "Please select a row before taking that action."
+msgstr "请在执行前选择一行。"
+
+msgid "Please specify a search criteria first."
+msgstr "请先指定一个搜索条件。"
+
+msgid "Processing..."
+msgstr "正在处理..."
+
+msgid "Save"
+msgstr "保存"
+
+#, python-format
+msgid "Select a %s to browse."
+msgstr "请选择要浏览的 %s 。"
+
+msgid "Select a period of time to query its usage:"
+msgstr "选择一段时间来查询其用量："
+
+#. Translators: test code, don't really have to translate
+msgid "Sell Puppy"
+msgid_plural "Sell Puppies"
+msgstr[0] "Sell Puppy"
+
+msgid "Sign In"
+msgstr "登入"
+
+#. Translators: test code, don't really have to translate
+msgid "Sold Puppy"
+msgid_plural "Sold Puppies"
+msgstr[0] "Sold Puppy"
+
+msgid "Submit"
+msgstr "提交"
+
+msgid "Success: "
+msgstr "成功："
+
+msgid "Summary"
+msgstr "概要"
+
+msgid ""
+"The current user has insufficient permission to complete the requested task."
+msgstr "当前用户没有足够的权限完成请求的任务。"
+
+msgid "The date should be in YYYY-MM-DD format."
+msgstr "日期格式应该是 YYYY-MM-DD。"
+
+msgid "The string may only contain ASCII printable characters."
+msgstr "字符串只能包含 ASCII 可显示（printable）字符."
+
+#, python-format
+msgid ""
+"The value of %(resource)s is %(name)s inside the template. When launching a "
+"stack from this interface, the value must start with \"http://\" or "
+"\"https://\""
+msgstr ""
+"在模板中%(resource)s 值是%(name)s 。当从这个接口启动栈时，值必须以\"http://"
+"\" 或\"https://\"开头。"
+
+msgid "This Period's GB-Hours:"
+msgstr "周期内磁盘GB-小时数："
+
+msgid "This Period's RAM-Hours:"
+msgstr "此周期内的 RAM-小时数："
+
+msgid "This Period's VCPU-Hours:"
+msgstr "周期内VCPU-小时数："
+
+msgid "This action cannot be undone."
+msgstr "这个动作不能撤消。"
+
+#, python-format
+msgid "Unable to %(action)s: %(objs)s"
+msgstr "无法执行 %(action)s: %(objs)s"
+
+msgid "Unauthorized. Please try logging in again."
+msgstr "未授权。请尝试重新登录。"
+
+#, python-format
+msgid "Unauthorized: %s"
+msgstr "未授权：%s"
+
+#. Translators: test code, don't really have to translate
+msgid "Up Item"
+msgid_plural "Up Items"
+msgstr[0] "Up Item"
+
+msgid "Update Item"
+msgid_plural "Update Items"
+msgstr[0] "更新条目"
+
+msgid "Updated Item"
+msgid_plural "Updated Items"
+msgstr[0] "条目已更新"
+
+#. Translators: test code, don't really have to translate
+msgid "Upped Item"
+msgid_plural "Upped Items"
+msgstr[0] "Upped Item"
+
+msgid "Usage Summary"
+msgstr "使用情况摘要"
+
+#, python-format
+msgid "Used <span> %(used)s </span>(No Limit)"
+msgstr "使用<span> %(used)s </span>(无限制)"
+
+#, python-format
+msgid "Used <span> %(used)s </span>of<span> %(available)s </span>"
+msgstr "使用<span> %(used)s </span>（共<span> %(available)s </span>）"
+
+msgid "Warning: "
+msgstr "警告："
+
+#, python-format
+msgid "You are not allowed to %(action)s: %(objs)s"
+msgstr "您被禁止执行 %(action)s: %(objs)s"
+
+#, python-format
+msgid "You are not authorized to access %s"
+msgstr "您无权访问 %s"
+
+msgid "You do not have permission to access the resource:"
+msgstr "您没有被授权访问这些资源："
+
+msgid "You have selected: [[selection]]. "
+msgstr "您已选择了 [[selection]]。 "
+
+msgid "to"
+msgstr "至"

@@ -1,0 +1,470 @@
+# Translations template for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Alexander Vasiliev <avasiliev@asdco.ru>, 2015
+# Ilya Alekseyev <ilyaalekseyev@acm.org>, 2015
+# Nikita Burtsev, 2015
+# Antonio Kless <antoniok.spb@gmail.com>, 2015. #zanata
+# Ilya Alekseyev <ilyaalekseyev@acm.org>, 2015. #zanata
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2016. #zanata
+# Daisy <guoyingc@cn.ibm.com>, 2016. #zanata
+# Fedor Tarasenko <feodor.tarasenko@gmail.com>, 2016. #zanata
+# Filatov Sergey <filatecs@gmail.com>, 2016. #zanata
+# Ilya Alekseyev <ilyaalekseyev@acm.org>, 2016. #zanata
+# Ilya Shakhat <ishakhat@mirantis.com>, 2016. #zanata
+# Maxim Bozhenko <mbozhenko@gmail.com>, 2016. #zanata
+# Nikita Burtsev <nikita.burtsev@gmail.com>, 2016. #zanata
+# Artem <amikhalev90@gmail.com>, 2017. #zanata
+# Ilya Alekseyev <ilyaalekseyev@acm.org>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon 12.0.0.0b4.dev20\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2017-07-31 19:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-07-29 01:55+0000\n"
+"Last-Translator: Ilya Alekseyev <ilyaalekseyev@acm.org>\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.0\n"
+"X-Generator: Zanata 3.9.6\n"
+"Language-Team: Russian\n"
+
+#, python-format
+msgid ""
+"\n"
+"            Displaying %(counter)s item"
+msgid_plural ""
+"\n"
+"            Displaying %(counter)s items"
+msgstr[0] ""
+"\n"
+"           Отображен %(counter)s элемент"
+msgstr[1] ""
+"\n"
+"           Отображено %(counter)s элементов"
+msgstr[2] ""
+"\n"
+"           Отображено %(counter)s элементов"
+
+#, python-format
+msgid "%(action)s: %(objs)s"
+msgstr "%(action)s: %(objs)s"
+
+#, python-format
+msgid "%(context_name)s:"
+msgstr "%(context_name)s:"
+
+#, python-format
+msgid "%(name)s: %(error)s"
+msgstr "%(name)s: %(error)s"
+
+#, python-format
+msgid "%(size)d Byte"
+msgid_plural "%(size)d Bytes"
+msgstr[0] "%(size)d байт"
+msgstr[1] "%(size)d байт"
+msgstr[2] "%(size)d байт"
+
+#, python-format
+msgid "%s EB"
+msgstr "%s Эбайт"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s ГБ"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s КБ"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s МБ"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s ПБ"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s ТБ"
+
+#, python-format
+msgid "%s YB"
+msgstr "%s Ибайт"
+
+#, python-format
+msgid "%s ZB"
+msgstr "%s Збайт"
+
+#, python-format
+msgid "%s completed successfully."
+msgstr "%s успешно завершено."
+
+#, python-format
+msgid "%s did not complete."
+msgstr "%s не завершено."
+
+msgid "&laquo;&nbsp;Prev"
+msgstr "&laquo;&nbsp;Предыдущее"
+
+msgid "(No Limit)"
+msgstr "(без ограничений)"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 Bytes"
+msgstr "0 байт"
+
+#, python-format
+msgid "A %(resource)s with the name \"%(name)s\" already exists."
+msgstr "%(resource)s с именем\"%(name)s\" уже существует."
+
+msgid "Actions"
+msgstr "Действия"
+
+msgid "Active Instances:"
+msgstr "Активные инстансы:"
+
+msgid "Active RAM:"
+msgstr "Используемая RAM:"
+
+msgid "Add a row"
+msgstr "Добавить строку"
+
+msgid "All available"
+msgstr "Все доступные"
+
+msgid "Available"
+msgstr "Доступно"
+
+msgid "Back"
+msgstr "Назад"
+
+#. Translators: test code, don't really have to translate
+msgid "Batch Item"
+msgid_plural "Batch Items"
+msgstr[0] "Пакетировать элемент"
+msgstr[1] "Пакетировать элементы"
+msgstr[2] "Пакетировать элементы"
+
+#. Translators: test code, don't really have to translate
+msgid "Batched Item"
+msgid_plural "Batched Items"
+msgstr[0] "Пакетированный элемент"
+msgstr[1] "Пакетированные элементы"
+msgstr[2] "Пакетированные элементы"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Connect"
+msgstr "Подключиться"
+
+#, python-format
+msgid "Displaying %(content_items)s item"
+msgid_plural "Displaying %(content_items)s items"
+msgstr[0] "Отображен %(content_items)s элемент"
+msgstr[1] "Отображено %(content_items)s элементов"
+msgstr[2] "Отображено %(content_items)s элементов"
+
+#, python-format
+msgid "Displaying %(nav_items)s item"
+msgid_plural "Displaying %(nav_items)s items"
+msgstr[0] "Отображен %(nav_items)s элемент"
+msgstr[1] "Отображено %(nav_items)s элементов"
+msgstr[2] "Отображено %(nav_items)s элементов"
+
+#. Translators: test code, don't really have to translate
+msgid "Down Item"
+msgid_plural "Down Items"
+msgstr[0] "Опустить элемент"
+msgstr[1] "Опустить элементы"
+msgstr[2] "Опустить элементы"
+
+#. Translators: test code, don't really have to translate
+msgid "Downed Item"
+msgid_plural "Downed Items"
+msgstr[0] "Опущенный элемент"
+msgstr[1] "Опущенные элементы"
+msgstr[2] "Опущенные элементы"
+
+#, python-format
+msgid "Error processing message json file '%(path)s': %(exception)s"
+msgstr "Ошибка обработки JSON файла сообщений  '%(path)s': %(exception)s"
+
+msgid "Error: "
+msgstr "Ошибка:"
+
+msgid "Fake"
+msgstr "Fake"
+
+msgid "Filter"
+msgstr "Фильтр"
+
+msgid "Horizon"
+msgstr "Horizon"
+
+msgid ""
+"If you are not sure which authentication method to use, contact your "
+"administrator."
+msgstr ""
+"Если вы не уверены какой метод аутентификации выбрать, свяжитесь с вашим "
+"системным администратором."
+
+msgid "Incorrect format for IP address"
+msgstr "Неправильный формат IP-адреса"
+
+msgid "Infinity"
+msgstr "Бесконечность"
+
+msgid "Info: "
+msgstr "Информация:"
+
+msgid "Invalid MAC Address format"
+msgstr "Неверный формат MAC адреса"
+
+msgid "Invalid metadata entry. Use comma-separated key=value pairs"
+msgstr ""
+"Некорректная запись метаданных. Используйте пары ключ=значение разделенный "
+"запятой."
+
+msgid "Invalid subnet mask"
+msgstr "Неправильная маска подсети"
+
+msgid "Invalid version for IP address"
+msgstr "Неправильная версия IP-адреса"
+
+msgid "Keystone Providers:"
+msgstr "Провайдеры Keystone:"
+
+msgid "Limit Summary"
+msgstr "Сводка лимитов"
+
+msgid "Log in"
+msgstr "Войти"
+
+msgid "Login"
+msgstr "Имя пользователя"
+
+#, python-format
+msgid ""
+"Login as different user or go back to <a href=\"%(home_url)s\">home page</a>"
+msgstr ""
+"Войдите под другим пользователем или вернитесь на<a href=\"%(home_url)s\"> "
+"домашнюю страницу</a>           "
+
+msgid "Members"
+msgstr "Участники"
+
+#, python-format
+msgid "Message json file '%(path)s' is malformed. %(exception)s"
+msgstr "JSON файл сообщений '%(path)s' сформирован некорректно. %(exception)s"
+
+msgid "More Actions"
+msgstr "Еще действия"
+
+msgid "Navigation Item"
+msgstr "Элемент навигации"
+
+msgid "Never"
+msgstr "Никогда"
+
+msgid "Next"
+msgstr "Следующий"
+
+msgid "Next&nbsp;&raquo;"
+msgstr "Следующее&nbsp;&raquo;"
+
+msgid "No items to display."
+msgstr "Нет элементов для отображения."
+
+#, python-format
+msgid "No match returned for the id \"%s\"."
+msgstr "Нет совпадений для id \"%s\"."
+
+msgid "No members."
+msgstr "Нет участников."
+
+msgid "None available."
+msgstr "Нет доступных."
+
+msgid "Not a valid ICMP code"
+msgstr "Недопустимый код ICMP"
+
+msgid "Not a valid ICMP type"
+msgstr "Недопустимый тип ICMP"
+
+msgid "Not a valid IP protocol number"
+msgstr "Недопустимый номер IP-протокола"
+
+msgid "Not a valid port number"
+msgstr "Недопустимый номер порта"
+
+msgid "One colon allowed in port range"
+msgstr "В списке портов допустима одна запятая"
+
+msgid "Other"
+msgstr "Другое"
+
+msgid "Password is not accepted"
+msgstr "Пароль не принят"
+
+msgid "Please confirm your selection."
+msgstr "Подтвердите свой выбор."
+
+msgid "Please log in to continue."
+msgstr "Войдите в систему для продолжения."
+
+msgid "Please select a row before taking that action."
+msgstr "Выберите строку перед выполнением этого действия."
+
+msgid "Please specify a search criteria first."
+msgstr "Пожалуйста, сначала укажите параметры поиска."
+
+msgid "Processing..."
+msgstr "Обработка…"
+
+msgid "Save"
+msgstr "Сохранить"
+
+#, python-format
+msgid "Select a %s to browse."
+msgstr "Выберите %s для просмотра"
+
+msgid "Select a period of time to query its usage:"
+msgstr "Выберите временной интервал для запроса использования:"
+
+#. Translators: test code, don't really have to translate
+msgid "Sell Puppy"
+msgid_plural "Sell Puppies"
+msgstr[0] "Продать щенка"
+msgstr[1] "Продать щенков"
+msgstr[2] "Продать щенков"
+
+msgid "Sign In"
+msgstr "Вход"
+
+#. Translators: test code, don't really have to translate
+msgid "Sold Puppy"
+msgid_plural "Sold Puppies"
+msgstr[0] "Проданый щенок"
+msgstr[1] "Проданые щенки"
+msgstr[2] "Проданые щенки"
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "Success: "
+msgstr "Успешно:"
+
+msgid "Summary"
+msgstr "Итого"
+
+msgid ""
+"The current user has insufficient permission to complete the requested task."
+msgstr ""
+"Текущий пользователь не имеет прав для совершения запрошенной операции."
+
+msgid "The date should be in YYYY-MM-DD format."
+msgstr "Дата должна быть в формате ГГГГ-ММ-ДД."
+
+msgid "The string may only contain ASCII printable characters."
+msgstr "Строка может содержать только печатные ASCII символы."
+
+#, python-format
+msgid ""
+"The value of %(resource)s is %(name)s inside the template. When launching a "
+"stack from this interface, the value must start with \"http://\" or "
+"\"https://\""
+msgstr ""
+"Значение %(resource)s является %(name)s в шаблоне. Для формирования стека из "
+"этого интерфейса значение должно начинаться с \"http://\" или \"https://\""
+
+msgid "This Period's GB-Hours:"
+msgstr "ГБ-часов за период:"
+
+msgid "This Period's RAM-Hours:"
+msgstr "RAM-часов за период:"
+
+msgid "This Period's VCPU-Hours:"
+msgstr "vCPU-часов за период:"
+
+msgid "This action cannot be undone."
+msgstr "Это действие не может быть отменено."
+
+#, python-format
+msgid "Unable to %(action)s: %(objs)s"
+msgstr "Невозможно выполнить %(action)s: %(objs)s"
+
+msgid "Unauthorized. Please try logging in again."
+msgstr "Вы не авторизованы. Попробуйте войти в систему еще раз."
+
+#, python-format
+msgid "Unauthorized: %s"
+msgstr "Не авторизован: %s"
+
+#. Translators: test code, don't really have to translate
+msgid "Up Item"
+msgid_plural "Up Items"
+msgstr[0] "Поднять элемент"
+msgstr[1] "Поднять элементы"
+msgstr[2] "Поднять элементы"
+
+msgid "Update Item"
+msgid_plural "Update Items"
+msgstr[0] "Обновить элемент"
+msgstr[1] "Обновить элементы"
+msgstr[2] "Обновить элементы"
+
+msgid "Updated Item"
+msgid_plural "Updated Items"
+msgstr[0] "Обновленный элемент"
+msgstr[1] "Обновленные элементы"
+msgstr[2] "Обновленные элементы"
+
+#. Translators: test code, don't really have to translate
+msgid "Upped Item"
+msgid_plural "Upped Items"
+msgstr[0] "Поднятый элемент"
+msgstr[1] "Поднятые элементы"
+msgstr[2] "Поднятые элементы"
+
+msgid "Usage Summary"
+msgstr "Сводка использования"
+
+#, python-format
+msgid "Used <span> %(used)s </span>(No Limit)"
+msgstr "Использовано <span> %(used)s </span>(без ограничений)"
+
+#, python-format
+msgid "Used <span> %(used)s </span>of<span> %(available)s </span>"
+msgstr "Использовано <span> %(used)s </span>из<span> %(available)s </span>"
+
+msgid "Warning: "
+msgstr "Внимание:"
+
+#, python-format
+msgid "You are not allowed to %(action)s: %(objs)s"
+msgstr "Вам не разрешено выполнение: %(action)s: %(objs)s"
+
+#, python-format
+msgid "You are not authorized to access %s"
+msgstr "Нет права доступа к %s"
+
+msgid "You do not have permission to access the resource:"
+msgstr "Вы не имеете права на доступ к ресурсу:"
+
+msgid "You have selected: [[selection]]. "
+msgstr "Вы выбрали: [[selection]]. "
+
+msgid "to"
+msgstr "по"

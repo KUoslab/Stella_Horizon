@@ -1,0 +1,315 @@
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+# Łukasz Jernas <deejay1@srem.org>, 2015. #zanata
+# Łukasz Jernas <deejay1@srem.org>, 2016. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2018-02-17 05:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-10-03 04:37+0000\n"
+"Last-Translator: Łukasz Jernas <deejay1@srem.org>\n"
+"Language-Team: Polish (Poland)\n"
+"Language: pl_PL\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s bytes"
+msgstr "%s bajtów"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 GB"
+msgstr "0 GB"
+
+msgid "0 MB"
+msgstr "0 MB"
+
+msgid "Active"
+msgstr "Aktywny"
+
+msgid "Added"
+msgstr "Dodano"
+
+msgid "Allocated"
+msgstr "Przydzielono"
+
+msgid "An error occurred while updating."
+msgstr "Wystąpił błąd podczas aktualizacji."
+
+msgid "An error occurred. Please try again later."
+msgstr "Wystąpił błąd. Proszę spróbować później."
+
+msgid "Available"
+msgstr "Dostępne"
+
+msgid "Available Metadata"
+msgstr "Dostępne metadane"
+
+msgid "Back"
+msgstr "Wstecz"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Click here for filters."
+msgstr "Kliknięcie tu, spowoduje wyświetlenie filtrów."
+
+msgid "Click here to expand the row and view the errors."
+msgstr "Kliknij tutaj, aby rozszerzyć wiersz i wyświetlić błędy."
+
+msgid "Click to see more details"
+msgstr "Kliknij, aby wyświetlić szczegóły"
+
+msgid "Click to show or hide"
+msgstr "Kliknij by pokazać lub ukryć"
+
+#, python-format
+msgid "Confirm %s"
+msgstr "Potwierdź %s"
+
+msgid "Current Usage"
+msgstr "Bieżące wykorzystanie"
+
+msgid "Custom"
+msgstr "Własne"
+
+msgid "Danger"
+msgstr "Zagrożenie"
+
+msgid "Danger: "
+msgstr "Zagrożenie:"
+
+msgid "Decimal required"
+msgstr "Wymagana liczba dziesiętna"
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Detail Information"
+msgstr "Szczegółowe informacje"
+
+#, python-format
+msgid "Displaying %(count)s of %(total)s items"
+msgstr "Wyświetlanie %(count)s z %(total)s pozycji"
+
+#, python-format
+msgid "Displaying %s item"
+msgid_plural "Displaying %s items"
+msgstr[0] "Wyświetlanie %s pozycji"
+msgstr[1] "Wyświetlanie %s pozycji"
+msgstr[2] "Wyświetlanie %s pozycji"
+
+msgid "Duplicate keys are not allowed"
+msgstr "Ponowne użycie nazwy klucza jest niedozwolone."
+
+msgid "Error"
+msgstr "Błąd"
+
+msgid "Error: "
+msgstr "Błąd:"
+
+msgid "Example"
+msgstr "Przykład"
+
+msgid "Existing Metadata"
+msgstr "Istniejące metadane"
+
+msgid "Expand to see allocated items"
+msgstr "Rozszerz, aby zobaczyć przydzielone pozycje"
+
+msgid "Expand to see available items"
+msgstr "Rozszerz, aby zobaczyć dostepne pozycje"
+
+msgid "Filter"
+msgstr "Filtr"
+
+msgid "Finish"
+msgstr "Zakończ"
+
+msgid "Flavor"
+msgstr "Odmiana"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Integer required"
+msgstr "Wymagana liczba całkowita"
+
+msgid "Invalid type, expected {$schema.type$}"
+msgstr "Błędny typ, oczekiwano {$schema.type$}"
+
+msgid "Loading"
+msgstr "Wczytywanie"
+
+msgid "Max"
+msgstr "Maks."
+
+msgid "Max length"
+msgstr "Maks. długość"
+
+msgid "Min"
+msgstr "Min."
+
+msgid "Min length"
+msgstr "Min. długość"
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Next"
+msgstr "Następny"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "No Limit"
+msgstr "Bez ograniczeń"
+
+msgid "No available items"
+msgstr "Brak dostępnych pozycji"
+
+msgid "No available metadata"
+msgstr "Metadane niedostępne"
+
+msgid "No data available."
+msgstr "Brak dostępnych danych."
+
+msgid "No existing metadata"
+msgstr "Brak metadanych"
+
+msgid "No items to display."
+msgstr "Brak pozycji do wyświetlenia."
+
+msgid "No roles"
+msgstr "Brak ról"
+
+msgid "None"
+msgstr "Brak"
+
+msgid "Not authorized to do this operation."
+msgstr "Nie upoważniono do przeprowadzenie tej czynności."
+
+msgid "Notice: "
+msgstr "Powiadomienie:"
+
+msgid "Passwords do not match."
+msgstr "Hasła nie pasują"
+
+msgid "Pattern mismatch"
+msgstr "Szablon się nie zgadza"
+
+msgid "Please Wait"
+msgstr "Proszę czekać"
+
+msgid "Please confirm your selection. "
+msgstr "Należy potwierdzić wybór."
+
+msgid "Prompt"
+msgstr "Zapytanie"
+
+msgid "Re-order items using drag and drop"
+msgstr "Zmień kolejność pozycji poprzez przesuwanie i upuszczanie"
+
+msgid "Remaining"
+msgstr "Pozostało"
+
+msgid "Remove"
+msgstr "Usuń"
+
+msgid "Required"
+msgstr "Wymagane"
+
+msgid "Roles"
+msgstr "Role"
+
+msgid "Select an item from Available items below"
+msgstr "Należy wybrać pozycję z listy dostępnych pozycji poniżej"
+
+msgid "Select one"
+msgstr "Wybierz jedno"
+
+msgid "Server Name"
+msgstr "Nazwa serwera"
+
+msgid "Shutdown"
+msgstr "Wyłącz"
+
+msgid "Status"
+msgstr "Stan"
+
+msgid "Submit"
+msgstr "Wyślij"
+
+msgid "Success"
+msgstr "Sukces"
+
+msgid "Success: "
+msgstr "Powodzenie:"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid ""
+"The action cannot be performed. The contents of this row have errors or are "
+"missing information."
+msgstr ""
+"Nie można wykonać czynności. Zawartość tego wiersza zawiera błędy lub "
+"brakujące dane."
+
+msgid "The data in this field is invalid"
+msgstr "Dane w tym polu są niepoprawne"
+
+msgid "There was a problem communicating with the server, please try again."
+msgstr "Wystąpił problem w komunikacji z serwerem, proszę spróbować ponownie."
+
+msgid "There was an error submitting the form. Please try again."
+msgstr "Wystąpił błąd podczas wysyłania formularza. Proszę spróbować ponownie."
+
+msgid "Unlimited"
+msgstr "Bez ograniczeń"
+
+msgid "Warning"
+msgstr "Uwaga"
+
+msgid "Warning: "
+msgstr "Ostrzeżenie:"
+
+msgid "Working"
+msgstr "Praca"
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "description"
+msgstr "opis"
+
+msgid "m1.small"
+msgstr "m1.small"
+
+msgid "m1.tiny"
+msgstr "m1.tiny"
+
+msgid "pool default"
+msgstr "domyślna pula"

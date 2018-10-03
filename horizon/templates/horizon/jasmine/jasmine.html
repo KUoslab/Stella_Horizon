@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jasmine Spec Runner</title>
+  <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}horizon/lib/jasmine/jasmine.css">
+
+  <script>
+    window.STATIC_URL = '/static/';
+    window.WEBROOT = '/';
+  </script>
+
+  <script src="{% url 'horizon:jsi18n' 'horizon' %}"></script>
+  <script src="{{ STATIC_URL }}horizon/lib/jasmine/jasmine.js"></script>
+  <script src="{{ STATIC_URL }}horizon/lib/jasmine/jasmine-html.js"></script>
+  <script src="{{ STATIC_URL }}horizon/lib/jasmine/boot.js"></script>
+  {% for file in HORIZON_CONFIG.xstatic_lib_files %}
+    <script src="{{ STATIC_URL }}{{ file }}"></script>
+  {% endfor %}
+  <script src="{{ STATIC_URL }}horizon/lib/angular/angular-mocks.js"></script>
+  <script src="{{ STATIC_URL }}horizon/js/horizon.js"></script>
+
+  <script type="text/javascript">
+    /* Load angular modules extensions list before we include angular/horizon.js */
+    var horizonPlugInModules = {{ HORIZON_CONFIG.angular_modules|default:"[]"|safe }};
+  </script>
+
+  <!-- source files -->
+  {% for file in HORIZON_CONFIG.js_files %}
+    <script src='{{ STATIC_URL }}{{ file }}'></script>
+  {% endfor %}
+
+  {% block source %}
+  {% endblock %}
+
+  <!-- test files - mock and spec -->
+  {% block spec %}
+    {% for file in HORIZON_CONFIG.js_spec_files %}
+      <script src='{{ STATIC_URL }}{{ file }}'></script>
+    {% endfor %}
+  {% endblock %}
+
+</head>
+<body>
+  <div id="main_content" class="hidden" style="visibility:hidden; height: 0">
+    {% block content %}
+    {% endblock %}
+  </div>
+
+  <script type="text/javascript">
+    (function () { 'use strict';
+
+      // Caching all external angular templates
+
+      var templates = [
+        {% for external_template in HORIZON_CONFIG.external_templates %}
+          '{{ STATIC_URL }}{{ external_template }}',
+        {% endfor %}
+      ];
+
+      var tplmodule = angular.module('templates', []);
+
+      templates.forEach(function (template) {
+        cacheTemplate(template, tplmodule);
+      });
+
+      function cacheTemplate(template, tplmodule) {
+        tplmodule.run(function ($templateCache) {
+          $templateCache.put(template, loadSync(template));
+        });
+      }
+
+      function loadSync(url) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, false);
+        xhr.send();
+        return xhr.status === 200 ? xhr.responseText : null;
+      }
+
+    })();
+  </script>
+</body>
+</html>

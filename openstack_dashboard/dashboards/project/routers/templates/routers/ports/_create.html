@@ -1,0 +1,30 @@
+{% extends "horizon/common/_modal_form.html" %}
+{% load i18n %}
+
+{% block form_id %}add_interface_form{% endblock %}
+{% block form_action %}{% url form_url router.id %}
+{% endblock %}
+
+{% block modal-header %}{% trans "Add Interface" %}{% endblock %}
+
+{% block modal-body %}
+<div class="left">
+    <fieldset>
+        {% include "horizon/common/_form_fields.html" %}
+    </fieldset>
+</div>
+<div class="right">
+    <h3>{% trans "Description:" %}</h3>
+    <p>
+      {% trans "You can connect a specified subnet to the router." %}
+    </p>
+    <p>
+      {% blocktrans trimmed %}
+        If you don't specify an IP address here, the gateway's IP address of the
+        selected subnet will be used as the IP address of the newly created interface
+        of the router. If the gateway's IP address is in use, you must use a different
+        address which belongs to the selected subnet.
+      {% endblocktrans %}
+    </p>
+</div>
+{% endblock %}

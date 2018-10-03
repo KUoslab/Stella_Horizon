@@ -1,0 +1,23 @@
+{% load i18n sizeformat %}
+<div class="quota-dynamic">
+  <h3 class="quota-heading">{% trans "Usage Summary" %}</h3>
+</div>
+<div class="usage_info_wrapper">
+
+  {% with start=form.start end=form.end datepicker_id='date_form' %}
+    {% include 'horizon/common/_datepicker_form.html' %}
+  {% endwith %}
+
+  <dl id="activity" class="dl-horizontal">
+    <dt class="small">{% trans "Active Instances:" %}</dt>
+    <dd class="small">{{ usage.summary.instances|default:'0' }}</dd>
+    <dt class="small">{% trans "Active RAM:" %}</dt>
+    <dd class="small">{{ usage.summary.memory_mb|mb_float_format|default:'0' }}</dd>
+    <dt class="small">{% trans "This Period's VCPU-Hours:" %}</dt>
+    <dd class="small">{{ usage.summary.vcpu_hours|floatformat:2|default:'0' }}</dd>
+    <dt class="small">{% trans "This Period's GB-Hours:" %}</dt>
+    <dd class="small">{{ usage.summary.disk_gb_hours|floatformat:2|default:'0' }}</dd>
+    <dt class="small">{% trans "This Period's RAM-Hours:" %}</dt>
+    <dd class="small">{{ usage.summary.memory_mb_hours|floatformat:2|default:'0' }}</dd>
+  </dl>
+</div>

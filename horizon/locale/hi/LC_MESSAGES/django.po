@@ -1,0 +1,269 @@
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon 12.0.0.0b2.dev85\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2017-05-05 01:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-09-09 04:10+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Hindi\n"
+"Language: hi\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid "%(action)s: %(objs)s"
+msgstr "%(action)s: %(objs)s"
+
+#, python-format
+msgid "%(context_name)s:"
+msgstr "%(context_name)s:"
+
+#, python-format
+msgid "%(name)s: %(error)s"
+msgstr "%(name)s: %(error)s"
+
+#, python-format
+msgid "%(size)d Byte"
+msgid_plural "%(size)d Bytes"
+msgstr[0] "%(size)d बाइट"
+msgstr[1] "%(size)d बाइट"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s केबी"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s completed successfully."
+msgstr "%s सफलतापूर्वक पूर्ण."
+
+#, python-format
+msgid "%s did not complete."
+msgstr "%s पूर्ण नहीं है"
+
+msgid "&laquo;&nbsp;Prev"
+msgstr "&laquo;&nbsp;पिछला"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 Bytes"
+msgstr "0 बाइट"
+
+#, python-format
+msgid "A %(resource)s with the name \"%(name)s\" already exists."
+msgstr "एक %(resource)s , \"%(name)s\" से पहले से ही मौजूद है "
+
+msgid "Actions"
+msgstr "क्रियाएं"
+
+msgid "Active Instances:"
+msgstr "सक्रिय इंस्टेंसेस:"
+
+msgid "Active RAM:"
+msgstr "सक्रिय रैम"
+
+msgid "Add a row"
+msgstr "पंक्ति जोड़ें"
+
+msgid "All available"
+msgstr "सभी उपलब्ध"
+
+msgid "Available"
+msgstr "उपलब्ध"
+
+msgid "Back"
+msgstr "पीछे"
+
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#, python-format
+msgid "Displaying %(content_items)s item"
+msgid_plural "Displaying %(content_items)s items"
+msgstr[0] " %(content_items)s मद प्रदर्शित"
+msgstr[1] " %(content_items)s मद प्रदर्शित"
+
+#, python-format
+msgid "Displaying %(nav_items)s item"
+msgid_plural "Displaying %(nav_items)s items"
+msgstr[0] "%(nav_items)s मद प्रदर्शित"
+msgstr[1] "%(nav_items)s मद प्रदर्शित"
+
+msgid "Error: "
+msgstr "त्रुटि: "
+
+msgid "Fake"
+msgstr "जाली"
+
+msgid "Filter"
+msgstr "छानना शुरू..."
+
+msgid "Horizon"
+msgstr "होरिजन"
+
+msgid "Incorrect format for IP address"
+msgstr "IP पता के लिए गलत प्रारूप"
+
+msgid "Info: "
+msgstr "सूचना: "
+
+msgid "Invalid subnet mask"
+msgstr "अवैध सबनेट मास्क"
+
+msgid "Invalid version for IP address"
+msgstr "IP पता के लिए अवैध प्रारूप संस्करण"
+
+msgid "Limit Summary"
+msgstr "सारांश सीमा"
+
+msgid "Login"
+msgstr "लॉगिन"
+
+msgid "Members"
+msgstr "सदस्य"
+
+msgid "More Actions"
+msgstr "अधिक क्रिया"
+
+msgid "Navigation Item"
+msgstr "नेविगेशन आइटम"
+
+msgid "Never"
+msgstr "कभी नहीं"
+
+msgid "Next"
+msgstr "अगला"
+
+msgid "Next&nbsp;&raquo;"
+msgstr "अगला&nbsp;&raquo;"
+
+msgid "No items to display."
+msgstr "दिखाने के लिए कोई सामग्रियों नहीं."
+
+#, python-format
+msgid "No match returned for the id \"%s\"."
+msgstr "इस आइडी \"%s\" के लिए कोई मेल नहीं मिला."
+
+msgid "No members."
+msgstr "कोई सदस्य नहीं"
+
+msgid "None available."
+msgstr "कोई उपलब्ध नहीं"
+
+msgid "Not a valid IP protocol number"
+msgstr "वैध IP प्रोटोकॉल संख्या नहीं है"
+
+msgid "Not a valid port number"
+msgstr "वैध पोर्ट संख्या नहीं है"
+
+msgid "One colon allowed in port range"
+msgstr "पोर्ट श्रेणी में एक कॉलन की अनुमति "
+
+msgid "Other"
+msgstr "अन्य"
+
+msgid "Password is not accepted"
+msgstr "पासवर्ड स्वीकार नहीं किया है"
+
+msgid "Please log in to continue."
+msgstr "जारी रखने के लिए में लॉग इन करें."
+
+msgid "Please select a row before taking that action."
+msgstr "कृपया इस क्रिया को करने से पहले पंक्ति का चयन करें."
+
+msgid "Processing..."
+msgstr "प्रोसेसिंग..."
+
+msgid "Save"
+msgstr "सहेजें"
+
+#, python-format
+msgid "Select a %s to browse."
+msgstr "एक% s को ब्राउज़ करने के लिए चयन करें."
+
+msgid "Select a period of time to query its usage:"
+msgstr "इसके उपयोग की पूछताछ करने के लिए समय की अवधि का चयन करें:"
+
+#. Translators: test code, don't really have to translate
+msgid "Sell Puppy"
+msgid_plural "Sell Puppies"
+msgstr[0] "Puppy बेचें "
+msgstr[1] "Puppies बेचें "
+
+msgid "Sign In"
+msgstr "साइन इन"
+
+#. Translators: test code, don't really have to translate
+msgid "Sold Puppy"
+msgid_plural "Sold Puppies"
+msgstr[0] "बेचा हुआ Puppy"
+msgstr[1] "बेचा हुआ Puppy"
+
+msgid "Submit"
+msgstr "जमा करें"
+
+msgid "Success: "
+msgstr "सफलता:"
+
+msgid "Summary"
+msgstr "सारांश"
+
+msgid "This Period's GB-Hours:"
+msgstr "इस अवधि के गीगाबाइट-घंटे"
+
+msgid "This Period's RAM-Hours:"
+msgstr "इस अवधि के रैम-घंटे "
+
+msgid "This Period's VCPU-Hours:"
+msgstr "इस अवधि के VCPU-घंटे"
+
+msgid "This action cannot be undone."
+msgstr "यह क्रिया पूर्ववत नहीं किया जा सकता।"
+
+#, python-format
+msgid "Unable to %(action)s: %(objs)s"
+msgstr "%(action)s की अनुमति नहीं है.: %(objs)s"
+
+msgid "Unauthorized. Please try logging in again."
+msgstr "अनधिकृत. फिर लॉग इन करने का प्रयास करें."
+
+#, python-format
+msgid "Unauthorized: %s"
+msgstr "अनधिकृत: %s"
+
+msgid "Usage Summary"
+msgstr "प्रयोग सार"
+
+msgid "Warning: "
+msgstr "चेतावनी: "
+
+#, python-format
+msgid "You are not allowed to %(action)s: %(objs)s"
+msgstr "आपको %(action)s की अनुमति नहीं है.: %(objs)s"
+
+#, python-format
+msgid "You are not authorized to access %s"
+msgstr "आप %sका उपयोग करने के लिए अधिकृत नहीं हैं"
+
+msgid "You do not have permission to access the resource:"
+msgstr "संसाधन पर पहुँच के लिए आपको अनुमति नहीं है:"

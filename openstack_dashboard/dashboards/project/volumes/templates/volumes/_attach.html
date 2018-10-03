@@ -1,0 +1,16 @@
+{% extends "horizon/common/_modal_form.html" %}
+{% load i18n %}
+
+{% block modal-body %}
+  {% if show_attach %}
+    <h3>{% trans "Attach To Instance" %}</h3>
+      {% include "horizon/common/_form_fields.html" %}
+  {% endif %}
+{% endblock %}
+
+{% block modal-footer %}
+    <a href="{% url 'horizon:project:volumes:index' %}" class="btn btn-default cancel">{% trans "Cancel" %}</a>
+  {% if show_attach %}
+    <input class="btn btn-primary" type="submit" value="{% trans "Attach Volume" %}" />
+  {% endif %}
+{% endblock %}

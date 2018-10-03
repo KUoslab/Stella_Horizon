@@ -1,0 +1,17 @@
+.loader {
+  width: 100%;
+
+  &-caption {
+    margin-bottom: 0;
+    padding-top: ($line-height-computed / 2);  // Matches h4 margin in _type.scss
+  }
+
+  &-inline {
+    overflow: hidden;
+  }
+}
+
+// Special Angular Override
+.modal-wait-spinner .modal-dialog {
+  @extend .modal-xs;
+}

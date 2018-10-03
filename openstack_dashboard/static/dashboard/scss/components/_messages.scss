@@ -1,0 +1,35 @@
+.messages {
+  position: fixed;
+  z-index: $zindex-dropdown + 1;
+  padding-top: $padding-small-vertical;
+  right: $padding-large-horizontal;
+  // TODO (hurgleburlger) RESPONSIVE
+  // We will readdress this when we address the responsiveness of Horizon
+  width: 300px;
+
+  .alert {
+    &.alert-default {
+      background-color: $gray-light;
+    }
+
+    p {
+      overflow: hidden;
+      word-wrap: break-word;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.javascript-disabled {
+  margin-top: $navbar-height;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.alert > ul {
+  padding: 0;
+}

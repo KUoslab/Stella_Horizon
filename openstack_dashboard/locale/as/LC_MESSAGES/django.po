@@ -1,0 +1,4754 @@
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon 12.0.0.0b4.dev60\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2017-08-09 02:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-09-09 04:15+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Assamese\n"
+"Language: as\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid " - End"
+msgstr " - সমাপ্ত"
+
+msgid " : Next hop"
+msgstr " : পৰৱৰ্তী হপ"
+
+msgid ""
+"\"Customization Script\" is analogous to \"User Data\" in other systems."
+msgstr "অন্য ছিষ্টেমবোৰত \"Customization Script\" টো \"User Data\" ৰ অনুৰূপ."
+
+#, python-format
+msgid "%(field_name)s: Invalid IP address (value=%(ip)s)"
+msgstr "%(field_name)s: অবৈধ IP ঠিকনা (মান=%(ip)s)"
+
+#, python-format
+msgid "%(field_name)s: Invalid IP address (value=%(network)s)"
+msgstr "%(field_name)s: অবৈধ IP ঠিকনা (মান=%(network)s)"
+
+#, python-format
+msgid "%(instance_name)s %(fixed_ip)s"
+msgstr "%(instance_name)s %(fixed_ip)s"
+
+#, python-format
+msgid "%(name)s - %(size)s GB (%(label)s)"
+msgstr "%(name)s - %(size)s GB (%(label)s)"
+
+#. Translators:  UTC offset and timezone label
+#, python-format
+msgid "%(offset)s: %(label)s"
+msgstr "%(offset)s: %(label)s"
+
+#, python-format
+msgid "%(resource_status)s: %(resource_status_reason)s"
+msgstr "%(resource_status)s: %(resource_status_reason)s"
+
+#, python-format
+msgid "%(stack_status_title)s: %(stack_status_reason)s"
+msgstr "%(stack_status_title)s: %(stack_status_reason)s"
+
+#, python-format
+msgid "%(type)s (%(backend)s backend)"
+msgstr "%(type)s (%(backend)s পিছফাল)"
+
+#, python-format
+msgid "%(used)s %(key)s used"
+msgstr "%(used)s %(key)s ব্যৱহাৰ কৰা হল"
+
+#, python-format
+msgid "%s (Default)"
+msgstr "%s (ডিফল্ট)"
+
+#. Translators: The usage is "<UUID of ext_net> (Not Found)"
+#, python-format
+msgctxt "External network not found"
+msgid "%s (Not Found)"
+msgstr "%s (বিচাৰি পোৱা নগল)"
+
+#, python-format
+msgid "%s (current)"
+msgstr "%s (চলিত)"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s instances"
+msgstr "%s উদাহৰণবোৰ"
+
+#, python-format
+msgid "%sGB"
+msgstr "%sGB"
+
+#, python-format
+msgid "%sMB"
+msgstr "%sMB"
+
+msgid "(Quota exceeded)"
+msgstr "(কোটা অতিক্ৰম কৰিলে)"
+
+msgid ", add project groups"
+msgstr ", প্ৰক্ষেপ গোটবোৰ যোগ কৰক"
+
+msgid ", update project groups"
+msgstr ", প্ৰক্ষেপ গোটবোৰ আপডেট কৰক"
+
+msgid "-"
+msgstr "-"
+
+msgid "A local environment to upload."
+msgstr "আপলোড কৰিবলৈ এটা স্থানীয় পৰিৱেশ."
+
+msgid "A local image to upload."
+msgstr "আপলোড কৰিবলৈ এটা স্থানীয় ছবি."
+
+msgid "A local template to upload."
+msgstr "আপলোড কৰিবলৈ এটা স্থানীয় নমুনা."
+
+msgid ""
+"A script or set of commands to be executed after the instance has been built "
+"(max 16kb)."
+msgstr ""
+"উদাহৰণ এটা প্ৰস্তুত কৰাৰ পিছত কাৰ্যকৰী কৰিবলগীয়া এখন স্ক্ৰিপ্ট বা নিৰ্দেশবোৰৰ ছেট "
+"(সৰ্বাধিক 16kb)."
+
+msgid "AKI - Amazon Kernel Image"
+msgstr "AKI - আমাজন কাৰ্ণেল ছবি"
+
+#, python-format
+msgid "ALLOW %(ethertype)s %(proto_port)s %(direction)s %(remote)s"
+msgstr "%(ethertype)s %(proto_port)s %(direction)s %(remote)s অনুমতি দিয়ক"
+
+msgid "AMI - Amazon Machine Image"
+msgstr "AMI - আমাজন যন্ত্ৰ ছবি"
+
+msgid "API Access"
+msgstr "API প্ৰৱেশ"
+
+msgid "API Endpoints"
+msgstr "API শেষবিন্দুবোৰ"
+
+msgid "ARI - Amazon Ramdisk Image"
+msgstr "ARI - আমাজন ৰেমডিস্ক ছবি"
+
+msgid "Access & Security"
+msgstr "প্ৰৱেশ & সুৰক্ষা"
+
+msgid "Action"
+msgstr "কাৰ্য"
+
+msgid "Action Log"
+msgstr "কাৰ্য ল'গ"
+
+msgctxt "Current status of a Floating IP"
+msgid "Active"
+msgstr "সক্ৰিয়"
+
+msgctxt "Current status of a Network"
+msgid "Active"
+msgstr "সক্ৰিয়"
+
+msgctxt "Current status of an Image"
+msgid "Active"
+msgstr "সক্ৰিয়"
+
+msgctxt "Current status of an Instance"
+msgid "Active"
+msgstr "সক্ৰিয়"
+
+msgctxt "current status of port"
+msgid "Active"
+msgstr "সক্ৰিয়"
+
+msgctxt "current status of router"
+msgid "Active"
+msgstr "সক্ৰিয়"
+
+msgctxt "status of a network port"
+msgid "Active"
+msgstr "সক্ৰিয়"
+
+msgid ""
+"Actual device name may differ due to hypervisor settings. If not specified, "
+"then hypervisor will select a device name."
+msgstr ""
+"হাইপাৰভিজৰ ছেটিংবোৰৰ বাবে প্ৰকৃত ডিভাইচ নামটো পৃথক হব পাৰে. যদি নিৰ্ধাৰণ নকৰে, "
+"তেন্তে হাইপাৰভিজৰটোৱে ডিভাইচ নাম এটা নিৰ্বাচন কৰিব."
+
+msgid "Add"
+msgstr "যোগ কৰক"
+
+msgid "Add DHCP Agent"
+msgstr "DHCP এজেন্ট যোগ কৰক"
+
+msgid "Add Group Assignment"
+msgstr "গোটৰ কাৰ্য যোগ কৰক"
+
+msgid "Add Interface"
+msgstr "ইন্টাৰফেছ যোগ কৰক"
+
+msgid "Add Rule"
+msgstr "নিয়ম যোগ কৰক"
+
+msgid "Add User to Group"
+msgstr "গোটলৈ ব্যৱহাৰকৰ্তা যোগ কৰক"
+
+msgid "Add Users"
+msgstr "ব্যৱহাৰকৰ্তাবোৰ যোগ কৰক"
+
+msgid ""
+"Add hosts to this aggregate or remove hosts from it. Hosts can be in "
+"multiple aggregates."
+msgstr ""
+"এই গড়টোলৈ হষ্টবোৰ যোগ কৰক বা ইয়াৰ পৰা হষ্টবোৰ আঁতৰ কৰক. হষ্টবোৰ বিভিন্ন গড়ত থাকিব "
+"পাৰে."
+
+msgid "Add hosts to this aggregate. Hosts can be in multiple aggregates."
+msgstr "এই গড়টোলৈ হষ্টবোৰ যোগ কৰক. হষ্টবোৰ বিভিন্ন গড়ত থাকিব পাৰে."
+
+msgid "Add/Remove Hosts to Aggregate"
+msgstr "গড় কৰিবলৈ হষ্টবোৰক যোগ/আতঁৰ কৰক"
+
+msgid ""
+"Additional routes announced to the hosts. Each entry is: destination_cidr,"
+"nexthop (e.g., 192.168.200.0/24,10.56.1.254) and one entry per line."
+msgstr ""
+"হষ্টবোৰলৈ অতিৰিক্ত ৰাউটবোৰ ঘোষণা কৰা হল. প্ৰত্যেকটো প্ৰৱিষ্টি হল: destination_cidr,"
+"nexthop (উদাহৰণ, 192.168.200.0/24,10.56.1.254) আৰু প্ৰত্যেক শাৰীত এটা প্ৰৱিষ্টি."
+
+msgid "Admin"
+msgstr "কৰ্তৃপক্ষ"
+
+msgid "Admin Password"
+msgstr "কৰ্তৃপক্ষৰ পাছৱৰ্ড"
+
+msgid "Admin State"
+msgstr "কৰ্তৃপক্ষ অৱস্থা"
+
+msgid "Advanced Options"
+msgstr "উন্নত বিকল্পবোৰ"
+
+msgid ""
+"After launching an instance, you login using the private key (the username "
+"might be different depending on the image you launched):"
+msgstr ""
+"উদাহৰণ এটা আৰম্ভ কৰাৰ পিছত, ব্যক্তিগত কী ব্যৱহাৰ কৰি আপুনি লগইন কৰক (আপুনি আৰম্ভ "
+"কৰা ছবিটোৰ ওপৰত নিৰ্ভৰ কৰি ব্যৱহাৰকৰ্তাৰ নামটো বেলেগ হব পাৰে):"
+
+#, python-format
+msgid "Agent %s was successfully added."
+msgstr "%s এজেন্ট সফলতাৰে যোগ কৰা হৈছিল."
+
+msgid "All Available Hosts"
+msgstr "সকলো উপলব্ধ হষ্ট"
+
+msgid "All Groups"
+msgstr "সকলোবোৰ গোট"
+
+msgid "All Hypervisors"
+msgstr "সকলো হাইপাৰভিজৰ"
+
+msgid "All ICMP"
+msgstr "সকলো ICMP"
+
+msgid "All Projects"
+msgstr "সকলোবোৰ প্ৰক্ষেপ"
+
+msgid "All Security Groups"
+msgstr "সকলো সুৰক্ষাৰ গোট"
+
+msgid "All TCP"
+msgstr "সকলো TCP"
+
+msgid "All UDP"
+msgstr "সকলো UDP"
+
+msgid "All Users"
+msgstr "সকলোবোৰ ব্যৱহাৰকৰ্তা"
+
+msgid "All available hosts"
+msgstr "সকলোবোৰ উপলব্ধ হষ্ট"
+
+msgid "Allocate Floating IP"
+msgstr "ফ্লটিং IP নিৰ্ধাৰণ কৰক"
+
+msgid "Allocate IP"
+msgstr "IP নিৰ্ধাৰণ কৰক"
+
+msgid "Allocate IP To Project"
+msgstr "প্ৰক্ষেপ কৰিবলৈ IP নিৰ্ধাৰণ কৰক"
+
+msgid "Allocate a floating IP from a given floating IP pool."
+msgstr "দিয়া ফ্লটিং IP পুল এটাৰ পৰা ফ্লটিং IP এটা নিৰ্ধাৰণ কৰক."
+
+#, python-format
+msgid "Allocated Floating IP %(ip)s."
+msgstr "নিৰ্ধাৰিত ফ্লটিং  IP %(ip)s."
+
+msgid "Allocation Pools"
+msgstr "নিৰ্ধাৰিত পুলবোৰ"
+
+msgid "An external (HTTP) URL to load the template from."
+msgstr "...ৰ পৰা নমুনাটো লোড কৰিবলৈ এটা বাহ্যিক (HTTP) URL."
+
+msgid ""
+"An instance can be launched with varying types of attached storage. You may "
+"select from those options here."
+msgstr ""
+"সংযোজিত ভঁৰালৰ প্ৰকাৰবোৰৰ ভিন্নতাৰ সৈতে উদাহৰণ এটা আৰম্ভ কৰিব পাৰি. আপুনি ইয়াত "
+"সেই বিকল্পবোৰৰ পৰা নিৰ্বাচন কৰিব পাৰে."
+
+msgid ""
+"An unexpected error has occurred. Try refreshing the page. If that doesn't "
+"help, contact your local administrator."
+msgstr ""
+"এটা অপ্ৰত্যাশিত ভুল ওলাল. পৃষ্ঠাটো পুনৰ সজীৱ কৰিবলৈ চেষ্টা কৰক. যদি সেইটোৱে সহায় "
+"নকৰে, তেন্তে আপোনাৰ স্থানীয় প্ৰশাসকৰ সৈতে যোগাযোগ কৰক."
+
+msgid "Any"
+msgstr "যিকোনো"
+
+msgid "Any Availability Zone"
+msgstr "যিকোনো উপলব্ধতাৰ মণ্ডল"
+
+msgid "Architecture"
+msgstr "স্থাপত্যবিদ"
+
+msgid "Associate"
+msgstr "সহযোগী"
+
+msgid "Associate Floating IP"
+msgstr "জড়িত ফ্লটিং IP"
+
+msgid "Associate QoS Spec"
+msgstr "জড়িত QoS স্পেক"
+
+msgid "Associate QoS Spec with Volume Type"
+msgstr "আয়তন প্ৰকাৰৰ সৈতে জড়িত QoS স্পেক"
+
+msgid "Associated QoS Spec"
+msgstr "জড়িত QoS স্পেক"
+
+msgid "At least one network must be specified."
+msgstr "অতিকমেও এটা নেটৱৰ্ক নিৰ্ধাৰণ কৰাটো অপৰিহাৰ্য."
+
+msgid "Attach To Instance"
+msgstr "উদাহৰণলৈ সংলগ্ন কৰক"
+
+msgid "Attach Volume"
+msgstr "আয়তনলৈ সংলগ্ন কৰক"
+
+msgid "Attach to Instance"
+msgstr "উদাহৰণলৈ সংলগ্ন কৰক"
+
+msgid "Attached"
+msgstr "সংলগ্ন কৰা হল"
+
+msgid "Attached Device"
+msgstr "ডিভাইচ সংলগ্ন কৰা হল"
+
+msgid "Attached To"
+msgstr "...লৈ সংলগ্ন কৰক"
+
+msgctxt "Current status of a Volume"
+msgid "Attaching"
+msgstr "সংলগ্ন কৰিছে"
+
+#, python-format
+msgid "Attaching volume %(vol)s to instance %(inst)s on %(dev)s."
+msgstr "%(dev)s ত %(inst)s উদাহৰণলৈ %(vol)s আয়তন সংলগ্ন কৰিছে."
+
+msgid "Attachments"
+msgstr "সংলগ্নবোৰ"
+
+msgid "Authentication URL"
+msgstr "বৈধতা URL"
+
+msgid "Automatic"
+msgstr "স্বয়ংক্ৰিয়"
+
+msgid ""
+"Automatic: The entire disk is a single partition and automatically resizes. "
+"Manual: Results in faster build times but requires manual partitioning."
+msgstr ""
+"স্বয়ংক্ৰিয়: সমগ্ৰ ডিস্কটো হল এটা অকলশৰীয়া শ্ৰেণীবিভাগ আৰু স্বয়ংক্ৰিয়ভাৱে পুনৰ আকৃতি "
+"ধাৰণ কৰা. মেনুৱেল: তীব্ৰবেগী নিৰ্মাণ সময়বোৰত ফলাফল দিয়ে কিন্তু মেনুৱেল শ্ৰেণীবিভাগ "
+"দাবী কৰে."
+
+msgid "Availability Zone"
+msgstr "উপলব্ধতা মণ্ডল"
+
+msgid "Availability Zone Name"
+msgstr "উপলব্ধতা মণ্ডলৰ নাম"
+
+msgid "Availability Zones"
+msgstr "উপলব্ধতা মণ্ডলবোৰ"
+
+msgid "Available"
+msgstr "উপলব্ধ"
+
+msgctxt "Current status of a Volume"
+msgid "Available"
+msgstr "উপলব্ধ"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Available"
+msgstr "উপলব্ধ"
+
+msgid "Available networks"
+msgstr "উপলব্ধ নেটৱৰ্কবোৰ"
+
+msgid "Backup Name"
+msgstr "বেকআপ নাম"
+
+msgid "Backups"
+msgstr "বেকআপবোৰ"
+
+msgctxt "Task status of an Instance"
+msgid "Block Device Mapping"
+msgstr "ডিভাইচ মেপিং বাধা দিয়ক"
+
+msgid "Block Migration"
+msgstr "প্ৰব্ৰজন বন্ধ কৰক"
+
+msgid "Block Storage Services"
+msgstr "ভঁৰাল সেৱাবোৰ আৱদ্ধ কৰক"
+
+msgctxt "Power state of an Instance"
+msgid "Blocked"
+msgstr "আৱদ্ধ কৰা হল"
+
+msgid "Boot from image"
+msgstr "ছবিৰ পৰা বুট কৰক"
+
+msgid "Boot from image (creates a new volume)"
+msgstr "ছবিৰ পৰা বুট কৰক (এটা নতুন আয়তন তৈয়াৰ কৰে)"
+
+msgid "Boot from snapshot"
+msgstr "স্নেপশ্বটৰ পৰা বুট কৰক"
+
+msgid "Boot from volume"
+msgstr "আয়তনৰ পৰা বুট কৰক"
+
+msgid "Boot from volume snapshot (creates a new volume)"
+msgstr "আয়তন স্নেপশ্বটৰ পৰা বুট কৰক (এটা নতুন আয়তন তৈয়াৰ কৰে)"
+
+msgid "Bootable"
+msgstr "বুট কৰিব পৰা"
+
+msgctxt "Current status of a Network"
+msgid "Build"
+msgstr "নিৰ্মাণ কৰক"
+
+msgctxt "Current status of an Instance"
+msgid "Build"
+msgstr "নিৰ্মাণ কৰক"
+
+msgctxt "current status of port"
+msgid "Build"
+msgstr "নিৰ্মাণ কৰক"
+
+msgctxt "status of a network port"
+msgid "Build"
+msgstr "নিৰ্মাণ কৰক"
+
+msgctxt "Power state of an Instance"
+msgid "Building"
+msgstr "নিৰ্মাণ কৰিছে"
+
+msgid "CIDR"
+msgstr "CIDR"
+
+msgid "CIDR must be specified."
+msgstr "CIDR নিৰ্ধাৰিত কৰাটো অপৰিহাৰ্য."
+
+msgid "Cancel"
+msgstr "বাতিল কৰক"
+
+msgid "Centralized"
+msgstr "কেন্দ্ৰীকৃত কৰা হল"
+
+msgid "Change"
+msgstr "সলনি কৰক"
+
+msgid "Change Password"
+msgstr "পাছৱৰ্ড সলনি কৰক"
+
+msgid "Change Stack Template"
+msgstr "ষ্টেক নমুনা সলনি কৰক"
+
+msgid "Change Template"
+msgstr "নমুনা সলনি কৰক"
+
+msgid "Change Volume Type"
+msgstr "আয়তনৰ প্ৰকাৰ সলনি কৰক"
+
+msgid "Change your password. We highly recommend you create a strong one. "
+msgstr ""
+"আপোনাৰ পাছৱৰ্ড সলনি কৰক. আমি আপোনাক শক্তিশালী এটা তৈয়াৰ কৰিবলে পৰামৰ্শ কৰিছো. "
+
+msgid "Changing password is not supported."
+msgstr "পাছৱৰ্ড সলনি কৰাটো সমৰ্থন নকৰে."
+
+msgid "Checksum"
+msgstr "ছেকছাম"
+
+msgid "Choose Your Boot Source Type."
+msgstr "আপোনাৰ বুট উত্সৰ প্ৰকাৰ নিৰ্বাচন কৰক."
+
+msgid "Choose a Host to migrate to."
+msgstr "...লৈ প্ৰব্ৰজন কৰিবলৈ হষ্ট এটা নিৰ্বাচন কৰক."
+
+msgid ""
+"Choose a key pair name you will recognise and paste your SSH public key into "
+"the space provided."
+msgstr ""
+"আপোনাৰ চিনি পাব পৰা মুখ্য যোৰা নাম এটা  নিৰ্বাচন কৰক আৰু আগবঢ়োৱা খালী ঠাইত "
+"আপোনাৰ SSH ৰাজহুৱা কীটো আঠা লগাওক."
+
+msgid "Choose a snapshot"
+msgstr "স্নেপশ্বট এটা নিৰ্বাচন কৰক"
+
+msgid "Choose a volume"
+msgstr "আয়তন এটা নিৰ্বাচন কৰক"
+
+msgid "Choose an DHCP Agent to attach to."
+msgstr "... লৈ সংলগ্ন কৰিবলৈ এটা DHCP এজেন্ট নিৰ্বাচন কৰক."
+
+msgid "Choose an image"
+msgstr "ছবি এটা নিৰ্বাচন কৰক"
+
+msgid "Choose associated QoS Spec."
+msgstr "জড়িত QoS স্পেক পছন্দ কৰক."
+
+msgid "Choose consumer for this QoS Spec."
+msgstr "এই QoS স্পেকটোৰ বাবে উপভোক্তা নিৰ্বাচন কৰক."
+
+msgid ""
+"Choose network from Available networks to Selected networks by push button "
+"or drag and drop, you may change NIC order by drag and drop as well. "
+msgstr ""
+"পুছ বাটন বা ড্ৰেগ আৰু ড্ৰপৰ দ্বাৰা নিৰ্বাচিত নেটৱৰ্কবোৰলৈ উপলব্ধ নেটৱৰ্কবোৰৰ পৰা "
+"নেটৱৰ্ক নিৰ্বাচন কৰক, একেদৰে ড্ৰেগ আৰু  ড্ৰপৰ দ্বাৰা আপুনি NIC ক্ৰম সলনি কৰিব পাৰে. "
+
+msgid "Choose the flavor to launch."
+msgstr "আৰম্ভ কৰিবলৈ ফ্লেভাৰটো পছন্দ কৰক."
+
+msgid "Cipher"
+msgstr "ছিফাৰ"
+
+msgid "Clear Domain Context"
+msgstr "ক্ষেত্ৰ প্ৰসংগ সম্পন্ন কৰক"
+
+msgid "Click here to show only console"
+msgstr "কেৱল কনছোল চাবলৈ ইয়াত ক্লিক কৰক"
+
+msgid "Close"
+msgstr "বন্ধ কৰক"
+
+msgid "Code"
+msgstr "কোড"
+
+msgid "Compute"
+msgstr "গণনা কৰক"
+
+msgid "Compute Host"
+msgstr "হষ্ট গণনা কৰক"
+
+msgid "Compute Services"
+msgstr "সেৱাবোৰ গণনা কৰক"
+
+msgid "Configuration Drive"
+msgstr "ৰূপৰেখা কৰা চালক"
+
+msgid ""
+"Configure OpenStack to write metadata to a special configuration drive that "
+"attaches to the instance when it boots."
+msgstr ""
+"এটা বিশেষ ৰূপৰেখা ড্ৰাইভলৈ মেটাডাটা লিখিবলৈ মুক্ত ষ্টেক ৰূপৰেখা কৰক সেইটোৱে "
+"উদাহৰণটোৰ সৈতে সংলগ্ন কৰে যেতিয়া এইটো বুট কৰে."
+
+msgid "Confirm Admin Password"
+msgstr "কৰ্তৃপক্ষৰ পাছৱৰ্ড নিশ্চিত কৰক"
+
+msgid "Confirm Password"
+msgstr "পাছৱৰ্ড নিশ্চিত কৰক"
+
+msgid "Confirm Rebuild Password"
+msgstr "পাছৱৰ্ডৰ পুনৰ নিৰ্মাণ নিশ্চিত কৰক"
+
+msgid "Confirm Resize/Migrate"
+msgstr "পুনৰ আকাৰ/প্ৰব্ৰজন নিশ্চিত কৰক"
+
+msgid "Confirm new password"
+msgstr "নতুন পাছৱৰ্ড নিশ্চিত কৰক"
+
+msgctxt "Current status of an Instance"
+msgid "Confirm or Revert Resize/Migrate"
+msgstr "পুনৰ আকাৰ/প্ৰব্ৰজন নিশ্চিত কৰক বা ওভোতাই আনক"
+
+msgctxt "Task status of an Instance"
+msgid "Confirming Resize or Migrate"
+msgstr "পুনৰ আকাৰ বা প্ৰব্ৰজন নিশ্চিত কৰিছে"
+
+msgid "Console"
+msgstr "কনছোল"
+
+#, python-format
+msgid "Console type \"%s\" not supported."
+msgstr "কনছোল প্ৰকাৰ \"%s\" সমৰ্থন নকৰে."
+
+msgid "Consumer"
+msgstr "উপভোক্তা"
+
+msgid "Container Format"
+msgstr "ধাৰকৰ ফৰমেট"
+
+msgid "Container Name"
+msgstr "ধাৰকৰ নাম"
+
+msgid "Containers"
+msgstr "ধাৰকবোৰ"
+
+msgid "Control Location"
+msgstr "স্থান নিয়ন্ত্ৰণ কৰক"
+
+msgid ""
+"Control access to your instance via key pairs, security groups, and other "
+"mechanisms."
+msgstr ""
+"মুখ্য যোৰাবোৰ, সুৰক্ষাৰ গোটবোৰ, আৰু অন্য কাৰিকৰীবোৰৰ যোগেদি আপোনাৰ উদাহৰণলৈ প্ৰৱেশ "
+"নিয়ন্ত্ৰণ কৰক."
+
+#, python-format
+msgid "Cores(Available: %(avail)s, Requested: %(req)s)"
+msgstr "ক'ৰবোৰ(উপলব্ধ: %(avail)s, দাবী কৰা: %(req)s)"
+
+#, python-format
+msgid "Could not find default role \"%s\" in Keystone"
+msgstr "\"%s\" কীষ্টনত ডিফল্ট ৰোল বিচাৰি পোৱা নগল"
+
+msgctxt "Power state of an Instance"
+msgid "Crashed"
+msgstr "ধ্বংস হল"
+
+msgid "Create"
+msgstr "তৈয়াৰ কৰক"
+
+msgctxt "Action log of an instance"
+msgid "Create"
+msgstr "তৈয়াৰ কৰক"
+
+msgid "Create An Image"
+msgstr "ছবি এটা তৈয়াৰ কৰক"
+
+msgid "Create Backup"
+msgstr "বেকআপ তৈয়াৰ কৰক"
+
+msgid "Create Domain"
+msgstr "ক্ষেত্ৰ তৈয়াৰ কৰক"
+
+msgid "Create Encrypted Volume Type"
+msgstr "এনক্ৰিপ্ট কৰা আয়নত প্ৰকাৰ তৈয়াৰ কৰক"
+
+msgid "Create Encryption"
+msgstr "এনক্ৰিপশ্বন তৈয়াৰ কৰক"
+
+msgid "Create Flavor"
+msgstr "ফ্লেভাৰ তৈয়াৰ কৰক"
+
+msgid "Create Group"
+msgstr "গোট তৈয়াৰ কৰক"
+
+msgid "Create Host Aggregate"
+msgstr "হষ্ট গড় তৈয়াৰ কৰক"
+
+msgid "Create Image"
+msgstr "ছবি তৈয়াৰ কৰক"
+
+msgid "Create Key Pair"
+msgstr "মুখ্য যোৰা তৈয়াৰ কৰক"
+
+msgid "Create Network"
+msgstr "নেটৱৰ্ক তৈয়াৰ কৰক"
+
+msgid "Create Network (Quota exceeded)"
+msgstr "নেটৱৰ্ক তৈয়াৰ কৰক (কোটা অতিক্ৰম কৰিছে)"
+
+msgid "Create Port"
+msgstr "পোৰ্ট তৈয়াৰ কৰক"
+
+msgid "Create Project"
+msgstr "প্ৰক্ষেপ তৈয়াৰ কৰক"
+
+msgid "Create QoS Spec"
+msgstr "QoS স্পেক তৈয়াৰ কৰক"
+
+msgid "Create Role"
+msgstr "ৰোল তৈয়াৰ কৰক"
+
+msgid "Create Router"
+msgstr "ৰাউটাৰ তৈয়াৰ কৰক"
+
+msgid "Create Router (Quota exceeded)"
+msgstr "ৰাউটাৰ তৈয়াৰ কৰক (কোটা অতিক্ৰম কৰিছে)"
+
+msgid "Create Security Group"
+msgstr "সুৰক্ষাৰ গোট তৈয়াৰ কৰক"
+
+msgid "Create Security Group (Quota exceeded)"
+msgstr "সুৰক্ষাৰ গোট তৈয়াৰ কৰক (কোটা অতিক্ৰম কৰিছে)"
+
+msgid "Create Snapshot"
+msgstr "স্নেপশ্বট তৈয়াৰ কৰক"
+
+msgid "Create Spec"
+msgstr "স্পেক তৈয়াৰ কৰক"
+
+msgid "Create Stack"
+msgstr "ষ্টেক তৈয়াৰ কৰক"
+
+msgid "Create Subnet"
+msgstr "উপনেট তৈয়াৰ কৰক"
+
+msgid "Create Subnet (Quota exceeded)"
+msgstr "উপনেট তৈয়াৰ কৰক (কোটা অতিক্ৰম কৰিছে)"
+
+msgid "Create User"
+msgstr "ব্যৱহাৰকৰ্তাবোৰ তৈয়াৰ কৰক"
+
+msgid "Create Volume"
+msgstr "আয়তন তৈয়াৰ কৰা হল"
+
+msgid "Create Volume Backup"
+msgstr "আয়তন বেকআপ তৈয়াৰ কৰক"
+
+msgid "Create Volume Snapshot"
+msgstr "আয়তন স্নেপশ্বট তৈয়াৰ কৰক"
+
+msgid "Create Volume Snapshot (Force)"
+msgstr "আয়তন স্নেপশ্বট তৈয়াৰ কৰক (জোৰকৈ)"
+
+msgid "Create Volume Type"
+msgstr "আয়তন প্ৰকাৰ তৈয়াৰ কৰক"
+
+msgid "Create Volume Type Encryption"
+msgstr "আয়তন প্ৰকাৰ এনক্ৰিপশ্বন তৈয়াৰ কৰক"
+
+msgid "Create Volume Type Extra Spec"
+msgstr "আয়তন প্ৰকাৰ অতিৰিক্ত স্পেক তৈয়াৰ কৰক"
+
+msgid "Create a New Volume"
+msgstr "এটা নতুন আয়তন তৈয়াৰ কৰক"
+
+msgid "Create a Router"
+msgstr "ৰাউটাৰ এটা তৈয়াৰ কৰক"
+
+msgid "Create a new \"extra spec\" key-value pair for a volume type."
+msgstr "আয়তন প্ৰকাৰ এটাৰ বাবে এটা নতুন \"extra spec\" মুখ্য-মান যোৰা তৈয়াৰ কৰক."
+
+msgid "Create a new role."
+msgstr "এটা নতুন ৰোল তৈয়াৰ কৰক."
+
+msgid "Create a new stack with the provided values."
+msgstr "দিয়া মানবোৰৰ সৈতে এটা নতুন ষ্টেক তৈয়াৰ কৰক."
+
+msgid ""
+"Create a new user and set related properties including the Primary Project "
+"and Role."
+msgstr ""
+"নতুন ব্যৱহাৰকৰ্তা তৈয়াৰ কৰক আৰু প্ৰাথমিক প্ৰক্ষেপ আৰু ৰোলটো অন্তৰ্ভুক্ত কৰি সম্পৰ্কীয় "
+"সম্পত্তিবোৰ ছেট কৰক."
+
+msgid "Create a project to organize users."
+msgstr "ব্যৱহাৰকৰ্তাবোৰ সংগঠিত কৰিবলৈ প্ৰক্ষেপ এটা তৈয়াৰ কৰক."
+
+msgid ""
+"Create a subnet associated with the network. Advanced configuration is "
+"available by clicking on the \"Subnet Details\" tab."
+msgstr ""
+"নেটৱৰ্কটোৰ সৈতে জড়িত উপনেট এটা তৈয়াৰ কৰক. \"Subnet Details\" টেবত ক্লিক কৰাৰ "
+"দ্বাৰা উন্নত ৰূপৰেখা উপলব্ধ হয়."
+
+msgid "Create an Encrypted Volume Type"
+msgstr "এটা এনক্ৰিপ্ট কৰা আয়নত প্ৰকাৰ তৈয়াৰ কৰক"
+
+msgid "Created"
+msgstr "তৈয়াৰ কৰা হল"
+
+#, python-format
+msgid "Created extra spec \"%s\"."
+msgstr "অতিৰিক্ত স্পেক \"%s\" তৈয়াৰ কৰা হল."
+
+#, python-format
+msgid "Created network \"%s\"."
+msgstr "\"%s\" নেটৱৰ্ক তৈয়াৰ কৰা হল."
+
+#, python-format
+msgid "Created new domain \"%s\"."
+msgstr "\"%s\" নতুন ক্ষেত্ৰ তৈয়াৰ কৰক."
+
+#, python-format
+msgid "Created new flavor \"%s\"."
+msgstr "\"%s\" নতুন ফ্লেভাৰ তৈয়াৰ কৰক."
+
+#, python-format
+msgid "Created new host aggregate \"%s\"."
+msgstr "\"%s\" নতুন হষ্ট গড় তৈয়াৰ কৰা হল."
+
+#, python-format
+msgid "Created new project \"%s\"."
+msgstr "নতুন প্ৰক্ষেপ \"%s\" তৈয়াৰ কৰা হল."
+
+#, python-format
+msgid "Created spec \"%s\"."
+msgstr "স্পেক \"%s\" তৈয়াৰ কৰা হল."
+
+#, python-format
+msgid "Created subnet \"%s\"."
+msgstr "\"%s\" উপনেট তৈয়াৰ কৰা হল."
+
+msgctxt "Current status of a Volume"
+msgid "Creating"
+msgstr "তৈয়াৰ কৰিছে"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Creating"
+msgstr "তৈয়াৰ কৰিছে"
+
+msgid ""
+"Creating encryption for a volume type causes all volumes with that volume "
+"type to be encrypted.  Encryption information cannot be added to a volume "
+"type if volumes are currently in use with that volume type."
+msgstr ""
+"আয়তন প্ৰকাৰ এটাৰ বাবে এনক্ৰিপশ্বন তৈয়াৰ কৰাটোৱে উক্ত আয়তন প্ৰকাৰটোৰ সৈতে সকলোবোৰ "
+"আয়তন এনক্ৰিপ্ট কৰিব পাৰে. এনক্ৰিপশ্বন তথ্য আয়তন প্ৰকাৰ এটালৈ যোগ কৰিব নোৱাৰি যদি "
+"উক্ত আয়তন প্ৰকাৰটোৰ সৈতে আয়তনবোৰ বৰ্তমানে ব্যৱহৃত হৈ আছে."
+
+#, python-format
+msgid "Creating volume \"%s\""
+msgstr "\"%s\" আয়তন তৈয়াৰ কৰিছে"
+
+#, python-format
+msgid "Creating volume backup \"%s\""
+msgstr "\"%s\" আয়তন বেকআপ তৈয়াৰ কৰিছে"
+
+#, python-format
+msgid "Creating volume snapshot \"%s\"."
+msgstr "\"%s\" আয়তন স্নেপশ্বট তৈয়াৰ কৰিছে."
+
+msgid "Creation Timeout (minutes)"
+msgstr "তৈয়াৰৰ সময় উকলি গল (মিনিটবোৰ)"
+
+msgid "Current Host"
+msgstr "চলিত হষ্ট"
+
+msgid "Current password"
+msgstr "চলিত পাছৱৰ্ড"
+
+msgid "Custom ICMP Rule"
+msgstr "ICMP নিয়ম ব্যৱস্থা কৰক"
+
+msgid "Custom Properties"
+msgstr "সম্পত্তিবোৰৰ ব্যৱস্থা কৰক"
+
+msgid "Custom TCP Rule"
+msgstr "TCP নিয়ম ব্যৱস্থা কৰক"
+
+msgid "Custom UDP Rule"
+msgstr "UDP নিয়ম ব্যৱস্থা কৰক"
+
+msgid "Customization Script Source"
+msgstr "ব্যৱস্থা কৰা স্ক্ৰিপ্ট উত্স"
+
+msgid "DHCP Agents"
+msgstr "DHCP এজেন্টবোৰ"
+
+msgid "DNS Name Servers"
+msgstr "DNS নাম ছাৰ্ভাৰবোৰ"
+
+msgid "Date Updated"
+msgstr "তাৰিখ আপডেট কৰা হল"
+
+msgid "Decrypt Password"
+msgstr "পাছৱৰ্ড ডিক্ৰিপ্ট কৰক"
+
+msgid "Default Quotas"
+msgstr "ডিফল্ট কোটাবোৰ"
+
+msgid "Default quotas updated."
+msgstr "ডিফল্ট কোটাবোৰ আপডেট কৰা হল."
+
+msgid "Defaults"
+msgstr "ডিফল্টবোৰ"
+
+#, python-format
+msgid "Delete the created network \"%s\" due to subnet creation failure."
+msgstr "উপনেট তৈয়াৰীত ব্যৰ্থতাৰ বাবে তৈয়াৰ কৰা \"%s\" নেটৱৰ্কটো ডিলিট কৰক."
+
+msgid "Deleted"
+msgstr "ডিলিট কৰা হল"
+
+msgctxt "Current status of an Image"
+msgid "Deleted"
+msgstr "ডিলিট কৰা হল"
+
+msgctxt "Current status of an Instance"
+msgid "Deleted"
+msgstr "ডিলিট কৰা হল"
+
+msgctxt "Current status of a Volume"
+msgid "Deleting"
+msgstr "ডিলিট কৰিছে"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Deleting"
+msgstr "ডিলিট কৰিছে"
+
+msgctxt "Task status of an Instance"
+msgid "Deleting"
+msgstr "ডিলিট কৰিছে"
+
+msgid "Description"
+msgstr "বিৱৰণ"
+
+msgid "Description:"
+msgstr "বিৱৰণ:"
+
+msgid "Destination"
+msgstr "গন্তব্যস্থান"
+
+msgid "Destination CIDR"
+msgstr "গন্তব্যস্থানৰ CIDR"
+
+msgid "Detached"
+msgstr "পৃথক কৰা হল"
+
+msgctxt "Current status of a Volume"
+msgid "Detaching"
+msgstr "পৃথক কৰিছে"
+
+msgid "Details"
+msgstr "পূংখানুপূংখ বিৱৰণ"
+
+msgid "Device"
+msgstr "ডিভাইচ"
+
+msgid "Device ID"
+msgstr "ডিভাইচ ID"
+
+msgid "Device ID attached to the port"
+msgstr "পোৰ্টটোলৈ ডিভাইচ ID সংলগ্ন কৰা হল"
+
+msgid "Device Name"
+msgstr "ডিভাইচ নাম"
+
+msgid "Device Owner"
+msgstr "ডিভাইচৰ গৰাকী"
+
+msgid "Device owner attached to the port"
+msgstr "পোৰ্টটোলৈ ডিভাইচৰ গৰাকী সংলগ্ন কৰা হল"
+
+msgid "Device size (GB)"
+msgstr "ডিভাইচ আকাৰ (GB)"
+
+msgid "Direct Input"
+msgstr "প্ৰত্যক্ষ ইনপুট"
+
+msgid "Direction"
+msgstr "দিশ"
+
+msgid "Disable Gateway"
+msgstr "অক্ষম গেটৱে"
+
+msgid "Disable HA mode"
+msgstr "HA ধৰণ অক্ষম কৰক"
+
+msgid "Disable Service"
+msgstr "সেৱা অক্ষম কৰক"
+
+msgid "Disable the compute service."
+msgstr "সেৱা গণনা কৰিবলৈ অক্ষম."
+
+msgid "Disabled"
+msgstr "অক্ষম কৰা হল"
+
+msgctxt "Current status of a Hypervisor"
+msgid "Disabled"
+msgstr "অক্ষম কৰা হল"
+
+#, python-format
+msgid "Disabled compute service for host: %s."
+msgstr "হষ্টৰ বাবে সেৱা গণনা কৰিবলৈ অক্ষম হল: %s."
+
+msgid "Disassociate"
+msgstr "জড়িত নহয়"
+
+msgid "Disassociate Floating IP"
+msgstr "জড়িত নোহোৱা ফ্লটিং IP"
+
+msgid "Disk"
+msgstr "ডিস্ক"
+
+msgid "Disk (GB)"
+msgstr "ডিস্ক (GB)"
+
+msgid "Disk Format"
+msgstr "ডিস্ক ফৰমেট"
+
+msgid "Disk GB Hours"
+msgstr "ডিস্ক GB ঘন্টাবোৰ"
+
+msgid "Disk Over Commit"
+msgstr "ডিস্ক অভাৰ কমিট"
+
+msgid "Disk Partition"
+msgstr "ডিস্কৰ ভাগ"
+
+msgid "Distributed"
+msgstr "বিতৰণ কৰা হল"
+
+#, python-format
+msgid "Domain \"%s\" must be disabled before it can be deleted."
+msgstr "ডিলিট কৰাৰ আগতে \"%s\" ক্ষেত্ৰখন অক্ষম কৰাটো অপৰিহাৰ্য."
+
+msgid "Domain Context cleared."
+msgstr "ক্ষেত্ৰ প্ৰসংগ সম্পন্ন কৰা হল."
+
+#, python-format
+msgid "Domain Context updated to Domain %s."
+msgstr "%s ক্ষেত্ৰখনলৈ ক্ষেত্ৰ প্ৰসংগ আপডেট কৰা হল."
+
+msgid "Domain Groups"
+msgstr "ক্ষেত্ৰ গোটবোৰ"
+
+msgid "Domain ID"
+msgstr "ক্ষেত্ৰ ID"
+
+msgid "Domain Information"
+msgstr "ক্ষেত্ৰ তথ্য"
+
+msgid "Domain Members"
+msgstr "ক্ষেত্ৰ সদস্যবোৰ"
+
+msgid "Domain Name"
+msgstr "ক্ষেত্ৰ নাম"
+
+msgid "Domains"
+msgstr "ক্ষেত্ৰবোৰ"
+
+msgid ""
+"Domains provide separation between users and infrastructure used by "
+"different organizations."
+msgstr ""
+"বিভিন্ন সংস্থাবোৰে ব্যৱহাৰ কৰা ব্যৱহাৰকৰ্তা আৰু আন্তগাঁথনিৰ মাজত ক্ষেত্ৰবোৰে পাৰ্থক্য "
+"আগবঢ়ায়."
+
+msgid ""
+"Domains provide separation between users and infrastructure used by "
+"different organizations. Edit the domain details to add or remove groups in "
+"the domain."
+msgstr ""
+"বিভিন্ন সংস্থাবোৰে ব্যৱহাৰ কৰা ব্যৱহাৰকৰ্তা আৰু আন্তগাঁথনিৰ মাজত ক্ষেত্ৰবোৰে পাৰ্থক্য "
+"আগবঢ়ায়. ক্ষেত্ৰখনত গোটবোৰ যোগ কৰিব বা আঁতৰ কৰিবলৈ ক্ষেত্ৰখনৰ পূংখানুপূংখ বিৱৰণটো "
+"সম্পাদনা কৰক."
+
+msgid "Domains:"
+msgstr "ক্ষেত্ৰবোৰ:"
+
+msgid "Down"
+msgstr "তললৈ"
+
+msgctxt "Current state of a Hypervisor"
+msgid "Down"
+msgstr "তললৈ"
+
+msgctxt "Current status of a Floating IP"
+msgid "Down"
+msgstr "তললৈ"
+
+msgctxt "Current status of a Network"
+msgid "Down"
+msgstr "তললৈ"
+
+msgctxt "current status of port"
+msgid "Down"
+msgstr "তললৈ"
+
+msgctxt "status of a network port"
+msgid "Down"
+msgstr "তললৈ"
+
+msgid "Download CSV Summary"
+msgstr "CSV সাৰাংশ ডাউনলোড কৰক"
+
+msgid "EC2 Access Key"
+msgstr "EC2 প্ৰৱেশ কী"
+
+msgid "EC2 Secret Key"
+msgstr "EC2 গোপন কী"
+
+msgid "EC2 URL"
+msgstr "EC2 URL"
+
+msgid "Edit"
+msgstr "সম্পাদনা কৰক"
+
+msgid "Edit Consumer"
+msgstr "উপভোক্তা সম্পাদনা কৰক"
+
+msgid "Edit Domain"
+msgstr "ক্ষেত্ৰ সম্পাদনা কৰক"
+
+msgid "Edit Flavor"
+msgstr "ফ্লেভাৰ সম্পাদনা কৰক"
+
+msgid "Edit Group"
+msgstr "গোট সম্পাদনা কৰক"
+
+msgid "Edit Host Aggregate"
+msgstr "হষ্ট গড় সম্পাদনা কৰক"
+
+msgid "Edit Instance"
+msgstr "উদাহৰণ সম্পাদনা কৰক"
+
+msgid "Edit Network"
+msgstr "নেটৱৰ্ক সম্পাদনা কৰক"
+
+msgid "Edit Port"
+msgstr "পোৰ্ট সম্পাদনা কৰক"
+
+msgid "Edit Project"
+msgstr "প্ৰক্ষেপ সম্পাদনা কৰক"
+
+msgid "Edit QoS Spec Consumer"
+msgstr "QoS স্পেক উপভোক্তা সম্পাদনা কৰক"
+
+msgid "Edit Router"
+msgstr "ৰাউটাৰ সম্পাদনা কৰক"
+
+msgid "Edit Security Group"
+msgstr "সুৰক্ষাৰ গোট সম্পাদনা কৰক"
+
+msgid "Edit Security Groups"
+msgstr "সুৰক্ষাৰ গোটবোৰ সম্পাদনা কৰক"
+
+msgid "Edit Snapshot"
+msgstr "স্নেপশ্বট সম্পাদনা কৰক"
+
+msgid "Edit Spec"
+msgstr "স্পেক সম্পাদনা কৰক"
+
+msgid "Edit Subnet"
+msgstr "উপনেট সম্পাদনা কৰক"
+
+msgid "Edit Template"
+msgstr "নমুনা সম্পাদনা কৰক"
+
+msgid "Edit Volume"
+msgstr "আয়তন সম্পাদন কৰক"
+
+msgid "Edit Volume Type Extra Spec"
+msgstr "আয়তন প্ৰকাৰ অতিৰিক্ত স্পেক সম্পাদনা কৰক"
+
+msgid ""
+"Edit the flavor details. Flavors define the sizes for RAM, disk, number of "
+"cores, and other resources. Flavors are selected when users deploy instances."
+msgstr ""
+"ফ্লেভাৰৰ পূংখানুপূংখ বিৱৰণ সম্পাদনা কৰক. ফ্লেভাৰবোৰে RAM, ডিস্ক, ক'ৰৰ সংখ্যা আৰু অন্য "
+"সম্পদবোৰ নিৰ্ধাৰণ কৰে. ফ্লেভাৰবোৰ নিৰ্বাচন কৰা হয় যেতিয়া ব্যৱহাৰকৰ্তাই উদাহৰণবোৰ "
+"প্ৰস্তুত কৰে."
+
+msgid "Edit the image details."
+msgstr "ছবিৰ পূংখানুপূংখ বিৱৰণটো সম্পাদনা কৰক."
+
+msgid "Edit the instance details."
+msgstr "উদাহৰণৰ পূংখানুপূংখ বিৱৰণ সম্পাদনা কৰক."
+
+msgid "Edit the project details."
+msgstr "প্ৰক্ষেপ বিৱৰণবোৰ সম্পাদনা কৰিবলৈ অক্ষম."
+
+msgid "Edit the role's details."
+msgstr "ৰোলৰ পূংখানুপূংখ বিৱৰণটো সম্পাদনা কৰক."
+
+msgid "Egress"
+msgstr "প্ৰস্থান কৰক"
+
+msgid "Email"
+msgstr "ইমেইল"
+
+msgid "Enable DHCP"
+msgstr "সক্ষম DHCP"
+
+msgid "Enable HA mode"
+msgstr "HA ধৰণ সক্ষম কৰক"
+
+msgid "Enable rollback on create/update failure."
+msgstr "তৈয়াৰ/আপডেট ব্যৰ্থ হলে ৰোলবেক সক্ষম কৰক."
+
+msgid "Enabled"
+msgstr "সক্ষম কৰা হল"
+
+msgctxt "Current status of a Hypervisor"
+msgid "Enabled"
+msgstr "সক্ষম কৰা হল"
+
+msgid "Encrypted"
+msgstr "এনক্ৰিপ্ট কৰা হল"
+
+msgid "Encrypted Password"
+msgstr "পাছৱৰ্ড এনক্ৰিপ্ট কৰা হল"
+
+msgid "Encryption"
+msgstr "এনক্ৰিপশ্বন"
+
+msgid "Enter a value for ICMP code in the range (-1: 255)"
+msgstr "(-1: 255) পৰিসৰটোত ICMP প্ৰসাৰটোৰ বাবে মান এটা ভৰাওক"
+
+msgid "Enter a value for ICMP type in the range (-1: 255)"
+msgstr "(-1: 255) পৰিসৰটোত ICMP প্ৰসাৰটোৰ বাবে মান এটা ভৰাওক"
+
+msgid "Enter an integer value between 1 and 65535."
+msgstr "1 আৰু 65535 ৰ মাজত অখণ্ড মান এটা ভৰাওক."
+
+msgid "Environment Data"
+msgstr "পৰিৱেশ ডাটা"
+
+msgid "Environment File"
+msgstr "পৰিৱেশ ফাইল"
+
+msgid "Environment Source"
+msgstr "পৰিৱেশ উত্স"
+
+msgid "Ephemeral Disk"
+msgstr "ইফেমেৰল ডিস্ক"
+
+msgid "Ephemeral Disk (GB)"
+msgstr "ইফামেৰল ডিস্ক (GB)"
+
+msgctxt "Current status of a Floating IP"
+msgid "Error"
+msgstr "ভুল"
+
+msgctxt "Current status of a Network"
+msgid "Error"
+msgstr "ভুল"
+
+msgctxt "Current status of a Volume"
+msgid "Error"
+msgstr "ভুল"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Error"
+msgstr "ভুল"
+
+msgctxt "Current status of an Instance"
+msgid "Error"
+msgstr "ভুল"
+
+msgctxt "current status of port"
+msgid "Error"
+msgstr "ভুল"
+
+msgctxt "current status of router"
+msgid "Error"
+msgstr "ভুল"
+
+#, python-format
+msgid "Error Downloading RC File: %s"
+msgstr "ভুল ডাউনলোড কৰা RC ফাইল: %s"
+
+msgid "Error adding Hosts to the aggregate."
+msgstr "গড়টোলৈ হষ্টবোৰ যোগ কৰোতে ভুল হৈছে."
+
+msgid "Error editing QoS Spec consumer."
+msgstr "QoS স্পেক উপভোক্তা সম্পাদনা কৰোতে ভুল হৈছে."
+
+msgid "Error updating QoS Spec association."
+msgstr "QoS স্পেক সংস্থা আপডেট কৰোতে ভুল হৈছে."
+
+msgid "Error when adding or removing hosts."
+msgstr "হষ্টবোৰ যোগ বা আতঁৰ কৰোতে ভুল হৈছে."
+
+#, python-format
+msgid "Error writing zipfile: %(exc)s"
+msgstr "জিপফাইল লিখোতে ভুল হৈছে: %(exc)s"
+
+msgid "Ether Type"
+msgstr "দুয়ো প্ৰকাৰৰ"
+
+msgid "Evacuate Host"
+msgstr "হষ্ট ত্যাগ কৰক"
+
+msgid ""
+"Evacuate the servers from the selected down host to an active target host."
+msgstr "নিৰ্বাচিত তলৰ হষ্টৰ পৰা এটা সক্ৰিয় লক্ষ্যৰ হষ্টলৈ ছাৰ্ভাৰবোৰ ত্যাগ কৰক."
+
+msgid "Events"
+msgstr "ঘটনাবোৰ"
+
+msgid "Extend Volume"
+msgstr "প্ৰসাৰিত আয়তন"
+
+msgid "Extend the size of a volume."
+msgstr "আয়তন এটাৰ আকাৰটো প্ৰসাৰ কৰক."
+
+#, python-format
+msgid "Extending volume: \"%s\""
+msgstr "প্ৰসাৰিত আয়তন: \"%s\""
+
+msgid "External Gateway"
+msgstr "বাহ্যিক গেটৱে"
+
+msgid "External Network"
+msgstr "বাহ্যিক নেটৱৰ্ক"
+
+#, python-format
+msgid ""
+"External network \"%(ext_net_id)s\" expected but not found for router "
+"\"%(router_id)s\"."
+msgstr ""
+"বাহ্যিক নেটৱৰ্ক \"%(ext_net_id)s\" প্ৰত্যাশা কৰা হৈছিল কিন্তু \"%(router_id)s\" "
+"ৰাউটাৰৰ বাবে বিচাৰি পোৱা নগল."
+
+msgid "Extra Specs"
+msgstr "অতিৰিক্ত স্পেকবোৰ"
+
+msgctxt "Power state of an Instance"
+msgid "Failed"
+msgstr "ব্যৰ্থ হল"
+
+#, python-format
+msgid ""
+"Failed to add %(users_to_add)s project members%(group_msg)s and set project "
+"quotas."
+msgstr ""
+"%(users_to_add)s প্ৰক্ষেপ সদস্যবোৰ%(group_msg)s যোগ কৰিবলৈ আৰু প্ৰক্ষেপ কোটাবোৰ "
+"ছেট কৰিবলৈ ব্যৰ্থ হল."
+
+#, python-format
+msgid "Failed to add %s project groups and update project quotas."
+msgstr "%s প্ৰক্ষেপ গোটবোৰ যোগ কৰিবলৈ আৰু প্ৰক্ষেপ কোটাবোৰ আপডেট কৰিবলৈ ব্যৰ্থ হল."
+
+#, python-format
+msgid "Failed to add agent %(agent_name)s for network %(network)s."
+msgstr "%(network)s নেটৱৰ্কৰ বাবে %(agent_name)s যোগ কৰিবলৈ ব্যৰ্থ হল."
+
+#, python-format
+msgid "Failed to create a port for network %s"
+msgstr "%s নেটৱৰ্কৰ বাবে পোৰ্ট এটা তৈয়াৰ কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to create network \"%(network)s\": %(reason)s"
+msgstr "\"%(network)s\" নেটৱৰ্ক তৈয়াৰ কৰিবলৈ ব্যৰ্থ হল: %(reason)s"
+
+#, python-format
+msgid "Failed to create network %s"
+msgstr "%s নেটৱৰ্ক তৈয়াৰ কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to create router \"%s\"."
+msgstr "\"%s\" ৰাউটাৰ তৈয়াৰ কৰিবলৈ ব্যৰ্থ হল."
+
+#, python-format
+msgid "Failed to delete agent: %s"
+msgstr "এজেন্ট ডিলিট কৰিবলৈ ব্যৰ্থ হল: %s"
+
+#, python-format
+msgid "Failed to delete interface %s"
+msgstr "%s ইন্টাৰফেছ ডিলিট কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to delete network \"%s\""
+msgstr "\"%s\" নেটৱৰ্ক ডিলিট কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to delete network %s"
+msgstr "%s নেটৱৰ্ক ডিলিট কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to delete port %s"
+msgstr "%s পোৰ্ট ডিলিট কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to delete subnet %s"
+msgstr "%s উপনেট ডিলিট কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to disable compute service for host: %s."
+msgstr "হষ্টৰ বাবে সেৱা গণনা অক্ষম কৰিবলৈ ব্যৰ্থ হল: %s."
+
+#, python-format
+msgid "Failed to evacuate host: %s."
+msgstr "হষ্ট ত্যাগ কৰিবলৈ ব্যৰ্থ হল: %s."
+
+#, python-format
+msgid "Failed to evacuate instances: %s"
+msgstr "উদাহৰণবোৰ ত্যাগ কৰিবলৈ ব্যৰ্থ হল: %s"
+
+#, python-format
+msgid "Failed to live migrate instance to host \"%s\"."
+msgstr "\"%s\" হষ্টলৈ উদাহৰণ প্ৰব্ৰজন কৰিবলৈ ব্যৰ্থ হল."
+
+#, python-format
+msgid ""
+"Failed to modify %(users_to_modify)s project members%(group_msg)s and update "
+"project quotas."
+msgstr ""
+"%(users_to_modify)s প্ৰক্ষেপ সদস্যবোৰ%(group_msg)s  পৰিৱৰ্তন কৰিবলৈ আৰু প্ৰক্ষেপ "
+"কোটাবোৰ আপডেট কৰিবলৈ ব্যৰ্থ হল."
+
+#, python-format
+msgid "Failed to modify %s domain groups."
+msgstr "%s ক্ষেত্ৰ গোটবোৰ পৰিৱৰ্তন কৰিবলৈ ব্যৰ্থ হল."
+
+#, python-format
+msgid "Failed to modify %s project members and update domain groups."
+msgstr "%s প্ৰক্ষেপ সদস্যবোৰ পৰিৱৰ্তন কৰিবলৈ আৰু ক্ষেত্ৰ গোটবোৰ আপডেট কৰিবলৈ ব্যৰ্থ হল."
+
+#, python-format
+msgid ""
+"Failed to modify %s project members, update project groups and update "
+"project quotas."
+msgstr ""
+"%s প্ৰক্ষেপ সদস্যবোৰ পৰিৱৰ্তন, প্ৰক্ষেপ গোটবোৰ আপডেট আৰু প্ৰক্ষেপ কোটাবোৰ আপডেট "
+"কৰিবলৈ ব্যৰ্থ হল."
+
+#, python-format
+msgid "Failed to retrieve network %s for a subnet"
+msgstr "উপনেট এটাৰ বাবে %s নেটৱৰ্ক উদ্ধাৰ কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to update network %s"
+msgstr "%s নেটৱৰ্ক আপডেট কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to update port %s"
+msgstr "%s পোৰ্ট আপডেট কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to update router %s"
+msgstr "%s ৰাউটাৰ আপডেট কৰিবলৈ ব্যৰ্থ হল"
+
+#, python-format
+msgid "Failed to update subnet \"%(sub)s\":  %(reason)s"
+msgstr "\"%(sub)s\" উপনেট আপডেট কৰিবলৈ ব্যৰ্থ হল:  %(reason)s"
+
+msgid "Fault"
+msgstr "ত্ৰূটি"
+
+msgid "File"
+msgstr "ফাইল"
+
+msgid "File exceeds maximum size (16kb)"
+msgstr "ফাইলে সৰ্বাধিক আকাৰ (16kb) অতিক্ৰম কৰিছে"
+
+msgid "Filter"
+msgstr "ফিল্টাৰ কৰক"
+
+msgid "Fingerprint"
+msgstr "ফিংগাৰপ্ৰিন্ট"
+
+msgctxt "Task status of an Instance"
+msgid "Finishing Resize or Migrate"
+msgstr "পুনৰ আকাৰ বা প্ৰব্ৰজন সম্পন্ন কৰিছে"
+
+msgid "Fixed IPs"
+msgstr "নিৰ্দিষ্ট কৰা IP বোৰ"
+
+msgid "Flat"
+msgstr "ফ্লেট"
+
+msgid "Flavor"
+msgstr "ফ্লেভাৰ"
+
+msgid "Flavor Access"
+msgstr "ফ্লেভাৰ প্ৰৱেশ"
+
+msgid "Flavor Choice"
+msgstr "ফ্লেভাৰ পছন্দ"
+
+msgid "Flavor Details"
+msgstr "ফ্লেভাৰ পূংখানুপূংখ বিৱৰণ"
+
+#, python-format
+msgid "Flavor Details: %(name)s\">%(name)s"
+msgstr "ফ্লেভাৰৰ পূংখানুপূংখ বিৱৰণবোৰ: %(name)s\">%(name)s"
+
+msgid "Flavor ID ="
+msgstr "ফ্লেভাৰ ID ="
+
+msgid ""
+"Flavor ID should be UUID4 or integer. Leave this field blank or use 'auto' "
+"to set a random UUID4."
+msgstr ""
+"ফ্লেভাৰ ID টো UUID4  বা অখণ্ড সংখ্যা হোৱা উচিত. এইক্ষেত্ৰখন খালী এৰক বা এটা "
+"বিবেচনা নকৰা UUID4 ছেট কৰিবলৈ 'স্বয়ংক্ৰিয়' ব্যৱহাৰ কৰক."
+
+msgid "Flavor Information"
+msgstr "ফ্লেভাৰ তথ্য"
+
+msgid "Flavor Name"
+msgstr "ফ্লেভাৰ নাম"
+
+msgid "Flavors"
+msgstr "ফ্লেভাৰবোৰ"
+
+msgid ""
+"Flavors define the sizes for RAM, disk, number of cores, and other resources "
+"and can be selected when users deploy instances."
+msgstr ""
+"ফ্লেভাৰবোৰে RAM, ডিস্ক, ক'ৰৰ সংখ্যা, আৰু অন্য সম্পদবোৰৰ বাবে আকাৰবোৰ নিৰ্ধাৰণ কৰে "
+"আৰু ব্যৱহাৰকৰ্তাবোৰে উদাহৰণবোৰ প্ৰস্তুত কৰাৰ সময়ত নিৰ্বাচন কৰিব পাৰি."
+
+msgid "Floating IP"
+msgstr "ফ্লটিং IP"
+
+msgid "Floating IPs"
+msgstr "ফ্লটিং IP বোৰ"
+
+msgid ""
+"For TCP and UDP rules you may choose to open either a single port or a range "
+"of ports. Selecting the \"Port Range\" option will provide you with space to "
+"provide both the starting and ending ports for the range. For ICMP rules you "
+"instead specify an ICMP type and code in the spaces provided."
+msgstr ""
+"TCP আৰু UDP নিয়মবোৰৰ বাবে আপুনি এটা অকলশৰীয়া পোৰ্ট বা পোৰ্টবোৰৰ পৰিসৰ এটা খুলিবলৈ "
+"পছন্দ কৰিব পাৰে. \"Port Range\" বিকল্পটো নিৰ্বাচন কৰাটোৱে আপোনাক পৰিসৰটোৰ বাবে "
+"আৰম্ভণি আৰু শেষৰ পোৰ্ট দুয়োটালৈ খালী ঠাই আগবঢ়াব. ICMP নিয়মবোৰৰ বাবে আপুনি এটা "
+"ICMP প্ৰকাৰ আৰু দিয়া ঠাইবোৰ কোড নিৰ্দিষ্ট কৰাৰ পৰিৱৰ্তে."
+
+msgid "Forbidden"
+msgstr "নিষিদ্ধ কৰা হল"
+
+msgctxt "Force upload volume in in-use status to image"
+msgid "Force"
+msgstr "জোৰকৈ কৰক"
+
+#, python-format
+msgid "Forcing to create snapshot \"%s\" from attached volume."
+msgstr "সংযোজিত আয়তনৰ পৰা \"%s\" স্নেপশ্বট তৈয়াৰ  কৰিবলৈ জোৰ কৰিছে."
+
+msgid "Format"
+msgstr "ফৰমেট"
+
+msgid "Format ="
+msgstr "ফৰমেট ="
+
+msgid "From Port"
+msgstr "পোৰ্টৰ পৰা"
+
+msgid "From here you can add a DHCP agent for the network."
+msgstr "নেটৱৰ্কৰ বাবে আপুনি ইয়াৰ পৰা এটা DHCP এজেন্ট যোগ কৰিব পাৰে."
+
+msgid "From here you can create a snapshot of a volume."
+msgstr "ইয়াৰ পৰা আপুনি আয়তন এটাৰ স্নেপশ্বট তৈয়াৰ কৰিব পাৰে."
+
+msgid "From here you can update the default quotas (max limits)."
+msgstr "ইয়াৰ পৰা আপুনি ডিফল্ট কোটাবোৰ আপডেট কৰিব পাৰে (সৰ্বাধিক সীমাবোৰ)."
+
+msgid "GB"
+msgstr "GB"
+
+msgid "GMT"
+msgstr "GMT"
+
+msgid "GRE"
+msgstr "GRE"
+
+msgid "Gateway IP"
+msgstr "গেটৱে IP"
+
+msgid "Gateway IP and IP version are inconsistent."
+msgstr "গেটৱে IP আৰু IP সংস্কৰণ হল অস্থিৰ."
+
+msgid "Gateway interface is added"
+msgstr "গেটৱে ইন্টাৰফেছ যোগ কৰা হল"
+
+msgid "Go"
+msgstr "যাওক"
+
+#, python-format
+msgid "Group \"%s\" was successfully created."
+msgstr "\"%s\" গোট সফলতাৰে তৈয়াৰ কৰা হৈছিল."
+
+msgid "Group ID"
+msgstr "গোট ID"
+
+msgid "Group Management"
+msgstr "গোট পৰিচালনা"
+
+msgid "Group Members"
+msgstr "গোট সদস্যবোৰ"
+
+msgid "Group has been updated successfully."
+msgstr "গোট সফলতাৰে আপডেট কৰা হৈছে."
+
+msgid "Groups"
+msgstr "গোটবোৰ"
+
+msgid ""
+"Groups are used to manage access and assign roles to multiple users at once. "
+"After creating the group, edit the group to add users."
+msgstr ""
+"একেসময়তে বিভিন্ন ব্যৱহাৰকৰ্তাই ৰোলবোৰত প্ৰৱেশ আৰু কাৰ্য কৰাটো পৰিচালনা কৰিবলৈ "
+"গোটবোৰ ব্যৱহাৰ কৰা হয়. গোটটো তৈয়াৰ কৰাৰ পিছত, ব্যৱহাৰকৰ্তাবোৰলৈ গোটোট সম্পাদনা "
+"কৰক."
+
+#. Translators: High Availability mode of Neutron router
+msgid "HA mode"
+msgstr "HA ধৰণ"
+
+msgctxt "Current status of an Instance"
+msgid "Hard Reboot"
+msgstr "হাৰ্ড ৰিবুট"
+
+msgid "Help"
+msgstr "সহায়"
+
+msgid "High Availability Mode"
+msgstr "উচ্চ উপলব্ধতাৰ ধৰণ"
+
+msgid "Home"
+msgstr "মুখ্য"
+
+msgid "Host"
+msgstr "হষ্ট"
+
+msgid "Host ="
+msgstr "হষ্ট ="
+
+msgid "Host Aggregate Information"
+msgstr "হষ্ট গড় তথ্য"
+
+msgid "Host Aggregates"
+msgstr "হষ্ট গড়বোৰ"
+
+msgid "Host Routes"
+msgstr "হষ্ট ৰাউটাৰবোৰ"
+
+#, python-format
+msgid ""
+"Host Routes format error: Destination CIDR and nexthop must be specified "
+"(value=%s)"
+msgstr ""
+"হষ্ট ৰাউটবোৰৰ ফৰমেট ভুল: গন্তব্যস্থান CIDR আৰু পৰৱৰ্তী হপ নিৰ্ধাৰণ কৰাটো অপৰিহাৰ্য "
+"(মান=%s)"
+
+msgid ""
+"Host aggregates divide an availability zone into logical units by grouping "
+"together hosts. Create a host aggregate then select the hosts contained in "
+"it."
+msgstr ""
+"হষ্টবোৰক একেলগে গোট কৰাৰ দ্বাৰা হষ্ট গড়বোৰে উপলব্ধ মণ্ডল এটাক যুক্তিযুক্ত ইউনিটবোৰত "
+"ভাগ কৰে. হষ্ট গড় এটা তৈয়াৰ কৰক আৰু তাৰপিছত ইয়াত থকা হষ্টবোৰ নিৰ্বাচন কৰক."
+
+msgid ""
+"Host aggregates divide an availability zone into logical units by grouping "
+"together hosts. Edit the aggregate host to select hosts contained in it."
+msgstr ""
+"হষ্টবোৰক একগোট কৰাৰ দ্বাৰা হষ্ট গড়বোৰে উপলব্ধ মণ্ডল এটাক যুক্তিযুক্ত ইউনিটবোৰত ভাগ "
+"কৰে. ইয়াত থকা হষ্টবোৰ নিৰ্বাচন কৰিবলৈ হষ্ট গড় এটা সম্পাদনা কৰক."
+
+msgid "Hostname"
+msgstr "হষ্টনাম"
+
+msgid "Hosts"
+msgstr "হষ্টবোৰ"
+
+msgid "Hypervisor"
+msgstr "হাইপাৰভিজৰ"
+
+msgid "Hypervisor Instances"
+msgstr "হাইপাৰভিজৰ উদাহৰণবোৰ"
+
+msgid "Hypervisor Servers"
+msgstr "হাইপাৰভিজৰ ছাৰ্ভাৰবোৰ"
+
+msgid "Hypervisor Summary"
+msgstr "হাইপাৰভিজৰ সাৰাংশ"
+
+msgid "Hypervisors"
+msgstr "হাইপাৰভিজৰবোৰ"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IP Address"
+msgstr "IP ঠিকনা"
+
+msgid "IP Address (optional)"
+msgstr "IP ঠিকনা (বিকল্প)"
+
+msgid "IP Addresses"
+msgstr "IP ঠিকনাবোৰ"
+
+msgid "IP Protocol"
+msgstr "IP প্ৰটকল"
+
+msgid "IP Version"
+msgstr "IP সংস্কৰণ"
+
+#, python-format
+msgid "IP address %s associated."
+msgstr "IP ঠিকনা %s জড়িত."
+
+msgid ""
+"IP address allocation pools. Each entry is: start_ip_address,end_ip_address "
+"(e.g., 192.168.1.100,192.168.1.120) and one entry per line."
+msgstr ""
+"IP ঠিকনা আৱন্টন কৰা পুলবোৰ. প্ৰত্যেকটো প্ৰৱিষ্টি হল: start_ip_address,"
+"end_ip_address (উদাহৰণ, 192.168.1.100,192.168.1.120) আৰু প্ৰত্যেক শাৰীত এটা "
+"প্ৰৱিষ্টি."
+
+msgid ""
+"IP address list of DNS name servers for this subnet. One entry per line."
+msgstr ""
+"এই উপনেটটোৰ বাবে DNS নাম ছাৰ্ভাৰবোৰৰ IP ঠিকনাৰ তালিকা. প্ৰত্যেক শাৰীত এটা ভৰাওক."
+
+msgid ""
+"IP address of Gateway (e.g. 192.168.0.254) The default value is the first IP "
+"of the network address (e.g. 192.168.0.1 for 192.168.0.0/24, 2001:DB8::1 for "
+"2001:DB8::/48). If you use the default, leave blank. If you do not want to "
+"use a gateway, check 'Disable Gateway' below."
+msgstr ""
+"গেটৱেৰ IP ঠিকনা (উদাহৰণ 192.168.0.254). ডিফল্ট মানটো হল নেটৱৰ্ক ঠিকনাটোৰ প্ৰথম "
+"IP টো (উদাহৰণ 192.168.0.1 for 192.168.0.0/24, 2001:DB8::/48 ৰ বাবে 2001:"
+"DB8::1). যদি আপুনি ডিফল্ট হিচাপে ব্যৱহাৰ কৰে, তেন্তে খালী এৰক. যদি আপুনি গেটৱে "
+"এটা ব্যৱহাৰ কৰিব নিবিচাৰে, তেন্তে তলৰ 'গেটৱে অক্ষম কৰক' ত ক্লিক কৰক."
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv6 Address Configuration Mode"
+msgstr "IPv6 ঠিকনা ৰূপৰেখা কৰা ধৰণ"
+
+msgid "ISO - Optical Disk Image"
+msgstr "ISO - অপ্টিকেল ডিস্ক ছবি"
+
+msgid "Identity"
+msgstr "পৰিচয়"
+
+msgid "Identity service does not allow editing user data."
+msgstr "পৰিচয়ৰ সেৱাটোৱে ব্যৱহাৰকৰ্তাৰ ডাটা সম্পাদনা কৰিবলৈ অনুমতি নিদিয়ে."
+
+msgid ""
+"If console is not responding to keyboard input: click the grey status bar "
+"below."
+msgstr "যদি কীবোৰ্ড ইনপুটলৈ কনছোলে সঁহাৰি দিয়া নাই: তলৰ গ্ৰে ষ্টেটাছ বাৰত ক্লিক কৰক."
+
+msgid ""
+"If no container name is provided, a default container named volumebackups "
+"will be provisioned for you. Backups will be the same size as the volume "
+"they originate from."
+msgstr ""
+"যদি কোনো ধাৰকৰ নাম আগবঢ়োৱা নাই, তেন্তে আপোনাৰ বাবে এটা ডিফল্ট ধাৰকৰ নাম আয়তন "
+"বেকআপবোৰ আপোনাৰ বাবে ব্যৱস্থা কৰা হব. সিহঁতৰ মূলসুঁতিৰ আয়তনৰ সৈতে বেকআপবোৰ একে "
+"আকাৰৰ হব."
+
+msgid "Image"
+msgstr "ছবি"
+
+msgctxt "Type of an image"
+msgid "Image"
+msgstr "ছবি"
+
+msgctxt "Task status of an Instance"
+msgid "Image Backup"
+msgstr "ছবি বেকআপ কৰিছে"
+
+msgid "Image File"
+msgstr "ছবিৰ ফাইল"
+
+msgid "Image ID ="
+msgstr "ছবি ID ="
+
+msgid "Image Location"
+msgstr "ছবিৰ স্থান"
+
+msgid "Image Name"
+msgstr "ছবিৰ নাম"
+
+msgid "Image Name ="
+msgstr "ছবিৰ নাম ="
+
+msgctxt "Task status of an Instance"
+msgid "Image Pending Upload"
+msgstr "ছবিৰ বাকী থকা আপলোড কৰক"
+
+msgctxt "Task status of an Instance"
+msgid "Image Snapshot Pending"
+msgstr "ছবি স্নেপশ্বট বাকী আছে"
+
+msgid "Image Source"
+msgstr "ছবিৰ উত্স"
+
+msgctxt "Task status of an Instance"
+msgid "Image Uploading"
+msgstr "ছবি আপলোড কৰিছে"
+
+msgid "Image source must be specified"
+msgstr "ছবিৰ উত্স নিৰ্ধাৰণ কৰাটো অপৰিহাৰ্য"
+
+msgid "Image was successfully updated."
+msgstr "ছবি সফলতাৰে আপডেট কৰা হৈছিল."
+
+msgid "Images"
+msgstr "ছবিবোৰ"
+
+msgid "Import Key Pair"
+msgstr "মুখ্য যোৰা আমদানি কৰক"
+
+msgid "Info"
+msgstr "তথ্য"
+
+msgid "Information"
+msgstr "তথ্য"
+
+msgid "Ingress"
+msgstr "প্ৰৱেশ কৰক"
+
+msgid "Injected File Content (Bytes)"
+msgstr "ইনজেক্ট কৰা ফাইলৰ বিষয়বস্তুবোৰ (বাইটবোৰ)"
+
+msgid "Injected File Content Bytes"
+msgstr "ফাইল বিষয়বস্তুৰ বাইটবোৰ ইনজেক্ট কৰা হল"
+
+msgid "Injected File Path Bytes"
+msgstr "ফাইল পাথ বাইটবোৰ ইনজেক্ট কৰা হল"
+
+msgid "Injected Files"
+msgstr "ইনজেক্ট কৰা ফাইলবোৰ"
+
+msgid "Instance"
+msgstr "উদাহৰণ"
+
+msgid "Instance Action List"
+msgstr "উদাহৰণৰ কাৰ্য তালিকা"
+
+msgid "Instance Admin Password"
+msgstr "উদাহৰণ কৰ্তৃপক্ষ পাছৱৰ্ড"
+
+msgid "Instance Boot Source"
+msgstr "উদাহৰণ বুট উত্স"
+
+msgid "Instance Console"
+msgstr "উদাহৰণ কনছোল"
+
+msgid "Instance Console Log"
+msgstr "উদাহৰণ কনছোল ল'গ"
+
+msgid "Instance ID"
+msgstr "উদাহৰণ ID"
+
+msgid "Instance Name"
+msgstr "উদাহৰণ নাম"
+
+msgid "Instance Overview"
+msgstr "উদাহৰণ অৱলোকন"
+
+msgid "Instance Password is not set or is not yet available"
+msgstr "উদাহৰণ পাছৱৰ্ড টো ছেট কৰা নাই বা এতিয়াও উপলব্ধ নহয়"
+
+msgid "Instance Security Groups"
+msgstr "উদাহৰণ সুৰক্ষাৰ গোট"
+
+msgid "Instance Snapshot"
+msgstr "উদাহৰণ স্নেপশ্বট"
+
+msgid "Instances"
+msgstr "উদাহৰণবোৰ"
+
+msgid "Insufficient privilege level to view domain information."
+msgstr "ক্ষেত্ৰ তথ্য চাবলৈ অপৰ্য্যপ্ত সুবিধাৰ স্তৰ."
+
+msgid "Insufficient privilege level to view group information."
+msgstr "গোট তথ্য চাবলৈ অপৰ্য্যপ্ত সুবিধাৰ স্তৰ."
+
+msgid "Insufficient privilege level to view project information."
+msgstr "প্ৰক্ষেপ তথ্য চাবলৈ অপৰ্য্যপ্ত সুবিধাৰ স্তৰ."
+
+msgid "Insufficient privilege level to view role information."
+msgstr "ৰোল তথ্য চাবলৈ অপৰ্য্যপ্ত সুবিধাৰ স্তৰ."
+
+msgid "Insufficient privilege level to view user information."
+msgstr "ব্যৱহাৰকৰ্তাৰ তথ্য চাবলৈ অপৰ্য্যপ্ত সুবিধাৰ স্তৰ."
+
+msgid "Interface added"
+msgstr "ইন্টাৰফেছ যোগ কৰা হল"
+
+msgid "Interfaces"
+msgstr "ইন্টাৰফেছবোৰ"
+
+msgid "Internal Interface"
+msgstr "আভ্যন্তৰীণ ইন্টাৰফেছ"
+
+msgid "Invalid date format: Using today as default."
+msgstr "অবৈধ তাৰিখ ফৰমেট: ডিফল্ট হিচাপে আজিৰ দিনটো ব্যৱহাৰ কৰক."
+
+msgid ""
+"Invalid time period. The end date should be more recent than the start date."
+msgstr "অবৈধ সময় সীমা. আৰম্ভণিৰ তাৰিখটো শেষৰ তাৰিখটোতকৈ অধিক শেহতীয়া হোৱা উচিত."
+
+msgid ""
+"Invalid time period. You are requesting data from the future which may not "
+"exist."
+msgstr ""
+"অবৈধ সময় সীমা. আপুনি ফিউচাৰৰ পৰা ডাটা দাবী কৰি আছে যিটো বৰ্তি নাথাকিব পাৰে."
+
+msgid "Items Per Page"
+msgstr "প্ৰতি পৃষ্ঠাৰ বস্তুবোৰ"
+
+msgid "Kernel ID"
+msgstr "কাৰ্ণেল ID"
+
+msgid "Key"
+msgstr "মুখ্য"
+
+msgid "Key Name"
+msgstr "মুখ্য নাম"
+
+msgid "Key Pair"
+msgstr "মুখ্য যোৰা"
+
+msgid "Key Pair Name"
+msgstr "মুখ্য যোৰা নাম"
+
+msgid "Key Pairs"
+msgstr "মুখ্য যোৰাবোৰ"
+
+msgid "Key Pairs are how you login to your instance after it is launched."
+msgstr ""
+"মুখ্য যোৰাবোৰ হল এইটো আৰম্ভ কৰাৰ পিছত আপুনি কেনেকৈ আপোনাৰ উদাহৰণলৈ লগইন কৰে."
+
+msgid "Key Size (bits)"
+msgstr "মুখ্য আকাৰ (bits)"
+
+msgid "Key pair to use for authentication."
+msgstr "বৈধতাৰ বাবে ব্যৱহাৰ কৰিবলৈ মুখ্য যোৰা."
+
+msgid "Key-Value Pairs"
+msgstr "মুখ্য-মান যোৰাবোৰ"
+
+msgid "Language"
+msgstr "ভাষা"
+
+msgid "Last Updated"
+msgstr "শেহতীয়া আপেডট কৰাটো"
+
+msgctxt "Time since the last update"
+msgid "Last Updated"
+msgstr "শেহতীয়া আপেডট কৰাটো"
+
+msgid "Launch"
+msgstr "আৰম্ভ কৰক"
+
+msgid "Launch Instance"
+msgstr "উদাহৰণ আৰম্ভ কৰক"
+
+msgid "Launch Instance (Quota exceeded)"
+msgstr "উদাহৰণ আৰম্ভ কৰক (কোটা অতিক্ৰম কৰিছে)"
+
+msgid "Launch Parameters"
+msgstr "উপকৰণবোৰ আৰম্ভ কৰক"
+
+msgid "Launch Stack"
+msgstr "ষ্টেক আৰম্ভ কৰক"
+
+msgid "Launch as Instance"
+msgstr "উদাহৰণ হিচাপে আৰম্ভ কৰক"
+
+msgid "Launch instance in these security groups."
+msgstr "এইবোৰ সুৰক্ষাৰ গোটত উদাহৰণ এটা আৰম্ভ কৰক."
+
+msgid "Launch instance with these networks"
+msgstr "এই নেটৱৰ্কবোৰৰ সৈতে উদাহৰণ আৰম্ভ কৰক"
+
+msgid ""
+"Launching multiple instances is only supported for images and instance "
+"snapshots."
+msgstr ""
+"বিভিন্ন উদাহৰণবোৰ আৰম্ভ কৰাটো কেৱল ছবিবোৰ আৰু উদাহৰণ স্নেপশ্বটবোৰৰ বাবে সমৰ্থন কৰা "
+"হয়."
+
+msgid "Length of Injected File Path"
+msgstr "ইনজেক্ট কৰা ফাইল পাথৰ দৈৰ্ঘ"
+
+msgid "Limit"
+msgstr "সীমা"
+
+msgid "Live Migrate"
+msgstr "জীৱন্ত প্ৰব্ৰজন"
+
+msgid "Live Migrate Instance"
+msgstr "জীৱন্ত প্ৰব্ৰজনৰ উদাহৰণ"
+
+msgid "Live migrate an instance to a specific host."
+msgstr "এটা নিৰ্দিষ্ট হষ্টলৈ উদাহৰণ এটা জীৱন্ত প্ৰব্ৰজন কৰক."
+
+#, python-format
+msgid "Load Balancer VIP %s"
+msgstr "লোড সাম্যকৰ্তা VIP %s"
+
+msgid "Local"
+msgstr "স্থানীয়"
+
+msgid "Local Disk Usage"
+msgstr "স্থানীয় ডিস্ক ব্যৱহাৰ"
+
+msgid "Local Storage (total)"
+msgstr "স্থানীয় ভঁৰাল (মুঠ)"
+
+msgid "Local Storage (used)"
+msgstr "স্থানীয় ভঁৰাল (ব্যৱহৃত)"
+
+msgid "Log"
+msgstr "ল'গ"
+
+msgid "Log Length"
+msgstr "ল'গ দৈৰ্ঘ"
+
+msgid "MAC Learning State"
+msgstr "MAC শিকিবলগীয়া অৱস্থা"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "Manage Attachments"
+msgstr "সংলগ্নবোৰ পৰিচালনা কৰক"
+
+msgid "Manage Floating IP Associations"
+msgstr "ফ্লটিং IP সংস্থাবোৰ পৰিচালনা কৰক"
+
+msgid "Manage Hosts"
+msgstr "হষ্টবোৰ পৰিচালনা কৰক"
+
+msgid "Manage Hosts Aggregate"
+msgstr "হষ্টবোৰৰ গড় পৰিচালনা কৰক"
+
+msgid "Manage Hosts within Aggregate"
+msgstr "গড়ৰ ভিতৰত হষ্টবোৰ পৰিচালনা কৰক"
+
+msgid "Manage Members"
+msgstr "সদস্যবোৰ পৰিচালনা কৰক"
+
+msgid "Manage QoS Spec Association"
+msgstr "QoS স্পেক সংস্থা পৰিচালনা কৰক"
+
+msgid "Manage Rules"
+msgstr "নিয়মবোৰ পৰিচালনা কৰক"
+
+msgid "Manage Specs"
+msgstr "স্পেকবোৰ পৰিচালনা কৰক"
+
+msgid "Manage Volume Attachments"
+msgstr "আয়তন সংলগ্নবোৰ পৰিচালনা কৰক"
+
+msgid "Manual"
+msgstr "মেনুৱেল"
+
+msgid "Mapped Fixed IP Address"
+msgstr "নিৰ্দিষ্ট IP ঠিকনা মেপ কৰা হল"
+
+msgid "Memory Usage"
+msgstr "স্মৃতি ব্যৱহাৰ"
+
+msgid "Message"
+msgstr "বাৰ্তা"
+
+msgid "Metadata"
+msgstr "মেটাডাটা"
+
+msgid "Metadata Items"
+msgstr "মেটাডাটা বস্তুবোৰ"
+
+msgctxt "Current status of an Instance"
+msgid "Migrating"
+msgstr "প্ৰব্ৰজন কৰিছে"
+
+msgctxt "Task status of an Instance"
+msgid "Migrating"
+msgstr "প্ৰব্ৰজন কৰিছে"
+
+msgid "Migration Policy"
+msgstr "প্ৰব্ৰজনৰ নীতি"
+
+msgid "Min Disk"
+msgstr "নূন্যতম ডিস্ক"
+
+msgid "Min RAM"
+msgstr "নূন্যতম RAM"
+
+msgid "Minimum Disk (GB)"
+msgstr "নূন্যতম ডিস্ক (GB)"
+
+msgid "Minimum RAM (MB)"
+msgstr "নূন্যতম RAM (MB)"
+
+msgid "Minutes"
+msgstr "মিনিটবোৰ"
+
+#, python-format
+msgid "Modified domain \"%s\"."
+msgstr "\"%s\" ক্ষেত্ৰ পৰিৱৰ্তন কৰক."
+
+#, python-format
+msgid "Modified flavor \"%s\"."
+msgstr "\"%s\" ফ্লেভাৰ পৰিৱৰ্তন কৰা হল."
+
+msgid "Modified flavor information, but unable to modify flavor access."
+msgstr "ফ্লেভাৰ তথ্য পৰিৱৰ্তন কৰা হল, কিন্তু ফ্লেভাৰ প্ৰৱেশ পৰিৱৰ্তন কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Modified instance \"%s\"."
+msgstr "\"%s\" উদাহৰণ পৰিৱৰ্তন কৰা হল."
+
+#, python-format
+msgid "Modified project \"%s\"."
+msgstr "\"%s\" প্ৰক্ষেপ পৰিৱৰ্তন কৰা হল."
+
+msgid ""
+"Modified project information and members, but unable to modify project "
+"quotas."
+msgstr ""
+"প্ৰক্ষেপ তথ্য আৰু সদস্যবোৰ পৰিৱৰ্তন কৰা হল, কিন্তু প্ৰক্ষেপ কোটাবোৰ  পৰিৱৰ্তন কৰিবলৈ "
+"অক্ষম."
+
+msgid "Modify Access"
+msgstr "প্ৰৱেশ পৰিৱৰ্তন কৰক"
+
+msgid "Modify Consumer"
+msgstr "উপভোক্তা পৰিৱৰ্তন কৰক"
+
+msgid "Modify Groups"
+msgstr "গোটবোৰ পৰিবৰ্তন কৰক"
+
+msgid "Modify Quotas"
+msgstr "কোটাবোৰ পৰিৱৰ্তন কৰক"
+
+msgid "Modify dashboard settings for your user."
+msgstr "আপোনাৰ ব্যৱহাৰকৰ্তাৰ বাবে পৰিৱৰ্তন কৰা ডেচবোৰ্ড ছেটিংবোৰ."
+
+msgid "Modify name and description of a volume."
+msgstr "আয়তন এটাৰ নাম আৰু বিৱৰণ পৰিৱৰ্তন কৰক."
+
+msgid "Modify the name and description of a snapshot."
+msgstr "স্নেপশ্বট এটাৰ নাম আৰু বিৱৰণটো পৰিৱৰ্তন কৰক."
+
+msgid "Monitoring:"
+msgstr "নিৰীক্ষণ কৰিছে:"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Name"
+msgstr "নাম"
+
+msgid ""
+"Name may only contain letters, numbers, underscores, periods and hyphens."
+msgstr "নামটোৱে অকল আখৰ, সংখ্যা, আণ্ডাৰস্কোৰ, ব্যৱধান  আৰু হাইফেন ব্যৱহাৰ কৰিব পাৰে."
+
+msgid ""
+"Name must start with a letter and may only contain letters, numbers, "
+"underscores, periods and hyphens."
+msgstr ""
+"নামটো আখৰ এটাৰ সৈতে আৰম্ভ হোৱাটো অপৰিহাৰ্য আৰু কেৱল আখৰ, সংখ্যা, আণ্ডাৰস্কোৰ, "
+"পিৰিয়ড আৰু হাইফেন থাকিব পাৰে."
+
+msgid "Name of the stack to create."
+msgstr "তৈয়াৰ কৰিবলৈ ষ্টেকটোৰ নাম."
+
+#, python-format
+msgid "Name: %(name)s ID: %(uuid)s"
+msgstr "নাম: %(name)s ID: %(uuid)s"
+
+msgid "Network"
+msgstr "নেটৱৰ্ক"
+
+#, python-format
+msgid "Network %s was successfully updated."
+msgstr "%s নেটৱৰ্ক সফলতাৰে আপডেট কৰা হৈছিল."
+
+msgid "Network Address"
+msgstr "নেটৱৰ্ক ঠিকনা"
+
+msgid "Network Address and IP version are inconsistent."
+msgstr "নেটৱৰ্ক ঠিকনা আৰু IP সংস্কৰণটো অস্থিৰ."
+
+msgid "Network Agents"
+msgstr "নেটৱৰ্ক এজেন্টবোৰ"
+
+msgid "Network Details"
+msgstr "নেটৱৰ্কৰ পূংখানুপূংখ বিৱৰণ"
+
+msgid "Network ID"
+msgstr "নেটৱৰ্ক ID"
+
+msgid "Network Name"
+msgstr "নেটৱৰ্ক নাম"
+
+msgid "Network Topology"
+msgstr "নেটৱৰ্ক টোপোলজি"
+
+msgid "Network Type:"
+msgstr "নেটৱৰ্ক প্ৰকাৰ:"
+
+msgid "Network address in CIDR format (e.g. 192.168.0.0/24)"
+msgstr "CIDR ফৰমেটত নেটৱৰ্ক ঠিকনা (উদাহৰণ 192.168.0.0/24)"
+
+msgid "Network address in CIDR format (e.g. 192.168.0.0/24, 2001:DB8::/48)"
+msgstr "CIDR ফৰমেটত নেটৱৰ্ক ঠিকনা (উদাহৰণ 192.168.0.0/24, 2001:DB8::/48)"
+
+msgid "Network list can not be retrieved."
+msgstr "নেটৱৰক তালিকা উদ্ধাৰ কৰিব পৰা নগল."
+
+msgid "Networking"
+msgstr "নেটৱৰ্কিং"
+
+msgctxt "Task status of an Instance"
+msgid "Networking"
+msgstr "নেটৱৰ্কিং"
+
+msgid "Networks"
+msgstr "নেটৱৰ্কবোৰ"
+
+msgid "Never"
+msgstr "কেতিয়াও নহয়"
+
+msgid "Never updated"
+msgstr "কেতিয়াও আপডেট কৰা হোৱা নাই"
+
+msgid "New DHCP Agent"
+msgstr "নতুন DHCP এজেন্ট"
+
+msgid "New Flavor"
+msgstr "নতুন ফ্লেভাৰ"
+
+msgid "New Host"
+msgstr "নতুন হষ্ট"
+
+msgid "New password"
+msgstr "নতুন পাছৱৰ্ড"
+
+msgid "New size must be greater than current size."
+msgstr "নতুন আকাৰটো চলিত আকাৰতকৈ ডাঙৰ হোৱাটো প্ৰয়োজনীয়."
+
+msgid "Next"
+msgstr "পৰৱৰ্তী"
+
+msgid "No"
+msgstr "নহয়"
+
+msgid "No Host selected."
+msgstr "কোনো হষ্ট নিৰ্বাচন কৰা নহল."
+
+msgid "No Hosts found."
+msgstr "কোনো হষ্ট বিচাৰি পোৱা নগল"
+
+msgctxt "Power state of an Instance"
+msgid "No State"
+msgstr "কোনো অৱস্থা নাই"
+
+msgid "No attached device"
+msgstr "কোনো সংলগ্ন ডিভাইচ নাই"
+
+msgid "No availability zones found"
+msgstr "কোনো উপলব্ধতাৰ মণ্ডল বিচাৰি পোৱা নগল"
+
+msgid "No available console found."
+msgstr "কোনো উপলব্ধ কনছোল বিচাৰি পোৱা নগল."
+
+msgid "No available projects"
+msgstr "কোনো উপলব্ধ প্ৰক্ষেপ নাই"
+
+msgid "No flavors available"
+msgstr "কোনো ফ্লেভাৰ উপলব্ধ নাই"
+
+msgid "No floating IP addresses allocated"
+msgstr "কোনো ফ্লটিং IP ঠিকনা নিৰ্ধাৰণ কৰা নহল"
+
+msgid "No floating IP pools available"
+msgstr "কোনো ফ্লটিং IP পুল উপলব্ধ নাই"
+
+msgid "No floating IPs to disassociate."
+msgstr "জড়িতহীন কৰিবলৈ কোনো ফ্লটিং IPবোৰ নাই."
+
+msgid "No groups found."
+msgstr "কোনো গোট বিচাৰি পোৱা নগল."
+
+msgid "No groups."
+msgstr "কোনো গোট নাই."
+
+msgid "No host selected."
+msgstr "কোনো হষ্ট নিৰ্বাচন কৰা নহল."
+
+msgid "No hosts found."
+msgstr "কোনো হষ্ট বিচাৰি পোৱা নগল."
+
+msgid "No images available"
+msgstr "কোনো ছবি উপলব্ধ নাই"
+
+msgid "No instances available"
+msgstr "কোনো উদাহৰণ উপলব্ধ নাই"
+
+msgid "No key pairs available"
+msgstr "কোনো মুখ্য যোৰা উপলব্ধ নাই"
+
+msgid "No networks available"
+msgstr "কোনো নেটৱৰ্ক উপলব্ধ নাই"
+
+msgid "No options specified"
+msgstr "কোনো বিকল্প নিৰ্ধাৰিত কৰা নহল"
+
+msgid "No other agents available."
+msgstr "আন কোনো এজেন্ট উপলব্ধ নাই."
+
+msgid "No other hosts available."
+msgstr "আন কোনো হষ্ট উপলব্ধ নাই."
+
+msgid "No ports available"
+msgstr "কোনো পোৰ্ট উপলব্ধ নাই"
+
+msgid "No projects found."
+msgstr "কোনো প্ৰক্ষেপ বিচাৰি পোৱা নগল."
+
+msgid "No projects selected. All projects can use the flavor."
+msgstr ""
+"কোনো প্ৰক্ষেপ নিৰ্বাচন কৰা নহল. সকলোবোৰ প্ৰক্ষেপে ফ্লেভাৰটো ব্যৱহাৰ কৰিব পাৰে."
+
+msgid "No rules defined."
+msgstr "কোনো নিয়ম নিৰ্ধাৰণ কৰা নহল."
+
+msgid "No security groups available"
+msgstr "কোনো সুৰক্ষাৰ গোট উপলব্ধ নাই"
+
+msgid "No security groups enabled."
+msgstr "কোনো সুৰক্ষাৰ গোট সক্ষম কৰা নহল."
+
+msgid "No security groups found."
+msgstr "কোনো সুৰক্ষাৰ গোট বিচাৰি পোৱা নগল."
+
+msgid "No snapshots available"
+msgstr "কোনো স্নেপশ্বট উপলব্ধ নাই"
+
+msgid "No source, empty volume"
+msgstr "কোনো উত্স নাই, খালী আয়তন"
+
+msgid "No subnets available"
+msgstr "কোনো উপনেট উপলব্ধ নাই"
+
+msgid "No users found."
+msgstr "কোনো ব্যৱহাৰকৰ্তা বিচাৰি পোৱা নগল."
+
+msgid "No users."
+msgstr "কোনো ব্যৱহাৰকৰ্তা নাই."
+
+msgid "No volume snapshots available"
+msgstr "কোনো আয়তন স্নেপশ্বট উপলব্ধ নাই"
+
+msgid "No volume type"
+msgstr "কোনো আয়তন প্ৰকাৰ নাই"
+
+msgid "No volumes attached."
+msgstr "কোনো আয়তন সংলগ্ন কৰা নহল."
+
+msgid "No volumes available"
+msgstr "কোনো আয়তন উপলব্ধ নাই"
+
+msgid "Non-Members"
+msgstr "অসদস্যবোৰ"
+
+msgid "None"
+msgstr "একো নাই"
+
+msgctxt "Task status of an Instance"
+msgid "None"
+msgstr "একো নাই"
+
+msgid "Normal"
+msgstr "সাধাৰণ"
+
+msgid "Not attached"
+msgstr "সংলগ্ন কৰা নহল"
+
+msgid "Not available"
+msgstr "উপলব্ধ নাই"
+
+msgid "Note: "
+msgstr "টোকা: "
+
+msgid "Number of Instances"
+msgstr "উদাহৰণবোৰৰ সংখ্যা"
+
+msgid "Number of Snapshots"
+msgstr "স্নেপশ্বটবোৰৰ সংখ্যা"
+
+msgid "Number of VCPUs"
+msgstr "VCPU বোৰৰ সংখ্যা"
+
+msgid "Number of Volumes"
+msgstr "আয়তনবোৰৰ সংখ্যা"
+
+msgid "OR Copy/Paste your Private Key"
+msgstr "বা আপোনাৰ ব্যক্তিগত কীটো প্ৰতিলিপি কৰক/আঠা লগাওক"
+
+msgid "Object Store"
+msgstr "বস্তুৰ ভঁৰাল"
+
+msgid "Old Flavor"
+msgstr "পুৰণি ফ্লেভাৰ"
+
+msgid "On Demand"
+msgstr "দাবী মতে"
+
+msgid "Open Port"
+msgstr "মুক্ত পোৰ্ট"
+
+msgid "Open Port/Port Range:"
+msgstr "পোৰ্ট/পোৰ্ট পৰিসৰ খোলক:"
+
+msgid "Optionally, you may choose to create a new volume."
+msgstr "বৈকল্পিকভাৱে, নতুন আয়তন এটা তৈয়াৰ কৰিবলৈ আপুনি পছন্দ কৰিব পাৰে."
+
+msgid "Other Protocol"
+msgstr "অন্য প্ৰটকল"
+
+msgid "Outputs"
+msgstr "আউটপুটবোৰ"
+
+msgid "Overview"
+msgstr "অৱলোকন কৰক"
+
+msgid "Owner"
+msgstr "গৰাকী"
+
+msgid "Page Not Found"
+msgstr "পৃষ্ঠা বিচাৰি পোৱা নগল"
+
+msgid "Parameters"
+msgstr "উপকৰণবোৰ"
+
+msgid "Password"
+msgstr "পাছৱৰ্ড"
+
+msgctxt "Current status of an Instance"
+msgid "Password"
+msgstr "পাছৱৰ্ড"
+
+msgid "Password changed. Please log in again to continue."
+msgstr "পাছৱৰ্ড সলনি কৰা হল. অনুগ্ৰহ কৰি অব্যাহত ৰাখিবলৈ পুনৰ ল'গ ইন কৰক."
+
+#, python-format
+msgid "Password for user \"%s\""
+msgstr "\"%s\" ব্যৱহাৰকৰ্তাৰ বাবে পাছৱৰ্ড"
+
+msgid "Passwords do not match."
+msgstr "পাছৱৰ্ডবোৰ নিমিলে."
+
+msgctxt "Current status of an Instance"
+msgid "Paused"
+msgstr "বিৰতি দিয়া হল"
+
+msgctxt "Power state of an Instance"
+msgid "Paused"
+msgstr "বিৰতি দিয়া হল"
+
+msgctxt "Task status of an Instance"
+msgid "Pausing"
+msgstr "ৰখাই থৈছে"
+
+msgid "Physical Network"
+msgstr "পিজিকেল নেটৱৰ্ক"
+
+msgid "Physical Network:"
+msgstr "ফিজিকেল নেটৱৰ্ক:"
+
+msgid "Please note: "
+msgstr "অনুগ্ৰহ কৰি মন কৰিব: "
+
+#, python-format
+msgid "Please specify a %s using only one source method."
+msgstr "অনুগ্ৰহ কৰি কেৱল এটা উত্স পদ্ধতি ব্যৱহাৰ কৰি %s এটা নিৰ্দিষ্ট কৰক."
+
+#, python-format
+msgid "Please try again later [Error: %s]."
+msgstr "অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰক [ভুল: %s]."
+
+msgid "Pool"
+msgstr "পুল"
+
+msgid "Port"
+msgstr "পোৰ্ট"
+
+#, python-format
+msgid "Port %s was successfully created."
+msgstr "%s পোৰ্ট সফলতাৰে তৈয়াৰ কৰা হৈছিল."
+
+#, python-format
+msgid "Port %s was successfully updated."
+msgstr "%s পোৰ্টটো সফলতাৰে আপডেট কৰা হৈছিল."
+
+msgid "Port Range"
+msgstr "পোৰ্টৰ পৰিসৰ"
+
+msgid "Port list can not be retrieved."
+msgstr "পোৰ্ট তালিকা উদ্ধাৰ কৰিব পৰা নগল."
+
+msgid "Port to be associated"
+msgstr "জড়িত হবলগীয়া পোৰ্ট"
+
+msgid "Ports"
+msgstr "পোৰ্টবোৰ"
+
+msgid "Post-Creation"
+msgstr "আগতীয়া-তৈয়াৰীটো"
+
+msgid "Power State"
+msgstr "শক্তিৰ অৱস্থা"
+
+msgctxt "Task status of an Instance"
+msgid "Powering Off"
+msgstr "বন্ধ কৰিছে"
+
+msgctxt "Task status of an Instance"
+msgid "Powering On"
+msgstr "আৰম্ভ কৰিছে"
+
+msgctxt "Task status of an Instance"
+msgid "Preparing Resize or Migrate"
+msgstr "পুনৰ আকাৰ বা প্ৰব্ৰজন প্ৰস্তুত কৰিছে"
+
+msgid "Primary Project"
+msgstr "প্ৰাথমিক প্ৰক্ষেপ"
+
+msgid "Private Key File"
+msgstr "ব্যক্তিগত মুখ্য ফাইল"
+
+msgid "Project"
+msgstr "প্ৰক্ষেপ"
+
+msgid "Project & User"
+msgstr "প্ৰক্ষেপ & ব্যৱহাৰকৰ্তা"
+
+msgid "Project Groups"
+msgstr "প্ৰক্ষেপ গোটবোৰ"
+
+msgid "Project ID"
+msgstr "প্ৰক্ষেপ ID"
+
+msgid "Project Information"
+msgstr "প্ৰক্ষেপ তথ্য"
+
+msgid "Project Limits"
+msgstr "প্ৰক্ষেপ সীমাবোৰ"
+
+msgid "Project Members"
+msgstr "প্ৰক্ষেপৰ সদস্যবোৰ"
+
+msgid "Project Name"
+msgstr "নাম প্ৰক্ষেপ কৰক"
+
+msgid "Project Quotas"
+msgstr "কোটাবোৰ প্ৰক্ষেপ কৰক"
+
+msgid "Project Usage"
+msgstr "প্ৰক্ষেপ ব্যৱহাৰ"
+
+msgid "Project Usage Overview"
+msgstr "প্ৰক্ষেপ ব্যৱহাৰ অৱলোকন"
+
+msgid "Projects"
+msgstr "প্ৰক্ষেপবোৰ"
+
+msgid "Projects:"
+msgstr "প্ৰক্ষেপবোৰ:"
+
+msgid "Protected"
+msgstr "সুৰক্ষিত"
+
+msgid "Provider"
+msgstr "আগবঢ়াওতা"
+
+msgid "Provider Network"
+msgstr "নেটৱৰ্ক আগবঢ়াওতা"
+
+msgid "Provider Network Type"
+msgstr "আগবঢ়োৱা নেটৱৰ্ক প্ৰকাৰ"
+
+msgid "Public"
+msgstr "ৰাজহুৱা"
+
+msgid "Public Key"
+msgstr "ৰাজহুৱা কী"
+
+msgid "QCOW2 - QEMU Emulator"
+msgstr "QCOW2 - QEMU ইমুলেটৰ"
+
+msgid "QoS Spec to be associated"
+msgstr "জড়িত হবলগীয়া QoS স্পেক"
+
+msgid "QoS Spec: "
+msgstr "QoS স্পেক: "
+
+msgid "QoS Specs"
+msgstr "QoS স্পেকবোৰ"
+
+msgid "Quota Name"
+msgstr "কোটা নাম"
+
+msgid "Quota exceeded for resource router."
+msgstr "সম্পদ ৰাউটাৰৰ বাবে কোটা অতিক্ৰম কৰিলে."
+
+#, python-format
+msgid "Quota value(s) cannot be less than the current usage value(s): %s."
+msgstr "কোটা মান(বোৰ) চলিত ব্যৱহাৰ মান(বোৰ) তকৈ বেছি হব নোৱাৰে: %s."
+
+msgid "Quotas"
+msgstr "কোটাবোৰ"
+
+msgid "RAM"
+msgstr "RAM"
+
+msgid "RAM (MB)"
+msgstr "RAM (MB)"
+
+msgid "RAM (total)"
+msgstr "RAM (মুঠ)"
+
+msgid "RAM (used)"
+msgstr "RAM (ব্যৱহৃত)"
+
+#, python-format
+msgid "RAM(Available: %(avail)s, Requested: %(req)s)"
+msgstr "RAM(উপলব্ধ: %(avail)s, দাবী কৰা: %(req)s)"
+
+msgid "Ramdisk ID"
+msgstr "ৰেমডিস্ক ID"
+
+msgid "Raw"
+msgstr "শাৰী"
+
+msgctxt "Image format for display in table"
+msgid "Raw"
+msgstr "শাৰী"
+
+msgid "Reason"
+msgstr "কাৰণ"
+
+#, python-format
+msgid "Reason: %(disabled_reason)s"
+msgstr "কাৰণ: %(disabled_reason)s"
+
+msgctxt "Action log of an instance"
+msgid "Reboot"
+msgstr "ৰিবুট"
+
+msgctxt "Current status of an Instance"
+msgid "Reboot"
+msgstr "ৰিবুট"
+
+msgctxt "Task status of an Instance"
+msgid "Rebooting"
+msgstr "পুনৰ বুট কৰিছে"
+
+msgctxt "Action log of an instance"
+msgid "Rebuild"
+msgstr "পুনৰ নিৰ্মাণ কৰক"
+
+msgctxt "Current status of an Instance"
+msgid "Rebuild"
+msgstr "পুনৰ নিৰ্মাণ কৰক"
+
+msgctxt "Task status of an Instance"
+msgid "Rebuild Block Device Mapping"
+msgstr "আৱদ্ধ ডিভাইচ মেপিংটো পুনৰ নিৰ্মাণ কৰক"
+
+msgid "Rebuild Instance"
+msgstr "উদাহৰণ পুনৰ নিৰ্মাণ কৰক"
+
+msgid "Rebuild Password"
+msgstr "পাছৱৰ্ড পুনৰ নিৰ্মাণ কৰক"
+
+msgctxt "Task status of an Instance"
+msgid "Rebuild Spawning"
+msgstr "স্পাৱনিং পুনৰ তৈয়াৰ কৰিছে"
+
+msgctxt "Task status of an Instance"
+msgid "Rebuilding"
+msgstr "পুনৰ নিৰ্মাণ কৰিছে"
+
+#, python-format
+msgid "Rebuilding instance %s."
+msgstr "%s উদাহৰণ পুনৰ নিৰ্মাণ কৰিছে."
+
+msgid "Regions:"
+msgstr "অঞ্চলবোৰ:"
+
+msgid "Remote"
+msgstr "দূৰৰ"
+
+msgid "Remote:"
+msgstr "ৰিমোট:"
+
+msgid "Request ID"
+msgstr "দাবী কৰা ID"
+
+msgctxt "Current status of an Instance"
+msgid "Rescue"
+msgstr "উদ্ধাৰ কৰক"
+
+msgctxt "Task status of an Instance"
+msgid "Rescuing"
+msgstr "উদ্ধাৰ কৰিছে"
+
+msgid "Resize"
+msgstr "পুনৰ আকাৰ কৰক"
+
+msgctxt "Action log of an instance"
+msgid "Resize"
+msgstr "পুনৰ আকাৰ কৰক"
+
+msgid "Resize Instance"
+msgstr "উদাহৰণ পুনৰ আকাৰ কৰক"
+
+msgctxt "Current status of an Instance"
+msgid "Resize/Migrate"
+msgstr "পুনৰ আকাৰ/প্ৰব্ৰজন কৰক"
+
+msgctxt "Task status of an Instance"
+msgid "Resized or Migrated"
+msgstr "পুনৰ আকাৰ বা প্ৰব্ৰজন কৰা হল"
+
+msgctxt "Task status of an Instance"
+msgid "Resizing or Migrating"
+msgstr "পুনৰ আকাৰ বা প্ৰব্ৰজন কৰিছে"
+
+msgid "Resource"
+msgstr "সম্পদ"
+
+msgid "Resource ID"
+msgstr "সম্পদ ID"
+
+msgid "Resource Metadata"
+msgstr "সম্পদ মেটাডাটা"
+
+msgid "Resources"
+msgstr "সম্পদবোৰ"
+
+msgid "Restore Backup"
+msgstr "বেকআপ পুনৰ জমা কৰক"
+
+msgid "Restore Backup to Volume"
+msgstr "আয়তনলৈ বেকআপ পুনৰ জমা কৰক"
+
+msgid "Restore Backup:"
+msgstr "বেকআপ পুনৰ জমা কৰক:"
+
+msgid "Restore Volume Backup"
+msgstr "আয়তন বেকআপ পুনৰ জমা কৰক"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Restoring"
+msgstr "পুনৰ সঞ্চয় কৰিছে"
+
+msgctxt "Task status of an Instance"
+msgid "Restoring"
+msgstr "পুনৰ সঞ্চয় কৰিছে"
+
+msgctxt "Task status of an Instance"
+msgid "Resuming"
+msgstr "পুনৰ আৰম্ভ কৰিছে"
+
+msgid "Retrieve Instance Password"
+msgstr "উদাহৰণ পাছৱৰ্ড উদ্ধাৰ কৰক"
+
+msgid "Retrieve Password"
+msgstr "পাছৱৰ্ড উদ্ধাৰ কৰক"
+
+msgid "Revert Resize/Migrate"
+msgstr "পুনৰ আকাৰ/প্ৰব্ৰজন ওভোতাই আনক"
+
+msgctxt "Current status of an Instance"
+msgid "Revert Resize/Migrate"
+msgstr "পুনৰ আকাৰ/প্ৰব্ৰজন ওভোতাই আনক"
+
+msgctxt "Task status of an Instance"
+msgid "Reverting Resize or Migrate"
+msgstr "পুনৰ আকাৰ বা প্ৰব্ৰজন ওভোতাই আহিছে"
+
+msgid "Role"
+msgstr "ৰোল"
+
+msgid "Role ID"
+msgstr "ৰোল ID"
+
+msgid "Role Name"
+msgstr "ৰোল নাম"
+
+msgid "Role created successfully."
+msgstr "ৰোল সফলতাৰে তৈয়াৰ কৰা হল."
+
+msgid "Role updated successfully."
+msgstr "ৰোল সফলতাৰে আপডেট কৰা হল."
+
+msgid "Roles"
+msgstr "ৰোলবোৰ"
+
+msgid "Rollback"
+msgstr "ঘূৰি আহক"
+
+msgid "Rollback On Failure"
+msgstr "ব্যৰ্থতাটোত ঘূৰি যাওক"
+
+msgid "Root Disk"
+msgstr "মুখ্য ডিস্ক"
+
+msgid "Root Disk (GB)"
+msgstr "মুখ্য ডিস্ক (GB)"
+
+msgid "Router"
+msgstr "ৰাউটাৰ"
+
+#, python-format
+msgid "Router %s was successfully created."
+msgstr "ৰাউটাৰ %s সফলতাৰে তৈয়াৰ কৰা হৈছিল."
+
+#, python-format
+msgid "Router %s was successfully updated."
+msgstr "ৰাউটাৰ %s সফলতাৰে আপডেট কৰা হৈছিল."
+
+msgid "Router Name"
+msgstr "ৰাউটাৰৰ নাম"
+
+msgid "Router Type"
+msgstr "ৰাউটাৰ প্ৰকাৰ"
+
+msgid "Routers"
+msgstr "ৰাউটাৰবোৰ"
+
+msgid "Rule"
+msgstr "নিয়ম"
+
+msgid "Rule:"
+msgstr "নিয়ম:"
+
+msgid "Rules"
+msgstr "ৰেখাবোৰ"
+
+msgid ""
+"Rules define which traffic is allowed to instances assigned to the security "
+"group. A security group rule consists of three main parts:"
+msgstr ""
+"নিয়মবোৰে বাখ্যা কৰে যাৰ ট্ৰেফিকক সুৰক্ষাৰ গোটটোলৈ উদাহৰণবোৰ নিৰ্ধাৰণ কৰিবলৈ অনুমতি "
+"দিয়া হয়. সুৰক্ষা গোটৰ নিয়ম এটাত তিনিটা মুখ্য অংশ থাকে:"
+
+msgctxt "Power state of an Instance"
+msgid "Running"
+msgstr "চলি আছে"
+
+msgid "S3 URL"
+msgstr "S3 URL"
+
+msgid "SSH key pairs can be generated with the ssh-keygen command:"
+msgstr "ssh-keygen নিৰ্দেশটোৰ সৈতে SSH মুখ্য যোৰাবোৰৰ পাব পাৰি:"
+
+msgid "Save"
+msgstr "ছেভ কৰক"
+
+msgid "Save Changes"
+msgstr "সলনিবোৰ ছেভ কৰক"
+
+#, python-format
+msgid "Saved extra spec \"%s\"."
+msgstr "অতিৰিক্ত স্পেক \"%s\" ছেভ কৰা হল."
+
+#, python-format
+msgid "Saved spec \"%s\"."
+msgstr "স্পেক \"%s\" ছেভ কৰা হল."
+
+msgctxt "Task status of an Instance"
+msgid "Scheduling"
+msgstr "কাৰ্যসূচী নিৰ্ধাৰণ কৰিছে"
+
+msgid "Script Data"
+msgstr "স্ক্ৰিপ্ট ডাটা"
+
+msgid "Script File"
+msgstr "স্ক্ৰিপ্ট ফাইল"
+
+msgid "Security Group"
+msgstr "সুৰক্ষাৰ গোট"
+
+msgid "Security Group Rules"
+msgstr "সুৰক্ষা গোট নিয়মবোৰ"
+
+msgid "Security Groups"
+msgstr "সুৰক্ষাৰ গোটবোৰ"
+
+msgid "Segmentation ID"
+msgstr "খণ্ড ID"
+
+msgid "Segmentation ID:"
+msgstr "খণ্ড কৰা ID:"
+
+msgid "Select Image"
+msgstr "নিৰ্বাচিত ছবি"
+
+msgid "Select Instance Snapshot"
+msgstr "উদাহৰণ স্নেপশ্বট নিৰ্বাচন কৰক"
+
+msgid "Select Script Source"
+msgstr "স্ক্ৰিপ্ট উত্স নিৰ্বাচন কৰক"
+
+msgid "Select Subnet"
+msgstr "উপনেট নিৰ্বাচন কৰক"
+
+msgid "Select Template"
+msgstr "নমুনা নিৰ্বাচন কৰক"
+
+msgid "Select Volume"
+msgstr "আয়তন নিৰ্বাচন কৰক"
+
+msgid "Select Volume Snapshot"
+msgstr "আয়তন স্নেপশ্বট নিৰ্বাচন কৰক"
+
+msgid "Select a New Flavor"
+msgstr "নতুন ফ্লেভাৰ এটা নিৰ্বাচন কৰক"
+
+msgid "Select a key pair"
+msgstr "মুখ্য যোৰা এটা নিৰ্বাচন কৰক"
+
+msgid "Select a new agent"
+msgstr "এটা নতুন এজেন্ট নিৰ্বাচন কৰক"
+
+msgid "Select a new host"
+msgstr "এটা নতুন হষ্ট নিৰ্বাচন কৰক"
+
+msgid "Select a new template to re-launch a stack."
+msgstr "ষ্টেক এটা পুনৰ আৰম্ভ কৰিবলৈ এটা নতুন নমুনা নিৰ্বাচন কৰক."
+
+msgid "Select a port"
+msgstr "পোৰ্ট এটা নিৰ্বাচন কৰক"
+
+msgid "Select a project"
+msgstr "প্ৰক্ষেপ এটা নিৰ্বাচন কৰক"
+
+msgid "Select a target host"
+msgstr "লক্ষ্য কৰা হষ্ট এটা নিৰ্বাচন কৰক"
+
+msgid "Select a template to launch a stack."
+msgstr "ষ্টেক এটা আৰম্ভ কৰিবলৈ নমুনা এটা নিৰ্বাচন কৰক."
+
+msgid "Select a volume to restore to."
+msgstr "...লৈ জমা কৰিবলৈ আয়তন বেকআপ এটা নিৰ্বাচন কৰক."
+
+msgid "Select an IP address"
+msgstr "IP ঠিকনা এটা নিৰ্বাচন কৰক"
+
+msgid "Select an instance"
+msgstr "উদাহৰণ এটা নিৰ্বাচন কৰক"
+
+msgid "Select an instance to attach to."
+msgstr "...লৈ সংলগ্ন কৰিবলৈ উদাহৰণ এটা নিৰ্বাচন কৰক."
+
+msgid "Select format"
+msgstr "ফৰমেট নিৰ্বাচন কৰক"
+
+msgid "Select network"
+msgstr "নেটৱৰ্ক নিৰ্বাচন কৰক"
+
+msgid "Select networks for your instance."
+msgstr "আপোনাৰ উদাহৰণৰ বাবে নেটৱৰ্কবোৰ নিৰ্বাচন কৰক."
+
+msgid "Select source"
+msgstr "উত্স নিৰ্বাচন কৰক"
+
+msgid "Select the image to rebuild your instance."
+msgstr "আপোনাৰ উদাহৰণ পুনৰ তৈয়াৰ কৰিবলৈ ছবি এটা নিৰ্বাচন কৰক."
+
+msgid ""
+"Select the projects where the flavors will be used. If no projects are "
+"selected, then the flavor will be available in all projects."
+msgstr ""
+"প্ৰক্ষেপবোৰ নিৰ্বাচন কৰক যত ফ্লেভাৰবোৰ ব্যৱহাৰ কৰা হব. যদি কোনো প্ৰক্ষেপ নিৰ্বাচন "
+"কৰা নহয়, তেতিয়া সকলোবোৰ প্ৰক্ষেপত ফ্লেভাৰটো উপলব্ধ হব."
+
+msgid "Selected Hosts"
+msgstr "হষ্টবোৰ নিৰ্বাচন কৰা হল"
+
+msgid "Selected Projects"
+msgstr "নিৰ্বাচিত প্ৰক্ষেপবোৰ"
+
+msgid "Selected hosts"
+msgstr "হষ্টবোৰ নিৰ্বাচন কৰক"
+
+msgid "Selected networks"
+msgstr "নেটৱৰ্কবোৰ নিৰ্বাচিত কৰা হল"
+
+msgid "Server error"
+msgstr "ছাৰ্ভাৰৰ ভুল"
+
+msgid "Service"
+msgstr "সেৱা"
+
+msgid "Service Endpoint"
+msgstr "সেৱাৰ শেষবিন্দু"
+
+msgid "Services"
+msgstr "সেৱাবোৰ"
+
+msgid "Services Down"
+msgstr "সেৱাবোৰ তললৈ নিয়ক"
+
+msgid "Services Up"
+msgstr "সেৱাবোৰ ওপৰলৈ নিয়ক"
+
+msgid "Set Domain Context"
+msgstr "ক্ষেত্ৰ প্ৰসংগ ছেট কৰক"
+
+msgid "Set Gateway"
+msgstr "গেটৱে ছেট কৰক"
+
+msgid "Set as Active Project"
+msgstr "সক্ৰিয় প্ৰক্ষেপ হিচাপে ছেট কৰক"
+
+msgid "Set maximum quotas for the project."
+msgstr "প্ৰক্ষেপটোৰ বাবে সৰ্বাধিক কোটাবোৰ ছেট কৰক."
+
+msgid "Settings"
+msgstr "ছেটিংবোৰ"
+
+msgid "Settings saved."
+msgstr "ছেটিংবোৰ ছেভ কৰা হল."
+
+msgid "Shared"
+msgstr "বিনিময় কৰা হল"
+
+msgid "Shared Storage"
+msgstr "ভঁৰাল বিনিময় কৰা হল"
+
+msgctxt "Current status of an Instance"
+msgid "Shelved"
+msgstr "জমা কৰা হল"
+
+msgctxt "Current status of an Instance"
+msgid "Shelved Offloaded"
+msgstr "জমা কৰাবোৰৰ লোড বাতিল কৰা হল"
+
+msgctxt "Task status of an Instance"
+msgid "Shelving"
+msgstr "জমা কৰিছে"
+
+msgctxt "Task status of an Instance"
+msgid "Shelving Image Pending Upload"
+msgstr "ছবিৰ বাকী থকা আপলোড জমা কৰিছে"
+
+msgctxt "Task status of an Instance"
+msgid "Shelving Image Uploading"
+msgstr "ছবিৰ আপলোডিং জমা কৰিছে"
+
+msgctxt "Task status of an Instance"
+msgid "Shelving Offloading"
+msgstr "লোড বন্ধ কৰাটো জমা কৰিছে"
+
+msgctxt "Power state of an Instance"
+msgid "Shut Down"
+msgstr "ছাট ডাউন কৰক"
+
+msgctxt "Power state of an Instance"
+msgid "Shut Off"
+msgstr "ছাট অফ কৰক"
+
+msgctxt "Current status of an Instance"
+msgid "Shutoff"
+msgstr "বন্ধ কৰক"
+
+msgid "Sign Out"
+msgstr "ছাইন আউট কৰক"
+
+msgid "Size"
+msgstr "আকাৰ"
+
+msgid "Size of image to launch."
+msgstr "আৰম্ভ কৰিবলৈ ছবিৰ আকাৰ."
+
+msgid "Slash is not an allowed character."
+msgstr "শ্লেছটো এটা অনুমোদিত আখৰ নহয়."
+
+msgid "Snapshot"
+msgstr "স্নেপশ্বট"
+
+msgctxt "Type of an image"
+msgid "Snapshot"
+msgstr "স্নেপশ্বট"
+
+#, python-format
+msgid "Snapshot \"%(name)s\" created for instance \"%(inst)s\""
+msgstr "\"%(inst)s\" উদাহৰণৰ বাবে \"%(name)s\" স্নেপশ্বট তৈয়াৰ কৰা হল "
+
+msgid "Snapshot Limits"
+msgstr "স্নেপশ্বট সীমাবোৰ"
+
+msgid "Snapshot Name"
+msgstr "স্নেপশ্বট নাম"
+
+msgid "Snapshot source must be specified"
+msgstr "স্নেপশ্বট উত্স নিৰ্ধাৰণ কৰাটো অপৰিহাৰ্য"
+
+msgctxt "Task status of an Instance"
+msgid "Snapshotting"
+msgstr "স্নেপশ্বট কৰিছে"
+
+msgctxt "Current status of an Instance"
+msgid "Soft Deleted"
+msgstr "ছফ্ট ডিলিট কৰা হল"
+
+msgctxt "Task status of an Instance"
+msgid "Soft Deleting"
+msgstr "ছফ্ট ডিলিটকৰণ"
+
+msgid "Something went wrong!"
+msgstr "কিবা ভুল হৈছে!"
+
+msgctxt "Task status of an Instance"
+msgid "Spawning"
+msgstr "স্পাৱনিং"
+
+msgid ""
+"Specifies how IPv6 addresses and additional information are configured. We "
+"can specify SLAAC/DHCPv6 stateful/DHCPv6 stateless provided by OpenStack, or "
+"specify no option. 'No options specified' means addresses are configured "
+"manually or configured by a non-OpenStack system."
+msgstr ""
+"IPv6 ঠিকনাবোৰ আৰু অতিৰিক্ত তথ্য কেনেকৈ ৰূপৰেখা কৰা হয় নিৰ্দিষ্ট কৰে. আমি মুক্ত ষ্টেকৰ "
+"দ্বাৰা আগবঢ়োৱা SLAAC/DHCPv6 stateful/DHCPv6 stateless নিৰ্দিষ্ট কৰিব পাৰো বা "
+"কোনো বিকল্প নিৰ্দিষ্ট নকৰিব পাৰো. 'কোনো বিকল্প নিৰ্ধাৰণ কৰা নহল' মানে হল ঠিকনাবোৰ "
+"মেনুৱেলী ৰূপৰেখা কৰা হয় বা এটা মুক্তষ্টকহীন প্ৰণালীৰ দ্বাৰা ৰূপৰেখা কৰা হয়."
+
+msgid "Specify additional attributes for the subnet."
+msgstr "উপনেটটোৰ বাবে অতিৰিক্ত উপাদনাবোৰ নিৰ্ধাৰণ কৰক."
+
+msgid "Specify advanced options to use when launching an instance."
+msgstr "উদাহৰণ এটা আৰম্ভ কৰোতে ব্যৱহাৰ কৰিবলৈ উন্নত বিকল্পবোৰ নিৰ্দিষ্ট কৰক."
+
+msgid "Specify an IP address for the interface created (e.g. 192.168.0.254)."
+msgstr ""
+"ইন্টাৰফেছ তৈয়াৰ কৰাৰ বাবে IP ঠিকনা এটা নিৰ্দিষ্ট কৰক (উদাহৰণ. 192.168.0.254)."
+
+msgid "Specify an image to upload to the Image Service."
+msgstr "ছবি সেৱাটো আপলোড কৰিবলৈ ছবি এটা নিৰ্ধাৰণ কৰক."
+
+msgid "Specify the details for launching an instance."
+msgstr "উদাহৰণ এটা আৰম্ভ কৰিবৰ বাবে পূংখানুপূংখবোৰ নিৰ্দিষ্ট কৰক."
+
+msgid "Specs"
+msgstr "স্পেকবোৰ"
+
+msgid "Stack Events"
+msgstr "ষ্টেক ঘটনাবোৰ"
+
+msgid "Stack ID"
+msgstr "ষ্টেক ID"
+
+msgid "Stack Name"
+msgstr "ষ্টেক নাম"
+
+msgid "Stack Parameters"
+msgstr "ষ্টেক উপকৰণবোৰ"
+
+msgid "Stack Resource"
+msgstr "ষ্টেক সম্পদ"
+
+msgid "Stack Resource ID"
+msgstr "ষ্টেক সম্পদ ID"
+
+msgid "Stack Resource Type"
+msgstr "ষ্টেক সম্পদ প্ৰকাৰ"
+
+msgid "Stack Resources"
+msgstr "ষ্টেক সম্পদবোৰ"
+
+msgid "Stack creation started."
+msgstr "ষ্টেক তৈয়াৰী আৰম্ভ হল."
+
+msgid "Stack creation timeout in minutes."
+msgstr "মিনিটবোৰত ষ্টেক তৈয়াৰৰ সময় উকলি গল."
+
+msgid "Stack update started."
+msgstr "ষ্টেক আপডেট আৰম্ভ কৰা হল."
+
+msgid "Stacks"
+msgstr "ষ্টেকবোৰ"
+
+msgid "Start"
+msgstr "আৰম্ভ কৰক"
+
+msgctxt "Action log of an instance"
+msgid "Start"
+msgstr "আৰম্ভ কৰক"
+
+msgid "Start Time"
+msgstr "আৰম্ভণিৰ সময়"
+
+#, python-format
+msgid "Start address is larger than end address (value=%s)"
+msgstr "আৰম্ভণিৰ ঠিকনাটো শেষৰ ঠিকনাটোতকৈ ডাঙৰ (মান=%s)"
+
+#, python-format
+msgid "Start and end addresses must be specified (value=%s)"
+msgstr "আৰম্ভণি আৰু শেষৰ ঠিকনাবোৰ নিৰ্ধাৰণ কৰাটো অপৰিহাৰ্য (মান=%s)"
+
+msgid "State"
+msgstr "অৱস্থা "
+
+msgid "Status"
+msgstr "স্থিতি"
+
+msgid "Status ="
+msgstr "স্থিতি ="
+
+msgid "Status Reason"
+msgstr "স্থিতিৰ কাৰণ"
+
+msgid "Subnet"
+msgstr "উপনেট"
+
+msgid "Subnet Details"
+msgstr "উপনেটৰ পূংখানুপূংখ বিৱৰণবোৰ"
+
+msgid "Subnet ID"
+msgstr "উপনেট ID"
+
+msgid "Subnet Name"
+msgstr "উপনেট নাম"
+
+msgid "Subnet list can not be retrieved."
+msgstr "উপনেট তালিকা উদ্ধাৰ কৰিব পৰা নগল."
+
+msgid "Subnets"
+msgstr "উপনেটবোৰ"
+
+msgid "Subnets Associated"
+msgstr "উপনেটবোৰৰ সৈতে জড়িত"
+
+#, python-format
+msgid "Successfully added rule: %s"
+msgstr "ৰোল সফলতাৰে যোগ কৰা হল: %s"
+
+#, python-format
+msgid "Successfully created QoS Spec: %s"
+msgstr "QoS Spec সফলতাৰে তৈয়াৰ কৰা হল: %s"
+
+#, python-format
+msgid "Successfully created encryption for volume type: %s"
+msgstr "আয়তন প্ৰকাৰৰ বাবে সফলতাৰে এনক্ৰিপশ্বন তৈয়াৰ কৰা হল: %s"
+
+#, python-format
+msgid "Successfully created security group: %s"
+msgstr "সুৰক্ষাৰ গোট সফলতাৰে তৈয়াৰ কৰা হল: %s"
+
+#, python-format
+msgid "Successfully created volume type: %s"
+msgstr "আয়তন প্ৰকাৰ সফলতাৰে তৈয়াৰ কৰা হল: %s"
+
+#, python-format
+msgid "Successfully disassociated Floating IP: %s"
+msgstr "ফ্লটিং IP সফলতাৰে সংযোগবিহীন কৰা হল: %s"
+
+#, python-format
+msgid "Successfully disassociated floating IP: %s"
+msgstr "ফ্লটিং IP টো সফলতাৰে জড়িতহীন কৰা হল: %s"
+
+#, python-format
+msgid "Successfully imported public key: %s"
+msgstr "ৰাজহুৱা কী সফলতাৰে আমদানি কৰা হল: %s"
+
+msgid "Successfully modified QoS Spec consumer."
+msgstr "QoS স্পেক উপভোক্তা সফলতাৰে পৰিৱৰ্তন কৰা হল."
+
+#, python-format
+msgid ""
+"Successfully sent the request to change the volume type to \"%(vtype)s\" for "
+"volume: \"%(name)s\""
+msgstr ""
+"আয়তনৰ বাবে \"%(vtype)s\" লৈ আয়তন প্ৰকাৰটো সলনি কৰিবলৈ সফলতাৰে অনুৰোধ পথোৱা হল: "
+"\"%(name)s\""
+
+#, python-format
+msgid ""
+"Successfully sent the request to upload volume to image for volume: \"%s\""
+msgstr "আয়তনৰ বাবে ছবিলৈ আয়তন আপলোড কৰিবলৈ অনুৰোধ সফলতাৰে পথোৱা হল: \"%s\""
+
+msgid "Successfully updated QoS Spec association."
+msgstr "QoS স্পেক সংস্থা সফলতাৰে আপডেট কৰা হল."
+
+#, python-format
+msgid "Successfully updated aggregate: \"%s.\""
+msgstr "গড় সফলতাৰে আপডেট কৰা হল: \"%s.\""
+
+#, python-format
+msgid "Successfully updated security group: %s"
+msgstr "সুৰক্ষাৰ গোট সফলতাৰে আপডেট কৰা হল: %s"
+
+#, python-format
+msgid "Successfully updated volume snapshot status: \"%s\"."
+msgstr "আয়তন স্নেপশ্বট স্থিতি সফলতাৰে আপডেট কৰা হল: \"%s\"."
+
+#, python-format
+msgid "Successfully updated volume status to \"%s\"."
+msgstr "\"%s\" লৈ আয়তন স্থিতি সফলতাৰে আপডেট কৰা হল."
+
+msgctxt "Current status of an Instance"
+msgid "Suspended"
+msgstr "নিলম্বন কৰা হল"
+
+msgctxt "Power state of an Instance"
+msgid "Suspended"
+msgstr "নিলম্বন কৰা হল"
+
+msgctxt "Task status of an Instance"
+msgid "Suspending"
+msgstr "নিলম্ব কৰি আছে"
+
+msgid "Swap Disk"
+msgstr "শ্বুৱাপ ডিস্ক"
+
+msgid "Swap Disk (MB)"
+msgstr "শ্বুৱাপ ডিস্ক (MB)"
+
+msgid "System"
+msgstr "প্ৰণালী"
+
+msgid "System Information"
+msgstr "ছিষ্টেমৰ তথ্য"
+
+msgid "Target Host"
+msgstr "লক্ষ্য কৰা হষ্ট"
+
+msgid "Task"
+msgstr "কাৰ্য"
+
+msgid "Template"
+msgstr "নমুনা"
+
+msgid "Template Data"
+msgstr "নমুনা ডাটা"
+
+msgid "Template File"
+msgstr "নমুনা ফাইল"
+
+msgid "Template Source"
+msgstr "নমুনাৰ উত্স"
+
+msgid "Template URL"
+msgstr "নমুনা URL"
+
+msgid "The \"from\" port number is invalid."
+msgstr "\"from\" পোৰ্ট সংখ্যাটো অবৈধ."
+
+msgid "The \"to\" port number is invalid."
+msgstr "\"to\" পোৰ্ট সংখ্যাটো অবৈধ."
+
+msgid ""
+"The \"to\" port number must be greater than or equal to the \"from\" port "
+"number."
+msgstr ""
+"\"to\" পোৰ্ট সংখ্যাটো \"from\" পোৰ্ট সংখ্যাটোতকৈ ডাঙৰ বা সমান হোৱাটো অপৰিহাৰ্য."
+
+msgid ""
+"The <strong>Cipher</strong> is the encryption algorithm/mode to use (e.g., "
+"aes-xts-plain64). If the field is left empty, the provider default will be "
+"used."
+msgstr ""
+"<strong>Cipher</strong> টো হল ব্যৱহাৰ কৰিবলগীয়া এনক্ৰিপশ্বন এলগোৰিথম/ধৰণ "
+"(উদাহৰণ, aes-xts-plain64). যদি ক্ষেত্ৰখন খালী এৰে, তেন্তে আগবঢ়াওতাৰ ডিফল্টটো "
+"ব্যৱহাৰ কৰা হব."
+
+msgid ""
+"The <strong>Control Location</strong> is the notional service where "
+"encryption is performed (e.g., front-end=Nova). The default value is 'front-"
+"end.'"
+msgstr ""
+"<strong>Control Location</strong> টো হল ৰাষ্ট্ৰীয় সেৱা যত এনক্ৰিপশ্বন সম্পন্ন কৰা "
+"হয় (e.g., front-end=Nova). ডিফল্ট মানটো হল 'সন্মুখফাল.'"
+
+msgid ""
+"The <strong>Key Size</strong> is the size of the encryption key, in bits (e."
+"g., 128, 256). If the field is left empty, the provider default will be used."
+msgstr ""
+"<strong>Key Size</strong> টো এনক্ৰিপশ্বন কীটোৰ আকাৰ, বিটবোৰত (উদাহৰণ, 128, "
+"256). যদি ক্ষেত্ৰখন খালী এৰে, তেন্তে আগবঢ়াওতাৰ ডিফল্টটো ব্যৱহাৰ কৰা হব."
+
+msgid ""
+"The <strong>Provider</strong> is the class providing encryption support (e."
+"g. LuksEncryptor)."
+msgstr ""
+"<strong>Provider</strong> টো হল শ্ৰেণী আগবঢ়োৱা এনক্ৰিপশ্বন সমৰ্থন (উদাহৰণ "
+"LuksEncryptor)."
+
+msgid "The Aggregate was updated."
+msgstr "গড়টো আপডেট কৰা হৈছিল."
+
+msgid "The ICMP code not in range (-1, 255)"
+msgstr "ICMP কোডটো পৰিসৰত (-1, 255) নাই"
+
+msgid "The ICMP type not in range (-1, 255)"
+msgstr "ICMP প্ৰকাৰটো (-1, 255) পৰিসৰৰ ভিতৰত নাই"
+
+#, python-format
+msgid "The ID \"%s\" is already used by another flavor."
+msgstr "\"%s\" ID টো অন্য ফ্লেভাৰৰ দ্বাৰা ইতিমধ্যে ব্যৱহাৰ কৰা হৈছে."
+
+msgid ""
+"The Image Location field MUST be a valid and direct URL to the image binary. "
+"URLs that redirect or serve error pages will result in unusable images."
+msgstr ""
+"ছবি বাইনেৰীলৈ ছবি স্থান ক্ষেত্ৰখন এটা বৈধ আৰু প্ৰত্যক্ষ URL হোৱাটো অপৰিহাৰ্য. ভুল "
+"পৃষ্ঠাবোৰ কঢ়িওৱা বা পুনৰ নিৰ্দেশ কৰা URLবোৰে অনুপোযগী ছবিবোৰ দাঙি ধৰিব."
+
+msgid "The Key Pair name that was associated with the instance"
+msgstr "মুখ্য যোৰা নামটো যিটো উদাহৰণটোৰ সৈতে জড়িত আছিল"
+
+#, python-format
+msgid ""
+"The Volume size is too small for the '%(image_name)s' image and has to be "
+"greater than or equal to '%(smallest_size)d' GB."
+msgstr ""
+"'%(image_name)s' ছবিটোৰ বাবে আয়তনৰ আকাৰটো অতি সৰু আৰু '%(smallest_size)d' GB "
+"তকৈ ডাঙৰ বা সৰু."
+
+msgid ""
+"The chart below shows the resources used by this project in relation to the "
+"project's quotas."
+msgstr ""
+"তলৰ তালিকাখনে প্ৰকল্পৰ কোটাবোৰ সম্পৰ্কত এই প্ৰকল্পটোৰ দ্বাৰা ব্যৱহাৰ কৰা সম্পদবোৰ "
+"দেখুৱায়."
+
+msgid "The container cannot be deleted since it is not empty."
+msgstr "ধাৰকটো ডিলিট কৰিব নোৱাৰি যিহেতু এইটো খালী নহয়."
+
+#, python-format
+msgid ""
+"The flavor '%(flavor)s' is too small for requested image.\n"
+"Minimum requirements: %(min_ram)s MB of RAM and %(min_disk)s GB of Root Disk."
+msgstr ""
+"দাবী কৰা ছবিটোৰ বাবে '%(flavor)s' ফ্লেভাৰটো অতি সৰু.\n"
+"নূন্যতম প্ৰয়োজনীয়তাবোৰ: RAM ৰ %(min_ram)s MB  আৰু মুখ্য ডিস্কৰ %(min_disk)s GB."
+
+msgid "The instance password encrypted with your public key."
+msgstr "আপোনাৰ ৰাজহুৱা কীৰ সৈতে উদাহৰণ পাছৱৰ্ডটো এনক্ৰিপ্ট কৰা হল."
+
+msgid ""
+"The minimum disk size required to boot the image. If unspecified, this value "
+"defaults to 0 (no minimum)."
+msgstr ""
+"ছবি বুট কৰিবলৈ প্ৰয়োজনীয় নূন্যতম ডিস্ক আকাৰটো. যদি নিৰ্ধাৰিত নহয়, তেন্তে এই মানটো 0 "
+"লৈ ডিফল্ট হব (কোনো নূন্যতম নাই)."
+
+msgid ""
+"The minimum memory size required to boot the image. If unspecified, this "
+"value defaults to 0 (no minimum)."
+msgstr ""
+"ছবি বুট কৰিবলৈ প্ৰয়োজনীয় নূন্যতম স্মৃতিৰ আকাৰটো. যদি নিৰ্ধাৰিত কৰা নহয়, তেন্তে এই "
+"মানটো 0 লৈ ডিফল্ট হব (কোনো নূন্যতম নাই)."
+
+#, python-format
+msgid "The name \"%s\" is already used by another flavor."
+msgstr "অন্য ফ্লেভাৰৰ দ্বাৰা \"%s\" নামটো ইতিমধ্যে ব্যৱহাৰ কৰা হৈছে."
+
+#, python-format
+msgid "The name \"%s\" is already used by another host aggregate."
+msgstr "অন্য হষ্টৰ গড়ৰৰ দ্বৰা \"%s\" নামটো ইতিমধ্যে ব্যৱহাৰ কৰা হৈছে."
+
+msgid ""
+"The name of the physical network over which the virtual network is "
+"implemented."
+msgstr "ফিজিকেল নেটৱৰ্কৰ নামটো যাৰ ওপৰত ভিৰচুৱেল নেটৱৰ্কটো কাৰ্যকৰী কৰা হয়. "
+
+msgid "The page you were looking for doesn't exist"
+msgstr "আপুনি বিচৰা পৃষ্ঠাটো বৰ্তি থকা নাই"
+
+msgid "The physical mechanism by which the virtual network is implemented."
+msgstr "ফিজিকেল কাৰিকৰীটো যাৰ দ্বাৰা ভিৰচুৱেল নেটৱৰ্কটো কাৰ্যকৰী কৰা হয়."
+
+msgid ""
+"The private key will be only used in your browser and will not be sent to "
+"the server"
+msgstr "ব্যক্তিগত কীটো কেৱল আপোনাৰ ব্ৰাউজাৰত ব্যৱহাৰ কৰা হব আৰু ছাৰ্ভাৰটোলৈ পথোৱ নহব"
+
+msgid "The pseudo folder cannot be deleted since it is not empty."
+msgstr "ছিউড' ফল্ডাৰটো ডিলিট কৰিব পৰা নগল যিহেতু এইটো খালী নহয়."
+
+msgid "The raw contents of the environment file."
+msgstr "পৰিৱেশ ফাইলটোৰ শাৰীৰ বিষয়বস্তুবোৰ."
+
+msgid "The raw contents of the template."
+msgstr "নমুনাটোৰ শাৰীৰ বিষয়বস্তুবোৰ."
+
+#, python-format
+msgid ""
+"The requested instance cannot be launched. The following requested "
+"resource(s) exceed quota(s): %s."
+msgstr ""
+"দাবী কৰা উদাহৰণটো আৰম্ভ কৰিব পৰা নগল. নিম্নোক্ত দাবী কৰা সম্পদটোৱে (বোৰ) "
+"কোটা(বোৰ) অতিক্ৰম কৰিছে: %s."
+
+msgid ""
+"The requested instance port is already associated with another floating IP."
+msgstr "দাবী কৰা উদাৰণটো ইতিমধ্যে অন্য ফ্লটিং IP ৰ সৈতে জড়িত হৈছে."
+
+msgid "The specified port is invalid."
+msgstr "নিৰ্ধাৰিত পোৰ্টটো অবৈধ."
+
+msgid "The state to start the network in."
+msgstr "নেটৱৰ্ক আৰম্ভ কৰিবলৈ অৱস্থাটো."
+
+#, python-format
+msgid "The subnet in the Network Address is too small (/%s)."
+msgstr "নেটৱৰ্ক ঠিকনাটোত থকা উপনেটটো যথেষ্ট সৰু (/%s)."
+
+#, python-format
+msgid "The volume size cannot be less than the image size (%s)"
+msgstr "আয়তনৰ আকাৰটো ছবি আকাৰটোতকৈ কম হব নোৱাৰে (%s)"
+
+msgid "There are no networks, routers, or connected instances to display."
+msgstr "প্ৰদৰ্শন কৰিবলৈ তাত কোনো নেটৱৰ্ক, ৰাউটাৰ বা সংযোগ কৰা উদাহৰণ নাই."
+
+msgid ""
+"There is not enough capacity for this flavor in the selected availability "
+"zone. Try again later or select a different availability zone."
+msgstr ""
+"নিৰ্বাচিত উপলব্ধতাৰ মণ্ডলটোত এই ফ্লেভাৰটোৰ বাবে যথেষ্ট ঠাই নাই. অনুগ্ৰহ কৰি পিছত "
+"পুনৰ চেষ্টা কৰক বা এটা বেলেগ উপলব্ধতাৰ মণ্ডল নিৰ্বাচনক কৰক."
+
+#, python-format
+msgid "There was a problem parsing the %(prefix)s: %(error)s"
+msgstr "%(prefix)s টো ভাগ কৰোতে এটা সমস্যা আছিল: %(error)s"
+
+msgid ""
+"This generates a pair of keys: a key you keep private (cloud.key) and a "
+"public key (cloud.key.pub). Paste the contents of the public key file here."
+msgstr ""
+"এইটোৱে মুখ্যবোৰৰ যোৰা এটা প্ৰস্তুত কৰে: আপুনি ব্যক্তিগত কৰি ৰখা মুখ্য এটা (cloud.key) "
+"আৰু এটা ৰাজহুৱা মুখ্য (cloud.key.pub). ৰাজহুৱা মুখ্য ফাইলৰ বিষয়বস্তুবোৰ ইয়াত আঠা "
+"লগাওক."
+
+msgid ""
+"This is required for operations to be performed throughout the lifecycle of "
+"the stack"
+msgstr ""
+"ষ্টেকটোৰ জীৱনচক্ৰটোৰ সময়চোৱাত সম্পাদন কৰিবলগীয়া কাৰ্যবোৰৰ বাবে এইটো প্ৰয়োজনীয়"
+
+msgid ""
+"This volume is currently attached to an instance. In some cases, creating a "
+"snapshot from an attached volume can result in a corrupted snapshot."
+msgstr ""
+"উদাহৰণ এটালৈ এই আয়তনটো বৰ্তমান সংলগ্ন কৰা হৈছে. কিছুমান ক্ষেত্ৰত, সংলগ্ন আয়তন এটাৰ "
+"পৰা স্নেপশ্বট তৈয়াৰ কৰাটোৱে নষ্ট হোৱা স্নেপশ্বট এটাৰ দৰে ফলাফল দিব পাৰে."
+
+msgid "Time Since Event"
+msgstr "ঘটনাৰ পৰা সময়"
+
+msgid "Time since created"
+msgstr "তৈয়াৰ কৰাৰ পৰা সময়টো"
+
+msgid "Timeout"
+msgstr "সময় উকলি গল"
+
+msgid "Timezone"
+msgstr "সময়মণ্ডল"
+
+msgid "To Port"
+msgstr "পোৰ্টলৈ"
+
+msgid ""
+"To decrypt your password you will need the private key of your key pair for "
+"this instance. Select the private key file, or copy and paste the content of "
+"your private key file into the text area below, then click Decrypt Password."
+msgstr ""
+"এই উদাহৰণটোৰ বাবে আপোনাৰ পাছৱৰ্ডটো ডিক্ৰিপ্ট কৰিবলৈ আপোনাক আপোনাৰ মুখ্য যোৰাৰ "
+"ব্যক্তিগত কীটো লাগিব. ব্যক্তিগত কী ফাইলটো নিৰ্বাচন কৰক, বা তলৰ টেক্সট ক্ষেত্ৰখনত "
+"আপোনাৰ ব্যক্তিগত কী ফাইলৰ বিষয়বস্তুটো প্ৰতিলিপ কৰক আৰু আঠা লগাওক, তেতিয়া ডিক্ৰিপ্ট "
+"পাছৱৰ্ডত ক্লিক কৰক."
+
+msgid "To exit the fullscreen mode, click the browser's back button."
+msgstr "সম্পূৰ্ণ স্ক্ৰীনৰ ধৰণ বন্ধ কৰিবলৈ, ব্ৰাউজাৰৰ বেক বাটনটোত ক্লিক কৰক."
+
+msgid ""
+"To specify an allowed IP range, select &quot;CIDR&quot;. To allow access "
+"from all members of another security group select &quot;Security Group&quot;."
+msgstr ""
+"IP পৰিসৰটো নিৰ্ধাৰণ আৰু অনুমোদন কৰিবলৈ, &quot;CIDR&quot; নিৰ্বাচন কৰক. অন্য সুৰক্ষা "
+"গোটৰ সকলোবোৰ সদস্যৰ পৰা প্ৰৱেশ অনুমতি দিবলৈ, &quot;Security Group&quot; নিৰ্বাচন "
+"কৰক."
+
+msgid "Topology"
+msgstr "টোপোলজি"
+
+msgid "Total Disk"
+msgstr "মুঠ ডিস্ক"
+
+msgid "Total RAM"
+msgstr "মুঠ RAM"
+
+msgid "Total Size of Volumes and Snapshots (GB)"
+msgstr "আয়তন আৰু স্নেপশ্বটবোৰৰ মুঠ আকাৰ (GB)"
+
+msgid "Total disk usage (GB * Hours Used) for the project"
+msgstr "প্ৰক্ষেপটোৰ বাবে মুঠ ডিস্ক ব্যৱহাৰ (GB * ব্যৱহাৰৰ ঘন্টা )"
+
+msgid "Type"
+msgstr "প্ৰকাৰ"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "UTC"
+msgstr "UTC"
+
+#, python-format
+msgid "UTC %(hour)s:%(min)s"
+msgstr "UTC %(hour)s:%(min)s"
+
+msgid "Unable to add rule to security group."
+msgstr "সুৰক্ষা গোটলৈ ৰোল যোগ কৰিবলৈ অক্ষম."
+
+msgid "Unable to add user to primary project."
+msgstr "প্ৰাথমিক প্ৰক্ষেপলৈ ব্যৱহাৰকৰ্তা যোগ কৰিবলৈ অক্ষম."
+
+msgid "Unable to allocate Floating IP."
+msgstr "ফ্লটিং IP নিৰ্ধাৰণ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to associate IP address %s."
+msgstr "IP ঠিকনা %s জড়িত কৰিবলৈ অক্ষম."
+
+msgid "Unable to attach volume."
+msgstr "আয়তন সংলগ্ন কৰিবলৈ অক্ষম."
+
+msgid "Unable to change password."
+msgstr "পাছৱৰ্ড সলনি কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to change the volume type for volume: \"%s\""
+msgstr "আয়তনৰ বাবে আয়তন প্ৰকাৰ সলনি কৰিবলৈ অক্ষম: \"%s\""
+
+#, python-format
+msgid "Unable to clear gateway for router \"%(name)s\": \"%(msg)s\""
+msgstr "\"%(name)s\" ৰাউটাৰৰ বাবে গেটৱে সম্পন্ন কৰিবলৈ অক্ষম: \"%(msg)s\""
+
+msgid "Unable to connect to Neutron."
+msgstr "নিউট্ৰনলৈ সংযোগ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create QoS Spec."
+msgstr "QoS স্পেক তৈয়াৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to create domain \"%s\"."
+msgstr "\"%s\" ক্ষেত্ৰ তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create encrypted volume type."
+msgstr "এনক্ৰিপ্ট কৰা আয়তন প্ৰকাৰ তৈয়াৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to create flavor \"%s\"."
+msgstr "\"%s\" ফ্লেভাৰ তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create flavor."
+msgstr "ফ্লেভাৰ তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create group."
+msgstr "গোট তৈয়াৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to create host aggregate \"%s\"."
+msgstr "\"%s\" হষ্ট গড় তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create host aggregate."
+msgstr "হষ্ট গড় তৈয়াৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to create network \"%s\"."
+msgstr "\"%s\" নেটৱৰ্ক তৈয়াৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to create project \"%s\"."
+msgstr "প্ৰক্ষেপ \"%s\" তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create role."
+msgstr "ৰোল তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create snapshot."
+msgstr "স্নেপশ্বট তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create spec."
+msgstr "স্পেক তৈয়াৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to create subnet \"%s\"."
+msgstr "\"%s\" উপনেট তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create user."
+msgstr "ব্যৱহাৰকৰ্তা তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create volume backup."
+msgstr "আয়তন বেকআপ তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create volume snapshot."
+msgstr "আয়তন স্নেপশ্বট তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create volume type extra spec."
+msgstr "আয়তন প্ৰকাৰ অতিৰিক্ত স্পেকতৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create volume type."
+msgstr "আয়তন প্ৰকাৰ তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to create volume."
+msgstr "আয়তন তৈয়াৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to delete router \"%s\""
+msgstr "\"%s\" ৰাউটাৰ ডিলিট কৰিবলৈ অক্ষম"
+
+msgid "Unable to determine if availability zones extension is supported."
+msgstr "নিৰ্ধাৰণ কৰিবলৈ অক্ষম যদি উপলব্ধতাৰ মণ্ডলবোৰৰ সম্প্ৰসাৰণটো সমৰ্থন কৰে."
+
+msgid "Unable to determine if volume type encryption is supported."
+msgstr "নিৰ্ধাৰণ কৰিবলৈ অক্ষম যদি আয়তন প্ৰকাৰ এনক্ৰিপশ্বনটো সমৰ্থন কৰে."
+
+msgid "Unable to disassociate floating IP."
+msgstr "ফ্লটিং IP সংযোগবিহীন কৰিবলৈ অক্ষম."
+
+msgid "Unable to edit spec."
+msgstr "স্পেক সম্পাদনা কৰিবলৈ অক্ষম."
+
+msgid "Unable to edit volume type extra spec."
+msgstr "আয়তন প্ৰকাৰৰ অতিৰিক্ত স্পেক উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to extend volume."
+msgstr "আয়তন প্ৰসাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to fetch EC2 credentials."
+msgstr "EC2 পৰিচয়পত্ৰবোৰ পাবলৈ অক্ষম."
+
+msgid "Unable to find default role."
+msgstr "ডিফল্ট ৰোল বিচাৰি উলিয়াবলৈ অক্ষম."
+
+msgid "Unable to get EC2 credentials"
+msgstr "EC2 পৰিচয়পত্ৰবোৰ পাবলৈ অক্ষম"
+
+#, python-format
+msgid "Unable to get RDP console for instance \"%s\"."
+msgstr "\"%s\" উদাহৰণটোৰ বাবে RDP কনছোল পাবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to get SPICE console for instance \"%s\"."
+msgstr "\"%s\" উদাহৰণটোৰ বাবে SPICE কনছোল পাবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to get VNC console for instance \"%s\"."
+msgstr "\"%s\" উদাহৰণটোৰ বাবে VNC কনছোল পাবলৈ অক্ষম."
+
+msgid "Unable to get cinder services list."
+msgstr "ছাইণ্ডাৰ সেৱাবোৰৰ তালিকা পাবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to get events for stack \"%s\"."
+msgstr "\"%s\" ষ্টেকৰ বাবে ঘটনাবোৰ আহৰণ কৰিবলৈ অক্ষম."
+
+msgid "Unable to get flavor list"
+msgstr "ফ্লেভাৰ তালিকা পাবলৈ অক্ষম"
+
+msgid "Unable to get host aggregate list"
+msgstr "হষ্ট গড় তালিকা লাভ কৰিবলৈ অক্ষম"
+
+#, python-format
+msgid "Unable to get log for instance \"%s\"."
+msgstr "\"%s\" উদাহৰণৰ বাবে ল'গ পাবলৈ অক্ষম."
+
+msgid "Unable to get network agents info."
+msgstr "নেটৱৰ্ক এজেন্টবোৰৰ তথ্য পাবলৈ অক্ষম."
+
+msgid "Unable to get network agents list."
+msgstr "নেটৱৰ্ক এজেন্টবোৰৰ তালিকা পাবলৈ অক্ষম."
+
+msgid "Unable to get nova services list."
+msgstr "নোভা সেৱাবোৰৰ তালিকা পাবলৈ অক্ষম."
+
+msgid "Unable to get openrc credentials"
+msgstr "মুক্তrc পৰিচয়পত্ৰবোৰ পাবলৈ অক্ষম"
+
+msgid "Unable to get quota info."
+msgstr "কোটা তথ্য লাভ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to get resources for stack \"%s\"."
+msgstr "\"%s\" ষ্টেকৰ বাবে সম্পদবোৰ আহৰণ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to get subnet \"%s\""
+msgstr "\"%s\" উপনেট পাবলৈ অক্ষম"
+
+msgid "Unable to get the available hosts"
+msgstr "উপলব্ধ হষ্টবোৰ লাভ কৰিবলৈ অক্ষম"
+
+msgid "Unable to import key pair."
+msgstr "মুখ্য যোৰা আমদানি কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to launch %(count)s named \"%(name)s\"."
+msgstr "\"%(name)s\" নামৰ %(count)s আৰম্ভ কৰিবলৈ অক্ষম."
+
+msgid "Unable to list dhcp agents hosting network."
+msgstr "এজেন্টবোৰ হষ্ট কৰা নেটৱৰ্ক তালিকা কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to load the specified image. %s"
+msgstr "নিৰ্ধাৰিত ছবিটো লোড কৰিবলৈ অক্ষম. %s"
+
+msgid "Unable to load the specified snapshot."
+msgstr "নিৰ্ধাৰিত স্নেপশ্বট লোড কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to load the specified volume. %s"
+msgstr "নিৰ্ধাৰিত আয়তনটো লোড কৰিবলৈ অক্ষম. %s"
+
+msgid "Unable to lookup volume or backup information."
+msgstr "আয়তন চাবলৈ বা তথ্য বেকআপ দিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to modify domain \"%s\"."
+msgstr "\"%s\" ক্ষেত্ৰ পৰিৱৰ্তন কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to modify flavor \"%s\"."
+msgstr "\"%s\" ফ্লেভাৰ পৰিৱৰ্তন কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to modify instance \"%s\"."
+msgstr "\"%s\" উদাহৰণ পৰিৱৰ্তন কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to modify project \"%s\"."
+msgstr "\"%s\" প্ৰক্ষেপ পৰিৱৰ্তন কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to parse IP address %s."
+msgstr "IP ঠিকনা %s পাৰ্জ কৰিবলৈ অক্ষম."
+
+msgid "Unable to rebuild instance."
+msgstr "উদাহৰণ পুনৰ নিৰ্মাণ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to resize instance \"%s\"."
+msgstr "\"%s\" উদাহৰণ পুনৰ আকাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to restore backup."
+msgstr "বেকআপ পুনৰ জমা কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid ""
+"Unable to retrieve IP addresses from Neutron for instance \"%(name)s"
+"\" (%(id)s)."
+msgstr ""
+"\"%(name)s\" (%(id)s) উদাহৰণটোৰ বাবে নিউট্ৰনৰ পৰা IP ঠিকনা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve IP addresses from Neutron."
+msgstr "নিউট্ৰনৰ পৰা IP ঠিকনা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve Nova availability zones."
+msgstr "নোভা উপলব্ধতাৰ মণ্ডলবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve QoS Spec association."
+msgstr "QoS স্পেক সংস্থা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve QoS Spec details."
+msgstr "QoS স্পেকৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve QoS Specs."
+msgstr "QoS স্পেকবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve QoS spec details."
+msgstr "QoS স্পেক বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve QoS spec list."
+msgstr "QoS স্পেক তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve QoS specs"
+msgstr " QoS স্পেকবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+#, python-format
+msgid "Unable to retrieve a list of external networks \"%s\"."
+msgstr "\"%s\" বাহ্যিক নেটৱৰ্কবোৰৰ তালিকা এখন উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve agent list."
+msgstr "এজেন্ট তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to retrieve an external network \"%s\"."
+msgstr "এটা \"%s\" বাহ্যিক নেটৱৰ্কৰ বাবে পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve attachment information."
+msgstr "সংলগ্ন কৰা তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve availability zone list."
+msgstr "উপলব্ধতা মণ্ডলৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to retrieve availability zones."
+msgstr "উপলব্ধতাৰ মণ্ডলবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve backup details."
+msgstr "বেকআপৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve compute host information."
+msgstr "গণনা কৰা হষ্ট তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve compute limit information."
+msgstr "গণনা সীমাৰ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve default Neutron quota values."
+msgstr "ডিফল্ট নিউট্ৰন কোটা মানবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve default quota values."
+msgstr "ডিফল্ট কোটা মানবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to retrieve details for instance \"%s\"."
+msgstr "\"%s\" উদাহৰণটোৰ বাবে পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to retrieve details for network \"%s\"."
+msgstr "\"%s\" নেটৱৰ্কৰ বাবে বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to retrieve details for router \"%s\"."
+msgstr "\"%s\" ৰাউটাৰৰ বাবে পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve domain details."
+msgstr "ক্ষেত্ৰ বিৱৰণবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve domain information."
+msgstr "ক্ষেত্ৰ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve domain list."
+msgstr "ক্ষেত্ৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve extensions information."
+msgstr "সম্প্ৰসাৰিতবোৰৰ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve extra spec list."
+msgstr "অতিৰিক্ত স্পেক তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve flavor access list. Please try again later."
+msgstr "ফ্লেভাৰত প্ৰৱেশ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম. অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰক."
+
+msgid "Unable to retrieve flavor details."
+msgstr "ফ্লেভাৰৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid ""
+"Unable to retrieve flavor information for instance \"%(name)s\" (%(id)s)."
+msgstr "\"%(name)s\" (%(id)s) উদাহৰণটোৰ বাবে ফ্লেভাৰ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to retrieve flavor information for instance \"%s\"."
+msgstr "\"%s\" উদাহৰণৰ বাবে ফ্লেভাৰ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve flavor list."
+msgstr "ফ্লেভাৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve flavors."
+msgstr "ফ্লেভাৰবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve floating IP addresses."
+msgstr "ফ্লটিং IP ঠিকনাবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve floating IP pools."
+msgstr "ফ্লটিং IP পুলবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve group list."
+msgstr "গোট তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to retrieve group list. Please try again later."
+msgstr "গোট তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম. অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰক."
+
+msgid "Unable to retrieve group users."
+msgstr "গোট ব্যৱহাৰকৰ্তা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve host aggregates list."
+msgstr "হষ্ট গড় তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve host information."
+msgstr "হষ্ট তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve hypervisor information."
+msgstr "হাইপাৰভিজৰ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve hypervisor instances list."
+msgstr "হাইপাৰভিজৰ উদাহৰণবোৰৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve hypervisor statistics."
+msgstr "হাইপাৰভিজৰ পৰিসংখ্যাবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve image details."
+msgstr "ছবিৰ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve image list."
+msgstr "ছবিৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve image."
+msgstr "ছবি উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve images for the current project."
+msgstr "চলিত প্ৰক্ষেপটোৰ বাবে ছবিবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve images."
+msgstr "ছবিবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve instance action list."
+msgstr "উদাহৰণ কাৰ্য তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve instance details."
+msgstr "উদাহৰণৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve instance flavors."
+msgstr "উদাহৰণৰ ফ্লেভাৰবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve instance list."
+msgstr "উদাহৰণৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve instance password."
+msgstr "উদাহৰণ পাছৱৰ্ড উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve instance project information."
+msgstr "উদাহৰণ প্ৰক্ষেপ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve instance size information."
+msgstr "উদাহৰণ আকাৰ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve instance."
+msgstr "উদাহৰণ তৈয়াৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve instances."
+msgstr "উদাহৰণবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve key pair list."
+msgstr "মুখ্য যোৰা তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve key pairs."
+msgstr "মুখ্য যোৰাবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve limit information."
+msgstr "সীমিত তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve list of security groups"
+msgstr "সুৰক্ষিত গোটবোৰৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to retrieve list of volume snapshots."
+msgstr "আয়তন স্নেপশ্বটবোৰৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve list of volumes."
+msgstr "আয়তনবোৰৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve metadata."
+msgstr "মেটাডাটা উদ্ধাৰ কৰিবৰৈ অক্ষম."
+
+msgid "Unable to retrieve network details."
+msgstr "নেটৱৰ্কৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve network quota information."
+msgstr "নেটৱৰ্ক কোটা তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve network."
+msgstr "নেটৱৰ্ক উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve port details"
+msgstr "পোৰ্টৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to retrieve port details."
+msgstr "পোৰ্টৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve project details."
+msgstr "প্ৰক্ষেপৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve project domain."
+msgstr "প্ৰক্ষেপ ক্ষেত্ৰখন উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve project information."
+msgstr "প্ৰক্ষেপ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve project list."
+msgstr "প্ৰক্ষেপ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve public images."
+msgstr "ৰাজহুৱা ছবিবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve quota information."
+msgstr "কোটা তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve resource."
+msgstr "সম্পদ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve role list."
+msgstr "ৰোল তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve roles list."
+msgstr "ৰোলবোৰৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to retrieve router details."
+msgstr "ৰাউটাৰৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve router list."
+msgstr "ৰাউটাৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve router."
+msgstr "ৰাউটাৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve security group list. Please try again later."
+msgstr "নিৰীক্ষকৰ গোট তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম. অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰক."
+
+msgid "Unable to retrieve security group."
+msgstr "সুৰক্ষাৰ গোট উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to retrieve security groups for instance \"%(name)s\" (%(id)s)."
+msgstr "\"%(name)s\" (%(id)s) উদাহৰণটোৰ বাবে সুৰক্ষাৰ গোট উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve security groups."
+msgstr "সুৰক্ষা গোটবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve snapshot details."
+msgstr "স্নেপশ্বটৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve snapshot list."
+msgstr "স্নেপ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve stack list."
+msgstr "ষ্টেক তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve stack template."
+msgstr "ষ্টেক নমুনা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve stack."
+msgstr "ষ্টেক উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve subnet details"
+msgstr "উপনেটৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve subnet details."
+msgstr "উপনেটৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve tenant limits."
+msgstr "পট্টাধাৰী সীমাবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve the aggregate to be updated"
+msgstr "আপডেট কৰিবলগীয়া গড় উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to retrieve the volume type list."
+msgstr "আয়তন প্ৰকাৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve usage information."
+msgstr "ব্যৱহাৰৰ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve user domain role assignments."
+msgstr "ব্যৱহাৰকৰ্তাৰ ক্ষেত্ৰখনৰ ৰোল কাৰ্যবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve user information."
+msgstr "ব্যৱহাৰকৰ্তাৰ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to retrieve user list."
+msgstr "ব্যৱহাৰকৰ্তাৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to retrieve user list. Please try again later."
+msgstr "ব্যৱহাৰকৰ্তাৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম. অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰক."
+
+msgid "Unable to retrieve user roles."
+msgstr "ব্যৱহাৰকৰ্তা ৰোলবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve users."
+msgstr "ব্যৱহাৰকৰ্তাবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve version information."
+msgstr "সংস্কৰণ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume backups."
+msgstr "আয়তন বেকআপবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume details."
+msgstr "আয়তনৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to retrieve volume information for volume: \"%s\""
+msgstr "আয়তনৰ বাবে আয়তন তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম: \"%s\""
+
+msgid "Unable to retrieve volume information."
+msgstr "আয়তন তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume limit information."
+msgstr "আয়তন সীমিত তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to retrieve volume list for instance \"%(name)s\" (%(id)s)."
+msgstr "\"%(name)s\" (%(id)s) উদাহৰণটোৰ বাবে আয়তনৰ তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume list."
+msgstr "আয়তন তালিকা উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume project information."
+msgstr "আয়তন প্ৰক্ষেপ তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume snapshot."
+msgstr "আয়তন স্নেপশ্বট উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume snapshots."
+msgstr "আয়তন স্নেপশ্বটবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to retrieve volume type details."
+msgstr "আয়তন প্ৰকাৰৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume type encryption details."
+msgstr "আয়তন প্ৰকাৰ এনক্ৰিপশ্বনৰ পূংখানুপূংখ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume type encryption information."
+msgstr "আয়তন প্ৰকাৰ এনক্ৰিপশ্বন তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume type extra spec details."
+msgstr "আয়তন প্ৰকাৰৰ অতিৰিক্ত স্পেকৰ বিৱৰণ উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume type name."
+msgstr "আয়তন প্ৰকাৰৰ নাম উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume types"
+msgstr "আয়তন প্ৰকাৰবোৰ উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to retrieve volume."
+msgstr "আয়তন উদ্ধাৰ কৰিবলৈ অক্ষম."
+
+msgid "Unable to retrieve volume/instance attachment information"
+msgstr "আয়তন/উদাহৰণ সংযোজিত তথ্য উদ্ধাৰ কৰিবলৈ অক্ষম"
+
+msgid "Unable to set Domain Context."
+msgstr "ক্ষেত্ৰ প্ৰসংগ ছেট কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to set flavor access for project %s."
+msgstr "%s প্ৰক্ষেপৰ বাবে ফ্লেভাৰ প্ৰৱেশ ছেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to set gateway."
+msgstr "গেটৱে ছেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to set project quotas."
+msgstr "প্ৰক্ষেপ কোটাবোৰ ছেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to sort instance flavors."
+msgstr "উদাহৰণৰ ফ্লেভাৰবোৰ বৰ্গীকৰণ কৰিবলৈ অক্ষম."
+
+msgid "Unable to update default quotas."
+msgstr "ডিফল্ট কোটাবোৰ আপডেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to update group."
+msgstr "গোট আপডেট কৰিবলৈ অক্ষম"
+
+#, python-format
+msgid "Unable to update image \"%s\"."
+msgstr "\"%s\" ছবি আপডেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to update role."
+msgstr "ৰোল আপডেট কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to update subnet \"%s\"."
+msgstr "\"%s\" উপনেট আপডেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to update the aggregate."
+msgstr "গড় আপডেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to update the group."
+msgstr "গোট আপডেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to update the user."
+msgstr "ব্যৱহাৰকৰ্তা আপডেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to update volume snapshot status."
+msgstr "আয়তন স্নেপশ্বট অৱস্থাবোৰ আপডেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to update volume snapshot."
+msgstr "আয়তন স্নেপশ্বট আপডেট কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to update volume status to \"%s\"."
+msgstr "\"%s\" লৈ আয়তন স্থিতি আপডেট কৰিবলৈ অক্ষম."
+
+msgid "Unable to update volume."
+msgstr "আয়তন আপডেট কৰিবলৈ অক্ষম."
+
+#, python-format
+msgid "Unable to upload volume to image for volume: \"%s\""
+msgstr "ছবিলৈ আয়তন আপলোড কৰিবলৈ অক্ষম: \"%s\" আয়তনৰ বাবে"
+
+msgid "Unknown"
+msgstr "অজ্ঞাত"
+
+msgid "Unknown instance"
+msgstr "অজ্ঞাত উদাহৰণ"
+
+msgid "Unknown instance (None)"
+msgstr "অজ্ঞাত উদাহৰণ (নাই)"
+
+msgctxt "Task status of an Instance"
+msgid "Unrescuing"
+msgstr "উদ্ধাৰ কৰা নাই"
+
+msgctxt "Task status of an Instance"
+msgid "Unshelving"
+msgstr "জমা কৰা নাই"
+
+msgid "Up"
+msgstr "ওপৰলৈ"
+
+msgctxt "Current state of a Hypervisor"
+msgid "Up"
+msgstr "ওপৰলৈ"
+
+msgid "Update"
+msgstr "আপডেট"
+
+msgid "Update Default Quotas"
+msgstr "ডিফল্ট কোটাবোৰ আপডেট কৰক"
+
+msgid "Update Defaults"
+msgstr "ডিফল্টবোৰ আপডেট কৰক"
+
+msgid "Update Group"
+msgstr "গোট আপডেট কৰক"
+
+msgid "Update Metadata"
+msgstr "মেটাডাটা আপডেট কৰক"
+
+msgid "Update Network"
+msgstr "নেটৱৰ্ক আপডেট কৰক"
+
+msgid "Update Port"
+msgstr "পোৰ্ট আপডেট কৰক"
+
+msgid "Update Role"
+msgstr "ৰোল আপডেট কৰক"
+
+msgid "Update Router"
+msgstr "ৰাউটাৰ আপডেট কৰক"
+
+msgid "Update Stack"
+msgstr "ষ্টেক আপডেট কৰক"
+
+msgid "Update Stack Parameters"
+msgstr "ষ্টেক উপকৰণবোৰ আপডেট কৰক"
+
+msgid "Update Status"
+msgstr "আপডেটৰ স্থিতি"
+
+msgid "Update User"
+msgstr "ব্যৱহাৰকৰ্তাক আপডেট কৰক"
+
+msgid "Update Volume Snapshot Status"
+msgstr "আয়তন স্নেপশ্বট স্থিতি আপডেট কৰক"
+
+msgid "Update Volume Status"
+msgstr "আয়তন স্থিতি আপডেট কৰক"
+
+msgid ""
+"Update a stack with the provided values. Please note that any encrypted "
+"parameters, such as passwords, will be reset to default if you do not change "
+"them here."
+msgstr ""
+"দিয়া মানবোৰৰ সৈতে ষ্টেক এটা আপডেট কৰক. অনুগ্ৰহ কৰি মন কৰিব যে পাছৱৰ্ডবোৰৰ দৰে "
+"যিকোনো এনক্ৰিপ্ট কৰা পেৰামিটাৰবোৰ ডিফল্ট হিচাপে পুনৰ ছেট কৰা হব যদি আপুনি সেইবোৰ "
+"ইয়াত ছেট নকৰে."
+
+msgid ""
+"Update a subnet associated with the network. Advanced configuration are "
+"available at \"Subnet Details\" tab."
+msgstr ""
+"নেটৱৰ্কটোৰ সৈতে জড়িত উপনেট এটা আপডেট কৰক. \"Subnet Details\" টেবত উন্নত ৰূপৰেখা "
+"উপলব্ধ."
+
+#, python-format
+msgid "Update the \"extra spec\" value for \"%(key)s\""
+msgstr "\"%(key)s\" ৰ বাবে \"extra spec\" মানটো আপডেট কৰক"
+
+#, python-format
+msgid "Update the spec value for \"%(key)s\""
+msgstr "\"%(key)s\" ৰ বাবে স্পেক মানটো আপডেট কৰক"
+
+msgid "Updated"
+msgstr "আপেডট কৰা হল"
+
+msgid "Updated At"
+msgstr "...ত আপডেট কৰক"
+
+#, python-format
+msgid "Updated subnet \"%s\"."
+msgstr "\"%s\" উপনেট আপডেট কৰা হল."
+
+msgctxt "Task status of an Instance"
+msgid "Updating Password"
+msgstr "পাছৱৰ্ড আপডেট কৰিছে"
+
+#, python-format
+msgid "Updating volume \"%s\""
+msgstr "\"%s\" আয়তন আপডেট কৰিছে"
+
+#, python-format
+msgid "Updating volume snapshot \"%s\""
+msgstr "\"%s\" আয়তন স্নেপশ্বট আপডেট কৰিছে"
+
+msgid "Upload"
+msgstr "আপলোড কৰক"
+
+msgid "Upload Volume to Image"
+msgstr "ছবিলৈ আয়তন আপলোড কৰক"
+
+msgid "Upload to Image"
+msgstr "ছবিলৈ আপলোড কৰক"
+
+msgid "Usage"
+msgstr "ব্যৱহাৰ"
+
+msgid "Usage (Hours)"
+msgstr "ব্যৱহাৰ (ঘন্টাবোৰ)"
+
+msgid "Usage Overview"
+msgstr "ব্যৱহাৰৰ অৱলোকন"
+
+msgid "Use Server Default"
+msgstr "ছাৰ্ভাৰ ডিফল্ট ব্যৱহাৰ কৰক"
+
+msgid "Use a volume as source"
+msgstr "এটা উত্স হিচাপে আয়তন ব্যৱহাৰ কৰক"
+
+msgid "Use image as a source"
+msgstr "এটা উত্স হিচাপে ছবি ব্যৱহাৰ কৰক"
+
+msgid ""
+"Use one of the available template source options to specify the template to "
+"be used in creating this stack."
+msgstr ""
+"এই ষ্টেকটো তৈয়াৰ কৰোতে ব্যৱহাৰ কৰিবলগীয়া নমুনাটো নিৰ্দিষ্ট কৰিবলৈ উপলব্ধ নমুনা উত্স "
+"বিকল্পবোৰৰ এটা ব্যৱহাৰ কৰক."
+
+msgid "Use snapshot as a source"
+msgstr "এটা উত্স হিচাপে স্নেপশ্বট ব্যৱহাৰ কৰক"
+
+#, python-format
+msgid "Used <span> %(used)s </span> of <span> %(available)s </span>"
+msgstr "<span> %(available)s </span> ৰ <span> %(used)s </span> ব্যৱহাৰ কৰা হল"
+
+msgid "User"
+msgstr "ব্যৱহাৰকৰ্তা"
+
+#, python-format
+msgid "User \"%s\" was successfully created."
+msgstr "\"%s\" ব্যৱহাৰকৰ্তা সফলতাৰে তৈয়াৰ কৰা হল."
+
+#, python-format
+msgid "User %s has no role defined for that project."
+msgstr "উক্ত প্ৰক্ষেপটোৰ বাবে %s ব্যৱহাৰকৰ্তাৰ কোনো ৰোল বাখ্যা কৰা হোৱা নাই."
+
+msgid "User Credentials Details"
+msgstr "ব্যৱহাৰকৰ্তা পৰিচয়পত্ৰবোৰৰ পূংখানুপূংখ বিৱৰণ"
+
+msgid "User ID"
+msgstr "ব্যৱহাৰকৰ্তাৰ ID"
+
+msgid "User Name"
+msgstr "ব্যৱহাৰকৰ্তাৰ নাম"
+
+msgid "User Settings"
+msgstr "ব্যৱহাৰকৰ্তাৰ ছেটিংবোৰ"
+
+msgid "User has been updated successfully."
+msgstr "ব্যৱহাৰকৰ্তা সফলতাৰে আপডেট কৰা হৈছে."
+
+#, python-format
+msgid "User name \"%s\" is already used."
+msgstr "\"%s\" ব্যৱহাৰকৰ্তাৰ নাম ইতিমধ্যে ব্যৱহাৰ কৰা হৈছে."
+
+msgid "Users"
+msgstr "ব্যৱহাৰকৰ্তাবোৰ"
+
+msgid "VCPU"
+msgstr "VCPU"
+
+msgid "VCPU Hours"
+msgstr "VCPU ঘন্টাবোৰ"
+
+msgid "VCPU Usage"
+msgstr "VCPU ব্যৱহাৰ"
+
+msgid "VCPUs"
+msgstr "VCPUবোৰ"
+
+msgid "VCPUs (total)"
+msgstr "VCPUs (মুঠ)"
+
+msgid "VCPUs (used)"
+msgstr "VCPUs (ব্যৱহৃত)"
+
+msgid "VLAN"
+msgstr "VLAN"
+
+msgid "VXLAN"
+msgstr "VXLAN"
+
+msgid "Value"
+msgstr "মান"
+
+msgid "View Credentials"
+msgstr "পৰিচয়পত্ৰবোৰ চাওক"
+
+msgid "View Extra Specs"
+msgstr "অতিৰিক্ত স্পেকবোৰ চাওক"
+
+msgid "View Full Log"
+msgstr "সম্পূৰ্ণ ল'গ চাওক"
+
+msgid "View Log"
+msgstr "ল'গ চাওক"
+
+msgid "View Usage"
+msgstr "ব্যৱহাৰ চাওক"
+
+msgid "Volume"
+msgstr "আয়তন"
+
+#, python-format
+msgid "Volume %(volume_name)s on instance %(instance_name)s"
+msgstr "%(instance_name)s উদাহৰণত %(volume_name)s আয়তন"
+
+msgid "Volume Backup:"
+msgstr "আয়তন বেকআপ:"
+
+msgid "Volume Backups"
+msgstr "আয়তন বেকআপবোৰ"
+
+msgid ""
+"Volume Backups are stored using the Object Storage service. You must have "
+"this service activated in order to create a backup."
+msgstr ""
+"বস্তু ভঁৰাল সেৱাটো ব্যৱহাৰ কৰি আয়তন বেকআপবোৰ সঞ্চয় কৰা হৈছে. বেকআপ এটা তৈয়াৰ "
+"কৰিবলৈ আপুনি এই সেৱাটো সক্ৰিয় কৰাটো অপৰিহাৰ্য."
+
+msgid "Volume Limits"
+msgstr "আয়তন সীমাবোৰ"
+
+msgid "Volume Name"
+msgstr "আয়তনৰ নাম"
+
+msgid "Volume Snapshot"
+msgstr "আয়তন স্নেপশ্বট"
+
+msgid "Volume Snapshots"
+msgstr "আয়নত স্নেপশ্বট"
+
+msgid "Volume Source"
+msgstr "আয়তন উত্স"
+
+msgid "Volume Type Encryption Details"
+msgstr "আয়ত প্ৰকাৰ এনক্ৰিপশ্বনৰ পূংখানুপূংখ বিৱৰণ"
+
+msgid "Volume Type Encryption Overview"
+msgstr "আয়তন প্ৰকাৰ এনক্ৰিপশ্বন অৱলোকন"
+
+msgid "Volume Type Extra Specs"
+msgstr "আয়তন প্ৰকাৰ অতিৰিক্ত স্পেকবোৰ"
+
+msgid "Volume Type is Unencrypted."
+msgstr "আয়তন প্ৰকাৰটো এনক্ৰিপ্ট কৰা নাই."
+
+#, python-format
+msgid "Volume Type: %(volume_type_name)s"
+msgstr "আয়তন প্ৰকাৰ: %(volume_type_name)s"
+
+#, python-format
+msgid "Volume Type: %(volume_type_name)s "
+msgstr "আয়তন প্ৰকাৰ: %(volume_type_name)s "
+
+msgid "Volume Types"
+msgstr "আয়তন প্ৰকাৰবোৰ"
+
+msgid ""
+"Volume mount point (e.g. 'vda' mounts at '/dev/vda'). Leave this field blank "
+"to let the system choose a device name for you."
+msgstr ""
+"আয়তন মাউন্ট বিন্দু (উদাহৰণ '/dev/vda' ত 'vda' মাউন্টবোৰ). আপোনাৰ বাবে ছিষ্টেমে "
+"ডিভাইচ নাম এটা পছন্দ কৰিবৰ বাবে এই ক্ষেত্ৰখন খালী এৰক."
+
+msgid "Volume size in gigabytes (integer value)."
+msgstr "জিগাবাইটবোৰত আয়তনৰ আকাৰ (অখণ্ড মান)."
+
+#, python-format
+msgid "Volume size must be equal to or greater than the image size (%s)"
+msgstr "আয়তনৰ আকাৰটো ছবিৰ আকাৰতকৈ ডাঙৰ বা সমান হোৱাটো অপৰিহাৰ্য (%s)"
+
+msgid "Volume size must be greater than 0"
+msgstr "আয়তন আকাৰটো 0 তকৈ ডাঙৰ হোৱাটো অপৰিহাৰ্য"
+
+msgid "Volume source must be specified"
+msgstr "আয়তন উত্স নিৰ্ধাৰণ কৰাটো অপৰিহাৰ্য"
+
+msgid "Volumes"
+msgstr "আয়তনবোৰ"
+
+msgid "Volumes Attached"
+msgstr "আয়তনবোৰ সংলগ্ন কৰা হল"
+
+msgid "Yes"
+msgstr "হয়"
+
+msgid "You are already using all of your available floating IPs."
+msgstr "আপুনি ইতিমধ্যে আপোনাৰ উপলব্ধ ফ্লটিং IPবোৰ ব্যৱহাৰ কৰিছে."
+
+msgid "You are already using all of your available volumes."
+msgstr "আপোনাৰ উপলব্ধ সকলোবোৰ আয়তন আপুনি ইতিমধ্যে ব্যৱহাৰ কৰি আছে."
+
+msgid ""
+"You can connect a specified external network to the router. The external "
+"network is regarded as a default route of the router and the router acts as "
+"a gateway for external connectivity."
+msgstr ""
+"ৰাউটাৰলৈ আপুনি এটা নিৰ্ধাৰিত বাহ্যিক নেটৱৰ্ক সংযোগ কৰিব পাৰে. বাহ্যিক নেটৱৰ্কটোক "
+"ৰাউটাৰৰ এটা ডিফল্ট ৰাউট হিচাপে বিবেচনা কৰা হয় আৰু বাহ্যিক সংযোগটোৰ বাবে "
+"ৰাউটাৰটোৱে এটা গেটৱেৰ দৰে কাৰ্য কৰে."
+
+msgid "You can connect a specified subnet to the router."
+msgstr "ৰাউটাৰটোলৈ আপুনি এটা নিৰ্ধাৰিত উপনেট সংযোগ কৰিব পাৰে."
+
+msgid ""
+"You can create a port for the network. If you specify device ID to be "
+"attached, the device specified will be attached to the port created."
+msgstr ""
+"নেটৱৰ্কটোৰ বাবে আপুনি এটা পোৰ্ট তৈয়াৰ কৰিব পাৰে. যদি আপুনি সংলগ্ন কৰিবলগীয়া "
+"ডিভাইচ ID নিৰ্ধাৰণ কৰে, তেন্তে নিৰ্ধাৰিত ডিভাইচটো তৈয়াৰ কৰা পোৰ্টটোৰ সৈতে সংলগ্ন "
+"কৰা হব."
+
+msgid ""
+"You can customize your instance after it has launched using the options "
+"available here."
+msgstr ""
+"ইয়াত উপলব্ধ বিকল্পবোৰ ব্যৱহাৰ কৰি এইটো আৰম্ভ কৰাৰ পিছত আপুনি আপোনাৰ উদাহৰণৰ "
+"ব্যৱস্থা কৰিব পাৰে."
+
+msgid ""
+"You can specify the desired rule template or use custom rules, the options "
+"are Custom TCP Rule, Custom UDP Rule, or Custom ICMP Rule."
+msgstr ""
+"আপুনি বিচৰা কৰা নিয়ম নমুনাটো নিৰ্দিষ্ট কৰিব পাৰে বা নিয়মবোৰৰ ব্যৱস্থা কৰিব পাৰে, "
+"বিকল্পবোৰ হল ব্যৱস্থা TCP নিয়ম, ব্যৱস্থা UDP নিয়ম, বা ব্যৱস্থা ICMP নিয়ম."
+
+msgid ""
+"You cannot revoke your administrative privileges from the domain you are "
+"currently logged into. Please switch to another domain with administrative "
+"privileges or remove the administrative role manually via the CLI."
+msgstr ""
+"আপুনি বৰ্তমানে লগইন কৰা ক্ষেত্ৰখনৰ পৰা আপোনাৰ কৰ্তৃত্বৰ সুবিধাবোৰ  আপুনি বাতিল কৰিব "
+"নোৱাৰে. অনুগ্ৰহ কৰি কৰ্তৃত্বৰ সুবিধাবোৰৰ সৈতে অন্য এখন ক্ষেত্ৰলৈ যাওক বা কৰ্তৃত্বৰ "
+"ভূমিকাটো CLI ৰ জৰিয়তে মেনুৱেলী আঁতৰ কৰক."
+
+msgid ""
+"You cannot revoke your administrative privileges from the project you are "
+"currently logged into. Please switch to another project with administrative "
+"privileges or remove the administrative role manually via the CLI."
+msgstr ""
+"আপুনি বৰ্তমানে লগইন কৰা প্ৰক্ষেপটোৰ পৰা আপোনাৰ কৰ্তৃত্বৰ সুবিধাবোৰ  আপুনি বাতিল কৰিব "
+"নোৱাৰে. অনুগ্ৰহ কৰি কৰ্তৃত্বৰ সুবিধাবোৰৰ সৈতে অন্য প্ৰক্ষেপলৈ যাওক বা কৰ্তৃত্বৰ ভূমিকাটো "
+"CLI ৰ জৰিয়তে মেনুৱেলী আঁতৰ কৰক."
+
+msgid "You may have mistyped the address or the page may have moved."
+msgstr "আপুনি ঠিকনাটো ভুলকৈ টাইপ কৰিব পাৰে বা পৃষ্ঠাটো আতঁৰ কৰিব পাৰে."
+
+msgid "You may optionally set a password on the rebuilt instance."
+msgstr "উদাহৰণ পুনৰ তৈয়াৰ কৰাত আপুনি বৈকল্পিকভাৱে পাছৱৰ্ড এটা ছেট কৰিব পাৰে."
+
+msgid "You may update the editable properties of your network here."
+msgstr "ইয়াত আপুনি আপোনাৰ নেটৱৰ্কৰ সম্পাদনা কৰিব পৰা সম্পত্তিবোৰ আপডেট কৰিব পাৰে."
+
+msgid "You may update the editable properties of your port here."
+msgstr "আপুনি ইয়াত আপোনাৰ পোৰ্টৰ সম্পাদনযোগ্য সম্পত্তিবোৰ আপডেট কৰিব পাৰে."
+
+msgid "You may update the editable properties of your router here."
+msgstr "আপুনি ইয়াত আপোনাৰ ৰাউটাৰৰ সম্পাদনযোগ্য সম্পত্তিবোৰ আপডেট কৰিব পাৰে."
+
+msgid "You must select a snapshot."
+msgstr "আপুনি স্নেপশ্বট এটা নিৰ্বাচন কৰাটো অপৰিহাৰ্য."
+
+msgid "You must select a volume."
+msgstr "আপুনি আয়তন এটা নিৰ্বাচন কৰাটো অপৰিহাৰ্য."
+
+msgid "You must select an image."
+msgstr "আপুনি ছবি এটা নিৰ্বাচন কৰাটো অপৰিহাৰ্য."
+
+msgid "You must set volume size"
+msgstr "আপুনি আয়তন প্ৰকাৰ ছেট কৰাটো অপৰিহাৰ্য"
+
+msgid "You must specify a template via one of the available sources."
+msgstr "উপলব্ধ উত্সবোৰৰ এটাৰ যোগেদি আপুনি নমুনা এটা নিৰ্দিষ্ট কৰাটো অপৰিহাৰ্য."
+
+msgid ""
+"You must specify the source of the traffic to be allowed via this rule. You "
+"may do so either in the form of an IP address block (CIDR) or via a source "
+"group (Security Group). Selecting a security group as the source will allow "
+"any other instance in that security group access to any other instance via "
+"this rule."
+msgstr ""
+"এই নিয়মটোৰ যোগেদি অনুমতি দিবলগীয়া ট্ৰেফিকটোৰ উত্সটো আপুনি নিৰ্দিষ্ট কৰাটো "
+"অপৰিহাৰ্য. আপুনি এইটো হয়তো এটা IP ঠিকনা ব্লক (CIDR) বা এটা উত্স গোটৰ (সুৰক্ষাৰ "
+"গোট)যোগেদি কৰিব পাৰে. উত্স হিচাপে সুৰক্ষাৰ গোট এটা নিৰ্বাচন কৰাটোৱে উক্ত সুৰক্ষা "
+"গোটটোত থকা যিকোনো উদাহৰণক এই নিয়মটোৰ যোগেদি যিকোনো উদাহৰণত প্ৰৱেশ কৰিবলৈ "
+"অনুমতি দিব."
+
+#, python-format
+msgid "Your image %s has been queued for creation."
+msgstr "তৈয়াৰীৰ বাবে আপোনাৰ ছবি %s য়ে শাৰী পাতিছে."
+
+msgid "Zone"
+msgstr "মণ্ডল"
+
+msgid "back-end"
+msgstr "পিছফাল"
+
+msgctxt "Both of front-end and back-end"
+msgid "both"
+msgstr "উভয়ে"
+
+msgid "dm-crypt"
+msgstr "dm-ক্ৰিপ্ট"
+
+msgid "environment"
+msgstr "পৰিৱেশ"
+
+msgid "front-end"
+msgstr "সন্মুখফাল"
+
+msgid "instance"
+msgstr "উদাহৰণ"
+
+msgid "template"
+msgstr "নমুনা"
+
+msgid "undefined"
+msgstr "অনিৰ্ধাৰিত "
+
+msgid "unknown IP address"
+msgstr "অজ্ঞাত IP ঠিকনা"

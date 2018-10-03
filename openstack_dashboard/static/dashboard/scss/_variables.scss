@@ -1,0 +1,83 @@
+/* Import the Bootstrap Helper Variables */
+@import 'bootstrap_helpers';
+
+
+/* When used with Horizon via Django, this value is set automatically from
+   settings.py and is added dynamically to the namespace through
+   horizon/utils/scss_filter.py */
+$static_url: "/static/" !default;
+
+
+/* Horizon Custom Variables */
+
+$main-content-min-width: 900px !default;
+$sidebar-width: 220px !default;
+$border-color: #dddddd !default;
+$table-bg-odd: $table-bg-accent !default;
+
+/* Resource Browser */
+
+$rbrowser-data-table-border-width: 1px;
+$rbrowser-data-table-border-color: $border-color;
+
+$rbrowser-actions-column-padding: 10px;
+
+$rbrowser-small-button-height: 28px;
+$rbrowser-td-height: $rbrowser-small-button-height;
+
+$rbrowser-table-cell-padding: 8px;
+
+$rbrowser-selected-color: #e9f5fa;
+
+$rbrowser-wrapper-width: 100%;
+$rbrowser-navigation-table-width: 40%;
+$rbrowser-content-table-width: $rbrowser-wrapper-width - $rbrowser-navigation-table-width;
+
+$rbrowser-body-background-color: $body-bg;
+$rbrowser-header-background-color: $gray-lighter;
+$rbrowser-footer-background-color: #f1f1f1;
+// Note: the content-wrapper background colors are determined by
+//       .table-striped-datatable styles.
+
+// Font-awesome path to the icon fonts
+$fa-font-path: $static_url + "horizon/lib/font_awesome/fonts";
+
+/* Charts */
+
+$overview_chart_height: 81px;
+
+/* Responsive Table */
+$detail-row-padding: 1em !default;
+$expander-width: 1.5em !default;
+$reorder-border: 2px solid #1f83c6 !default;
+$table-col-avg-width: 150px !default;
+$table-border: 1px solid $table-border-color !default;
+$table-gap-height: 0.5em !default;
+$table-padding: 0.5em !default;
+
+/* Tooltip */
+$tooltip-padding: 0.3em 0.8em !default;
+
+/* Magic Search */
+$magic-search-min-width: 40em !default;
+$magic-search-border-color: #cccccc !default;
+$magic-search-margin-bottom: 0 !default;
+$magic-search-border-radius: 3px !default;
+$magic-search-margin-padding: 2px !default;
+
+/* Member lists */
+$members-list-padding: 3px !default;
+$members-list-border: 1px solid $gray-light !default;
+// TODO: These values are hardcoded lengths but they are actually
+// very dependant on the modal size set in the theme.  We need
+// to eventually readdress these and calculate them dynamically
+$members-list-item-width: 130px !default;
+$members-list-item-max-width: 327px !default;
+$members-list-roles-width: 125px !default;
+
+// This defines the max-width for a breadcrumb item before it will be truncated
+$breadcrumb-item-width: 15em !default;
+
+// This is the max height for the domain/project selector in the top nav. After
+// this point, it will scroll.
+$context-selector-max-height: calc(99vh - #{$navbar-height}) !default;

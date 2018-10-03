@@ -1,0 +1,223 @@
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+# Joris S'heeren <joris.sheeren@gmail.com>, 2016. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2018-02-17 05:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-03-04 12:39+0000\n"
+"Last-Translator: Joris S'heeren <joris.sheeren@gmail.com>\n"
+"Language-Team: Dutch (Netherlands)\n"
+"Language: nl_NL\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid "%(action)s: %(objs)s"
+msgstr "%(action)s: %(objs)s"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s completed successfully."
+msgstr "%s succesvol afgerond."
+
+#, python-format
+msgid "%s did not complete."
+msgstr "%s was niet voltooid."
+
+msgid "&laquo;&nbsp;Prev"
+msgstr "&laquo;&nbsp;Prev"
+
+msgid "(No Limit)"
+msgstr "(Geen limiet)"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 Bytes"
+msgstr "0 bytes"
+
+#, python-format
+msgid "A %(resource)s with the name \"%(name)s\" already exists."
+msgstr "Een %(resource)s met de naam \"%(name)s\" bestaat al."
+
+msgid "Actions"
+msgstr "Acties"
+
+msgid "Active RAM:"
+msgstr "Actieve RAM:"
+
+msgid "Add a row"
+msgstr "Rij toevoegen"
+
+msgid "All available"
+msgstr "Alle beschikbare"
+
+msgid "Available"
+msgstr "Beschikbaar"
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgid "Connect"
+msgstr "Verbinden"
+
+msgid "Error: "
+msgstr "Fout: "
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Horizon"
+msgstr "Horizon"
+
+msgid "Incorrect format for IP address"
+msgstr "Onjuist formaat voor IP adres"
+
+msgid "Info: "
+msgstr "Informatie: "
+
+msgid "Invalid subnet mask"
+msgstr "Ongeldig subnet masker"
+
+msgid "Invalid version for IP address"
+msgstr "Ongeldige versie voor IP adres"
+
+msgid "Limit Summary"
+msgstr "Beperk samenvatting"
+
+msgid "Log in"
+msgstr "Aanmelden"
+
+msgid "Login"
+msgstr "Aanmelden"
+
+msgid "Members"
+msgstr "Leden"
+
+msgid "More Actions"
+msgstr "Meer acties"
+
+msgid "Navigation Item"
+msgstr "Navigatie Artikel"
+
+msgid "Never"
+msgstr "Nooit"
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid "Next&nbsp;&raquo;"
+msgstr "Volgende&nbsp;&raquo;"
+
+msgid "No items to display."
+msgstr "Geen artikelen om weer te geven."
+
+#, python-format
+msgid "No match returned for the id \"%s\"."
+msgstr "Geen overeenkomsten gevonden voor de id \"%s\"."
+
+msgid "No members."
+msgstr "Geen leden."
+
+msgid "None available."
+msgstr "Geen beschikbaar."
+
+msgid "Not a valid IP protocol number"
+msgstr "Geen geldig IP protocolnummer"
+
+msgid "Not a valid port number"
+msgstr "Geen geldig poortnummer"
+
+msgid "One colon allowed in port range"
+msgstr "Een dubbele punt is toegestaan in het poortbereik"
+
+msgid "Other"
+msgstr "Overig"
+
+msgid "Password is not accepted"
+msgstr "Wachtwoord is niet geaccepteerd"
+
+msgid "Please log in to continue."
+msgstr "Meldt u zich aan om door te gaan."
+
+msgid "Please select a row before taking that action."
+msgstr "Selecteer alstublieft een rij voor het uitvoeren van die actie."
+
+msgid "Processing..."
+msgstr "Bezig met verwerken..."
+
+msgid "Save"
+msgstr "Opslaan"
+
+#, python-format
+msgid "Select a %s to browse."
+msgstr "Selecteer een %s om te bladeren."
+
+msgid "Sign In"
+msgstr "Aanmelden"
+
+msgid "Submit"
+msgstr "Indienen"
+
+msgid "Success: "
+msgstr "Gelukt: "
+
+msgid "Summary"
+msgstr "Samenvatting"
+
+msgid "This action cannot be undone."
+msgstr "Deze actie kan niet ongedaan worden gemaakt."
+
+#, python-format
+msgid "Unable to %(action)s: %(objs)s"
+msgstr "Niet in staat om %(action)s: %(objs)s"
+
+msgid "Unauthorized. Please try logging in again."
+msgstr "Onbevoegd. Meldt u zich opnieuw aan."
+
+#, python-format
+msgid "Unauthorized: %s"
+msgstr "Onbevoegd: %s"
+
+msgid "Usage Summary"
+msgstr "Samenvatting van verbruik"
+
+msgid "Warning: "
+msgstr "Waarschuwing: "
+
+#, python-format
+msgid "You are not allowed to %(action)s: %(objs)s"
+msgstr "Het is u niet toegestaan om %(action)s: %(objs)s"
+
+#, python-format
+msgid "You are not authorized to access %s"
+msgstr "U bent niet gemachtigd voor toegang tot %s"
+
+msgid "You do not have permission to access the resource:"
+msgstr "U ben niet gemachtigd voor toegang tot de bron:"

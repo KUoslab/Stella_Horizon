@@ -1,0 +1,86 @@
+<div ng-controller="horizon.app.core.images.steps.CreateVolumeController as createVolumeCtrl">
+  <p translate>Volumes are block devices that can be attached to instances.</p>
+  <fieldset ng-disabled="createVolumeCtrl.volumeQuota.overMax">
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="form-group" ng-class="{'has-error':volumeForm.name.$invalid && volumeForm.name.$dirty}">
+          <label class="control-label">
+            <span translate>Name</span>
+          </label>
+          <input name="name" class="form-control" type="text" ng-model="createVolumeCtrl.volume.name"
+            ng-maxlength="createVolumeCtrl.validationRules.fieldMaxLength">
+          <p class="help-block alert alert-danger"
+             ng-show="volumeForm.name.$invalid && volumeForm.name.$dirty">
+            <translate>
+              A volume name less than {$createVolumeCtrl.validationRules.fieldMaxLength + 1$} characters is required.
+            </translate>
+          </p>
+        </div>
+        <div class="form-group" ng-class="{'has-error':volumeForm.description.$invalid && volumeForm.description.$dirty}">
+          <label class="control-label">
+            <span translate>Description</span>
+          </label>
+          <input name="description" class="form-control" type="text" ng-model="createVolumeCtrl.volume.description"
+            ng-maxlength="createVolumeCtrl.validationRules.fieldMaxLength">
+          <p class="help-block alert alert-danger"
+             ng-show="volumeForm.description.$invalid && volumeForm.description.$dirty">
+            <translate>
+              A volume description less than {$createVolumeCtrl.validationRules.fieldMaxLength + 1$} characters is required.
+            </translate>
+          </p>
+        </div>
+        <div class="form-group">
+          <label class="control-label">
+            <span translate>Use image as a source</span>
+          </label>
+          <input class="form-control" type="text" ng-model="createVolumeCtrl.sourceImage"  disabled>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="form-group">
+              <label class="control-label">
+                <span translate>Type</span>
+              </label>
+              <select class="form-control"
+                      ng-model="createVolumeCtrl.volumeType"
+                      ng-options="volumeType as volumeType.name for volumeType in createVolumeCtrl.volumeTypes">
+              </select>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="form-group">
+              <label for="volume-size" class="control-label">
+                <span translate>Size (GiB)</span>
+                <span class="hz-icon-required fa fa-asterisk"></span>
+              </label>
+              <input name="volume-size" class="form-control" id="volume-size" type="number" min="1" ng-required="true" ng-model="createVolumeCtrl.volume.size">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="availability-zone" class="control-label">
+            <span translate>Availability Zone</span>
+            <span class="hz-icon-required fa fa-asterisk"></span>
+          </label>
+          <select ng-options="item for item in createVolumeCtrl.availabilityZones"
+                  class="form-control"
+                  id="availability-zone"
+                  ng-model="createVolumeCtrl.volume.availability_zone"
+                  ng-required="true">
+          </select>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <pie-chart chart-data="createVolumeCtrl.storageQuota"></pie-chart>
+      </div>
+      <div class="col-xs-6">
+        <pie-chart chart-data="createVolumeCtrl.volumeQuota"></pie-chart>
+        <p translate>Volume Type Description:</p>
+        <dl class>
+          <dt>{$ createVolumeCtrl.volumeType.name $}</dt>
+          <dd>{$ createVolumeCtrl.volumeType.description $}</dd>
+        </dl>
+      </div>
+    </div>
+  </fieldset>
+</div>

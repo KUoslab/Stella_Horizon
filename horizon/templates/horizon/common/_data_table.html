@@ -1,0 +1,84 @@
+{% load i18n %}
+{% with table.needs_form_wrapper as needs_form_wrapper %}
+<div class="table_wrapper">
+  {% if needs_form_wrapper %}<form action="{{ table.get_full_url }}" method="POST">{% csrf_token %}{% endif %}
+  {% with columns=table.get_columns rows=table.get_rows %}
+{% block table %}
+   <table id="{{ table.slugify_name }}" class="{% block table_css_classes %}table table-striped datatable {{ table.css_classes }}{% endblock %}">
+    {% block table_caption %}
+      <caption>
+        {% if not hidden_title %}
+          <span class='table-title'>{{ table }}</span>
+        {% endif %}
+        {{ table.render_table_actions }}
+      </caption>
+    {% endblock table_caption %}
+   <thead>
+  {% block table_breadcrumb %}
+      {% if table.breadcrumb %}
+        <tr>
+          <td class="breadcrumb_td" colspan="{{ columns|length }}">
+            {{ table.breadcrumb.render }}
+          </td>
+        </tr>
+      {% endif %}
+  {% endblock table_breadcrumb %}
+  {% if table.footer and rows %}
+    {% include "horizon/common/_data_table_pagination.html" %}
+  {% endif %}
+  {% block table_columns %}
+      {% if not table.is_browser_table %}
+      <tr class="table_column_header">
+        {% for column in columns %}
+          <th {{ column.attr_string|safe }}>
+            {{ column }}
+            {% if column.help_text %}
+              <span class="help-icon" data-toggle="tooltip" title="{{ column.help_text }}">
+                <span class="fa fa-question-circle"></span>
+              </span>
+            {% endif %}
+          </th>
+        {% endfor %}
+      </tr>
+      {% endif %}
+  {% endblock table_columns %}
+    </thead>
+  {% block table_body %}
+    <tbody>
+    {% for row in rows %}
+      {{ row.render }}
+    {% empty %}
+    <tr class="{% cycle 'odd' 'even' %} empty">
+      {% if table.needs_filter_first %}
+        <td colspan="{{ columns|length }}">{{ table.get_filter_first_message }}</td>
+      {% else %}
+        <td colspan="{{ columns|length }}">{{ table.get_empty_message }}</td>
+      {% endif  %}
+    </tr>
+    {% endfor %}
+    </tbody>
+  {% endblock table_body %}
+  {% block table_footer %}
+    {% if table.footer and rows %}
+    <tfoot>
+      {% if table.needs_summary_row %}
+      <tr class="summation">
+        {% for column in columns %}
+          {% if forloop.first %}
+          <td>{% trans "Summary" %}</td>
+          {% else %}
+          <td>{{ column.get_summation|default_if_none:"&ndash;"}}</td>
+          {% endif %}
+        {% endfor %}
+      </tr>
+      {% endif %}
+      {% include "horizon/common/_data_table_pagination.html" %}
+    </tfoot>
+    {% endif %}
+  {% endblock table_footer %}
+  </table>
+{% endblock table %}
+  {% endwith %}
+  {% if needs_form_wrapper %}</form>{% endif %}
+</div>
+{% endwith %}

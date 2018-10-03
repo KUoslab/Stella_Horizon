@@ -1,0 +1,44 @@
+<div ng-controller="ImageOverviewController as ctrl">
+  <div class="row">
+    <div class="col-md-6 detail">
+      <h3 translate>Image</h3>
+      <hr>
+      <hz-resource-property-list
+        resource-type-name="OS::Glance::Image"
+        cls="dl-horizontal"
+        item="ctrl.image"
+        property-groups="[[
+          'id', 'type', 'status', 'size', 'min_disk', 'min_ram', 'disk_format',
+          'container_format', 'created_at', 'updated_at']]">
+      </hz-resource-property-list>
+    </div>
+    <div class="col-md-6 detail">
+      <h3>{$ 'Security' | translate $}</h3>
+      <hr>
+      <dl class="dl-horizontal">
+        <dt translate>Owner</dt>
+        <dd>{$ ctrl.image.owner $}</dd>
+        <dt translate>Filename</dt>
+        <dd>{$ ctrl.image.properties.filename | noValue $}</dd>
+        <dt translate>Visibility</dt>
+        <dd>{$ ctrl.image | imageVisibility:ctrl.projectId $}</dd>
+        <dt translate>Protected</dt>
+        <dd>{$ ctrl.image.protected | yesno $}</dd>
+        <dt translate>Checksum</dt>
+        <dd>{$ ctrl.image.checksum | noValue $}</dd>
+      </dl>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 detail">
+      <h3 translate>Custom Properties</h3>
+      <hr>
+      <dl class="dl-horizontal">
+        <div ng-repeat="prop in ctrl.image.properties">
+          <dt data-toggle="tooltip" title="{$ prop.name $}">{$ ctrl.resourceType.label(prop.name) $}</dt>
+          <dd>{$ prop.value $}</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</div>

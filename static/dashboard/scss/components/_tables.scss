@@ -1,0 +1,151 @@
+.table {
+  & > thead,
+  & > tbody,
+  & > tfoot {
+    > tr {
+       & > th,
+       & > td {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  & > caption {
+    text-align: left;
+
+    & > .table-title {
+      font-size: $font-size-h3
+    }
+  }
+
+  .multi_select_column {
+    text-align: center;
+  }
+
+  .empty {
+    text-align: center;
+  }
+
+  // Specificity Required!
+  & > tbody > tr > td {
+    &.loading {
+      background-color: $gray-lighter;
+    }
+    &.success {
+      background-color: lighten($brand-success, 35%);
+    }
+  }
+
+  tr {
+    &.deleted,
+    &.terminated {
+      color: $gray-light;
+    }
+  }
+
+  th.multi_select_column, td.multi_select_column {
+    width: $font-size-base * 3;
+    text-align: center;
+  }
+
+  .normal_column ul {
+    padding: 0;
+  }
+
+  .dl-horizontal {
+    margin-bottom: 0;
+
+    @media (min-width: $grid-float-breakpoint) {
+      dt {
+        width: ($dl-horizontal-offset/2) - $padding-large-vertical;
+      }
+
+      dd {
+        margin-left: $dl-horizontal-offset/2;
+      }
+    }
+  }
+}
+
+// Sometimes the header is empty, lets keep the same look either way
+.table_header {
+  min-height: $input-height-base;
+
+  // We put headings in the table for the title, so these headings shouldn't
+  // function like normal Type H3's ... remove the margin on top
+  h3 {
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+// Sort Indicator
+.tablesorter-header.sortable {
+  cursor: pointer;
+}
+
+.tablesorter-header-inner {
+  display: inline;
+}
+
+.tablesorter-headerAsc,
+.tablesorter-headerDesc {
+  .table-sort-indicator {
+    @extend .fa;
+  }
+}
+
+.tablesorter-headerAsc .table-sort-indicator {
+  @extend .fa-caret-up;
+}
+
+.tablesorter-headerDesc .table-sort-indicator {
+  @extend .fa-caret-down;
+}
+
+///*
+// * Bootstrap styles table backgrounds using nth-child(2n+1), which is
+// * oblivious to hidden elements. The styles below allow us to override
+// * the bootstrap style when necessary by setting the odd/even classes.
+// */
+.table-striped.datatable tbody {
+  td {
+    background-clip: padding-box;
+  }
+  tr.odd {
+    td {
+      background-color: $table-bg-odd;
+    }
+  }
+  tr.even {
+    td {
+      background-color: inherit;
+    }
+  }
+
+  // Hover stuffs!
+  tr.odd:hover td,
+  tr.even:hover td,
+  tr:hover th {
+    background-color: $table-bg-hover;
+  }
+}
+
+// Force Table Fixed
+.table-fixed {
+  table-layout: fixed;
+}
+
+// Don't wrap a column
+.nowrap-col {
+  white-space: nowrap;
+}
+
+// Make sure long UUIDs, names etc. don't force the table outside a
+// modal, by forcing a word break. The 'td' specificity is required
+// because the class is applied in a column, but we don't want the
+// <th> to wrap.
+// See launchpad bugs 1565724 && 1584785
+td.word-break {
+  word-break: break-all;
+}

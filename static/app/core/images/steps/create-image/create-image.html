@@ -1,0 +1,260 @@
+<div ng-controller="horizon.app.core.images.steps.CreateImageController as ctrl">
+
+  <h4 translate>Image Details</h4>
+
+  <div class="content">
+
+    <div class="subtitle">
+      <translate>
+        Specify an image to upload to the Image Service.
+      </translate>
+    </div>
+
+    <div class="selected-source">
+      <div class="row form-group">
+        <div class="col-xs-6 col-sm-6">
+          <div class="form-group required"
+               ng-class="{'has-error':imageForm.name.$invalid && imageForm.name.$dirty}">
+            <label class="control-label required" for="imageForm-name">
+              <translate>Image Name</translate><span class="hz-icon-required fa fa-asterisk"></span>
+            </label>
+            <input required id="imageForm-name" name="name"
+                   type="text" class="form-control"
+                   ng-model="ctrl.image.name"
+                   ng-maxlength="ctrl.validationRules.fieldMaxLength">
+            <p class="help-block alert alert-danger"
+               ng-show="imageForm.name.$invalid && imageForm.name.$dirty">
+              <translate>An image name less than {$ctrl.validationRules.fieldMaxLength + 1$} characters is required.</translate>
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+          <div class="form-group"
+               ng-class="{'has-error':imageForm.description.$invalid && imageForm.description.$dirty}">
+            <label class="control-label" for="imageForm-description">
+              <translate>Image Description</translate>
+            </label>
+            <input id="imageForm-description" name="description"
+                   type="text" class="form-control"
+                   ng-model="ctrl.image.description"
+                   ng-maxlength="ctrl.validationRules.fieldMaxLength">
+            <p class="help-block alert alert-danger"
+               ng-show="imageForm.description.$invalid && imageForm.description.$dirty">
+              <translate>An image description less than {$ctrl.validationRules.fieldMaxLength + 1$} characters is required.</translate>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h4 translate>Image Source</h4>
+
+    <div class="selected-source">
+      <div class="row form-group">
+        <div class="col-xs-6 col-sm-6">
+          <div class="form-group">
+            <label class="control-label required">
+              <translate>Source Type</translate>
+            </label>
+            <div class="form-field" ng-if="ctrl.image.source_type !== ''">
+              <div class="btn-group">
+                <label class="btn btn-default btn-toggle"
+                       ng-repeat="option in ctrl.imageSourceOptions"
+                       ng-model="ctrl.image.source_type"
+                       uib-btn-radio="option.value">{$ ::option.label $}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row form-group" ng-if="ctrl.isLocalFileUpload()">
+        <div class="col-xs-6 col-sm-6">
+          <div class="form-group file-upload required">
+            <label class="control-label" for="imageForm-image_url">
+              <translate>File</translate><span class="hz-icon-required fa fa-asterisk"></span>
+            </label>
+            <div class="input-group" ng-hide="ctrl.uploadProgress > -1">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" ng-model="image_file"
+                        ngf-select="ctrl.prepareUpload(image_file)"
+                        name="image_file" ng-required="true"
+                        id="imageForm-image_file" translate>Browse...</button>
+              </span>
+              <input type="text" class="form-control" readonly ng-model="image_file.name">
+            </div>
+            <div ng-hide="ctrl.uploadProgress < 0" class="progress-text">
+              <uib-progressbar value="ctrl.uploadProgress"></uib-progressbar>
+              <span class="progress-bar-text">{$ ctrl.uploadProgress $}%</span>
+            </div>
+            <p class="help-block alert alert-danger"
+               ng-show="imageForm.image_file.$invalid && imageForm.image_file.$dirty">
+              <translate>A local file should be selected.</translate>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row form-group" ng-if="ctrl.image.source_type === 'url'">
+        <div class="col-xs-6 col-sm-6">
+          <div class="form-group required"
+               ng-class="{'has-error':imageForm.image_url.$invalid && imageForm.image_url.$dirty}">
+            <label class="control-label" for="imageForm-image_url">
+              <translate>Location</translate><span class="hz-icon-required fa fa-asterisk"></span>
+            </label>
+            <input ng-required="true" id="imageForm-image_url" name="image_url"
+                   type="text" class="form-control"
+                   ng-model="ctrl.image.image_url"
+                   ng-maxlength="ctrl.validationRules.fieldMaxLength"
+                   placeholder="{$ 'An external (HTTP) URL to load the image from'|translate $}">
+            <p class="help-block alert alert-danger"
+               ng-show="imageForm.image_url.$invalid && imageForm.image_url.$dirty">
+              <translate>An external (HTTP) URL is required</translate>
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6"
+             ng-if="ctrl.image.source_type === 'url' && ctrl.apiVersion < 2">
+          <div class="form-group">
+            <label class="control-label required">
+              <translate>Copy Data</translate>
+            </label>
+            <div class="form-field">
+              <div class="btn-group">
+                <label class="btn btn-default"
+                        ng-repeat="option in ctrl.imageCopyOptions"
+                        ng-model="ctrl.image.is_copying"
+                        uib-btn-radio="option.value">{$ ::option.label $}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row form-group" ng-if="ctrl.image.source_type === ''">
+        <div class="col-xs-9 col-sm-9">
+          <p class="help-block alert alert-danger">
+            <translate>The current Horizon settings indicate no valid
+                       image creation methods are available. Providing
+                       an image location and/or uploading from the
+                       local file system must be allowed to support
+                       image creation.</translate>
+          </p>
+        </div>
+      </div>
+      <div class="row form-group">
+        <div class="col-xs-6 col-sm-6">
+          <div class="form-group required">
+            <label class="control-label required" for="imageForm-container_format" translate>Format</label><span class="hz-icon-required fa fa-asterisk"></span>
+            <select class="form-control switchable ng-pristine ng-untouched ng-valid" ng-required="true" id="imageForm-format" name="format" ng-model="ctrl.image_format" ng-options="key as label for (key, label) in ctrl.imageFormats" ng-change="ctrl.setFormats()">
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h4 translate>Image Requirements</h4>
+
+    <div class="selected-source">
+      <div class="row form-group">
+        <div class="col-xs-6 col-sm-6">
+          <div class="form-group" for="imageForm-kernel">
+            <label class="control-label">
+              <translate>Kernel</translate>
+            </label>
+            <select class="form-control" id="imageForm-kernel" name="kernel" ng-model="ctrl.image.kernel">
+              <option value="" selected="selected" translate>Choose an image</option>
+              <option ng-repeat="kernel in ctrl.kernelImages" value="{$ kernel.id $}">{$ kernel.name $}</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+          <div class="form-group">
+            <label class="control-label" for="imageForm-ramdisk">
+              <translate>Ramdisk</translate>
+            </label>
+            <select class="form-control" id="imageForm-ramdisk" name="ramdisk" ng-model="ctrl.image.ramdisk">
+              <option value="" selected="selected" translate>Choose an image</option>
+              <option ng-repeat="ramdisk in ctrl.ramdiskImages" value="{$ ramdisk.id $}">{$ ramdisk.name $}</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+          <div class="form-group">
+            <label class="control-label" for="imageForm-architecture">
+              <translate>Architecture</translate>
+            </label>
+            <input id="imageForm-architecture" name="architecture"
+                   type="text" class="form-control"
+                   ng-model="ctrl.image.architecture"
+                   ng-maxlength="ctrl.validationRules.fieldMaxLength">
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <div class="form-group required"
+               ng-class="{'has-error':imageForm.min_disk.$invalid && imageForm.min_disk.$dirty}">
+            <label class="control-label" for="imageForm-min_disk">
+              <translate>Minimum Disk (GB)</translate>
+            </label>
+            <input id="imageForm-min_disk" name="min_disk"
+                   type="number" class="form-control"
+                   ng-required="true"
+                   ng-pattern="ctrl.validationRules.integer"
+                   ng-model="ctrl.image.min_disk"
+                   min=0>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <div class="form-group required"
+               ng-class="{'has-error':imageForm.min_ram.$invalid && imageForm.min_ram.$dirty}">
+            <label class="control-label required">
+              <translate>Minimum RAM (MB)</translate>
+            </label>
+            <input id="imageForm-min_ram" name="min_ram"
+                   type="number" class="form-control"
+                   ng-required="true"
+                   ng-pattern="ctrl.validationRules.integer" ng-model="ctrl.image.min_ram"
+                   min=0>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h4 translate>Image Sharing</h4>
+
+    <div class="selected-source">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6" ng-show='ctrl.allowPublicizeImage'>
+          <div class="form-group">
+            <label class="control-label required">
+              <translate>Visibility</translate>
+            </label>
+            <div class="form-field">
+              <div class="btn-group">
+                <label class="btn btn-default"
+                       ng-repeat="option in ctrl.imageVisibilityOptions"
+                       ng-model="ctrl.image.visibility"
+                       uib-btn-radio="option.value">{$ ::option.label $}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+          <div class="form-group">
+            <label class="control-label required">
+              <translate>Protected</translate>
+            </label>
+            <div class="form-field">
+              <div class="btn-group">
+                <label class="btn btn-default"
+                       ng-repeat="option in ctrl.imageProtectedOptions"
+                       ng-model="ctrl.image.protected"
+                       uib-btn-radio="option.value">{$ ::option.label $}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

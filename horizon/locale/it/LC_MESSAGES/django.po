@@ -1,0 +1,354 @@
+# Alessandra <alessandra@translated.net>, 2015. #zanata
+# Mattia Gandolfi <mgandolf@redhat.com>, 2015. #zanata
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2016. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon 12.0.0.0b2.dev85\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2017-05-05 01:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-04-07 07:15+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid "%(action)s: %(objs)s"
+msgstr "%(action)s: %(objs)s"
+
+#, python-format
+msgid "%(context_name)s:"
+msgstr "%(context_name)s:"
+
+#, python-format
+msgid "%(name)s: %(error)s"
+msgstr "%(name)s: %(error)s"
+
+#, python-format
+msgid "%(size)d Byte"
+msgid_plural "%(size)d Bytes"
+msgstr[0] "%(size)d byte"
+msgstr[1] "%(size)d byte"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s completed successfully."
+msgstr "%s completato correttamente."
+
+#, python-format
+msgid "%s did not complete."
+msgstr "%s non completato."
+
+msgid "&laquo;&nbsp;Prev"
+msgstr "&laquo;&nbsp;Precedente"
+
+msgid "(No Limit)"
+msgstr "(Nessun limite)"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 Bytes"
+msgstr "0 byte"
+
+#, python-format
+msgid "A %(resource)s with the name \"%(name)s\" already exists."
+msgstr "La risorsa %(resource)s con il nome \"%(name)s\" esiste."
+
+msgid "Actions"
+msgstr "Azioni"
+
+msgid "Active Instances:"
+msgstr "Istanze attive:"
+
+msgid "Active RAM:"
+msgstr "RAM attiva:"
+
+msgid "Add a row"
+msgstr "Aggiungi una linea"
+
+msgid "All available"
+msgstr "Tutti disponibili"
+
+msgid "Available"
+msgstr "Disponibile"
+
+msgid "Back"
+msgstr "Indietro"
+
+#. Translators: test code, don't really have to translate
+msgid "Batch Item"
+msgid_plural "Batch Items"
+msgstr[0] "Elemento raggruppato"
+msgstr[1] "Elementi raggruppati "
+
+#. Translators: test code, don't really have to translate
+msgid "Batched Item"
+msgid_plural "Batched Items"
+msgstr[0] "Elemento è stato raggruppato "
+msgstr[1] "Elementi sono stati raggruppati "
+
+msgid "Cancel"
+msgstr "Annulla"
+
+msgid "Connect"
+msgstr "Collegati"
+
+#, python-format
+msgid "Displaying %(content_items)s item"
+msgid_plural "Displaying %(content_items)s items"
+msgstr[0] "Visualizzazione dell'elemento %(content_items)s"
+msgstr[1] "Visualizzazione degli elementi %(content_items)s"
+
+#, python-format
+msgid "Displaying %(nav_items)s item"
+msgid_plural "Displaying %(nav_items)s items"
+msgstr[0] "Visualizzazione dell'elemento %(nav_items)s"
+msgstr[1] "Visualizzazione degli elementi %(nav_items)s"
+
+#. Translators: test code, don't really have to translate
+msgid "Down Item"
+msgid_plural "Down Items"
+msgstr[0] "Elemento sottostante"
+msgstr[1] "Elementi sottostanti "
+
+#. Translators: test code, don't really have to translate
+msgid "Downed Item"
+msgid_plural "Downed Items"
+msgstr[0] "Elemento sotto"
+msgstr[1] "Elementi sotto"
+
+#, python-format
+msgid "Error processing message json file '%(path)s': %(exception)s"
+msgstr "Errore nel processare il messaggio json file '%(path)s': %(exception)s"
+
+msgid "Error: "
+msgstr "Errore:"
+
+msgid "Fake"
+msgstr "Falso"
+
+msgid "Filter"
+msgstr "Filtro"
+
+msgid "Horizon"
+msgstr "Horizon"
+
+msgid "Incorrect format for IP address"
+msgstr "Formato incorretto per l'indirizzo IP"
+
+msgid "Info: "
+msgstr "Info: "
+
+msgid "Invalid metadata entry. Use comma-separated key=value pairs"
+msgstr ""
+"Voce di metadati non valida. Utilizzare le coppie key=value separate da "
+"virgola"
+
+msgid "Invalid subnet mask"
+msgstr "Maschera sottorete non valida."
+
+msgid "Invalid version for IP address"
+msgstr "Versione dell'indirizzo IP non valida"
+
+msgid "Limit Summary"
+msgstr "Riepilogo dei Limiti"
+
+msgid "Log in"
+msgstr "Log in"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Members"
+msgstr "Membri"
+
+#, python-format
+msgid "Message json file '%(path)s' is malformed. %(exception)s"
+msgstr "Il messaggio del file json '%(path)s' è malformato. %(exception)s"
+
+msgid "More Actions"
+msgstr "Altre azioni"
+
+msgid "Navigation Item"
+msgstr "Elemento di navigazione"
+
+msgid "Never"
+msgstr "Mai"
+
+msgid "Next"
+msgstr "Prossimo"
+
+msgid "Next&nbsp;&raquo;"
+msgstr "Successivo&nbsp;&raquo;"
+
+msgid "No items to display."
+msgstr "Nessun elemento da visualizzare"
+
+#, python-format
+msgid "No match returned for the id \"%s\"."
+msgstr "Nessuna corrispondenza restituita per l'identificativo \"%s\""
+
+msgid "No members."
+msgstr "Nessun membro."
+
+msgid "None available."
+msgstr "Nessuno disponibile."
+
+msgid "Not a valid IP protocol number"
+msgstr "Numero protocollo IP non valido"
+
+msgid "Not a valid port number"
+msgstr "Numero porta non valido"
+
+msgid "One colon allowed in port range"
+msgstr "Una virgola permessa nell'intervallo delle porte"
+
+msgid "Other"
+msgstr "Altro"
+
+msgid "Password is not accepted"
+msgstr "La password non è stata accettata."
+
+msgid "Please log in to continue."
+msgstr "Accedi per continuare"
+
+msgid "Please select a row before taking that action."
+msgstr "Per cortesia, selezionare una riga prima di eseguire tale azione."
+
+msgid "Processing..."
+msgstr "Attendere prego..."
+
+msgid "Save"
+msgstr "Salva"
+
+#, python-format
+msgid "Select a %s to browse."
+msgstr "Selezionare un %s per sfogliare."
+
+msgid "Select a period of time to query its usage:"
+msgstr ""
+"Selezionare un periodo di tempo per eseguire la query sul relativo utilizzo:"
+
+#. Translators: test code, don't really have to translate
+msgid "Sell Puppy"
+msgid_plural "Sell Puppies"
+msgstr[0] "Vendi cucciolo"
+msgstr[1] "Vendi cuccioli"
+
+msgid "Sign In"
+msgstr "Accesso"
+
+#. Translators: test code, don't really have to translate
+msgid "Sold Puppy"
+msgid_plural "Sold Puppies"
+msgstr[0] "Cucciolo venduto"
+msgstr[1] "Cuccioli venduti"
+
+msgid "Submit"
+msgstr "Invia"
+
+msgid "Success: "
+msgstr "Successo:"
+
+msgid "Summary"
+msgstr "Riepilogo"
+
+msgid "The string may only contain ASCII printable characters."
+msgstr "La stringa può contenere solo caratteri stampabili ASCII."
+
+#, python-format
+msgid ""
+"The value of %(resource)s is %(name)s inside the template. When launching a "
+"stack from this interface, the value must start with \"http://\" or "
+"\"https://\""
+msgstr ""
+"Il valore di %(resource)s è %(name)s all'interno del template. Quando si "
+"avvia uno stack da questa interfaccia, il valore deve iniziare con \"http://"
+"\" o \"https://\""
+
+msgid "This Period's GB-Hours:"
+msgstr "Ore-GB di questo periodo:"
+
+msgid "This Period's RAM-Hours:"
+msgstr "Ore-RAM di questo periodo:"
+
+msgid "This Period's VCPU-Hours:"
+msgstr "Ore-VCPU di questo periodo:"
+
+msgid "This action cannot be undone."
+msgstr "Questa azione non può essere annullata"
+
+#, python-format
+msgid "Unable to %(action)s: %(objs)s"
+msgstr "Impossibile %(action)s: %(objs)s"
+
+msgid "Unauthorized. Please try logging in again."
+msgstr "Non autorizzato. Ritentare il login."
+
+#, python-format
+msgid "Unauthorized: %s"
+msgstr "Non autorizzato: %s"
+
+#. Translators: test code, don't really have to translate
+msgid "Up Item"
+msgid_plural "Up Items"
+msgstr[0] "Elemento soprastante "
+msgstr[1] "Elementi soprastanti "
+
+msgid "Update Item"
+msgid_plural "Update Items"
+msgstr[0] "Aggiorna l'elemento"
+msgstr[1] "Aggiorna gl' elementi "
+
+msgid "Updated Item"
+msgid_plural "Updated Items"
+msgstr[0] "Elemento Aggiornato"
+msgstr[1] "Elementi Aggiornati "
+
+#. Translators: test code, don't really have to translate
+msgid "Upped Item"
+msgid_plural "Upped Items"
+msgstr[0] "Elemento sopra"
+msgstr[1] "Elementi sopra "
+
+msgid "Usage Summary"
+msgstr "Riepilogo dell'Utilizzo"
+
+msgid "Warning: "
+msgstr "Attenzione:"
+
+#, python-format
+msgid "You are not allowed to %(action)s: %(objs)s"
+msgstr "Non si è autorizzati a %(action)s: %(objs)s"
+
+#, python-format
+msgid "You are not authorized to access %s"
+msgstr "Accesso non autorizzato a %s"
+
+msgid "You do not have permission to access the resource:"
+msgstr "Non si dispone dei permessi per accedere alla risorsa:"

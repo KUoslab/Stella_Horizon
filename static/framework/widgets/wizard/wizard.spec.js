@@ -1,0 +1,326 @@
+/*
+ *    (c) Copyright 2015 Hewlett-Packard Development Company, L.P.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+(function() {
+  'use strict';
+
+  describe('horizon.framework.widgets.wizard module', function () {
+    it('should have been defined', function () {
+      expect(angular.module('horizon.framework.widgets.wizard')).toBeDefined();
+    });
+  });
+
+  describe('wizard directive', function () {
+    var $compile,
+      $scope,
+      $q,
+      element;
+
+    beforeEach(module('templates'));
+    beforeEach(module('horizon.framework'));
+    beforeEach(inject(function ($injector) {
+      $scope = $injector.get('$rootScope').$new();
+      $compile = $injector.get('$compile');
+      $q = $injector.get('$q');
+      element = $compile('<wizard></wizard>')($scope);
+    }));
+
+    it('should be compiled', function () {
+      var element = $compile('<wizard>some text</wizard>')($scope);
+      $scope.$apply();
+      expect(element.html().trim()).not.toBe('some text');
+    });
+
+    it('should have empty title by default', function () {
+      $scope.workflow = {};
+      $scope.$apply();
+      expect(element[0].querySelector('.h4').textContent).toBe('');
+    });
+
+    it('should have title if it is specified by workflow', function () {
+      var titleText = 'Some title';
+      $scope.workflow = {};
+      $scope.workflow.title = titleText;
+      $scope.$apply();
+      expect(element[0].querySelector('.h4').textContent).toBe(titleText);
+    });
+
+    it('should contain one help-panel', function () {
+      $scope.workflow = {};
+      $scope.workflow.title = "doesn't matter";
+      $scope.$apply();
+      expect(element[0].querySelectorAll('.help-panel').length).toBe(1);
+    });
+
+    it('should toggle help icon button', function () {
+      $scope.workflow = {
+        steps: [ {}, {}, {} ]
+      };
+      $scope.$apply();
+      expect(angular.element(element).find('.help-toggle').hasClass('ng-hide')).toBe(true);
+
+      $scope.workflow.steps[1] = {};
+      $scope.switchTo(1);
+      $scope.$apply();
+      expect($scope.hideHelpBtn).toBe(true);
+      expect(angular.element(element).find('.help-toggle').hasClass('ng-hide')).toBe(true);
+
+      $scope.workflow.steps[2] = {helpUrl: ''};
+      $scope.switchTo(2);
+      $scope.$apply();
+      expect($scope.hideHelpBtn).toBe(false);
+      expect(angular.element(element).find('.help-toggle').hasClass('ng-hide')).toBe(false);
+    });
+
+    it('should have no steps if no steps defined', function () {
+      $scope.workflow = {};
+      $scope.$apply();
+      expect(element[0].querySelectorAll('.step').length).toBe(0);
+    });
+
+    it('should have 3 steps if 3 steps defined', function () {
+      $scope.workflow = {
+        steps: [ {}, {}, {} ]
+      };
+      $scope.$apply();
+      expect(element[0].querySelectorAll('.step').length).toBe(3);
+    });
+
+    it('should have no nav items if no steps defined', function () {
+      $scope.workflow = {};
+      $scope.$apply();
+      expect(element[0].querySelectorAll('.nav-item').length).toBe(0);
+    });
+
+    it('should have 3 nav items if 3 steps defined', function () {
+      $scope.workflow = {
+        steps: [ {}, {}, {} ]
+      };
+      $scope.$apply();
+      expect(element[0].querySelectorAll('.nav-item').length).toBe(3);
+    });
+
+    it('should navigate correctly', function () {
+      $scope.workflow = {
+        steps: [ {}, {}, {} ]
+      };
+
+      $scope.$apply();
+      expect($scope.currentIndex).toBe(0);
+      expect(angular.element(element).find('.step').eq(0).hasClass('ng-hide')).toBe(false);
+      expect(angular.element(element).find('.step').eq(1).hasClass('ng-hide')).toBe(true);
+      expect(angular.element(element).find('.step').eq(2).hasClass('ng-hide')).toBe(true);
+      expect(angular.element(element).find('.nav-item').eq(0).hasClass('active')).toBe(true);
+      expect(angular.element(element).find('.nav-item').eq(1).hasClass('active')).toBe(false);
+      expect(angular.element(element).find('.nav-item').eq(2).hasClass('active')).toBe(false);
+
+      $scope.switchTo(1);
+      $scope.$apply();
+      expect($scope.currentIndex).toBe(1);
+      expect(angular.element(element).find('.step').eq(0).hasClass('ng-hide')).toBe(true);
+      expect(angular.element(element).find('.step').eq(1).hasClass('ng-hide')).toBe(false);
+      expect(angular.element(element).find('.step').eq(2).hasClass('ng-hide')).toBe(true);
+      expect(angular.element(element).find('.nav-item').eq(0).hasClass('active')).toBe(false);
+      expect(angular.element(element).find('.nav-item').eq(1).hasClass('active')).toBe(true);
+      expect(angular.element(element).find('.nav-item').eq(2).hasClass('active')).toBe(false);
+
+      $scope.switchTo(2);
+      $scope.$apply();
+      expect($scope.currentIndex).toBe(2);
+      expect(angular.element(element).find('.step').eq(0).hasClass('ng-hide')).toBe(true);
+      expect(angular.element(element).find('.step').eq(1).hasClass('ng-hide')).toBe(true);
+      expect(angular.element(element).find('.step').eq(2).hasClass('ng-hide')).toBe(false);
+      expect(angular.element(element).find('.nav-item').eq(0).hasClass('active')).toBe(false);
+      expect(angular.element(element).find('.nav-item').eq(1).hasClass('active')).toBe(false);
+      expect(angular.element(element).find('.nav-item').eq(2).hasClass('active')).toBe(true);
+    });
+
+    it('should disable back button in step 1/3', function () {
+      $scope.workflow = {
+        steps: [{}, {}, {}]
+      };
+      $scope.$apply();
+      expect(element[0].querySelector('button.back').hasAttribute('disabled')).toBe(true);
+      expect(element[0].querySelector('button.next').hasAttribute('disabled')).toBe(false);
+    });
+
+    it('should show both back and next button in step 2/3', function () {
+      $scope.workflow = {
+        steps: [{}, {}, {}]
+      };
+      $scope.$apply();
+      $scope.switchTo(1);
+      $scope.$apply();
+      expect(element[0].querySelector('button.back').hasAttribute('disabled')).toBe(false);
+      expect(element[0].querySelector('button.next').hasAttribute('disabled')).toBe(false);
+    });
+
+    it('should disable next button in step 3/3', function () {
+      $scope.workflow = {
+        steps: [{}, {}, {}]
+      };
+      $scope.$apply();
+      $scope.switchTo(2);
+      $scope.$apply();
+      expect(element[0].querySelector('button.back').hasAttribute('disabled')).toBe(false);
+      expect(element[0].querySelector('button.next').hasAttribute('disabled')).toBe(true);
+    });
+
+    it('should have finish button disabled if wizardForm is invalid', function () {
+      $scope.wizardForm = { };
+      $scope.$apply();
+      $scope.wizardForm.$invalid = true;
+      $scope.$apply();
+      expect(element[0].querySelector('button.finish').hasAttribute('disabled')).toBe(true);
+    });
+
+    it('should have finish button enabled if wizardForm is valid', function () {
+      $scope.wizardForm = { };
+      $scope.$apply();
+      $scope.wizardForm.$invalid = false;
+      $scope.$apply();
+      expect(element[0].querySelector('button.finish').hasAttribute('disabled')).toBe(false);
+    });
+
+    it('should have finish button disabled if isSubmitting is set', function () {
+      $scope.viewModel = { };
+      $scope.$apply();
+      $scope.viewModel.isSubmitting = true;
+      $scope.$apply();
+      expect(element[0].querySelector('button.finish').hasAttribute('disabled')).toBe(true);
+    });
+
+    it('should show error message after calling method showError', function () {
+      var errorMessage = {data: 'some error message'};
+      $scope.$apply();
+      $scope.showError(errorMessage);
+      $scope.$apply();
+      expect(element[0].querySelector('.error-message').textContent).toBe('some error message');
+    });
+
+    it("checks steps' readiness", function() {
+      var checkedStep = {
+        checkReadiness: function() {
+          return true;
+        }
+      };
+      $scope.workflow = {
+        steps: [{}, checkedStep, {}]
+      };
+
+      spyOn(checkedStep, 'checkReadiness').and.returnValue({then: function() {}});
+      $scope.$apply();
+      expect(checkedStep.checkReadiness).toHaveBeenCalled();
+    });
+
+    it("should remove steps when readiness is false", function() {
+
+      var checkReadinessPromises = [$q.defer(), $q.defer(), $q.defer(), $q.defer()];
+
+      $scope.workflow = {
+        steps: [
+          { id: 'one' },
+          {
+            id: 'two',
+            checkReadiness: function() { return checkReadinessPromises[0].promise; }
+          },
+          {
+            id: 'three',
+            checkReadiness: function() { return checkReadinessPromises[1].promise; }
+          },
+          {
+            id: 'four',
+            checkReadiness: function() { return checkReadinessPromises[2].promise; }
+          },
+          {
+            id: 'five',
+            checkReadiness: function() { return checkReadinessPromises[3].promise; }
+          }
+        ]
+      };
+
+      checkReadinessPromises[0].reject();
+      checkReadinessPromises[1].resolve();
+      checkReadinessPromises[2].reject();
+      checkReadinessPromises[3].resolve();
+      $scope.$apply();
+
+      expect($scope.steps.length).toBe(3);
+      expect($scope.steps[0].id).toBe('one');
+      expect($scope.steps[1].id).toBe('three');
+      expect($scope.steps[2].id).toBe('five');
+    });
+
+    it('should pass result of submit function on to close function', function () {
+      $scope.$apply();
+      $scope.submit = function() {
+        var deferred = $q.defer();
+        deferred.resolve('foo');
+        return deferred.promise;
+      };
+      $scope.close = angular.noop;
+      spyOn($scope, 'close');
+      element[0].querySelector('button.finish').click();
+      expect($scope.close).toHaveBeenCalledWith('foo');
+    });
+
+  });
+
+  describe("ModalContainerController", function() {
+    var ctrl, scope, modalInstance, launchContext;
+
+    beforeEach(module('horizon.framework'));
+
+    beforeEach(inject(function($controller) {
+      scope = {};
+      modalInstance = { close: angular.noop, dismiss: angular.noop };
+      launchContext = { my: 'data' };
+      ctrl = $controller('ModalContainerController',
+                         { $scope: scope, $uibModalInstance: modalInstance,
+                           launchContext: launchContext });
+    }));
+
+    it('is defined', function() {
+      expect(ctrl).toBeDefined();
+    });
+
+    it('sets scope.launchContext', function() {
+      expect(scope.launchContext).toBeDefined();
+      expect(scope.launchContext).toEqual({ my: 'data' });
+    });
+
+    it('sets scope.close to a function that closes the modal', function() {
+      expect(scope.close).toBeDefined();
+      spyOn(modalInstance, 'close');
+      scope.close();
+      expect(modalInstance.close).toHaveBeenCalled();
+    });
+
+    it('passes arguments to scope.close on to the modal close function', function() {
+      spyOn(modalInstance, 'close');
+      scope.close('foo');
+      expect(modalInstance.close).toHaveBeenCalledWith('foo');
+    });
+
+    it('sets scope.cancel to a function that dismisses the modal', function() {
+      expect(scope.cancel).toBeDefined();
+      spyOn(modalInstance, 'dismiss');
+      scope.cancel();
+      expect(modalInstance.dismiss).toHaveBeenCalled();
+    });
+
+  });
+
+})();

@@ -1,0 +1,27 @@
+<div ng-controller="LaunchInstanceKeypairController as ctrl">
+  <p class="step-description" translate>
+    A key pair allows you to SSH into your newly created instance.
+    You may select an existing key pair, import a key pair, or generate a new key pair.
+  </p>
+
+  <button type="button" class="btn btn-default"
+          ng-click="ctrl.createKeyPair()">
+    <span class="fa fa-plus"></span>
+    <translate>Create Key Pair</translate>
+  </button>
+  <button type="button" class="btn btn-default"
+          ng-click="ctrl.importKeyPair()">
+    <span class="fa fa-upload"></span>
+    <translate>Import Key Pair</translate>
+  </button>
+
+  <transfer-table tr-model="ctrl.tableData" limits="ctrl.tableLimits" clone-content>
+    <hz-dynamic-table
+        config="$isAvailableTable ? ctrl.availableTableConfig : ctrl.allocatedTableConfig"
+        items="$isAvailableTable ? ($sourceItems | filterAvailable:trCtrl.allocatedIds) : $sourceItems"
+        item-actions="trCtrl.itemActions"
+        filter-facets="$isAvailableTable && ctrl.filterFacets"
+        table="ctrl">
+    </hz-dynamic-table>
+  </transfer-table> <!-- End Key Pairs Table -->
+</div> <!-- End Controller -->

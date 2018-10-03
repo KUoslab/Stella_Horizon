@@ -1,0 +1,37 @@
+<div ng-controller="LaunchInstanceConfigurationController as config">
+  <p class="step-description" translate>
+    You can customize your instance after it has launched using the options available here.
+    "Customization Script" is analogous to "User Data" in other systems.
+  </p>
+
+  <load-edit config="config"
+             user-input="model.newInstanceSpec"
+             key="user_data">
+  </load-edit>
+
+  <div hz-if-nova-extensions='["DiskConfig"]'>
+    <div class="form-group">
+      <label for="disk-partition" translate>
+        Disk Partition
+      </label>
+      <select class="form-control"
+              id="disk-partition"
+              ng-model="model.newInstanceSpec.disk_config"
+              ng-options="option.value as option.text for option in config.diskConfigOptions">
+      </select>
+    </div>
+  </div>
+
+  <div hz-if-nova-extensions='["ConfigDrive"]'>
+    <div class="form-group">
+      <div class="themable-checkbox">
+        <input type="checkbox"
+               id="config-drive"
+               ng-model="model.newInstanceSpec.config_drive">
+        <label for="config-drive">
+          <span translate>Configuration Drive</span>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

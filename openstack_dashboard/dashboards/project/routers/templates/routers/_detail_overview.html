@@ -1,0 +1,95 @@
+{% load i18n sizeformat parse_date %}
+
+<div class="detail">
+  <dl class="dl-horizontal">
+    <dt>{% trans "Name" %}</dt>
+    <dd data-display="{{ router.name_or_id }}">{{ router.name|default:_("None") }}</dd>
+    <dt>{% trans "ID" %}</dt>
+    <dd>{{ router.id }}</dd>
+    <dt>{% trans "Description" %}</dt>
+    <dd>{{ router.description }}</dd>
+    <dt>{% trans "Project ID" %}</dt>
+    <dd>{{ router.tenant_id }}</dd>
+    <dt>{% trans "Status" %}</dt>
+    <dd>{{ router.status_label|capfirst }}</dd>
+    <dt>{% trans "Admin State" %}</dt>
+    <dd>{{ router.admin_state_label|default:_("Unknown") }}</dd>
+    {% if dvr_supported %}
+      <dt>{% trans "Distributed" %}</dt>
+      <dd>{{ router.distributed|yesno|capfirst }}</dd>
+    {% endif %}
+    {% if ha_supported %}
+      <dt>{% trans "High Availability Mode" %}</dt>
+      <dd>{{ router.ha|yesno|capfirst }}</dd>
+    {% endif %}
+    {% if router.l3_host_agents %}
+      <dt>{% trans "L3 Agent" %}</dt>
+      <dd>
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th><strong>{% trans "Host" %}</strong></th>
+              <th><strong>{% trans "ID" %}</strong></th>
+              {% if ha_supported %}
+              <th><strong>{% trans "High Availability Status" %}</strong></th>
+              {% endif %}
+            </tr>
+          </thead>
+          <tbody>
+        {% for agent in router.l3_host_agents %}
+             <tr>
+              <td>{{ agent.host }}</td>
+              <td><a href="{% url 'horizon:admin:routers:l3_agent_list' l3_agent_id=agent.id %}">{{ agent.id }}</a></td>
+              {% if ha_supported %}
+              <td>{{ agent.ha_state|default:_("None") }}</td>
+              {% endif %}
+            </tr>
+        {% endfor %}
+          </tbody>
+          </table>
+        </dd>
+    {% endif %}
+    {% if router.availability_zones %}
+      <dt>{% trans "Availability Zones" %}</dt>
+      <dd>
+        <ul>
+          {% for zone in router.availability_zones %}
+            <li>{{ zone }}</li>
+          {% endfor %}
+        </ul>
+      </dd>
+    {% endif %}
+
+    {% if router.external_gateway_info %}
+    </dl>
+    <h4>{% trans "External Gateway" %}</h4>
+    <hr class="header_rule">
+    <dl class="dl-horizontal">
+      <dt>{% trans "Network Name" %}</dt>
+      <dd>{{ router.external_gateway_info.network|default:_("None") }}</dd>
+      <dt>{% trans "Network ID" %}</dt>
+      <dd><a href="{{ router.external_gateway_info.network_url }}">{{ router.external_gateway_info.network_id|default:_("Unknown") }}</a></dd>
+      <dt>{% trans "External Fixed IPs" %}</dt>
+      <dd>
+        <ul>
+          {% for ip in router.external_gateway_info.external_fixed_ips %}
+            {% url 'horizon:project:networks:subnets:detail' ip.subnet_id as subnet_url %}
+            <li><strong>{% trans "Subnet ID" %}</strong> <a href="{{ subnet_url }}">{{ ip.subnet_id|default:_("Unknown") }}</a></li>
+            <li><strong>{% trans "IP Address" %}</strong> {{ ip.ip_address }}</li>
+          {% empty %}
+            {% trans "None" %}
+          {% endfor %}
+        </ul>
+      </dd>
+      <dt>{% trans "SNAT" %}</dt>
+      {% if router.external_gateway_info.enable_snat %}
+        <dd>{% trans "Enabled" %}</dd>
+      {% else %}
+        <dd>{% trans "Disabled" %}</dd>
+      {% endif %}
+    {% else %}
+      <dt>{% trans "External Gateway"%}</dt>
+      <dd>{% trans "None" %}</dd>
+    {% endif %}
+  </dl>
+</div>

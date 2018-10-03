@@ -1,0 +1,21 @@
+{% load i18n  %}
+
+<div class="detail">
+  <dl class="dl-horizontal">
+    <dt>{% trans "Project Name" %}</dt>
+    <dd data-display="{{ project.name|default:project.id }}">{{ project.name }}</dd>
+    <dt>{% trans "Project ID" %}</dt>
+    <dd>{{ project.id }}</dd>
+    <dt>{% trans "Enabled" %}</dt>
+    <dd>{{ project.enabled|yesno|capfirst }}</dd>
+    <dt>{% trans "Description" %}</dt>
+    <dd>{{ project.description|default:_("None") }}</dd>
+    {% if extras %}
+      {% for key, value in extras.items %}
+        <dt>{{ key }}</dt>
+        <dd>{{ value }}</dd>
+      {% endfor %}
+    {% endif %}
+  </dl>
+</div>
+

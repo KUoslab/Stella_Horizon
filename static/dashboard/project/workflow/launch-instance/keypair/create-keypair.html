@@ -1,0 +1,58 @@
+<div class="ng-wizard" ng-form="wizardForm">
+
+  <div class="modal-header">
+    <button type="button" class="close" ng-click="ctrl.cancel()" aria-hidden="true" aria-label="Close">
+      <span aria-hidden="true" class="fa fa-close"></span>
+    </button>
+    <span translate class="h4 modal-title">Create Key Pair</span>
+  </div>
+
+  <div class="modal-body">
+    <p translate>
+      Key Pairs are how you login to your instance after it is launched.
+      Choose a key pair name you will recognize.
+      Names may only include alphanumeric characters, spaces, or dashes.
+    </p>
+
+    <div class="form-group" ng-class="{'has-error': (ctrl.doesKeypairExist() || wizardForm.$invalid) && wizardForm.$dirty }">
+      <label class="control-label" for="keypair-name" translate>
+        Key Pair Name
+        <span class="hz-icon-required fa fa-asterisk"></span>
+      </label>
+      <input class="form-control" name="name"
+             id="keypair-name"
+             ng-model="ctrl.keypair"
+             ng-required="true"
+             ng-pattern="/^[A-Za-z0-9 -]+$/">
+      <span class="help-block"
+            ng-show="(ctrl.doesKeypairExist() || wizardForm.$invalid) && wizardForm.$dirty">
+        {$ ctrl.keypairExistsError $}
+      </span>
+    </div>
+    <div class="form-group" ng-if="ctrl.privateKey">
+      <label for="private-key">
+        <translate>Private Key</translate>
+        <span class="hz-icon-required fa"></span>
+      </label>
+      <!-- Note: textarea is used here (instead of pre) due to the fact that ctrl.copyPrivateKey() uses
+           the HTMLInputElement.select() function which is only present on input elements -->
+      <textarea class="form-control" id="private-key" rows="15"
+                  ng-model="ctrl.privateKey" readonly></textarea>
+    </div>
+  </div>
+
+  <div class="modal-footer">
+    <button class="btn btn-primary"
+            ng-click="ctrl.generate()" ng-disabled="wizardForm.$invalid || ctrl.doesKeypairExist() || ctrl.privateKey">
+      <translate>Create Keypair</translate>
+    </button>
+    <button class="btn btn-primary"
+            ng-click="ctrl.copyPrivateKey()" ng-disabled="!ctrl.privateKey">
+      <translate>Copy Private Key to Clipboard</translate>
+    </button>
+    <button class="btn btn-primary"
+            ng-click="ctrl.submit()" ng-disabled="!ctrl.privateKey">
+      <translate>Done</translate>
+    </button>
+  </div>
+</div>

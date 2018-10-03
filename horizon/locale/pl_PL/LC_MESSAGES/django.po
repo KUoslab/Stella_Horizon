@@ -1,0 +1,409 @@
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+# Łukasz Jernas <deejay1@srem.org>, 2016. #zanata
+# Łukasz Jernas <deejay1@srem.org>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2018-02-17 05:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-06-05 01:53+0000\n"
+"Last-Translator: Łukasz Jernas <deejay1@srem.org>\n"
+"Language-Team: Polish (Poland)\n"
+"Language: pl_PL\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+#, python-format
+msgid ""
+"\n"
+"            Displaying %(counter)s item"
+msgid_plural ""
+"\n"
+"            Displaying %(counter)s items"
+msgstr[0] ""
+"\n"
+"            Wyświetlanie %(counter)s pozycji"
+msgstr[1] ""
+"\n"
+"            Wyświetlanie %(counter)s pozycji"
+msgstr[2] ""
+"\n"
+"            Wyświetlanie %(counter)s pozycji"
+
+#, python-format
+msgid "%(action)s: %(objs)s"
+msgstr "%(action)s: %(objs)s"
+
+#, python-format
+msgid "%(context_name)s:"
+msgstr "%(context_name)s:"
+
+#, python-format
+msgid "%(name)s: %(error)s"
+msgstr "%(name)s: %(error)s"
+
+#, python-format
+msgid "%(size)d Byte"
+msgid_plural "%(size)d Bytes"
+msgstr[0] "%(size)d bajt"
+msgstr[1] "%(size)d bajty"
+msgstr[2] "%(size)d bajtów"
+
+#, python-format
+msgid "%s EB"
+msgstr "%s EB"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s YB"
+msgstr "%s YB"
+
+#, python-format
+msgid "%s ZB"
+msgstr "%s ZB"
+
+#, python-format
+msgid "%s completed successfully."
+msgstr "%s zakończona pomyślnie."
+
+#, python-format
+msgid "%s did not complete."
+msgstr "%s nie została zakończona."
+
+msgid "&laquo;&nbsp;Prev"
+msgstr "&laquo;&nbsp;Poprzednie"
+
+msgid "(No Limit)"
+msgstr "(Bez ograniczeń)"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 Bytes"
+msgstr "0 bajtów"
+
+#, python-format
+msgid "A %(resource)s with the name \"%(name)s\" already exists."
+msgstr "%(resource)s o nazwie \"%(name)s\" już istnieje."
+
+msgid "Actions"
+msgstr "Czynności"
+
+msgid "Active Instances:"
+msgstr "Aktywne instancje:"
+
+msgid "Active RAM:"
+msgstr "Aktywna pamięć RAM:"
+
+msgid "Add a row"
+msgstr "Dodaj wiersz"
+
+msgid "All available"
+msgstr "Całość dostępna"
+
+msgid "Available"
+msgstr "Dostępne"
+
+msgid "Back"
+msgstr "Wstecz"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Connect"
+msgstr "Połącz"
+
+#, python-format
+msgid "Displaying %(content_items)s item"
+msgid_plural "Displaying %(content_items)s items"
+msgstr[0] "Wyświetlanie %(content_items)s pozycji"
+msgstr[1] "Wyświetlanie %(content_items)s pozycji"
+msgstr[2] "Wyświetlanie %(content_items)s pozycji"
+
+#, python-format
+msgid "Displaying %(nav_items)s item"
+msgid_plural "Displaying %(nav_items)s items"
+msgstr[0] "Wyświetlanie %(nav_items)s pozycję"
+msgstr[1] "Wyświetlanie %(nav_items)s pozycji"
+msgstr[2] "Wyświetlanie %(nav_items)s pozycji"
+
+#, python-format
+msgid "Error processing message json file '%(path)s': %(exception)s"
+msgstr ""
+"Błąd podczas przetwarzania pliku message.json „%(path)s”: %(exception)s"
+
+msgid "Error: "
+msgstr "Błąd:"
+
+msgid "Fake"
+msgstr "Fałszywe"
+
+msgid "Filter"
+msgstr "Filtr"
+
+msgid "Horizon"
+msgstr "Horizon"
+
+msgid ""
+"If you are not sure which authentication method to use, contact your "
+"administrator."
+msgstr ""
+"Jeśli nie wiadomo, którego sposobu uwierzytelniania użyć, należy "
+"skontaktować się z administratorem."
+
+msgid "Incorrect format for IP address"
+msgstr "Błędny format adresu IP"
+
+msgid "Infinity"
+msgstr "Nieskończoność"
+
+msgid "Info: "
+msgstr "Informacja:"
+
+msgid "Invalid MAC Address format"
+msgstr "Niepoprawny format adresu MAC"
+
+msgid "Invalid metadata entry. Use comma-separated key=value pairs"
+msgstr ""
+"Błędny wpis metadanych. Należy korzystać z rozdzielonej przecinkami pary "
+"klucz=wartość ."
+
+msgid "Invalid subnet mask"
+msgstr "Błędna maska podsieci"
+
+msgid "Invalid version for IP address"
+msgstr "Błędna wersja adresu IP"
+
+msgid "Keystone Providers:"
+msgstr "Dostawcy Keystone:"
+
+msgid "Limit Summary"
+msgstr "Podsumowanie limitów"
+
+msgid "Log in"
+msgstr "Zaloguj"
+
+msgid "Login"
+msgstr "Login"
+
+#, python-format
+msgid ""
+"Login as different user or go back to <a href=\"%(home_url)s\">home page</a>"
+msgstr ""
+"Zaloguj się jako inny użytkownik lub wróć do  <a href=\"%(home_url)s\">snej</"
+"a>"
+
+msgid "Members"
+msgstr "Członkowie"
+
+#, python-format
+msgid "Message json file '%(path)s' is malformed. %(exception)s"
+msgstr ""
+"Scieżka do pliku message.json „%(path)s” jest błędnie zbudowana. "
+"%(exception)s"
+
+msgid "More Actions"
+msgstr "Pozostałe akcje"
+
+msgid "Navigation Item"
+msgstr "Pozycja nawigacyjna"
+
+msgid "Never"
+msgstr "Nigdy"
+
+msgid "Next"
+msgstr "Następny"
+
+msgid "Next&nbsp;&raquo;"
+msgstr "Następne&nbsp;&raquo;"
+
+msgid "No items to display."
+msgstr "Brak pozycji do wyświetlenia."
+
+#, python-format
+msgid "No match returned for the id \"%s\"."
+msgstr "Nie znaleziono wyników dla identyfikatora „%s”."
+
+msgid "No members."
+msgstr "Brak członków."
+
+msgid "None available."
+msgstr "Całość wykorzystana"
+
+msgid "Not a valid ICMP code"
+msgstr "Błędny kod ICMP"
+
+msgid "Not a valid ICMP type"
+msgstr "Błędny typ ICMP"
+
+msgid "Not a valid IP protocol number"
+msgstr "Błędny numer protokołu IP"
+
+msgid "Not a valid port number"
+msgstr "Błędny numer portu"
+
+msgid "One colon allowed in port range"
+msgstr "Tylko jeden dwukropek jest dozwolony w zakresie portów"
+
+msgid "Other"
+msgstr "Inne"
+
+msgid "Password is not accepted"
+msgstr "Hasło nie zostało zaakceptowane"
+
+msgid "Please confirm your selection."
+msgstr "Należy potwierdzić wybór."
+
+msgid "Please log in to continue."
+msgstr "Należy się zalogować, aby można było kontynuować."
+
+msgid "Please select a row before taking that action."
+msgstr "Należy wybrać wiersz przed wykonaniem tej czynności."
+
+msgid "Please specify a search criteria first."
+msgstr "Należy podać kryteria wyszukiwania."
+
+msgid "Processing..."
+msgstr "Przetwarzanie…"
+
+msgid "Save"
+msgstr "Zapisz"
+
+#, python-format
+msgid "Select a %s to browse."
+msgstr "Wybierz %s by przeglądać."
+
+msgid "Select a period of time to query its usage:"
+msgstr "Wybierz okres za który nalezy wyświetlić wykorzystanie:"
+
+#. Translators: test code, don't really have to translate
+msgid "Sell Puppy"
+msgid_plural "Sell Puppies"
+msgstr[0] "Sprzedaj pieska"
+msgstr[1] "Sprzedaj pieski"
+msgstr[2] "Sprzedaj pieski"
+
+msgid "Sign In"
+msgstr "Wpisz się"
+
+#. Translators: test code, don't really have to translate
+msgid "Sold Puppy"
+msgid_plural "Sold Puppies"
+msgstr[0] "Sprzedano pieska"
+msgstr[1] "Sprzedano pieski"
+msgstr[2] "Sprzedano pieski"
+
+msgid "Submit"
+msgstr "Wyślij"
+
+msgid "Success: "
+msgstr "Powodzenie:"
+
+msgid "Summary"
+msgstr "Podsumowanie"
+
+msgid ""
+"The current user has insufficient permission to complete the requested task."
+msgstr ""
+"Bieżący użytkownik nie posiada uprawnień do zakończenia bieżącego zadania."
+
+msgid "The date should be in YYYY-MM-DD format."
+msgstr "Data powinna zostać podana w formacie YYYY-MM-DD."
+
+msgid "The string may only contain ASCII printable characters."
+msgstr "Ciąg może zawierać wyłącznie drukowalne znaki ASCII."
+
+#, python-format
+msgid ""
+"The value of %(resource)s is %(name)s inside the template. When launching a "
+"stack from this interface, the value must start with \"http://\" or "
+"\"https://\""
+msgstr ""
+"Wartość %(resource)s w szablonie wynosi %(name)s . Przy uruchamianiu stosu z "
+"tego interfejsu, wartość musi zaczynać się od „http://” lub „https://”"
+
+msgid "This Period's GB-Hours:"
+msgstr "GB-godziny w tym okresie:"
+
+msgid "This Period's RAM-Hours:"
+msgstr "RAM-godziny w tym okresie:"
+
+msgid "This Period's VCPU-Hours:"
+msgstr "VCPU-godziny w tym okresie:"
+
+msgid "This action cannot be undone."
+msgstr "Tej czynności nie można cofnąć."
+
+#, python-format
+msgid "Unable to %(action)s: %(objs)s"
+msgstr "Nie można %(action)s: %(objs)s"
+
+msgid "Unauthorized. Please try logging in again."
+msgstr "Brak uprawnień. Proszę spróbować się wylogować i zalogować ponownie."
+
+#, python-format
+msgid "Unauthorized: %s"
+msgstr "Nieupoważniono: %s"
+
+msgid "Update Item"
+msgid_plural "Update Items"
+msgstr[0] "Aktualizuj pozycję"
+msgstr[1] "Aktualizuj pozycje"
+msgstr[2] "Aktualizuj pozycje"
+
+msgid "Updated Item"
+msgid_plural "Updated Items"
+msgstr[0] "Zaktualizowano pozycję"
+msgstr[1] "Zaktualizowano pozycje"
+msgstr[2] "Zaktualizowano pozycje"
+
+msgid "Usage Summary"
+msgstr "Podsumowanie wykorzystania"
+
+#, python-format
+msgid "Used <span> %(used)s </span>(No Limit)"
+msgstr " Wykorzystano <span> %(used)s </span>(Bez limitu)"
+
+#, python-format
+msgid "Used <span> %(used)s </span>of<span> %(available)s </span>"
+msgstr "Wykorzystano <span> %(used)s </span>z<span> %(available)s </span>"
+
+msgid "Warning: "
+msgstr "Ostrzeżenie:"
+
+#, python-format
+msgid "You are not allowed to %(action)s: %(objs)s"
+msgstr "Brak uprawnień do %(action)s: %(objs)s"
+
+#, python-format
+msgid "You are not authorized to access %s"
+msgstr "Brak uprawnień dostępu do %s"
+
+msgid "You do not have permission to access the resource:"
+msgstr "Brak uprawnień do zasobu:"
+
+msgid "You have selected: [[selection]]. "
+msgstr "Wybrano: [[selection]]."

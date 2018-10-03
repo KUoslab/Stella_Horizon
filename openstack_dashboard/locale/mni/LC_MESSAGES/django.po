@@ -1,0 +1,4522 @@
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon 12.0.0.0b4.dev60\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2017-08-09 02:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-09-09 04:56+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Manipuri\n"
+"Language: mni\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid " - End"
+msgstr " - এন্দ"
+
+msgid " : Next hop"
+msgstr " : নেক্স হোপ"
+
+msgid ""
+"\"Customization Script\" is analogous to \"User Data\" in other systems."
+msgstr ""
+"অতোপ্পা সিস্তেমশীংদা \"Customization Script\" অসি \"User Data\"গা এনালোগস ওইনৈ।"
+
+#, python-format
+msgid "%(field_name)s: Invalid IP address (value=%(ip)s)"
+msgstr "%(field_name)s: চৎনবা য়াদবা IP এদ্রেস (value=%(ip)s)"
+
+#, python-format
+msgid "%(field_name)s: Invalid IP address (value=%(network)s)"
+msgstr "%(field_name)s: চৎনবা য়াদবা IP এদ্রেস (value=%(network)s)"
+
+#, python-format
+msgid "%(instance_name)s %(fixed_ip)s"
+msgstr "%(instance_name)s %(fixed_ip)s"
+
+#, python-format
+msgid "%(name)s - %(size)s GB (%(label)s)"
+msgstr "%(name)s - %(size)s GB (%(label)s)"
+
+#. Translators:  UTC offset and timezone label
+#, python-format
+msgid "%(offset)s: %(label)s"
+msgstr "%(offset)s: %(label)s"
+
+#, python-format
+msgid "%(resource_status)s: %(resource_status_reason)s"
+msgstr "%(resource_status)s: %(resource_status_reason)s"
+
+#, python-format
+msgid "%(stack_status_title)s: %(stack_status_reason)s"
+msgstr "%(stack_status_title)s: %(stack_status_reason)s"
+
+#, python-format
+msgid "%(type)s (%(backend)s backend)"
+msgstr "%(type)s (%(backend)s backend)"
+
+#, python-format
+msgid "%(used)s %(key)s used"
+msgstr "%(used)s %(key)s শীজিন্নরে"
+
+#, python-format
+msgid "%s (Default)"
+msgstr "%s (দিফোল্ট)"
+
+#, python-format
+msgid "%s (current)"
+msgstr "%s (হৌজিক্কী)"
+
+#, python-format
+msgid "%s GB"
+msgstr "GB %s"
+
+#, python-format
+msgid "%s instances"
+msgstr "ইন্সতেন্স %s "
+
+#, python-format
+msgid "%sGB"
+msgstr "GB%s"
+
+#, python-format
+msgid "%sMB"
+msgstr "MB%s"
+
+msgid "(Quota exceeded)"
+msgstr "(ক্যুওতা হেল্লে)"
+
+msgid ", add project groups"
+msgstr "প্রোজেক্ত গ্রুপশীং হাপচিল্লু"
+
+msgid ", update project groups"
+msgstr "প্রোজেক্ত গ্রুপশীং অপদেত তৌ"
+
+msgid "-"
+msgstr "-"
+
+msgid "A local environment to upload."
+msgstr "অপলোদ তৌনবা লোকেল ইনভাইরোনমেন্ত অমা।"
+
+msgid "A local image to upload."
+msgstr "অপলোদ তৌনবা লোকেল ইমেজ অমা।"
+
+msgid "A local template to upload."
+msgstr "অপলোদ তৌনবা লোকেল তেমপ্লেত অমা।"
+
+msgid ""
+"A script or set of commands to be executed after the instance has been built "
+"(max 16kb)."
+msgstr ""
+"ইন্সতেন্স অদুগী মতুংদা পাংথোক্কদবা স্ক্রিপ্ত নত্ত্রগা কমান্দশীংগী সেত অমা শেম্লে "
+"(মেক্সিমম 16kb)।"
+
+msgid "AKI - Amazon Kernel Image"
+msgstr "AKI - আমাজোন কর্নেল ইমেজ"
+
+#, python-format
+msgid "ALLOW %(ethertype)s %(proto_port)s %(direction)s %(remote)s"
+msgstr "%(ethertype)s %(proto_port)s %(direction)s %(remote)s য়াহল্লু"
+
+msgid "AMI - Amazon Machine Image"
+msgstr "AMI - আমাজোন মেছিন ইমেজ"
+
+msgid "API Access"
+msgstr "API এক্সেস"
+
+msgid "API Endpoints"
+msgstr "API এন্দপোইন্তশীং"
+
+msgid "ARI - Amazon Ramdisk Image"
+msgstr "ARI - আমাজোন রামদিস্ক ইমেজ"
+
+msgid "Access & Security"
+msgstr "এক্সেস অমসুং সেক্যুরিতি"
+
+msgid "Action"
+msgstr "এক্সন"
+
+msgid "Action Log"
+msgstr "এক্সন লোগ"
+
+msgctxt "Current status of a Floating IP"
+msgid "Active"
+msgstr "এক্তিভ"
+
+msgctxt "Current status of a Network"
+msgid "Active"
+msgstr "এক্তিভ"
+
+msgctxt "Current status of an Image"
+msgid "Active"
+msgstr "এক্তিভ"
+
+msgctxt "Current status of an Instance"
+msgid "Active"
+msgstr "এক্তিভ"
+
+msgctxt "current status of port"
+msgid "Active"
+msgstr "এক্তিভ"
+
+msgctxt "current status of router"
+msgid "Active"
+msgstr "এক্তিভ"
+
+msgctxt "status of a network port"
+msgid "Active"
+msgstr "এক্তিভ"
+
+msgid ""
+"Actual device name may differ due to hypervisor settings. If not specified, "
+"then hypervisor will select a device name."
+msgstr ""
+"হায়পরভিজর সেত্তিংশীংনা মরম ওইদুনা অশেংবা দিভাইস মমীং তোঙানবা য়াই। করিগুম্বা "
+"শেংনা তাক্ত্রবদি, হায়পরভিজরনা দিভাইস মমীং অমা খনগনি।"
+
+msgid "Add"
+msgstr "হাপচিল্লু"
+
+msgid "Add DHCP Agent"
+msgstr "DHCP এজেন্ত হাপচিল্লু"
+
+msgid "Add Group Assignment"
+msgstr "গ্রুপ এসাইনমেন্ত হাপচিল্লু"
+
+msgid "Add Interface"
+msgstr "ইন্টরফেস হাপচিল্লু"
+
+msgid "Add Rule"
+msgstr "রুল হাপচিল্লু"
+
+msgid "Add User to Group"
+msgstr "গ্রুপ্তা য়ুজর হাপচিল্লু"
+
+msgid "Add Users"
+msgstr "য়ুজরশীং হাপচিল্লু"
+
+msgid ""
+"Add hosts to this aggregate or remove hosts from it. Hosts can be in "
+"multiple aggregates."
+msgstr ""
+"এগ্রিগেত অসিদা হোষ্টশীং হাপচিল্লু নত্ত্রগা মদুদগী হোষ্টশীং লৌথোকউ। হোষ্টশীং অদু মলতিপল "
+"ওইবা এগ্রিগেতশীংদা ওইবা য়াই।"
+
+msgid "Add hosts to this aggregate. Hosts can be in multiple aggregates."
+msgstr ""
+"এগ্রিগেত অসিদা হোষ্টশীং হাপচিল্লু। হোষ্টশীং অদু মলতিপল ওইবা এগ্রিগেতশীংদা ওইবা য়াই।"
+
+msgid "Add/Remove Hosts to Aggregate"
+msgstr "এগ্রিগেত্তা হোষ্টশীং হাপচিল্লু/লৌথোকউ"
+
+msgid ""
+"Additional routes announced to the hosts. Each entry is: destination_cidr,"
+"nexthop (e.g., 192.168.200.0/24,10.56.1.254) and one entry per line."
+msgstr ""
+"হোষ্টশীংদা অহেনবা রুতশীং খংহল্লে। এন্ত্রি খুদিংমক অসি: destination_cidr,nexthop (e."
+"g., 192.168.200.0/24,10.56.1.254) অমসুং লাইন খুদিংগী এন্ত্রি অমনি।"
+
+msgid "Admin"
+msgstr "এদমিন"
+
+msgid "Admin Password"
+msgstr "এদমিন পাসৱার্দ"
+
+msgid "Admin State"
+msgstr "এদমিন ষ্টেত"
+
+msgid "Advanced Options"
+msgstr "এদভান্স ওইবা ওপসনশীং"
+
+msgid ""
+"After launching an instance, you login using the private key (the username "
+"might be different depending on the image you launched):"
+msgstr ""
+"ইন্সতেন্স অমা পুথোক্লবা মতুংদা, নহাক্না প্রাইভেত কী অদু শীজিন্নদুনা লোগইন তৌ (নহাক্না "
+"পুথোক্লিবা ইমেজ অদুগী মখা পোন্না য়ুজরনেম অদু তোঙানবা য়াই):"
+
+#, python-format
+msgid "Agent %s was successfully added."
+msgstr "এজেন্ত %s মায় পাক্না হাপচিল্লে।"
+
+msgid "All Available Hosts"
+msgstr "অফংবা হোষ্ট পুম্নমক"
+
+msgid "All Groups"
+msgstr "গ্রুপ পুম্নমক"
+
+msgid "All Hypervisors"
+msgstr "হাইপরভিজর পুম্নমক"
+
+msgid "All ICMP"
+msgstr "ICMP পুম্নমক"
+
+msgid "All Projects"
+msgstr "প্রোজেক্ত পুম্নমক"
+
+msgid "All Security Groups"
+msgstr "সেক্যুরিতি গ্রুপ পুম্নমক"
+
+msgid "All TCP"
+msgstr "TCP পুম্নমক"
+
+msgid "All UDP"
+msgstr "UDP পুম্নমক"
+
+msgid "All Users"
+msgstr "য়ুজর পুম্নমক"
+
+msgid "All available hosts"
+msgstr "অফংবা হোষ্ট পুম্নমক"
+
+msgid "Allocate Floating IP"
+msgstr "ফ্লোতিং IP এলোকেত তৌ "
+
+msgid "Allocate IP"
+msgstr "IP এলোকেত তৌ"
+
+msgid "Allocate IP To Project"
+msgstr "প্রোজেক্তা IP এলোকেত তৌ"
+
+msgid "Allocate a floating IP from a given floating IP pool."
+msgstr "অপীবা ফ্লোতিং IP পুল অমদগী ফ্লোতিং IP অমা এলোকেত তৌ।"
+
+#, python-format
+msgid "Allocated Floating IP %(ip)s."
+msgstr "এলোকেত তৌরবা ফ্লোতিং %(ip)s"
+
+msgid "Allocation Pools"
+msgstr "এলোকেসন পুলশীং"
+
+msgid "An external (HTTP) URL to load the template from."
+msgstr "তেমপ্লেত অদু লোদ তৌনবা এক্সতর্নেল (HTTP) URL অমা"
+
+msgid ""
+"An instance can be launched with varying types of attached storage. You may "
+"select from those options here."
+msgstr ""
+"এতেচ তৌরবা ষ্টোরেজগী তোঙান-তোঙানবা মখলশীংনা ইন্সতেন্স অমা শেমগৎপা য়াই। নহাক্না "
+"মফমসিদা লৈবা ওপসনশীং অদুদগী খনবা য়াই।"
+
+msgid ""
+"An unexpected error has occurred. Try refreshing the page. If that doesn't "
+"help, contact your local administrator."
+msgstr ""
+"খংহৌদবা অশোয়বা অমা থোকখ্রে। পেজ রিফ্রেস তৌদুনা হোৎনৌ। করিগুম্বা মদুনা মতেং "
+"ওইদ্রবদি, নহাক্কী লোকেল এদমিনিষ্ট্রেতর কন্তেক্ত তৌ।"
+
+msgid "Any"
+msgstr "অমহেক্তা"
+
+msgid "Any Availability Zone"
+msgstr "এভেলএবিলিতি জোন অমহেক্তা"
+
+msgid "Architecture"
+msgstr "আর্কিতেকচর"
+
+msgid "Associate"
+msgstr "এসোসিএত তৌ"
+
+msgid "Associate Floating IP"
+msgstr "ফ্লোতিং IP এসোসিএত তৌ"
+
+msgid "Associate QoS Spec"
+msgstr "QoS স্পেক এসোসিএত তৌ"
+
+msgid "Associate QoS Spec with Volume Type"
+msgstr "QoS স্পেক অদু ভোল্যুম তাইপকা এসোসিএত তৌ"
+
+msgid "Associated QoS Spec"
+msgstr "এসোসিএত তৌরবা QoS স্পেক"
+
+msgid "At least one network must be specified."
+msgstr "য়ামদ্রবদা নেতৱার্ক অমদি তাক্কদবনি।"
+
+msgid "Attach To Instance"
+msgstr "ইন্সতেন্সতা এতেচ তৌ"
+
+msgid "Attach Volume"
+msgstr "ভোল্যুম এতেচ তৌ"
+
+msgid "Attach to Instance"
+msgstr "ইন্সতেন্সতা এতেচ তৌ"
+
+msgid "Attached"
+msgstr "এতেচ তৌরে"
+
+msgid "Attached Device"
+msgstr "এতেচ তৌরবা দিভাইস"
+
+msgid "Attached To"
+msgstr "এতেচ তৌরে"
+
+msgctxt "Current status of a Volume"
+msgid "Attaching"
+msgstr "এতেচ তৌরি"
+
+#, python-format
+msgid "Attaching volume %(vol)s to instance %(inst)s on %(dev)s."
+msgstr "%(dev)sগী ইন্সতেন্স %(inst)sদা ভোল্যুম %(vol)s এতেচ তৌরি।"
+
+msgid "Attachments"
+msgstr "এতেচমেন্তশীং"
+
+msgid "Authentication URL"
+msgstr "ওথেন্তিকেসন URL "
+
+msgid "Automatic"
+msgstr "ওতোমেতিক"
+
+msgid ""
+"Automatic: The entire disk is a single partition and automatically resizes. "
+"Manual: Results in faster build times but requires manual partitioning."
+msgstr ""
+"ওতোমেতিক: অপুনবা দিস্ক অসি সিঙ্গল পার্তিসন অমনি অমসুং মশা মথন্তা রিসাইজ তৌজৈ। "
+"মেন্যুএল: হেন্না য়াংবা শেম্বগী মতম লৈ অদুবু মেন্যুএল ওইনা পার্তিসন তৌবা মথৌ তাই।"
+
+msgid "Availability Zone"
+msgstr "এভেলএবিলিতি জোন"
+
+msgid "Availability Zone Name"
+msgstr "এভেলএবিলিতি জোনগী মমীং"
+
+msgid "Availability Zones"
+msgstr "এভেলএবিলিতি জোনশীং"
+
+msgid "Available"
+msgstr "ফংই"
+
+msgctxt "Current status of a Volume"
+msgid "Available"
+msgstr "ফংই"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Available"
+msgstr "ফংই"
+
+msgid "Available networks"
+msgstr "অফংবা নেতৱার্কশীং"
+
+msgid "Backup Name"
+msgstr "বেকঅপ মমীং"
+
+msgid "Backups"
+msgstr "বেকঅপশীং"
+
+msgid "Block Migration"
+msgstr "মাইগ্রেসন ব্লোক তৌ"
+
+msgid "Block Storage Services"
+msgstr "ষ্টোরেজ সর্ভিসশীং ব্লোক তৌ"
+
+msgid "Boot from image"
+msgstr "ইমেজদগী বুত তৌ"
+
+msgid "Boot from image (creates a new volume)"
+msgstr "ইমেজদগী বুত তৌ (অনৌবা ভোল্যুম অমা শেম্মী)"
+
+msgid "Boot from snapshot"
+msgstr "স্নেপশোত্তগী বুত তৌ"
+
+msgid "Boot from volume"
+msgstr "ভোল্যুমদগী বুত তৌ"
+
+msgid "Boot from volume snapshot (creates a new volume)"
+msgstr "ভোল্যুম স্নেপশোত্তগী বুত তৌ (অনৌবা ভোল্যুম অমা শেম্মী)"
+
+msgid "Bootable"
+msgstr "বুত তৌবা য়াবা"
+
+msgid "CIDR"
+msgstr "CIDR"
+
+msgid "CIDR must be specified."
+msgstr "CIDR শেংনা তাক্কদবনি।"
+
+msgid "Cancel"
+msgstr "কেন্সেল তৌবা"
+
+msgid "Centralized"
+msgstr "সেন্ত্রেলাইজ তৌরবা"
+
+msgid "Change"
+msgstr "হোংদোকউ"
+
+msgid "Change Password"
+msgstr "পাসৱার্দ হোংদোকউ"
+
+msgid "Change Stack Template"
+msgstr "ষ্টেক তেমপ্লেত হোংদোকউ"
+
+msgid "Change Template"
+msgstr "তেমপ্লেত হোংদোকউ"
+
+msgid "Change Volume Type"
+msgstr "ভোল্যুম তাইপ হোংদোকউ"
+
+msgid "Change your password. We highly recommend you create a strong one. "
+msgstr ""
+"নহাক্কী পাসৱার্দ হোংদোকউ। নহাক্না অকনবা অমা শেম্নবা ঐখোয়না কন্না রেকমেন্দ তৌই।"
+
+msgid "Changing password is not supported."
+msgstr "পাসৱার্দ হোংবা সপোর্ত তৌদে।"
+
+msgid "Checksum"
+msgstr "চেকসম"
+
+msgid "Choose Your Boot Source Type."
+msgstr "নহাক্কী বুত সোর্স তাইপ খল্লু।"
+
+msgid "Choose a Host to migrate to."
+msgstr "মাইগ্রেত তৌনবা হোষ্ট অমা খল্লু।"
+
+msgid ""
+"Choose a key pair name you will recognise and paste your SSH public key into "
+"the space provided."
+msgstr ""
+"নহাক্না শকখংগদবা কী পেয়র অমগী মমীং খল্লু অমসুং নহাক্কী SSH পব্লিক কী অদু পীরিবা "
+"অহাংবা মফম অদুদা পেষ্ট তৌ।"
+
+msgid "Choose a snapshot"
+msgstr "স্নেপশোত অমা খল্লু"
+
+msgid "Choose a volume"
+msgstr "ভোল্যুম অমা খল্লু"
+
+msgid "Choose an DHCP Agent to attach to."
+msgstr "এতেচ তৌনবা DHCP এজেন্ত অমা খল্লু। "
+
+msgid "Choose an image"
+msgstr "ইমেজ অমা খল্লু"
+
+msgid "Choose associated QoS Spec."
+msgstr "এসোসিএত তৌবা QoS স্পেক খল্লু"
+
+msgid "Choose consumer for this QoS Spec."
+msgstr "QoS স্পেক অসিগী কঞ্জ্যুমর খল্লু।"
+
+msgid ""
+"Choose network from Available networks to Selected networks by push button "
+"or drag and drop, you may change NIC order by drag and drop as well. "
+msgstr ""
+"নেতৱার্কশীং 'অফংবা নেতৱার্কশীং'দগী 'খল্লবা নেতৱার্ক'তা বতন অদু ক্লিক তৌদুনা, নত্ত্রগা "
+"দ্রেগ অমসুং দ্রোপ তৌদুনা খল্লু, নহাক্না NICগী মথং-মনাউ অদুসু দ্রেগ অমসুং দ্রোপ তৌদুনা "
+"হোংদোক-হোংজিন তৌবা য়াই।"
+
+msgid "Choose the flavor to launch."
+msgstr "শেমগৎনবা ফ্লেভর অদু খল্লু।"
+
+msgid "Cipher"
+msgstr "সাইফর"
+
+msgid "Clear Domain Context"
+msgstr "দোমেইন কন্তেক্স ক্লিয়র তৌ"
+
+msgid "Click here to show only console"
+msgstr "কন্সোলখক্তা উৎনবা মফমসিদা ক্লিক তৌ"
+
+msgid "Close"
+msgstr "ক্লোজ তৌ"
+
+msgid "Code"
+msgstr "কোদ"
+
+msgid "Compute"
+msgstr "কম্প্যুত"
+
+msgid "Compute Host"
+msgstr "হোষ্ট কম্প্যুত তৌ"
+
+msgid "Compute Services"
+msgstr "কম্প্যুত সর্ভিসশীং"
+
+msgid "Configuration Drive"
+msgstr "কনফিগুরেসন দ্রাইভ"
+
+msgid ""
+"Configure OpenStack to write metadata to a special configuration drive that "
+"attaches to the instance when it boots."
+msgstr ""
+"ইন্সতেন্সনা বুত তৌবা মতমদা মদুদা এতেচ তৌবা অখন্নবা কনফিগুরেসন দ্রাইভ অমদা মেতাদেতা "
+"ইনবা ওপনষ্টেক কনফিগর তৌ।"
+
+msgid "Confirm Admin Password"
+msgstr "এদমিন পাসৱার্দ কনফার্ম তৌ"
+
+msgid "Confirm Password"
+msgstr "পাসৱার্দ কনফার্ম তৌ"
+
+msgid "Confirm Rebuild Password"
+msgstr "পাসৱার্দ রিবিল্ড তৌবা কনফার্ম তৌ"
+
+msgid "Confirm Resize/Migrate"
+msgstr "রিসাইজ/মাইগ্রেত তৌবা কনফার্ম তৌ"
+
+msgid "Confirm new password"
+msgstr "অনৌবা পাসৱার্দ কনফার্ম তৌ"
+
+msgid "Console"
+msgstr "কন্সোল তৌ"
+
+#, python-format
+msgid "Console type \"%s\" not supported."
+msgstr "কন্সোল মখল \"%s\" অসি সপোর্ত তৌদে।"
+
+msgid "Consumer"
+msgstr "কঞ্জ্যুমর"
+
+msgid "Container Format"
+msgstr "কন্তেনর ফোর্মেত"
+
+msgid "Container Name"
+msgstr "কন্তেনর মমীং"
+
+msgid "Containers"
+msgstr "কন্তেনরশীং"
+
+msgid "Control Location"
+msgstr "কন্ত্রোল লোকেসন"
+
+msgid ""
+"Control access to your instance via key pairs, security groups, and other "
+"mechanisms."
+msgstr ""
+"কী পেয়র, সেক্যুরিতি গ্রপ, অমসুং অতোপ্পা মেকানিজমশীংগী মতেংনা নহাক্কী ইন্সতেন্সকী "
+"এক্সেস কন্ত্রোল তৌ।"
+
+#, python-format
+msgid "Cores(Available: %(avail)s, Requested: %(req)s)"
+msgstr "কোরশীং (ফংলিবা: %(avail)s, রিক্বেষ্ট তৌরিবা: %(req)s)"
+
+#, python-format
+msgid "Could not find default role \"%s\" in Keystone"
+msgstr "কীষ্টোন্দা দিফোল্ট রোল \"%s\" ফংবা ঙমদে"
+
+msgid "Create"
+msgstr "শেম্মু"
+
+msgctxt "Action log of an instance"
+msgid "Create"
+msgstr "শেম্মু"
+
+msgid "Create An Image"
+msgstr "ইমেজ অমা শেম্মু"
+
+msgid "Create Backup"
+msgstr "বেকঅপ শেম্মু"
+
+msgid "Create Domain"
+msgstr "দোমেইন শেম্মু"
+
+msgid "Create Encrypted Volume Type"
+msgstr "এনক্রিপ্ত তৌরবা ভোল্যুম তাইপ শেম্মু"
+
+msgid "Create Encryption"
+msgstr "এনক্রিপসন শেম্মু"
+
+msgid "Create Flavor"
+msgstr "ফ্লেবর শেম্মু"
+
+msgid "Create Group"
+msgstr "গ্রুপ শেম্মু"
+
+msgid "Create Host Aggregate"
+msgstr "হোষ্ট এগ্রিগেত শেম্মু"
+
+msgid "Create Image"
+msgstr "ইমেজ শেম্মু"
+
+msgid "Create Key Pair"
+msgstr "কী পেয়র শেম্মু"
+
+msgid "Create Network"
+msgstr "নেতৱার্ক শেম্মু"
+
+msgid "Create Network (Quota exceeded)"
+msgstr "নেতৱার্ক শেম্মু (ক্যুওতা হেল্লে)"
+
+msgid "Create Port"
+msgstr "পোর্ত শেম্মু"
+
+msgid "Create Project"
+msgstr "প্রোজেক্ত শেম্মু"
+
+msgid "Create QoS Spec"
+msgstr "QoS স্পেক শেম্মু"
+
+msgid "Create Role"
+msgstr "রোল শেম্মু"
+
+msgid "Create Router"
+msgstr "রাউতর শেম্মু"
+
+msgid "Create Router (Quota exceeded)"
+msgstr "রাউতর শেম্মু (ক্যুওতা হেল্লে)"
+
+msgid "Create Security Group"
+msgstr "সেক্যুরিতি গ্রুপ শেম্মু"
+
+msgid "Create Security Group (Quota exceeded)"
+msgstr "সেক্যুরিতি গ্রুপ শেম্মু (ক্যুওতা হেল্লে)"
+
+msgid "Create Snapshot"
+msgstr "স্নেপশোত শেম্মু"
+
+msgid "Create Spec"
+msgstr "স্পেক শেম্মু"
+
+msgid "Create Stack"
+msgstr "ষ্টেক শেম্মু"
+
+msgid "Create Subnet"
+msgstr "সবনেত শেম্মু"
+
+msgid "Create Subnet (Quota exceeded)"
+msgstr "সবনেত শেম্মু (ক্যুওতা হেল্লে)"
+
+msgid "Create User"
+msgstr "য়ুজর শেম্মু"
+
+msgid "Create Volume"
+msgstr "ভোল্যুম শেম্মু"
+
+msgid "Create Volume Backup"
+msgstr "ভোল্যুম বেকঅপ শেম্মু"
+
+msgid "Create Volume Snapshot"
+msgstr "ভোল্যুম স্নেপশোত শেম্মু"
+
+msgid "Create Volume Snapshot (Force)"
+msgstr "ভোল্যুম স্নেপশোত শেম্মু (ফোর্স)"
+
+msgid "Create Volume Type"
+msgstr "ভোল্যুম তাইপ শেম্মু"
+
+msgid "Create Volume Type Encryption"
+msgstr "ভোল্যুম তাইপ এনক্রিপসন শেম্মু"
+
+msgid "Create Volume Type Extra Spec"
+msgstr "ভোল্যুম তাইপ এক্সত্রা স্পেক শেম্মু"
+
+msgid "Create a New Volume"
+msgstr "অনৌবা ভোল্যুম অমা শেম্মু"
+
+msgid "Create a Router"
+msgstr "রাউতর অমা শেম্মু"
+
+msgid "Create a new \"extra spec\" key-value pair for a volume type."
+msgstr "ভোল্যুম তাইপ অমগীদমক অনৌবা \"এক্সত্রা স্পেক\" কী-ভেল্যু অমা শেম্মু।"
+
+msgid "Create a new role."
+msgstr "অনৌবা রোল অমা শেম্মু।"
+
+msgid "Create a new stack with the provided values."
+msgstr "পীরিবা ভেল্যুশীংদুনা অনৌবা ষ্টেক অমা শেম্মু।"
+
+msgid ""
+"Create a new user and set related properties including the Primary Project "
+"and Role."
+msgstr ""
+"অনৌবা য়ুজর অমা শেম্মু অমসুং প্রাইমারি প্রোজেক্ত অমসুং রোল য়াউনা মরি লৈনবা প্রোপর্টিশীং "
+"সেত তৌ।"
+
+msgid "Create a project to organize users."
+msgstr "য়ুজরশীং ওর্গানাইজ তৌনবা প্রোজেক্ত অমা শেম্মু।"
+
+msgid ""
+"Create a subnet associated with the network. Advanced configuration is "
+"available by clicking on the \"Subnet Details\" tab."
+msgstr ""
+"নেতৱার্ক অদুগা এসোসিএত তৌবা সবনেত অমা শেম্মু। এদভান্স ওইবা কনফিগুরেসন অসি "
+"\"সবনেতকী অকুপ্পা মরোলশীং\" তেব অদুদা ক্লিক তৌরগা ফংই।"
+
+msgid "Create an Encrypted Volume Type"
+msgstr "এনক্রিপ্ত তৌরবা ভোল্যুম তাইপ অমা শেম্মু"
+
+msgid "Created"
+msgstr "শেম্লে"
+
+#, python-format
+msgid "Created extra spec \"%s\"."
+msgstr "অহেনবা স্পেক \"%s\" শেম্লে।"
+
+#, python-format
+msgid "Created network \"%s\"."
+msgstr "নেত‍ৱার্ক \"%s\" শেম্লে।"
+
+#, python-format
+msgid "Created new domain \"%s\"."
+msgstr "অনৌবা দোমেইন \"%s\" শেম্লে।"
+
+#, python-format
+msgid "Created new flavor \"%s\"."
+msgstr "অনৌবা ফ্লেবর \"%s\" শেম্লে।"
+
+#, python-format
+msgid "Created new host aggregate \"%s\"."
+msgstr "অনৌবা হোষ্ট এগ্রিগেত \"%s\" শেম্লে।"
+
+#, python-format
+msgid "Created new project \"%s\"."
+msgstr "অনৌবা প্রোজেক্ত \"%s\" শেম্লে।"
+
+#, python-format
+msgid "Created spec \"%s\"."
+msgstr "স্পেক \"%s\" শেম্লে।"
+
+#, python-format
+msgid "Created subnet \"%s\"."
+msgstr "শেম্লবা সবনেত \"%s\""
+
+msgctxt "Current status of a Volume"
+msgid "Creating"
+msgstr "শেম্লি"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Creating"
+msgstr "শেম্লি"
+
+msgid ""
+"Creating encryption for a volume type causes all volumes with that volume "
+"type to be encrypted.  Encryption information cannot be added to a volume "
+"type if volumes are currently in use with that volume type."
+msgstr ""
+"ভোল্যুম মখল অমগী এনক্রিপসন শেম্বনা ভোল্যুম মখল অদুগা লোয়নবা ভোল্যুম পুম্নমক এনক্রিপ "
+"তৌহল্লি। করিগুম্বা ভোল্যুম মখল অদুগা লোয়ননা হৌজিক্কী ওইনা ভোল্যুমশীং শীজিন্নরিবা "
+"ওইরবদি ভোল্যুম মখল অমদা এনক্রিপসনগী ইনফোর্মেসন হাপচিনবা য়াদে। "
+
+#, python-format
+msgid "Creating volume \"%s\""
+msgstr "ভোল্যুম \"%s\" শেম্লি"
+
+#, python-format
+msgid "Creating volume backup \"%s\""
+msgstr "ভোল্যুম বেকঅপ \"%s\" শেম্লি"
+
+#, python-format
+msgid "Creating volume snapshot \"%s\"."
+msgstr "ভোল্যুম স্নেপশোত \"%s\" শেম্লি।"
+
+msgid "Creation Timeout (minutes)"
+msgstr "ক্রিএসন তাইমআউত (মিনিত)"
+
+msgid "Current Host"
+msgstr "হৌজিক্কী হোষ্ট"
+
+msgid "Current password"
+msgstr "হৌজিক্কী পাসৱার্দ"
+
+msgid "Custom ICMP Rule"
+msgstr "কষ্টম ICMP রুল"
+
+msgid "Custom Properties"
+msgstr "কষ্টম প্রোপর্টিশীং"
+
+msgid "Custom TCP Rule"
+msgstr "কষ্টম TCP রুল"
+
+msgid "Custom UDP Rule"
+msgstr "কষ্টম UDP রুল"
+
+msgid "Customization Script Source"
+msgstr "কষ্টমাইজেসন স্ক্রিপ্ত সোর্স"
+
+msgid "DHCP Agents"
+msgstr "DHCP এজেন্তশীং"
+
+msgid "DNS Name Servers"
+msgstr "DNS নেম সর্ভরশীং"
+
+msgid "Date Updated"
+msgstr "তারিখ অপদেত তৌরে"
+
+msgid "Decrypt Password"
+msgstr "দিক্রিপ্ত পাসৱার্দ"
+
+msgid "Default Quotas"
+msgstr "দিফোল্ট ক্যুওতাশীং"
+
+msgid "Default quotas updated."
+msgstr "দিফোল্ট ক্যুওতাশীং অপদেত তৌরে।"
+
+msgid "Defaults"
+msgstr "দিফোল্টশীং"
+
+#, python-format
+msgid "Delete the created network \"%s\" due to subnet creation failure."
+msgstr "শেম্লবা নেতৱার্ক \"%s\" অদু সবনেত শেম্বদা মায় পাক্তবা মরম্না দিলিত তৌরো।"
+
+msgid "Deleted"
+msgstr "দিলিত তৌরে"
+
+msgctxt "Current status of an Image"
+msgid "Deleted"
+msgstr "দিলিত তৌরে"
+
+msgctxt "Current status of an Instance"
+msgid "Deleted"
+msgstr "দিলিত তৌরে"
+
+msgctxt "Current status of a Volume"
+msgid "Deleting"
+msgstr "দিলিত তৌরি"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Deleting"
+msgstr "দিলিত তৌরি"
+
+msgctxt "Task status of an Instance"
+msgid "Deleting"
+msgstr "দিলিত তৌরি"
+
+msgid "Description"
+msgstr "দিস্ক্রিপসন"
+
+msgid "Description:"
+msgstr "দিস্ক্রিপসন:"
+
+msgid "Destination"
+msgstr "দেষ্টিনেসন"
+
+msgid "Destination CIDR"
+msgstr "দেষ্টিনেসন CIDR"
+
+msgid "Detached"
+msgstr "দিতেচ তৌরে"
+
+msgctxt "Current status of a Volume"
+msgid "Detaching"
+msgstr "দিতেচ তৌরি"
+
+msgid "Details"
+msgstr "অকুপ্পা মরোলশীং"
+
+msgid "Device"
+msgstr "দিভাইস"
+
+msgid "Device ID"
+msgstr "দিভাইস ID"
+
+msgid "Device ID attached to the port"
+msgstr "পোর্ত্তা দিভাইস ID এতেচ তৌরে"
+
+msgid "Device Name"
+msgstr "দিভাইসকী মমীং"
+
+msgid "Device Owner"
+msgstr "দিভাইস ওনর"
+
+msgid "Device owner attached to the port"
+msgstr "পোর্ত্তা দিভাইস ওনর এতেচ তৌরে"
+
+msgid "Device size (GB)"
+msgstr "দিভাইসকী সাইজ (GB)"
+
+msgid "Direct Input"
+msgstr "দাইরেক্ত ইনপুত"
+
+msgid "Direction"
+msgstr "দিরেক্সন"
+
+msgid "Disable Gateway"
+msgstr "গেতৱে দিসএবল তৌ"
+
+msgid "Disable HA mode"
+msgstr "HA মোদ দিসএবল তৌ"
+
+msgid "Disable Service"
+msgstr "সর্ভিস দিসএবল তৌ"
+
+msgid "Disable the compute service."
+msgstr "কম্প্যুত সর্ভিস অদু দিসএবল তৌ।"
+
+msgid "Disabled"
+msgstr "দিসএবল তৌরে"
+
+msgctxt "Current status of a Hypervisor"
+msgid "Disabled"
+msgstr "দিসএবল তৌরে"
+
+#, python-format
+msgid "Disabled compute service for host: %s."
+msgstr "হোষ্টকী দিসএবল তৌরবা কম্প্যুত সর্ভিস: %s."
+
+msgid "Disassociate"
+msgstr "দিসএসোসিএত তৌ"
+
+msgid "Disassociate Floating IP"
+msgstr "ফ্লোতিং IP দিসএসোসিএত তৌ"
+
+msgid "Disk"
+msgstr "দিস্ক"
+
+msgid "Disk (GB)"
+msgstr "দিস্ক (GB)"
+
+msgid "Disk Format"
+msgstr "দিস্ক ফোর্মেত"
+
+msgid "Disk GB Hours"
+msgstr "দিস্ক GB পুংশীং"
+
+msgid "Disk Over Commit"
+msgstr "দিস্ক ওভর কমিত"
+
+msgid "Disk Partition"
+msgstr "দিস্ক পার্তিসন"
+
+msgid "Distributed"
+msgstr "য়েন্থোক্লে"
+
+#, python-format
+msgid "Domain \"%s\" must be disabled before it can be deleted."
+msgstr "দোমেইন \"%s\" দিলিত তৌবা য়ানবা মদু হান্না দিসএবল তৌগদবনি।"
+
+msgid "Domain Context cleared."
+msgstr "দোমেইন কন্তেক্স ক্লিয়র তৌরে।"
+
+#, python-format
+msgid "Domain Context updated to Domain %s."
+msgstr "দোমেইন কন্তেক্স অদু দোমেইন %sদা অপদেত তৌরে।"
+
+msgid "Domain Groups"
+msgstr "দোমেইন গ্রুপশীং"
+
+msgid "Domain ID"
+msgstr "দোমেইন ID"
+
+msgid "Domain Information"
+msgstr "দোমেইন ইনফোর্মেসন"
+
+msgid "Domain Members"
+msgstr "দোমেইন মেম্বরশীং"
+
+msgid "Domain Name"
+msgstr "দোমেইন মমীং"
+
+msgid "Domains"
+msgstr "দোমেইনশীং"
+
+msgid ""
+"Domains provide separation between users and infrastructure used by "
+"different organizations."
+msgstr ""
+"তোঙান-তোঙানবা ওর্গানাইজেসনশীংনা শীজিন্নরিবা ইনফ্রাষ্ট্রকচর অমসুং য়ুজরশীংগী মরক্তা "
+"দোমেইনশীংনা খায়দোকই।"
+
+msgid ""
+"Domains provide separation between users and infrastructure used by "
+"different organizations. Edit the domain details to add or remove groups in "
+"the domain."
+msgstr ""
+"তোঙান-তোঙানবা ওর্গানাইজেসনশীংনা শীজিন্নরিবা ইনফ্রাষ্ট্রকচর অমসুং য়ুজরশীংগী মরক্তা "
+"দোমেইনশীংনা খায়দোকই। দোমেইন অদুদা গ্রুপশীং হাপচিন্নবা নত্ত্রগা লৌথোক্নবা দোমেইনগী "
+"অকুপ্পা মরোলশীং অদু এদিত তৌ।"
+
+msgid "Domains:"
+msgstr "দোমেইনশীং:"
+
+msgid "Down"
+msgstr "দাউন"
+
+msgctxt "Current state of a Hypervisor"
+msgid "Down"
+msgstr "দাউন"
+
+msgctxt "Current status of a Floating IP"
+msgid "Down"
+msgstr "দাউন"
+
+msgctxt "Current status of a Network"
+msgid "Down"
+msgstr "দাউন"
+
+msgctxt "current status of port"
+msgid "Down"
+msgstr "দাউন"
+
+msgctxt "status of a network port"
+msgid "Down"
+msgstr "দাউন"
+
+msgid "Download CSV Summary"
+msgstr "CSV সম্মরি দাউনলোদ তৌ"
+
+msgid "EC2 Access Key"
+msgstr "EC2 এক্সেস কী"
+
+msgid "EC2 Secret Key"
+msgstr "EC2 সিক্রেত কী"
+
+msgid "EC2 URL"
+msgstr "EC2 URL"
+
+msgid "Edit"
+msgstr "এদিত তৌ"
+
+msgid "Edit Consumer"
+msgstr "কঞ্জ্যুমর এদিত তৌ"
+
+msgid "Edit Domain"
+msgstr "দোমেইন এদিত তৌ"
+
+msgid "Edit Flavor"
+msgstr "ফ্লেবর এদিত তৌ"
+
+msgid "Edit Group"
+msgstr "গ্রুপ এদিত তৌ"
+
+msgid "Edit Host Aggregate"
+msgstr "হোষ্ট এগ্রিগেত এদিত তৌ"
+
+msgid "Edit Instance"
+msgstr "ইন্সতেন্স এদিত তৌ"
+
+msgid "Edit Network"
+msgstr "নেতৱার্ক এদিত তৌ"
+
+msgid "Edit Port"
+msgstr "পোর্ত এদিত তৌ"
+
+msgid "Edit Project"
+msgstr "প্রোজেক্ত এদিত তৌ"
+
+msgid "Edit QoS Spec Consumer"
+msgstr "QoS স্পেক কঞ্জ্যুমর এদিত তৌ"
+
+msgid "Edit Router"
+msgstr "রাউতর এদিত তৌ"
+
+msgid "Edit Security Group"
+msgstr "সেক্যুরিতি গ্রুপ এদিত তৌ"
+
+msgid "Edit Security Groups"
+msgstr "সেক্যুরিতি গ্রুপশীং এদিত তৌ"
+
+msgid "Edit Snapshot"
+msgstr "স্নেপশোত এদিত তৌ"
+
+msgid "Edit Spec"
+msgstr "স্পেক এদিত তৌ"
+
+msgid "Edit Subnet"
+msgstr "সবনেত এদিত তৌ"
+
+msgid "Edit Template"
+msgstr "তেমপ্লেত এদিত তৌ"
+
+msgid "Edit Volume"
+msgstr "ভোল্যুম এদিত তৌ"
+
+msgid "Edit Volume Type Extra Spec"
+msgstr "ভোল্যুম তাইপ এক্সত্রা স্পেক এদিত তৌ"
+
+msgid ""
+"Edit the flavor details. Flavors define the sizes for RAM, disk, number of "
+"cores, and other resources. Flavors are selected when users deploy instances."
+msgstr ""
+"ফ্লেবরগী অকুপ্পা মরোলশীং অদু এদিত তৌ। ফ্লেবরশীংনা RAM, দিস্ক, কোরগী মশীং, অমসুং "
+"অতোপ্পা রিসোর্সশীংগী সাইজশীং তাকই। য়ুজরশীংনা ইন্সতেন্সশীং শীজিন্নরকপা মতমদা "
+"ফ্লেবরশীং খল্লি।"
+
+msgid "Edit the image details."
+msgstr "ইমেজগী অকুপ্পা মরোলশীংদু এদিত তৌ।"
+
+msgid "Edit the instance details."
+msgstr "ইন্সতেন্সকী অকুপ্পা মরোলশীং অদু এদিত তৌ।"
+
+msgid "Edit the project details."
+msgstr "প্রোজেক্তকী অকুপ্পা মরোলশিং অদু এদিত তৌ।"
+
+msgid "Edit the role's details."
+msgstr "রোলগী অকুপ্পা মরোলশীং এদিত তৌ।"
+
+msgid "Egress"
+msgstr "ইগ্রেস"
+
+msgid "Email"
+msgstr "ইমেইল"
+
+msgid "Enable DHCP"
+msgstr "DHCP এনেবল ওইহল্লু"
+
+msgid "Enable HA mode"
+msgstr "HA মোদ এনেবল তৌ"
+
+msgid "Enable rollback on create/update failure."
+msgstr "শেম্বা/অপদেত তৌবা মায় পাক্তবদা রোলবেক তৌবা এনেবল তৌ।"
+
+msgid "Enabled"
+msgstr "এনেবল তৌরে"
+
+msgctxt "Current status of a Hypervisor"
+msgid "Enabled"
+msgstr "এনেবল তৌরে"
+
+msgid "Encrypted"
+msgstr "এনক্রিপ্ত তৌরবা"
+
+msgid "Encrypted Password"
+msgstr "এনক্রিপ্ত তৌরবা পাসৱার্দ"
+
+msgid "Encryption"
+msgstr "এনক্রিপসন"
+
+msgid "Enter a value for ICMP code in the range (-1: 255)"
+msgstr "ICMP কোদকীদমক রেঞ্জ (-1: 255)গী ওইবা ভেল্যু অমা এন্তর তৌ।"
+
+msgid "Enter a value for ICMP type in the range (-1: 255)"
+msgstr "ICMP তাইপকীদমক রেঞ্জ (-1: 255)গী ওইবা ভেল্যু অমা এন্তর তৌ।"
+
+msgid "Enter an integer value between 1 and 65535."
+msgstr "1 অমসুং 65535 গী মরক্তা লৈবা ইন্তিজর ভেল্যু অমা এন্তর তৌ।"
+
+msgid "Environment Data"
+msgstr "ইনভাইরোনমেন্ত দেতা"
+
+msgid "Environment File"
+msgstr "ইনভাইরোনমেন্ত ফাইল"
+
+msgid "Environment Source"
+msgstr "ইনভাইরোনমেন্ত সোর্স"
+
+msgid "Ephemeral Disk"
+msgstr "ইফেমেরল দিস্ক"
+
+msgid "Ephemeral Disk (GB)"
+msgstr "ইফেমেরল দিস্ক (GB)"
+
+msgctxt "Current status of a Floating IP"
+msgid "Error"
+msgstr "অশোয়বা"
+
+msgctxt "Current status of a Network"
+msgid "Error"
+msgstr "অশোয়বা"
+
+msgctxt "Current status of a Volume"
+msgid "Error"
+msgstr "অশোয়বা"
+
+msgctxt "Current status of a Volume Backup"
+msgid "Error"
+msgstr "অশোয়বা"
+
+msgctxt "Current status of an Instance"
+msgid "Error"
+msgstr "অশোয়বা"
+
+msgctxt "current status of port"
+msgid "Error"
+msgstr "অশোয়বা"
+
+msgctxt "current status of router"
+msgid "Error"
+msgstr "অশোয়বা"
+
+#, python-format
+msgid "Error Downloading RC File: %s"
+msgstr "RC ফাইল দাউনলোদ তৌবদা শোয়রে: %s"
+
+msgid "Error adding Hosts to the aggregate."
+msgstr "এগ্রিগেত অদুদা হোষ্টশীং হাপচিনবদা শোয়রে।"
+
+msgid "Error editing QoS Spec consumer."
+msgstr "QoS স্পেক কঞ্জ্যুমর এদিত তৌবদা শোয়রে।"
+
+msgid "Error updating QoS Spec association."
+msgstr "QoS স্পেক এসোসিএসন অদু অপদেত তৌবদা শোয়রে।"
+
+msgid "Error when adding or removing hosts."
+msgstr "হোষ্টশীং হাপচিনলিঙৈদা নত্ত্রগা লৌথোক্লিঙৈদা শোয়খ্রে।"
+
+#, python-format
+msgid "Error writing zipfile: %(exc)s"
+msgstr "জিপফাইল ইবদা শোয়রে: %(exc)s"
+
+msgid "Ether Type"
+msgstr "ইথর তাইপ"
+
+msgid "Evacuate Host"
+msgstr "হোষ্ট হাংহল্লু"
+
+msgid ""
+"Evacuate the servers from the selected down host to an active target host."
+msgstr "সর্ভরশীং অদু খল্লবা দাউন হোষ্ট অদুদগী এক্তিভ তার্গেত হোষ্ট অমদা হোংদোকউ।"
+
+msgid "Events"
+msgstr "ইভেন্তশীং"
+
+msgid "Extend Volume"
+msgstr "ভোল্যুম এক্সতেন্দ তৌ"
+
+msgid "Extend the size of a volume."
+msgstr "ভোল্যুম অমগী সাইজ অদু এক্সতেন্দ তৌ।"
+
+#, python-format
+msgid "Extending volume: \"%s\""
+msgstr "ভোল্যুম: \"%s\" এক্সতেন্দ তৌরি"
+
+msgid "External Gateway"
+msgstr "এক্সতর্নেল গেতৱে"
+
+msgid "External Network"
+msgstr "এক্সতর্নেল নেতৱার্ক"
+
+#, python-format
+msgid ""
+"External network \"%(ext_net_id)s\" expected but not found for router "
+"\"%(router_id)s\"."
+msgstr ""
+"এক্সতর্নেল নেতৱার্ক \"%(ext_net_id)s\" এস্পেক্ত তৌই অদুবু রাউতর \"%(router_id)s"
+"\"গীদি ফংদে।"
+
+msgid "Extra Specs"
+msgstr "অহেনবা স্পেকশীং"
+
+#, python-format
+msgid ""
+"Failed to add %(users_to_add)s project members%(group_msg)s and set project "
+"quotas."
+msgstr ""
+"%(users_to_add)s প্রোজেক্ত মেম্বর%(group_msg)s অমসুং প্রোজেক্ত ক্যুওতাশীং সেত তৌবা "
+"মায় পাক্ত্রে।"
+
+#, python-format
+msgid "Failed to add %s project groups and update project quotas."
+msgstr "প্রোজেক্ত গ্রুপ %s হাপচিনবা অমসুং প্রোজেক্ত ক্যুওতাশীং অপদেত তৌবা মায় পাক্ত্রে।"
+
+#, python-format
+msgid "Failed to add agent %(agent_name)s for network %(network)s."
+msgstr "নেতৱার্ক %(network)sগী এজেন্ত %(agent_name)s হাপচিনবা ঙমদ্রে।"
+
+#, python-format
+msgid "Failed to create a port for network %s"
+msgstr "নেতৱার্ক %sগী পোর্ত অমা শেম্বা ঙমদ্রে"
+
+#, python-format
+msgid "Failed to create network \"%(network)s\": %(reason)s"
+msgstr "নেত‍ৱার্ক \"%(network)s\" শেম্বা মায় পাক্ত্রে: %(reason)s"
+
+#, python-format
+msgid "Failed to create network %s"
+msgstr "নেতৱার্ক %s শেম্বা ঙমদ্রে"
+
+#, python-format
+msgid "Failed to create router \"%s\"."
+msgstr "রাউতর \"%s\" শেম্বা মায় পাক্ত্রে।"
+
+#, python-format
+msgid "Failed to delete agent: %s"
+msgstr "এজেন্ত দিলিত তৌবা ঙমদ্রে: %s"
+
+#, python-format
+msgid "Failed to delete interface %s"
+msgstr "ইন্তর্ফেস %s দিলিত তৌবা মায় পাক্ত্রে"
+
+#, python-format
+msgid "Failed to delete network \"%s\""
+msgstr "নেতৱার্ক \"%s\" দিলিত তৌবা মায় পাক্ত্রে"
+
+#, python-format
+msgid "Failed to delete network %s"
+msgstr "নেতৱার্ক %s দিলিত তৌবা ঙমদ্রে"
+
+#, python-format
+msgid "Failed to delete port %s"
+msgstr "পোর্ত %s দিলিত তৌবা মায় পাক্ত্রে"
+
+#, python-format
+msgid "Failed to delete subnet %s"
+msgstr "সবনেত %s দিলিত তৌবা ঙমদ্রে"
+
+#, python-format
+msgid "Failed to disable compute service for host: %s."
+msgstr "হোষ্টকী কম্প্যুত সর্ভিস দিসএবল তৌবা ঙমদ্রে: %s."
+
+#, python-format
+msgid "Failed to evacuate host: %s."
+msgstr "হোষ্ট হাংহনবা ঙমদ্রে: %s"
+
+#, python-format
+msgid "Failed to evacuate instances: %s"
+msgstr "ইন্সতেন্সশীং হাংহনবা ঙমদ্রে: %s"
+
+#, python-format
+msgid "Failed to live migrate instance to host \"%s\"."
+msgstr "ইন্সতেন্স অদু হোষ্ট \"%s\"দা  লাইভ মাইগ্রেত তৌবা ঙমদ্রে।"
+
+#, python-format
+msgid ""
+"Failed to modify %(users_to_modify)s project members%(group_msg)s and update "
+"project quotas."
+msgstr ""
+"%(users_to_modify)s প্রোজেক্ত মেম্বর %(group_msg)s শেমদোক-শেমজিন তৌবা অমসুং "
+"প্রোজেক্ত ক্যুওতাশীং অপদেত তৌবা মায় পাক্ত্রে।"
+
+#, python-format
+msgid "Failed to modify %s domain groups."
+msgstr "দোমেইন গ্রুপ %s শেমদোক-শেমজিন তৌবা মায় পাক্ত্রে।"
+
+#, python-format
+msgid "Failed to modify %s project members and update domain groups."
+msgstr ""
+"প্রোজেক্ত মেম্বর %s শেমদোক-শেমজিন তৌবা অমসুং দোমেইন গ্রুপশীং অপদেত তৌবা মায় পাক্ত্রে।"
+
+#, python-format
+msgid ""
+"Failed to modify %s project members, update project groups and update "
+"project quotas."
+msgstr ""
+"প্রোজেক্ত মেম্বর %s শেমদোক-শেমজিন তৌবা, প্রোজেক্ত গ্রুপশীং অপদেত তৌবা অমসুং প্রোজেক্ত "
+"ক্যুওতাশীং অপদেত তৌবা মায় পাক্ত্রে।"
+
+#, python-format
+msgid "Failed to retrieve network %s for a subnet"
+msgstr "সবনেত অমগী নেতৱার্ক %s রিত্রিভ তৌবা মায় পাক্ত্রে"
+
+#, python-format
+msgid "Failed to update network %s"
+msgstr "নেতৱার্ক %s অপদেত তৌবা ঙমদ্রে"
+
+#, python-format
+msgid "Failed to update port %s"
+msgstr "পোর্ত %s অপদেত তৌবা ঙমদ্রে"
+
+#, python-format
+msgid "Failed to update router %s"
+msgstr "রাউতর %s অপদেত তৌবা মায় পাক্ত্রে"
+
+#, python-format
+msgid "Failed to update subnet \"%(sub)s\":  %(reason)s"
+msgstr "সবনেত \"%(sub)s\" অপদেত তৌবা মায় পাক্ত্রে:  %(reason)s"
+
+msgid "Fault"
+msgstr "অশোয়বা"
+
+msgid "File"
+msgstr "ফাইল"
+
+msgid "File exceeds maximum size (16kb)"
+msgstr "ফাইল অদুনা মেক্সিমম সাইজ (16kb) হেল্লে"
+
+msgid "Filter"
+msgstr "ফিলতর "
+
+msgid "Fingerprint"
+msgstr "ফিঙ্গরপ্রিন্ত"
+
+msgid "Fixed IPs"
+msgstr "ফিক্স তৌরবা IPশীং"
+
+msgid "Flat"
+msgstr "ফ্লেত"
+
+msgid "Flavor"
+msgstr "ফ্লেবর"
+
+msgid "Flavor Access"
+msgstr "ফ্লেবর এক্সেস"
+
+msgid "Flavor Choice"
+msgstr "ফ্লেভর চোইস"
+
+msgid "Flavor Details"
+msgstr "ফ্লেভরগী অকুপ্পা মরোলশীং"
+
+#, python-format
+msgid "Flavor Details: %(name)s\">%(name)s"
+msgstr "ফ্লেভরগী অকুপ্পা মরোলশীং: %(name)s\">%(name)s"
+
+msgid "Flavor ID ="
+msgstr "ফ্লেবর ID ="
+
+msgid ""
+"Flavor ID should be UUID4 or integer. Leave this field blank or use 'auto' "
+"to set a random UUID4."
+msgstr ""
+"ফ্লেবর ID অসি UUID4 নত্ত্রগা ইন্তিজর ওইগদবনি। ফিল্ড অসি হাংনা থম্লম্মু নত্ত্রগা রেন্দম "
+"ওইবা UUID4 অমা সেত তৌনবা 'ওতো' শীজিন্নৌ।"
+
+msgid "Flavor Information"
+msgstr "ফ্লেবরগী ইনফোর্মেসন"
+
+msgid "Flavor Name"
+msgstr "ফ্লেবর মমীং"
+
+msgid "Flavors"
+msgstr "ফ্লেবরশীং"
+
+msgid ""
+"Flavors define the sizes for RAM, disk, number of cores, and other resources "
+"and can be selected when users deploy instances."
+msgstr ""
+"ফ্লেবরশীংনা RAM, দিস্ক, কোরশীংগী মশীং, অমদি অতোপ্পা রিসোর্সশীংগী সাইজ তাকই অমসুং "
+"য়ুজরশীংনা ইন্সতেন্সশীং শীজিন্নরকপা মতমদা খনবা য়াই। "
+
+msgid "Floating IP"
+msgstr "ফ্লোতিং IP"
+
+msgid "Floating IPs"
+msgstr "ফ্লোতিং IPশীং"
+
+msgid ""
+"For TCP and UDP rules you may choose to open either a single port or a range "
+"of ports. Selecting the \"Port Range\" option will provide you with space to "
+"provide both the starting and ending ports for the range. For ICMP rules you "
+"instead specify an ICMP type and code in the spaces provided."
+msgstr ""
+"TCP অমসুং UDP রুলশীংগীদমক নহাক্না সিঙ্গল পোর্ত অমা নত্ত্রগা পোর্তশীংগী রেঞ্জ অমগী "
+"মনুংদা অমা হাংনবা খনবা য়াই। \"পোর্ত রেঞ্জ\" ওপশন খনবনা নঙোন্দা রেঞ্জ অদুগী অহৌবা "
+"অমসুং অরোইবা পোর্ত অনিমক্কী স্পেস পীগনি। ICMP রুলশীংগীদমক্তদি নহাক্না ICMP মখল অমসুং "
+"কোদ অমা পীরিবা স্পেস অদুদা তাকউ।"
+
+msgid "Forbidden"
+msgstr "অথীংবা লৈরবা"
+
+#, python-format
+msgid "Forcing to create snapshot \"%s\" from attached volume."
+msgstr "এতেচ তৌরবা ভোল্যুমদগী স্নেপশোত \"%s\" শেম্নবা ফোর্স তৌরি।"
+
+msgid "Format"
+msgstr "ফোর্মেত"
+
+msgid "Format ="
+msgstr "ফোর্মেত ="
+
+msgid "From Port"
+msgstr "পোর্ত্তগী"
+
+msgid "From here you can add a DHCP agent for the network."
+msgstr "মফমসিদগী নহাক্না নেতৱার্ক অদুগীদমক DHCP এজেন্ত অমা হাপচিনবা য়াই।"
+
+msgid "From here you can create a snapshot of a volume."
+msgstr "মফমসিদগী নহাক্না ভোল্যুম অমগী স্নেপশোত অমা শেম্বা য়াই।"
+
+msgid "From here you can update the default quotas (max limits)."
+msgstr "মফমশীদগী নহাক্না দিফোল্ট ক্যুওতাশীং (মেক্সিমম লিমিতশীং) অপদেত তৌবা য়াই।"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "GMT"
+msgstr "GMT"
+
+msgid "GRE"
+msgstr "GRE"
+
+msgid "Gateway IP"
+msgstr "গেতৱে IP"
+
+msgid "Gateway IP and IP version are inconsistent."
+msgstr "গেতৱে IP অমসুং IP ভর্সন অসি ইনকন্সিস্তেন্ত ওই।"
+
+msgid "Gateway interface is added"
+msgstr "গেতৱে ইন্তর্ফেস অসি হাপচিল্লে"
+
+msgid "Go"
+msgstr "চৎলু"
+
+#, python-format
+msgid "Group \"%s\" was successfully created."
+msgstr "গ্রুপ \"%s\" মায় পাক্না শেম্লে।"
+
+msgid "Group ID"
+msgstr "গ্রুপ ID"
+
+msgid "Group Management"
+msgstr "গ্রুপ মেনেজমেন্ত"
+
+msgid "Group Members"
+msgstr "গ্রুপ মেম্বরশীং"
+
+msgid "Group has been updated successfully."
+msgstr "গ্রুপ মায় পাক্না অপদেত তৌখ্রে।"
+
+msgid "Groups"
+msgstr "গ্রুপশীং"
+
+msgid ""
+"Groups are used to manage access and assign roles to multiple users at once. "
+"After creating the group, edit the group to add users."
+msgstr ""
+"গ্রুপশীং অসি এক্সেস মেনেজ তৌবা অমসুং মলতিপল ওইবা য়ুজরশীংদা রোলশীং অমুক্তদা এসাইন "
+"তৌবদা শীজিন্নৈ। গ্রুপ অদু শেম্লবা মতুংদা, য়ুজরশীং হাপচিন্নবা গ্রুপ অদু এদিত তৌ।"
+
+#. Translators: High Availability mode of Neutron router
+msgid "HA mode"
+msgstr "HA মোদ"
+
+msgid "Help"
+msgstr "হেল্প"
+
+msgid "High Availability Mode"
+msgstr "হায় এভেলএবিলিতি মোদ"
+
+msgid "Home"
+msgstr "হোম"
+
+msgid "Host"
+msgstr "হোষ্ট"
+
+msgid "Host ="
+msgstr "হোষ্ট ="
+
+msgid "Host Aggregate Information"
+msgstr "হোষ্ট এগ্রিগেত ইনফোর্মেসন"
+
+msgid "Host Aggregates"
+msgstr "হোষ্ট এগ্রিগেতশীং"
+
+msgid "Host Routes"
+msgstr "হোষ্ট রুতশীং"
+
+#, python-format
+msgid ""
+"Host Routes format error: Destination CIDR and nexthop must be specified "
+"(value=%s)"
+msgstr ""
+"হোষ্ট রুতশীংগী ফোর্মেত শোয়রে: দেষ্টিনেসন CIDR অমসুং নেক্সহোপ অদু শেংনা তাক্কদবনি "
+"(ভেল্যু=%s)"
+
+msgid ""
+"Host aggregates divide an availability zone into logical units by grouping "
+"together hosts. Create a host aggregate then select the hosts contained in "
+"it."
+msgstr ""
+"হোষ্টশীংগী গ্রুপ শেমদুনা হোষ্ট এগ্রিগেতশীংনা এভেলএবিলিতি জোন অমা লোজিকেল য়ুনিতশীংদা "
+"খায়দোকই। হোষ্ট এগ্রিগেত অমা শেম্মু অদুদগী মদুদা য়াউরিবা হোষ্টশীংদু খল্লু।"
+
+msgid ""
+"Host aggregates divide an availability zone into logical units by grouping "
+"together hosts. Edit the aggregate host to select hosts contained in it."
+msgstr ""
+"হোষ্টশীংগী গ্রুপ শেমদুনা হোষ্ট এগ্রিগেতশীংনা এভেলএবিলিতি জোন অমা লোজিকেল য়ুনিতশীংদা "
+"খায়দোকই। এগ্রিগেত হোষ্ট অদু মদুদা য়াউরিবা হোষ্টশীংদু খন্নবা এদিত তৌ।"
+
+msgid "Hostname"
+msgstr "হোষ্ট মমীং"
+
+msgid "Hosts"
+msgstr "হোষ্টশীং"
+
+msgid "Hypervisor"
+msgstr "হাইপরভিজর"
+
+msgid "Hypervisor Instances"
+msgstr "হাইপরভিজর ইন্সতেন্সশীং"
+
+msgid "Hypervisor Servers"
+msgstr "হাইপরভিজর সর্ভরশীং"
+
+msgid "Hypervisor Summary"
+msgstr "হাইপরভিজর সম্মরি"
+
+msgid "Hypervisors"
+msgstr "হাইপরভিজরশীং"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IP Address"
+msgstr "IP এদ্রেস"
+
+msgid "IP Address (optional)"
+msgstr "IP এদ্রেস (ওপস্নেল)"
+
+msgid "IP Addresses"
+msgstr "IP এদ্রেসশীং"
+
+msgid "IP Protocol"
+msgstr "IP প্রোতোকোল"
+
+msgid "IP Version"
+msgstr "IP ভর্সন"
+
+#, python-format
+msgid "IP address %s associated."
+msgstr "IP এদ্রেস %s এসোসিএত তৌরে।"
+
+msgid ""
+"IP address allocation pools. Each entry is: start_ip_address,end_ip_address "
+"(e.g., 192.168.1.100,192.168.1.120) and one entry per line."
+msgstr ""
+"IP এদ্রেস এলোকেসন পুলশীং। এন্ত্রি খুদিংমক অসি: start_ip_address,end_ip_address "
+"(খুদম ওইনা, 192.168.1.100,192.168.1.120) অমসুং লাইন খুদিংগী এন্ত্রি অমনি।"
+
+msgid ""
+"IP address list of DNS name servers for this subnet. One entry per line."
+msgstr "সবনেত অসিগী DNS নেম সর্ভরশীংগী IP এদ্রেস লিষ্ট। লাইন খুদিংগী এন্ত্রি অমা।"
+
+msgid ""
+"IP address of Gateway (e.g. 192.168.0.254) The default value is the first IP "
+"of the network address (e.g. 192.168.0.1 for 192.168.0.0/24, 2001:DB8::1 for "
+"2001:DB8::/48). If you use the default, leave blank. If you do not want to "
+"use a gateway, check 'Disable Gateway' below."
+msgstr ""
+"গেতৱেগী IP এদ্রেস (খুদম ওইনা, 192.168.0.254) দিফোল্ট ভেল্যু অদুনা নেতৱার্ক এদ্রেস "
+"অদুগী অহানবা IP নি (খুদম ওইনা, 192.168.0.0/24গীদমক 192.168.0.1, 2001:"
+"DB8::/48গীদমক 2001:DB8::1)। করিগুম্বা নহাক্না দিফোল্ট অদু শীজিন্নরবদি, হাংনা থম্মু। "
+"করিগুম্বা নহাক্না গেতৱে অমা শীজিন্নবা পামদ্রবদি, মখাগী 'গেতৱে দিসএবল তৌ' অসি চেক "
+"তৌ।"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv6 Address Configuration Mode"
+msgstr "IPv6 এদ্রেস কনফিগুরেসন মোদ"
+
+msgid "ISO - Optical Disk Image"
+msgstr "ISO - ওপ্তিকেল দিস্ক ইমেজ"
+
+msgid "Identity"
+msgstr "আইদেন্তিতি"
+
+msgid "Identity service does not allow editing user data."
+msgstr "আইদেন্তিতি সর্ভিসনা য়ুজর দেতা এদিত তৌবা য়াহন্দে।"
+
+msgid ""
+"If console is not responding to keyboard input: click the grey status bar "
+"below."
+msgstr ""
+"করিগুম্বা কন্সোলনা কীবোর্দ ইনপুত্তা রেস্পোন্দ পীদ্রবদি: মখাগী গ্রে ষ্টেতস বার অদুদা ক্লিক "
+"তৌ।"
+
+msgid ""
+"If no container name is provided, a default container named volumebackups "
+"will be provisioned for you. Backups will be the same size as the volume "
+"they originate from."
+msgstr ""
+"করিগুম্বা কন্তেনর মমীং অমত্তা পীদ্রবদি, ভোল্যুমবেকঅপস কৌবা দিফোল্ট কন্তেনর অমা "
+"নহাক্কীদমক পীগনি। বেকঅপশীং অসি মখোয়গী হৌরকফম ভোল্যুম অদুগা চপ মান্নবা সাইজ ওইগনি।"
+
+msgid "Image"
+msgstr "ইমেজ"
+
+msgctxt "Type of an image"
+msgid "Image"
+msgstr "ইমেজ"
+
+msgid "Image File"
+msgstr "ইমেজ ফাইল"
+
+msgid "Image ID ="
+msgstr "ইমেজ ID ="
+
+msgid "Image Location"
+msgstr "ইমেজ লোকেসন"
+
+msgid "Image Name"
+msgstr "ইমেজ মমীং"
+
+msgid "Image Name ="
+msgstr "ইমেজ মমীং ="
+
+msgid "Image Source"
+msgstr "ইমেজ সোর্স"
+
+msgid "Image source must be specified"
+msgstr "ইমেজ সোর্স অদু শেংনা তাক্কদবনি"
+
+msgid "Image was successfully updated."
+msgstr "ইমেজ অদু মায় পাক্না অপদেত তৌখ্রে।"
+
+msgid "Images"
+msgstr "ইমেজশীং"
+
+msgid "Import Key Pair"
+msgstr "কী পেয়র ইম্পোর্ত তৌ"
+
+msgid "Info"
+msgstr "ইনফো"
+
+msgid "Information"
+msgstr "ইনফোর্মেসন"
+
+msgid "Ingress"
+msgstr "ইনগ্রেস"
+
+msgid "Injected File Content (Bytes)"
+msgstr "ইনজেক্ত তৌরবা ফাইল কন্তেন্ত (বাইতশীং)"
+
+msgid "Injected File Content Bytes"
+msgstr "ইঞ্জেক্ত তৌরবা ফাইল কন্তেন্ত বাইতশীং"
+
+msgid "Injected File Path Bytes"
+msgstr "ইঞ্জেক্ত তৌরবা ফাইল পাথ বাইতশীং"
+
+msgid "Injected Files"
+msgstr "ইঞ্জেক তৌরবা ফাইলশীং"
+
+msgid "Instance"
+msgstr "ইন্সতেন্স"
+
+msgid "Instance Action List"
+msgstr "ইন্সতেন্স এক্সন লিষ্ট"
+
+msgid "Instance Admin Password"
+msgstr "ইন্সতেন্স এদমিন পাসৱার্দ"
+
+msgid "Instance Boot Source"
+msgstr "ইন্সতেন্স বুত সোর্স"
+
+msgid "Instance Console"
+msgstr "ইন্সতেন্স কন্সোল"
+
+msgid "Instance Console Log"
+msgstr "ইন্সতেন্স কন্সোল লোগ"
+
+msgid "Instance ID"
+msgstr "ইন্সতেন্স ID"
+
+msgid "Instance Name"
+msgstr "ইন্সতেন্স মমীং"
+
+msgid "Instance Overview"
+msgstr "ইন্সতেন্স ওভরভ্যু"
+
+msgid "Instance Password is not set or is not yet available"
+msgstr "ইন্সতেন্স পাসৱার্দ সেত তৌদে নত্ত্রগা হৌজিক ফাউবা ফংদ্রি"
+
+msgid "Instance Security Groups"
+msgstr "ইন্সতেন্স সেক্যুরিতি গ্রুপশীং"
+
+msgid "Instance Snapshot"
+msgstr "ইন্সতেন্স স্নেপশোত"
+
+msgid "Instances"
+msgstr "ইন্সতেন্সশীং"
+
+msgid "Insufficient privilege level to view domain information."
+msgstr "দোমেইন ইনফোর্মেসন য়েংনবগী ইনসফিসিএন্ত প্রিভিলেজ লেভেল"
+
+msgid "Insufficient privilege level to view group information."
+msgstr "গ্রুপ ইনফোর্মেসন য়েংনবগী ইনসফিসিএন্ত প্রিভিলেজ লেভেল"
+
+msgid "Insufficient privilege level to view project information."
+msgstr "প্রোজেক্ত ইনফোর্মেসন য়েংনবা ইনসফিসিএন্ত প্রিভিলেজ লেভেল"
+
+msgid "Insufficient privilege level to view role information."
+msgstr "রোল ইনফোর্মেসন য়েংনবগী ইনসফিসিএন্ত প্রিভিলেজ লেভেল"
+
+msgid "Insufficient privilege level to view user information."
+msgstr "য়ুজর ইনফোর্মেসন য়েংনবা ইনসফিসিএন্ত প্রিভিলেজ লেভেল"
+
+msgid "Interface added"
+msgstr "ইন্তর্ফেস হাপচিল্লে"
+
+msgid "Interfaces"
+msgstr "ইন্টরফেসশীং"
+
+msgid "Internal Interface"
+msgstr "ইন্তর্নেল ইন্তর্ফেস"
+
+msgid "Invalid date format: Using today as default."
+msgstr "চৎনবা য়াদবা তারিখ ফোর্মেত: ঙসি দিফোল্ট ওইনা শীজিন্নদুনা।"
+
+msgid ""
+"Invalid time period. The end date should be more recent than the start date."
+msgstr ""
+"চৎনবা য়াদবা মতম পেরিওদ। লোয়বা তারিখ অদুনা হৌবা তারিখ অদুদগী হেন্না নৌবা ওইগদবনি।"
+
+msgid ""
+"Invalid time period. You are requesting data from the future which may not "
+"exist."
+msgstr ""
+"চৎনবা য়াদবা মতম পেরিওদ। নহাক্না ফ্যুচরদগী রিক্বেষ্ট তৌরিবা দেতা অদু লৈতবা য়াই।"
+
+msgid "Items Per Page"
+msgstr "পেজ খুদিংগী আইতেমশীং"
+
+msgid "Kernel ID"
+msgstr "করনেল ID"
+
+msgid "Key"
+msgstr "কী"
+
+msgid "Key Name"
+msgstr "কী মমীং"
+
+msgid "Key Pair"
+msgstr "কী পেয়র"
+
+msgid "Key Pair Name"
+msgstr "কী পেয়র মমীং"
+
+msgid "Key Pairs"
+msgstr "কী পেয়রশীং"
+
+msgid "Key Pairs are how you login to your instance after it is launched."
+msgstr ""
+"কী পেয়রশীং অসি মদু পুথোক্লবা মতুংদা নহাক্না নহাক্কী ইন্সতেন্সতা লোগইন তৌবা মওং অদুনি।"
+
+msgid "Key Size (bits)"
+msgstr "কী সাইজ (বিতশীং)"
+
+msgid "Key pair to use for authentication."
+msgstr "ওথেন্তিকেসনগীদমক শীজিন্নগদবা কী পেয়র"
+
+msgid "Key-Value Pairs"
+msgstr "কী-ভেল্যু পেয়রশীং"
+
+msgid "Language"
+msgstr "লোল"
+
+msgid "Last Updated"
+msgstr "অরোয়বা অপদেত তৌখিবা"
+
+msgctxt "Time since the last update"
+msgid "Last Updated"
+msgstr "অরোয়বা অপদেত তৌখিবা"
+
+msgid "Launch"
+msgstr "শেমগৎলু"
+
+msgid "Launch Instance"
+msgstr "ইন্সতেন্স শেমগৎলু"
+
+msgid "Launch Instance (Quota exceeded)"
+msgstr "ইন্সতেন্স শেমগৎলু (ক্যুওতা হেল্লে)"
+
+msgid "Launch Parameters"
+msgstr "পেরামিতরশীং শেমগৎলু"
+
+msgid "Launch Stack"
+msgstr "ষ্টেক শেমগৎলু"
+
+msgid "Launch as Instance"
+msgstr "ইন্সতেন্সকুম্না শেমগৎলু"
+
+msgid "Launch instance in these security groups."
+msgstr "সেক্যুরিতি গ্রুপশীং অসিদা ইন্সতেন্স শেমগৎলু"
+
+msgid "Launch instance with these networks"
+msgstr "নেতৱার্কশীং অসিনা ইন্সতেন্স শেমগৎলু"
+
+msgid ""
+"Launching multiple instances is only supported for images and instance "
+"snapshots."
+msgstr ""
+"মলতিপল ওইবা ইন্সতেন্সশীং শেমগৎপসি ইমেজ অমসুং ইন্সতেন্স স্নেপশোতশীংখক্তদা সপোর্ত তৌই।"
+
+msgid "Length of Injected File Path"
+msgstr "ইঞ্জেক্ত তৌরবা ফাইল পাথকী অশাংবা"
+
+msgid "Limit"
+msgstr "লিমিত"
+
+msgid "Live Migrate"
+msgstr "লাইভ মাইগ্রেত তৌ"
+
+msgid "Live Migrate Instance"
+msgstr "লাইভ মাইগ্রেত ইন্সতেন্স"
+
+msgid "Live migrate an instance to a specific host."
+msgstr "অকক্নবা হোষ্ট অমদা ইন্সতেন্স অমা লাইভ মাইগ্রেত তৌ।"
+
+#, python-format
+msgid "Load Balancer VIP %s"
+msgstr "লোদ বেলান্সর VIP %s"
+
+msgid "Local"
+msgstr "লোকেল"
+
+msgid "Local Disk Usage"
+msgstr "লোকেল দিস্ক য়ুসেজ"
+
+msgid "Local Storage (total)"
+msgstr "লোকেল ষ্টোরেজ (অপুনবা)"
+
+msgid "Local Storage (used)"
+msgstr "লোকেল ষ্টোরেজ (শীজিন্নরবা)"
+
+msgid "Log"
+msgstr "লোগ"
+
+msgid "Log Length"
+msgstr "লোগকী অশাংবা"
+
+msgid "MAC Learning State"
+msgstr "MAC লর্নিং ষ্টেত"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "Manage Attachments"
+msgstr "এতেচমেন্তশীং মেনেজ তৌ"
+
+msgid "Manage Floating IP Associations"
+msgstr "ফ্লোতিং IP এসোসিএসনশীং মেনেজ তৌ"
+
+msgid "Manage Hosts"
+msgstr "হোষ্টশীং মেনেজ তৌ"
+
+msgid "Manage Hosts Aggregate"
+msgstr "হোষ্টশীংগী এগ্রিগেত মেনেজ তৌ"
+
+msgid "Manage Hosts within Aggregate"
+msgstr "হোষ্টশীং এগ্রিগেতকী মনুংদা মেনেজ তৌ"
+
+msgid "Manage Members"
+msgstr "মেম্বরশীং মেনেজ তৌ"
+
+msgid "Manage QoS Spec Association"
+msgstr "QoS স্পেক এসোসিএসন মেনেজ তৌ"
+
+msgid "Manage Rules"
+msgstr "রুলশীং মেনেজ তৌ"
+
+msgid "Manage Specs"
+msgstr "স্পেকশীং মেনেজ তৌ"
+
+msgid "Manage Volume Attachments"
+msgstr "ভোল্যুম এতেচমেন্তশীং মেনেজ তৌ"
+
+msgid "Manual"
+msgstr "মেন্যুএল"
+
+msgid "Mapped Fixed IP Address"
+msgstr "মেপ তৌরবা ফিক্স ওইবা IP এদ্রেস"
+
+msgid "Memory Usage"
+msgstr "মেমোরি য়ুসেজ"
+
+msgid "Message"
+msgstr "মেসেজ"
+
+msgid "Metadata"
+msgstr "মেতাদেতা"
+
+msgid "Metadata Items"
+msgstr "মেতাদেতা আইতেমশীং"
+
+msgctxt "Current status of an Instance"
+msgid "Migrating"
+msgstr "মাইগ্রেত তৌরি"
+
+msgctxt "Task status of an Instance"
+msgid "Migrating"
+msgstr "মাইগ্রেত তৌরি"
+
+msgid "Migration Policy"
+msgstr "মাইগ্রেসনগী পোলিসি"
+
+msgid "Min Disk"
+msgstr "মিনিমম দিস্ক"
+
+msgid "Min RAM"
+msgstr "মিনিমম RAM"
+
+msgid "Minimum Disk (GB)"
+msgstr "মিনিমম দিস্ক (GB)"
+
+msgid "Minimum RAM (MB)"
+msgstr "মিনিমম RAM (MB)"
+
+msgid "Minutes"
+msgstr "মিনিত"
+
+#, python-format
+msgid "Modified domain \"%s\"."
+msgstr "দোমেইন \"%s\" শেমদোক-শেমজিন তৌখ্রে।"
+
+#, python-format
+msgid "Modified flavor \"%s\"."
+msgstr "শেমদোক-শেমজিন তৌরবা ফ্লেবর \"%s\"।"
+
+msgid "Modified flavor information, but unable to modify flavor access."
+msgstr ""
+"ফ্লেবর ইনফোর্মেসন শেমদোক-শেমজিন তৌরে, অদুবু ফ্লেবর এক্সেসতি শেমদোক-শেমজিন তৌবা "
+"ঙমদে।"
+
+#, python-format
+msgid "Modified instance \"%s\"."
+msgstr "শেমদোক-শেমজিন তৌরবা ইন্সতেন্স \"%s\""
+
+#, python-format
+msgid "Modified project \"%s\"."
+msgstr "প্রোজেক্ত \"%s\" শেমদোক-শেমজিন তৌরে।"
+
+msgid ""
+"Modified project information and members, but unable to modify project "
+"quotas."
+msgstr ""
+"প্রোজেক্তকী ইনফোর্মেসন অমসুং মেম্বরশীং শেমদোক-শেমজিন তৌরে, অদুবু প্রোজেক্ত ক্যুওতাশীংদি "
+"শেমদোক-শেমজিন তৌবা ঙমদে।"
+
+msgid "Modify Access"
+msgstr "এক্সেস শেমদোক-শেমজিন তৌ"
+
+msgid "Modify Consumer"
+msgstr "কঞ্জ্যুমর শেমদোক-শেমজিন তৌ"
+
+msgid "Modify Groups"
+msgstr "গ্রুপশীং শেমদোক-শেমজিন তৌ"
+
+msgid "Modify Quotas"
+msgstr "ক্যুওতাশীং শেমদোক-শেমজিন তৌ"
+
+msgid "Modify dashboard settings for your user."
+msgstr "নহাক্কী য়ুজরগী দেশবোর্দ সেত্তিংশীং শেমদোক-শেমজিন তৌ।"
+
+msgid "Modify name and description of a volume."
+msgstr "ভোল্যুম অমগী মমীং অমসুং দিস্ক্রিপসন শেমদোক-শেমজিন তৌ।"
+
+msgid "Modify the name and description of a snapshot."
+msgstr "স্নেপশোত অমগী মমীং অমসুং দিস্ক্রিপসন অদু শেমদোক-শেমজিন তৌ।"
+
+msgid "Monitoring:"
+msgstr "মোনিতর তৌরি:"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Name"
+msgstr "মীং"
+
+msgid ""
+"Name may only contain letters, numbers, underscores, periods and hyphens."
+msgstr ""
+"মীংদা ময়েকশীং, মশীংশীং, অন্দরস্কোরশীং, পেরিওদশীং অমসুং হাইফেনশীংখক্তা য়াউবা য়াই।"
+
+msgid ""
+"Name must start with a letter and may only contain letters, numbers, "
+"underscores, periods and hyphens."
+msgstr ""
+"মমীং অদু ময়েক অমনা হৌগদবনি অমসুং ময়েক, নম্বর, অন্দরস্কোর, পেরিওদ অমসুং হায়ফেনখক্তমক "
+"য়াউবা য়াই।"
+
+msgid "Name of the stack to create."
+msgstr "শেম্নবা ষ্টেক অদুগী মমীং।"
+
+#, python-format
+msgid "Name: %(name)s ID: %(uuid)s"
+msgstr "মীং: %(name)s ID: %(uuid)s"
+
+msgid "Network"
+msgstr "নেতৱার্ক"
+
+#, python-format
+msgid "Network %s was successfully updated."
+msgstr "নেতৱার্ক %s মায় পাক্না অপদেত তৌরে।"
+
+msgid "Network Address"
+msgstr "নেতৱার্ক এদ্রেস"
+
+msgid "Network Address and IP version are inconsistent."
+msgstr "নেতৱার্ক এদ্রেস অমসুং IP ভর্সন অসি ইনকন্সিস্তেন্ত ওই।"
+
+msgid "Network Agents"
+msgstr "নেতৱার্ক এজেন্তশীং"
+
+msgid "Network Details"
+msgstr "নেতৱার্ক্কী অকুপ্পা মরোলশীং"
+
+msgid "Network ID"
+msgstr "নেতৱার্ক ID"
+
+msgid "Network Name"
+msgstr "নেতৱার্ক মমীং"
+
+msgid "Network Topology"
+msgstr "নেতৱার্ক তোপোলোজি"
+
+msgid "Network Type:"
+msgstr "নেতৱার্ক তাইপ:"
+
+msgid "Network address in CIDR format (e.g. 192.168.0.0/24)"
+msgstr "CIDR ফোর্মেত্তা ওইবা নেতৱার্ক এদ্রেস (খুদম ওইনা, 192.168.0.0/24)"
+
+msgid "Network address in CIDR format (e.g. 192.168.0.0/24, 2001:DB8::/48)"
+msgstr ""
+"CIDR ফোর্মেত্তা ওইবা নেতৱার্ক এদ্রেস (খুদম ওইনা, 192.168.0.0/24, 2001:DB8::/48)"
+
+msgid "Network list can not be retrieved."
+msgstr "নেতৱার্ক লিষ্ট রিত্রিভ তৌবা য়াদে।"
+
+msgid "Networking"
+msgstr "নেতৱার্কিং"
+
+msgctxt "Task status of an Instance"
+msgid "Networking"
+msgstr "নেতৱার্কিং"
+
+msgid "Networks"
+msgstr "নেতৱার্কশীং"
+
+msgid "Never"
+msgstr "নেভর"
+
+msgid "Never updated"
+msgstr "কৈদৌঙৈদা অপদেত তৌখিদে"
+
+msgid "New DHCP Agent"
+msgstr "অনৌবা DHCP এজেন্ত"
+
+msgid "New Flavor"
+msgstr "অনৌবা ফ্লেভর"
+
+msgid "New Host"
+msgstr "অনৌবা হোষ্ট"
+
+msgid "New password"
+msgstr "অনৌবা পাসৱার্দ"
+
+msgid "New size must be greater than current size."
+msgstr "অনৌবা সাইজ অদুনা হৌজিক্কী সাইজ অসিদগী হেন্না চাউগদবনি।"
+
+msgid "Next"
+msgstr "মথংদা চৎলু"
+
+msgid "No"
+msgstr "নো"
+
+msgid "No Host selected."
+msgstr "হোষ্ট অমত্তা খন্দে।"
+
+msgid "No Hosts found."
+msgstr "হোষ্ট অমত্তা ফংদে।"
+
+msgid "No attached device"
+msgstr "এতেচ তৌরবা দিভাইস অমত্তা লৈতে"
+
+msgid "No availability zones found"
+msgstr "এভেলএবিলিতি জোন অমত্তা লৈতে"
+
+msgid "No available console found."
+msgstr "অফংবা কন্সোল অমত্তা লৈতে।"
+
+msgid "No available projects"
+msgstr "অফংবা প্রোজেক্ত অমত্তা লৈতে"
+
+msgid "No flavors available"
+msgstr "ফ্লেভর অমত্তা ফংদে"
+
+msgid "No floating IP addresses allocated"
+msgstr "ফ্লোতিং IP এদ্রেস অমত্তা এলোকেত তৌদে"
+
+msgid "No floating IP pools available"
+msgstr "ফ্লোতিং IP পুল অমত্তা ফংদে"
+
+msgid "No floating IPs to disassociate."
+msgstr "দিসএসোসিএত তৌনবা ফ্লোতিং IP অমত্তা লৈতে।"
+
+msgid "No groups found."
+msgstr "গ্রুপ অমত্তা ফংদে।"
+
+msgid "No groups."
+msgstr "গ্রুপ অমত্তা লৈতে।"
+
+msgid "No host selected."
+msgstr "হোষ্ট অমত্তা খন্দে।"
+
+msgid "No hosts found."
+msgstr "হোষ্ট অমত্তা ফংদে।"
+
+msgid "No images available"
+msgstr "ইমেজ অমত্তা ফংদে"
+
+msgid "No instances available"
+msgstr "ইন্সতেন্স অমত্তা ফংদে"
+
+msgid "No key pairs available"
+msgstr "কী পেয়র অমত্তা ফংদে"
+
+msgid "No networks available"
+msgstr "নেতৱার্ক অমত্তা ফংদে"
+
+msgid "No options specified"
+msgstr "ওপসন অমত্তা তাক্তে"
+
+msgid "No other agents available."
+msgstr "অতোপ্পা এজেন্ত অমত্তা ফংদে।"
+
+msgid "No other hosts available."
+msgstr "অতোপ্পা হোষ্ট অমত্তা ফংদে।"
+
+msgid "No ports available"
+msgstr "পোর্ত অমত্তা ফংদে"
+
+msgid "No projects found."
+msgstr "প্রোজেক্ত অমত্তা ফংদে।"
+
+msgid "No projects selected. All projects can use the flavor."
+msgstr "প্রোজেক্ত অমত্তা খন্দ্রে। প্রোজেক্ত পুম্নমক্না ফ্লেবর অদু শীজিন্নবা য়াই।"
+
+msgid "No rules defined."
+msgstr "রুল অমত্তা শেংনা তাক্তে।"
+
+msgid "No security groups available"
+msgstr "সেক্যুরিতি গ্রুপ অমত্তা ফংদে"
+
+msgid "No security groups enabled."
+msgstr "সেক্যুরিতি গ্রুপ অমত্তা এনেবল ওইদে।"
+
+msgid "No security groups found."
+msgstr "সেক্যুরিতি গ্রুপ অমত্তা ফংদে।"
+
+msgid "No snapshots available"
+msgstr "স্নেপশোত অমত্তা ফংদে"
+
+msgid "No source, empty volume"
+msgstr "সোর্স অমত্তা লৈতে, ভোল্যুম হাংই"
+
+msgid "No subnets available"
+msgstr "সবনেত অমত্তা ফংদে"
+
+msgid "No users found."
+msgstr "য়ুজর অমত্তা ফংদে।"
+
+msgid "No users."
+msgstr "য়ুজর অমত্তা লৈতে।"
+
+msgid "No volume snapshots available"
+msgstr "ভোল্যুম স্নেপশোত অমত্তা ফংদে"
+
+msgid "No volume type"
+msgstr "ভোল্যুম মখল অমত্তা লৈতে"
+
+msgid "No volumes attached."
+msgstr "ভোল্যুম অমত্তা এতেচ তৌদে।"
+
+msgid "No volumes available"
+msgstr "ভোল্যুম অমত্তা ফংদে"
+
+msgid "Non-Members"
+msgstr "নন-মেম্বরশীং"
+
+msgid "None"
+msgstr "অমত্তা নত্তে"
+
+msgctxt "Task status of an Instance"
+msgid "None"
+msgstr "অমত্তা নত্তে"
+
+msgid "Normal"
+msgstr "নোর্মেল"
+
+msgid "Not attached"
+msgstr "এতেচ তৌদে"
+
+msgid "Not available"
+msgstr "ফংদে"
+
+msgid "Note: "
+msgstr "খংজিনগদবা: "
+
+msgid "Number of Instances"
+msgstr "ইন্সতেন্সশীংগী মশীং"
+
+msgid "Number of Snapshots"
+msgstr "স্নেপশোতকী মশীং"
+
+msgid "Number of VCPUs"
+msgstr "VCPUশীংগী মশীং"
+
+msgid "Number of Volumes"
+msgstr "ভোল্যুমশীংগী মশীং"
+
+msgid "OR Copy/Paste your Private Key"
+msgstr "নত্ত্রগা নহাক্কী প্রাইভেত কী অদু কোপি/পেষ্ট তৌ"
+
+msgid "Object Store"
+msgstr "ওবজেক্ত ষ্টোর"
+
+msgid "Old Flavor"
+msgstr "অরিবা ফ্লেভর"
+
+msgid "On Demand"
+msgstr "দিমান্দগী মতুংইন্না"
+
+msgid "Open Port"
+msgstr "পোর্ত হাংউ"
+
+msgid "Open Port/Port Range:"
+msgstr "পোর্ত/পোর্ত রেঞ্জ হাংউ:"
+
+msgid "Optionally, you may choose to create a new volume."
+msgstr "ওপস্নেল ওইনা, নহাক্না অনৌবা ভোল্যুম অমা শেম্নবা খনবা য়াই।"
+
+msgid "Other Protocol"
+msgstr "অতোপ্পা প্রোতোকোল"
+
+msgid "Outputs"
+msgstr "আউতপুতশীং"
+
+msgid "Overview"
+msgstr "ওভরভ্যু"
+
+msgid "Owner"
+msgstr "ওনর"
+
+msgid "Page Not Found"
+msgstr "পেজ ফংদে"
+
+msgid "Parameters"
+msgstr "পেরামিতরশীং"
+
+msgid "Password"
+msgstr "পাসৱার্দ"
+
+msgctxt "Current status of an Instance"
+msgid "Password"
+msgstr "পাসৱার্দ"
+
+msgid "Password changed. Please log in again to continue."
+msgstr "পাসৱার্দ হোংখ্রে। চানবীদুনা মখা চত্থনবা অমুক হন্না লোগ তৌবীয়ু।"
+
+#, python-format
+msgid "Password for user \"%s\""
+msgstr "য়ুজর \"%s\"গী পাসৱার্দ"
+
+msgid "Passwords do not match."
+msgstr "পাসৱার্দশীং চান্নদে।"
+
+msgctxt "Current status of an Instance"
+msgid "Paused"
+msgstr "ঙাইহাক লেপ্লবা"
+
+msgctxt "Power state of an Instance"
+msgid "Paused"
+msgstr "ঙাইহাক লেপ্লবা"
+
+msgid "Physical Network"
+msgstr "ফিজিকেল নেতৱার্ক"
+
+msgid "Physical Network:"
+msgstr "ফিজিকেল নেতৱার্ক:"
+
+msgid "Please note: "
+msgstr "চানবীদুনা খংজিনবীয়ু:"
+
+#, python-format
+msgid "Please specify a %s using only one source method."
+msgstr "চানবীদুনা সোর্স মেথদ অমখক শীজিন্নদুনা %s অমা তাকপীয়ু।"
+
+#, python-format
+msgid "Please try again later [Error: %s]."
+msgstr "চানবীদুনা মতুংদা অমুক হন্না হোৎনবীয়ু [অশোয়বা: %s]।"
+
+msgid "Pool"
+msgstr "পুল"
+
+msgid "Port"
+msgstr "পোর্ত"
+
+#, python-format
+msgid "Port %s was successfully created."
+msgstr "পোর্ত %s মায় পাক্না শেমখ্রে।"
+
+#, python-format
+msgid "Port %s was successfully updated."
+msgstr "পোর্ত %s মায়পাক্না অপদেত তৌখ্রে।"
+
+msgid "Port Range"
+msgstr "পোর্তকী রেঞ্জ"
+
+msgid "Port list can not be retrieved."
+msgstr "পোর্ত লিষ্ট রিত্রিভ তৌবা য়াদে।"
+
+msgid "Port to be associated"
+msgstr "এসোসিএত তৌগদবা পোর্ত"
+
+msgid "Ports"
+msgstr "পোর্তশীং"
+
+msgid "Post-Creation"
+msgstr "পোষ্ট-ক্রিএসন"
+
+msgid "Power State"
+msgstr "পৱার ষ্টেত"
+
+msgid "Primary Project"
+msgstr "প্রাইমারি প্রোজেক্ত"
+
+msgid "Private Key File"
+msgstr "প্রাইভেত কী ফাইল"
+
+msgid "Project"
+msgstr "প্রোজেক্ত"
+
+msgid "Project & User"
+msgstr "প্রোজেক্ত & য়ুজর"
+
+msgid "Project Groups"
+msgstr "প্রোজেক্ত গ্রুপশীং"
+
+msgid "Project ID"
+msgstr "প্রোজেক্ত ID"
+
+msgid "Project Information"
+msgstr "প্রোজেক্ত ইনফোর্মেসন"
+
+msgid "Project Limits"
+msgstr "প্রোজেক্তকী লিমিতশীং"
+
+msgid "Project Members"
+msgstr "প্রোজেক্ত মেম্বরশীং"
+
+msgid "Project Name"
+msgstr "প্রোজেক্ত মমীং"
+
+msgid "Project Quotas"
+msgstr "প্রোজেক্ত ক্যুওতাশীং"
+
+msgid "Project Usage"
+msgstr "প্রোজেক্ত য়ুসেজ"
+
+msgid "Project Usage Overview"
+msgstr "প্রোজেক্ত য়ুসেজ ওভরভ্যু"
+
+msgid "Projects"
+msgstr "প্রোজেক্তশীং"
+
+msgid "Projects:"
+msgstr "প্রোজেক্তশীং:"
+
+msgid "Protected"
+msgstr "প্রোতেক্ত তৌরে"
+
+msgid "Provider"
+msgstr "প্রোভাইদর"
+
+msgid "Provider Network"
+msgstr "প্রোভাইদর নেতৱার্ক"
+
+msgid "Provider Network Type"
+msgstr "প্রোভাইদর নেতৱার্ক তাইপ"
+
+msgid "Public"
+msgstr "মীয়াম"
+
+msgid "Public Key"
+msgstr "পব্লিক কী"
+
+msgid "QCOW2 - QEMU Emulator"
+msgstr "QCOW2 - QEMU এম্যুলেতর"
+
+msgid "QoS Spec to be associated"
+msgstr "এসোসিএত তৌগদবা QoS"
+
+msgid "QoS Spec: "
+msgstr "QoS স্পেক: "
+
+msgid "QoS Specs"
+msgstr "QoS স্পেকশীং"
+
+msgid "Quota Name"
+msgstr "ক্যুওতা মমীং"
+
+msgid "Quota exceeded for resource router."
+msgstr "রিসোর্স রাউতরগী ক্যুওতা হেল্লে।"
+
+#, python-format
+msgid "Quota value(s) cannot be less than the current usage value(s): %s."
+msgstr "ক্যুওতা ভেল্যু(শীং) অসি হৌজিক্কী ওইবা য়ুসেজ ভেল্যু(শীং): %s অদুদগী হন্থবা য়াদে"
+
+msgid "Quotas"
+msgstr "ক্যুওতাশীং"
+
+msgid "RAM"
+msgstr "RAM"
+
+msgid "RAM (MB)"
+msgstr "RAM (MB)"
+
+msgid "RAM (total)"
+msgstr "RAM (অপুনবা)"
+
+msgid "RAM (used)"
+msgstr "RAM (শীজিন্নরবা)"
+
+#, python-format
+msgid "RAM(Available: %(avail)s, Requested: %(req)s)"
+msgstr "RAM(ফংলিবা: %(avail)s, রিক্বেষ্ট তৌরিবা: %(req)s)"
+
+msgid "Ramdisk ID"
+msgstr "রামদিস্ক ID"
+
+msgid "Raw"
+msgstr "অনৌবা"
+
+msgctxt "Image format for display in table"
+msgid "Raw"
+msgstr "অনৌবা"
+
+msgid "Reason"
+msgstr "মরম"
+
+#, python-format
+msgid "Reason: %(disabled_reason)s"
+msgstr "মরম: %(disabled_reason)s"
+
+msgid "Rebuild Instance"
+msgstr "ইন্সতেন্স রিবিল্ড তৌ"
+
+msgid "Rebuild Password"
+msgstr "পাসৱার্দ রিবিল্ড তৌ"
+
+#, python-format
+msgid "Rebuilding instance %s."
+msgstr "ইন্সতেন্স %s রিবিল্ড তৌরি।"
+
+msgid "Regions:"
+msgstr "রিজনশীং:"
+
+msgid "Remote"
+msgstr "রিমোত"
+
+msgid "Remote:"
+msgstr "রিমোত:"
+
+msgid "Request ID"
+msgstr "রিক্বেষ্ট ID"
+
+msgid "Resize"
+msgstr "রিসাইজ তৌ"
+
+msgctxt "Action log of an instance"
+msgid "Resize"
+msgstr "রিসাইজ তৌ"
+
+msgid "Resize Instance"
+msgstr "ইন্সতেন্স রিসাইজ তৌ"
+
+msgctxt "Task status of an Instance"
+msgid "Resizing or Migrating"
+msgstr "রিসাইজ তৌরি নত্ত্রগা মাইগ্রেত তৌরি"
+
+msgid "Resource"
+msgstr "রিসোর্স"
+
+msgid "Resource ID"
+msgstr "রিসোর্স ID"
+
+msgid "Resource Metadata"
+msgstr "রিসোর্স মেতাদেতা"
+
+msgid "Resources"
+msgstr "রিসোর্সশীং"
+
+msgid "Restore Backup"
+msgstr "বেকঅপ রেষ্টোর তৌ"
+
+msgid "Restore Backup to Volume"
+msgstr "ভোল্যুমদা বেকঅপ রেষ্টোর তৌ"
+
+msgid "Restore Backup:"
+msgstr "বেকঅপ রেষ্টোর তৌ:"
+
+msgid "Restore Volume Backup"
+msgstr "ভোল্যুম বেকঅপ রেষ্টোর তৌ"
+
+msgid "Retrieve Instance Password"
+msgstr "ইন্সতেন্স পাসৱার্দ রিত্রিভ তৌ"
+
+msgid "Retrieve Password"
+msgstr "পাসৱার্দ রিত্রিভ তৌ"
+
+msgid "Revert Resize/Migrate"
+msgstr "রিসাইজ/মাইগ্রেত তৌবা রিভর্ত তৌ"
+
+msgctxt "Current status of an Instance"
+msgid "Revert Resize/Migrate"
+msgstr "রিসাইজ/মাইগ্রেত তৌবা রিভর্ত তৌ"
+
+msgid "Role"
+msgstr "রোল"
+
+msgid "Role ID"
+msgstr "রোল ID"
+
+msgid "Role Name"
+msgstr "রোল মমীং"
+
+msgid "Role created successfully."
+msgstr "রোল মায় পাক্না শেম্লে।"
+
+msgid "Role updated successfully."
+msgstr "রোল মায় পাক্না অপদেত তৌরে।"
+
+msgid "Roles"
+msgstr "রোলশীং"
+
+msgid "Rollback"
+msgstr "রোলবেক"
+
+msgid "Rollback On Failure"
+msgstr "মায় পাক্তবদা রোলবেক তৌবা"
+
+msgid "Root Disk"
+msgstr "রুত দিস্ক"
+
+msgid "Root Disk (GB)"
+msgstr "রুত দিস্ক (GB)"
+
+msgid "Router"
+msgstr "রাউতর"
+
+#, python-format
+msgid "Router %s was successfully created."
+msgstr "রাউতর %s মায় পাক্না শেমখ্রে।"
+
+#, python-format
+msgid "Router %s was successfully updated."
+msgstr "রাউতর %s মায় পাক্না অপদেত তৌখ্রে।"
+
+msgid "Router Name"
+msgstr "রাউতর মমীং"
+
+msgid "Router Type"
+msgstr "রাউতর তাইপ"
+
+msgid "Routers"
+msgstr "রাউতরশীং"
+
+msgid "Rule"
+msgstr "রুল"
+
+msgid "Rule:"
+msgstr "রুল:"
+
+msgid "Rules"
+msgstr "রুলশীং"
+
+msgid ""
+"Rules define which traffic is allowed to instances assigned to the security "
+"group. A security group rule consists of three main parts:"
+msgstr ""
+"সেক্যুরিতি গ্রুপ অদুদা এসাইন তৌরিবা ইন্সতেন্সশীংদা করম্বা ত্রাফিক য়াহনবগে হায়বদু "
+"রুলশীংনা তাকই। "
+
+msgid "S3 URL"
+msgstr "S3 URL"
+
+msgid "SSH key pairs can be generated with the ssh-keygen command:"
+msgstr "SSH কী পেয়রশীং অসি ssh-keygen কমান্দনা শেম্বা য়াই:"
+
+msgid "Save"
+msgstr "সেভ তৌ"
+
+msgid "Save Changes"
+msgstr "অহোংবশীং সেভ তৌ"
+
+#, python-format
+msgid "Saved extra spec \"%s\"."
+msgstr "অহেনবা স্পেক \"%s\" সেভ তৌরে।"
+
+#, python-format
+msgid "Saved spec \"%s\"."
+msgstr "স্পেক \"%s\" সেভ তৌরে।"
+
+msgid "Script Data"
+msgstr "স্ক্রিপ্ত দেতা"
+
+msgid "Script File"
+msgstr "স্ক্রিপ্ত ফাইল"
+
+msgid "Security Group"
+msgstr "সেক্যুরিতি গ্রুপ"
+
+msgid "Security Group Rules"
+msgstr "সেক্যুরিতি গ্রুপ রুলশীং"
+
+msgid "Security Groups"
+msgstr "সেক্যুরিতি গ্রুপশীং"
+
+msgid "Segmentation ID"
+msgstr "সেগমেন্তেসন ID"
+
+msgid "Segmentation ID:"
+msgstr "সেগমেন্তেসন ID: "
+
+msgid "Select Image"
+msgstr "ইমেজ খল্লু"
+
+msgid "Select Instance Snapshot"
+msgstr "ইন্সতেন্স স্নেপশোত খল্লু"
+
+msgid "Select Script Source"
+msgstr "স্ক্রিপ্ত সোর্স খল্লু"
+
+msgid "Select Subnet"
+msgstr "সবনেত খল্লু"
+
+msgid "Select Template"
+msgstr "তেমপ্লেত খল্লু"
+
+msgid "Select Volume"
+msgstr "ভোল্যুম খল্লু"
+
+msgid "Select Volume Snapshot"
+msgstr "ভোল্যুম স্নেপশোত খল্লু"
+
+msgid "Select a New Flavor"
+msgstr "অনৌবা ফ্লেভর অমা খল্লু"
+
+msgid "Select a key pair"
+msgstr "কী পেয়র অমা খল্লু"
+
+msgid "Select a new agent"
+msgstr "অনৌবা এজেন্ত অমা খল্লু"
+
+msgid "Select a new host"
+msgstr "অনৌবা হোষ্ট অমা খল্লু"
+
+msgid "Select a new template to re-launch a stack."
+msgstr "ষ্টেক অমা অমুক হন্না শেমগৎনবা অনৌবা তেমপ্লেত অমা খল্লু।"
+
+msgid "Select a port"
+msgstr "পোর্ত অমা খল্লু"
+
+msgid "Select a project"
+msgstr "প্রোজেক্ত অমা খল্লু"
+
+msgid "Select a target host"
+msgstr "তার্গেতকী হোষ্ট অমা খল্লু"
+
+msgid "Select a template to launch a stack."
+msgstr "ষ্টেক অমা শেমগৎনবা তেমপ্লেত অমা খল্লু।"
+
+msgid "Select a volume to restore to."
+msgstr "রেষ্টোর তৌনবা ভোল্যুম অমা খল্লু।"
+
+msgid "Select an IP address"
+msgstr "IP এদ্রেস অমা খল্লু"
+
+msgid "Select an instance"
+msgstr "ইন্সতেন্স অমা খল্লু"
+
+msgid "Select an instance to attach to."
+msgstr "এতেচ তৌনবা ইন্সতেন্স অমা খল্লু।"
+
+msgid "Select format"
+msgstr "ফোর্মেত খল্লু"
+
+msgid "Select network"
+msgstr "নেতৱার্ক খল্লু"
+
+msgid "Select networks for your instance."
+msgstr "নহাক্কী ইন্সতেন্সকী নেতৱার্কশীং খল্লু।"
+
+msgid "Select source"
+msgstr "সোর্স খল্লু"
+
+msgid "Select the image to rebuild your instance."
+msgstr "নহাক্কী ইন্সতেন্স রিবিল্ড তৌনবা ইমেজ অদু খল্লু।"
+
+msgid ""
+"Select the projects where the flavors will be used. If no projects are "
+"selected, then the flavor will be available in all projects."
+msgstr ""
+"ফ্লেবরশীং শীজিন্নগদবা প্রোজেক্টশীং অদু খল্লু। করিগুম্বা প্রোজেক্ট অমত্তা খন্দ্রবদি, ফ্লেবর "
+"অদু প্রোজেক্ট পুম্নমক্তা ফংগনি।"
+
+msgid "Selected Hosts"
+msgstr "খল্লবা হোষ্টশীং"
+
+msgid "Selected Projects"
+msgstr "খল্লবা প্রোজেক্টশীং"
+
+msgid "Selected hosts"
+msgstr "খল্লবা হোষ্টশীং"
+
+msgid "Selected networks"
+msgstr "খল্লবা নেতৱার্কশীং"
+
+msgid "Server error"
+msgstr "সর্ভরগী অশোয়বা"
+
+msgid "Service"
+msgstr "সর্ভিস"
+
+msgid "Service Endpoint"
+msgstr "সর্ভিস এন্দপোইন্ত"
+
+msgid "Services"
+msgstr "সর্ভিসশীং"
+
+msgid "Services Down"
+msgstr "সর্ভিসশীং দাউন ওই"
+
+msgid "Services Up"
+msgstr "সর্ভিসশীং অপ ওই"
+
+msgid "Set Domain Context"
+msgstr "দোমেইন কন্তেক্স সেত তৌ"
+
+msgid "Set Gateway"
+msgstr "গেতৱে সেত তৌ"
+
+msgid "Set as Active Project"
+msgstr "এক্তিভ প্রোজেক্তকুম্না সেত তৌ"
+
+msgid "Set maximum quotas for the project."
+msgstr "প্রোজেক্ত অদুগীদমক মেক্সিমম ওইবা ক্যুওতাশীং সেত তৌ।"
+
+msgid "Settings"
+msgstr "সেত্তিংশীং"
+
+msgid "Settings saved."
+msgstr "সেত্তিংশীং সেভ তৌরে।"
+
+msgid "Shared"
+msgstr "শেয়র তৌরবা"
+
+msgid "Shared Storage"
+msgstr "শেয়র তৌরবা ষ্টোরেজ"
+
+msgid "Sign Out"
+msgstr "সাইন আউত"
+
+msgid "Size"
+msgstr "সাইজ"
+
+msgid "Size of image to launch."
+msgstr "শেমগৎনবা ইমেজগী সাইজ"
+
+msgid "Slash is not an allowed character."
+msgstr "স্লাস অসি অয়াবা পীরবা কেরেক্তর অমা নত্তে।"
+
+msgid "Snapshot"
+msgstr "স্নেপশোত"
+
+msgctxt "Type of an image"
+msgid "Snapshot"
+msgstr "স্নেপশোত"
+
+#, python-format
+msgid "Snapshot \"%(name)s\" created for instance \"%(inst)s\""
+msgstr "ইন্সতেন্স \"%(inst)s\"গীদমক স্নেপশোত \"%(name)s\" শেম্লে"
+
+msgid "Snapshot Limits"
+msgstr "স্নেপশোত লিমিতশীং"
+
+msgid "Snapshot Name"
+msgstr "স্নেপশোত মমীং"
+
+msgid "Snapshot source must be specified"
+msgstr "স্নেপশোত সোর্স অদু শেংনা তাক্কদবনি"
+
+msgid "Something went wrong!"
+msgstr "করিগুম্বা খরা লানখ্রে!"
+
+msgid ""
+"Specifies how IPv6 addresses and additional information are configured. We "
+"can specify SLAAC/DHCPv6 stateful/DHCPv6 stateless provided by OpenStack, or "
+"specify no option. 'No options specified' means addresses are configured "
+"manually or configured by a non-OpenStack system."
+msgstr ""
+"IPv6 এদ্রেসশীং অমসুং অহেনবা ইনফোর্মেসন করম তৌনা কনফিগর তৌবগে হায়বা তাকই। ঐখোয়না "
+"ওপনষ্টেকনা পীবা SLAAC/DHCPv6 ষ্টেতফুল/DHCPv6 ষ্টেতলেস তাকপা য়াই, নত্ত্রগা ওপসন "
+"অমত্তা তাক্তবা য়াই। 'ওপসন অমত্তা তাক্ত্রে' হায়বগী অর্থদি এদ্রেসশীং মেন্যুএল ওইনা "
+"কনফিগর তৌরে নত্ত্রগা নন-ওপনষ্টেক সিষ্টেম অমনা কনফিগর তৌরে হায়বনি।"
+
+msgid "Specify additional attributes for the subnet."
+msgstr "সবনেত অদুগীদমক অহেনবা এত্রিব্যুতশীং তাকউ।"
+
+msgid "Specify advanced options to use when launching an instance."
+msgstr "ইন্সতেন্স অমা শেমগৎপা মতমদা শীজিন্নগদবা এদভান্স ওইবা ওপসনশীং শেংনা তাকউ।"
+
+msgid "Specify an IP address for the interface created (e.g. 192.168.0.254)."
+msgstr "শেম্লবা ইন্তর্ফেস অদুগী IP এদ্রেস অমা তাকউ (খুদম ওইনা, 192.168.0.254)।"
+
+msgid "Specify an image to upload to the Image Service."
+msgstr "ইমেজ সর্ভিসতা অপলোদ তৌনবা ইমেজ অমা শেংনা তাকউ।"
+
+msgid "Specify the details for launching an instance."
+msgstr "ইন্সতেন্স অমা শেমগৎনবগী অকুপ্পা মরোলশীং তাকউ।"
+
+msgid "Specs"
+msgstr "স্পেকশীং"
+
+msgid "Stack Events"
+msgstr "ষ্টেক ইভেন্তশীং"
+
+msgid "Stack ID"
+msgstr "ষ্টেক ID"
+
+msgid "Stack Name"
+msgstr "ষ্টেক মমীং"
+
+msgid "Stack Parameters"
+msgstr "ষ্টেক পেরামিতরশীং"
+
+msgid "Stack Resource"
+msgstr "ষ্টেক রিসোর্স"
+
+msgid "Stack Resource ID"
+msgstr "ষ্টেক রিসোর্স ID"
+
+msgid "Stack Resource Type"
+msgstr "ষ্টেক রিসোর্স তাইপ"
+
+msgid "Stack Resources"
+msgstr "ষ্টেক রিসোর্সশীং"
+
+msgid "Stack creation started."
+msgstr "ষ্টেক শেম্বা হৌরে।"
+
+msgid "Stack creation timeout in minutes."
+msgstr "মিনিত্তা ওইবা ষ্টেক ক্রিএসন তাইমআউত"
+
+msgid "Stack update started."
+msgstr "ষ্টেক অপদেত তৌরে।"
+
+msgid "Stacks"
+msgstr "ষ্টেকশীং"
+
+msgid "Start"
+msgstr "ষ্টার্ত"
+
+msgctxt "Action log of an instance"
+msgid "Start"
+msgstr "ষ্টার্ত"
+
+msgid "Start Time"
+msgstr "হৌবা মতম"
+
+#, python-format
+msgid "Start address is larger than end address (value=%s)"
+msgstr "ষ্টার্ত এদ্রেসনা এন্দ এদ্রেসতগী হেন্না চাউই (ভেল্যু=%s)"
+
+#, python-format
+msgid "Start and end addresses must be specified (value=%s)"
+msgstr "ষ্টার্ত অমসুং এন্দ এদ্রেসশীং শেংনা তাক্কদবনি (ভেল্যু=%s)"
+
+msgid "State"
+msgstr "ষ্টেত"
+
+msgid "Status"
+msgstr "ষ্টেতস"
+
+msgid "Status ="
+msgstr "ষ্টেতস ="
+
+msgid "Status Reason"
+msgstr "ষ্টেতস মরম"
+
+msgid "Subnet"
+msgstr "সবনেত"
+
+msgid "Subnet Details"
+msgstr "সবনেতকী অকুপ্পা মরোলশীং"
+
+msgid "Subnet ID"
+msgstr "সবনেত ID "
+
+msgid "Subnet Name"
+msgstr "সবনেত মমীং"
+
+msgid "Subnet list can not be retrieved."
+msgstr "সবনেত লিষ্ট রিত্রিভ তৌবা য়াদে।"
+
+msgid "Subnets"
+msgstr "সবনেতশীং"
+
+msgid "Subnets Associated"
+msgstr "সবনেতশীং লোয়নৈ"
+
+#, python-format
+msgid "Successfully added rule: %s"
+msgstr "রুল: %s মায় পাক্না হাপচিনলে"
+
+#, python-format
+msgid "Successfully created QoS Spec: %s"
+msgstr "QoS স্পেক: %s মায় পাক্না শেম্লে"
+
+#, python-format
+msgid "Successfully created encryption for volume type: %s"
+msgstr "ভোল্যুম মখল: %sগী এনক্রিপসন মায় পাক্না শেমখ্রে"
+
+#, python-format
+msgid "Successfully created security group: %s"
+msgstr "সেক্যুরিতি গ্রুপ: %s মায় পাক্না শেম্লে"
+
+#, python-format
+msgid "Successfully created volume type: %s"
+msgstr "ভোল্যুম তাইপ: %s মায় পাক্না শেম্লে"
+
+#, python-format
+msgid "Successfully disassociated Floating IP: %s"
+msgstr "ফ্লোতিং IP: %s মায় পাক্না দিসএসোসিএত তৌরে"
+
+#, python-format
+msgid "Successfully disassociated floating IP: %s"
+msgstr "ফ্লোতিং IP: %s মায় পাক্না দিসএসোসিএত তৌরে"
+
+#, python-format
+msgid "Successfully imported public key: %s"
+msgstr "পব্লিক কী: %s মায়পাক্না ইম্পোর্ত তৌরে"
+
+msgid "Successfully modified QoS Spec consumer."
+msgstr "QoS স্পেক কঞ্জ্যুমর মায় পাক্না শেমদোক-শেমজিন তৌখ্রে।"
+
+#, python-format
+msgid ""
+"Successfully sent the request to change the volume type to \"%(vtype)s\" for "
+"volume: \"%(name)s\""
+msgstr ""
+"Successfully sent the request to change the volume type to \"%(vtype)s\" for "
+"volume: \"%(name)s\""
+
+#, python-format
+msgid ""
+"Successfully sent the request to upload volume to image for volume: \"%s\""
+msgstr ""
+"ভোল্যুম: \"%s\"গীদমক ইমেজদা ভোল্যুম অপলোদ তৌনবা রিক্বেষ্ট অদু মায় পাক্না থাখ্রে।"
+
+msgid "Successfully updated QoS Spec association."
+msgstr "QoS স্পেক এসোসিএসন অদু মায় পাক্না অপদেত তৌরে।"
+
+#, python-format
+msgid "Successfully updated aggregate: \"%s.\""
+msgstr "এগ্রিগেত মায় পাক্না অপদেত তৌরে: \"%s.\""
+
+#, python-format
+msgid "Successfully updated security group: %s"
+msgstr "সেক্যুরিতি গ্রুপ: %s মায় পাক্না অপদেত তৌরে"
+
+#, python-format
+msgid "Successfully updated volume snapshot status: \"%s\"."
+msgstr "ভোল্যুম স্নেপশোত ষ্টেতস মায়পাক্না অপদেত তৌরে: \"%s\"."
+
+#, python-format
+msgid "Successfully updated volume status to \"%s\"."
+msgstr "ভোল্যুম ষ্টেতস অদু \"%s\"দা মায় পাক্না অপদেত তৌরে।"
+
+msgctxt "Current status of an Instance"
+msgid "Suspended"
+msgstr "সস্পেন্দ তৌরে"
+
+msgctxt "Power state of an Instance"
+msgid "Suspended"
+msgstr "সস্পেন্দ তৌরে"
+
+msgid "Swap Disk"
+msgstr "স্বাপ দিস্ক"
+
+msgid "Swap Disk (MB)"
+msgstr "স্বাপ দিস্ক (MB)"
+
+msgid "System"
+msgstr "সিষ্টেম"
+
+msgid "System Information"
+msgstr "সিষ্টেম ইনফোর্মেসন"
+
+msgid "Target Host"
+msgstr "তার্গেতকী হোষ্ট"
+
+msgid "Task"
+msgstr "তাস্ক"
+
+msgid "Template"
+msgstr "তেমপ্লেত"
+
+msgid "Template Data"
+msgstr "তেমপ্লেত দেতা"
+
+msgid "Template File"
+msgstr "তেমপ্লেত ফাইল"
+
+msgid "Template Source"
+msgstr "তেমপ্লেত সোর্স"
+
+msgid "Template URL"
+msgstr "তেমপ্লেত URL"
+
+msgid "The \"from\" port number is invalid."
+msgstr "\"from\" পোর্ত নম্বর অদু চৎনবা য়াদে।"
+
+msgid "The \"to\" port number is invalid."
+msgstr "\"to\" পোর্ত নম্বর অদু চৎনবা য়াদে।"
+
+msgid ""
+"The \"to\" port number must be greater than or equal to the \"from\" port "
+"number."
+msgstr ""
+"\"to\" পোর্ত নম্বর অদু \"from\" পোর্ত নম্বরদগী হেন্না চাউবা নত্ত্রগা মান্নবা ওইগদবনি।"
+
+msgid ""
+"The <strong>Cipher</strong> is the encryption algorithm/mode to use (e.g., "
+"aes-xts-plain64). If the field is left empty, the provider default will be "
+"used."
+msgstr ""
+"<strong>সাইফর</strong> অসি শীজিন্ননবা এনক্রিপসন আলগোরিথম/মোদ অদুনি (খুদম ওইনা, "
+"aes-xts-plain64)। করিগুম্বা ফিল্ড অদু হাংনা থম্লবদি, প্রোভাইদর দিফোল্ট অদু শীজিন্নগনি।"
+
+msgid ""
+"The <strong>Control Location</strong> is the notional service where "
+"encryption is performed (e.g., front-end=Nova). The default value is 'front-"
+"end.'"
+msgstr ""
+"<strong>কন্ত্রোল লোকেসন</strong> অসি এনক্রিপসন পাংথোকফম নোসনেল সর্ভিস অদুনি (খুদম "
+"ওইনা, ফ্রন্ত-এন্দ=নোভা)। "
+
+msgid ""
+"The <strong>Key Size</strong> is the size of the encryption key, in bits (e."
+"g., 128, 256). If the field is left empty, the provider default will be used."
+msgstr ""
+"<strong>কী সাইজ</strong> অসি বিত্তা ওইবা এনক্রিপসন কীগী সাইজ অদুনি (খুদম ওইনা, "
+"128, 256)। করিগুম্বা ফিল্ড অদু হাংনা থম্লবদি, প্রোভাইদর দিফোল্ট অদু শীজিন্নগনি।"
+
+msgid ""
+"The <strong>Provider</strong> is the class providing encryption support (e."
+"g. LuksEncryptor)."
+msgstr ""
+"<strong>প্রোভাইদর</strong> অসি এনক্রিপসন সপোর্ত পীরিবা ক্লাসনি (খুদম ওইনা "
+"লুক্সএনক্রিপ্তর)।"
+
+msgid "The Aggregate was updated."
+msgstr "এগ্রিগেত অদু অপদেট তৌখ্রে।"
+
+msgid "The ICMP code not in range (-1, 255)"
+msgstr "ICMP কোদ অদু (-1, 255)গী রেঞ্জদা লৈতে"
+
+msgid "The ICMP type not in range (-1, 255)"
+msgstr "ICMP তাইপ অদু (-1, 255)গী রেঞ্জদা লৈতে"
+
+#, python-format
+msgid "The ID \"%s\" is already used by another flavor."
+msgstr "\"%s\"গী ID অসি অতোপ্পা ফ্লেবর অমনা হান্ননা শীজিন্নরে।"
+
+msgid ""
+"The Image Location field MUST be a valid and direct URL to the image binary. "
+"URLs that redirect or serve error pages will result in unusable images."
+msgstr ""
+"ইমেজ লোকেসন ফিল্ড অদু ইমেজ বাইনরিদা ভেলিদ ওইবা অমসুং দাইরেক্ট URL অমা ওইগদবনি। "
+"রিদাইরেক্ট তৌবা নত্ত্রগা এরর পেজশীং পীবা URLশীংনা শীজিন্নবা য়াদবা ইমেজশীং "
+"ফংহল্লক্কনি।"
+
+msgid "The Key Pair name that was associated with the instance"
+msgstr "ইন্সতেন্স অদুগা লোয়নরম্বা কী পেয়র মমীং"
+
+#, python-format
+msgid ""
+"The Volume size is too small for the '%(image_name)s' image and has to be "
+"greater than or equal to '%(smallest_size)d' GB."
+msgstr ""
+"ইমেজ '%(image_name)s'গীদমক ভোল্যুম সাইজ অসি কা-হেন্না পীকমল্লে অমসুং GB "
+"'%(smallest_size)d'দগী হেন্না চাউবা নত্ত্রগা মান্নবা ওইগদবনি।"
+
+msgid ""
+"The chart below shows the resources used by this project in relation to the "
+"project's quotas."
+msgstr ""
+"মখাগী চার্ত অদুনা প্রোজেক্তকী ক্যুওতাশীংগা মরি লৈননা প্রোজেক্ত অসিনা শীজিন্নরিবা "
+"রিসোর্সশীং অদু উৎলি।"
+
+msgid "The container cannot be deleted since it is not empty."
+msgstr "কন্তেনর অদু হাংদবনা মরম ওইদুনা দিলিত তৌবা য়াদ্রে।"
+
+#, python-format
+msgid ""
+"The flavor '%(flavor)s' is too small for requested image.\n"
+"Minimum requirements: %(min_ram)s MB of RAM and %(min_disk)s GB of Root Disk."
+msgstr ""
+"রিক্বেষ্ট তৌরিবা ইমেজ অদুগীদমক ফ্লেভর '%(flavor)s' অসি কা-হেন্না পীকমল্লে।\n"
+"মিনিমম ওইবা চংদবা য়াদবশীং: RAMগী MB %(min_ram)s অমসুং রুত দিস্ককী GB "
+"%(min_disk)s"
+
+msgid "The instance password encrypted with your public key."
+msgstr "নহাক্কী পব্লিক কীনা এনক্রিপ্ত তৌরবা ইন্সতেন্স পাসৱার্দ।"
+
+msgid ""
+"The minimum disk size required to boot the image. If unspecified, this value "
+"defaults to 0 (no minimum)."
+msgstr ""
+"ইমেজ অদু বুত তৌবদা মথৌ তাবা মিনিমম দিস্ক সাইজনি। করিগুম্বা শেংনা তাক্ত্রবদি, ভেল্যু "
+"অসি 0দা দিফোল্ট ওই (মিনিমম লৈতে)।"
+
+msgid ""
+"The minimum memory size required to boot the image. If unspecified, this "
+"value defaults to 0 (no minimum)."
+msgstr ""
+"ইমেজ অদু বুত তৌবদা মথৌ তাবা মিনিমম মেমোরি সাইজনি। করিগুম্বা শেংনা তাক্ত্রবদি, ভেল্যু "
+"অসি 0দা দিফোল্ট ওই (মিনিমম লৈতে)।"
+
+#, python-format
+msgid "The name \"%s\" is already used by another flavor."
+msgstr "\"%s\"গী মমীং অসি অতোপ্পা ফ্লেবর অমনা হান্ননা শীজিন্নরে।"
+
+#, python-format
+msgid "The name \"%s\" is already used by another host aggregate."
+msgstr "\"%s\"গী মমীং অসি হান্ননা অতোপ্পা হোষ্ট এগ্রিগেত অমনা শীজিন্নরে।"
+
+msgid ""
+"The name of the physical network over which the virtual network is "
+"implemented."
+msgstr "ভর্চুএল নেতৱার্ক অদু শীজিন্নরিবা ফিজিকেল নেতৱার্ককী মমীং।"
+
+msgid "The page you were looking for doesn't exist"
+msgstr "নহাক্না য়েংলিবা পেজ অদু লৈতে"
+
+msgid "The physical mechanism by which the virtual network is implemented."
+msgstr "ভর্চুএল নেতৱার্কপু শীজিন্নহল্লিবা ফিজিকেল মেকানিজম।"
+
+msgid ""
+"The private key will be only used in your browser and will not be sent to "
+"the server"
+msgstr "প্রাইভেত কী অদু নহাক্কী ব্রাউজরখক্তদা শীজিন্নগনি অমসুং সর্ভরদা থারোই।"
+
+msgid "The pseudo folder cannot be deleted since it is not empty."
+msgstr "শেংদবা ফোলদর অদু হাংদবনা মরম ওইদুনা দিলিত তৌবা য়াদ্রে।"
+
+msgid "The raw contents of the environment file."
+msgstr "ইনভাইরোনমেন্ত ফাইল অদুগী রো ওইবা কন্তেন্তশীং।"
+
+msgid "The raw contents of the template."
+msgstr "তেমপ্লেত অদুগী রো ওইবা কন্তেন্তশীং"
+
+#, python-format
+msgid ""
+"The requested instance cannot be launched. The following requested "
+"resource(s) exceed quota(s): %s."
+msgstr ""
+"রিক্বেষ্ট তৌরিবা ইন্সতেন্স অদু শেমগৎপা য়াদে। মখাগী রিক্বেষ্ট তৌরিবা রিসোর্স(শীং) "
+"অসিনা ক্যুওতা(শীং): %s হেল্লে। "
+
+msgid ""
+"The requested instance port is already associated with another floating IP."
+msgstr ""
+"রিক্বেস্ত তৌরিবা ইন্সতেন্স পোর্ত অদুদি হান্ননা অতোপ্পা ফ্লোতিং IP অমগা এসোসিএত তৌখ্রে।"
+
+msgid "The specified port is invalid."
+msgstr "তাক্লিবা পোর্ত অদু চৎনবা য়াদে।"
+
+msgid "The state to start the network in."
+msgstr "নেতৱার্ক অদু হৌনবা ষ্টেত।"
+
+#, python-format
+msgid "The subnet in the Network Address is too small (/%s)."
+msgstr "নেতৱার্ক এদ্রেস অদুদা লৈবা সবনেত অদু কা-হেন্না পীকই (/%s)।"
+
+#, python-format
+msgid "The volume size cannot be less than the image size (%s)"
+msgstr "ভোল্যুম সাইজনা ইমেজ সাইজ (%s) অদুদগী হন্থবা য়াদে"
+
+msgid "There are no networks, routers, or connected instances to display."
+msgstr ""
+"উৎননবা নেতৱার্ক, রাউতর, নত্ত্রগা কনেক্ত তৌরবা ইন্সতেন্স অমত্তা মফম অসিদা লৈতে।"
+
+msgid ""
+"There is not enough capacity for this flavor in the selected availability "
+"zone. Try again later or select a different availability zone."
+msgstr ""
+"খল্লবা এভেলএবিলিতি জোন অদুদা ফ্লেভর অসিগীদমক কেপাসিতি মরাং কায়না লৈতে। মতুংদা "
+"অমুক হন্না হোৎনৌ নত্ত্রগা তোঙানবা এভেলএবিলিতি জোন অমা খল্লু।"
+
+#, python-format
+msgid "There was a problem parsing the %(prefix)s: %(error)s"
+msgstr "%(prefix)s অদু পার্সিং তৌবদা প্রোব্লেম অমা লৈখ্রে: %(error)s"
+
+msgid ""
+"This generates a pair of keys: a key you keep private (cloud.key) and a "
+"public key (cloud.key.pub). Paste the contents of the public key file here."
+msgstr ""
+"মসিনা কীগী পেয়র অমা শেম্মী: নহাক্না প্রাইভেত ওইনা থম্বা কী অমা (cloud.key) অমসুং "
+"পব্লিক কী অমা (cloud.key.pub)। পব্লিক কী ফাইল অদুদা য়াউরিবশীংদু মফম অসিদা পেষ্ট "
+"তৌ।"
+
+msgid ""
+"This is required for operations to be performed throughout the lifecycle of "
+"the stack"
+msgstr "ষ্টেক অদুগী লাইফসাইকল মনুংদা পাংথোক্কদবা ওপরেসনশীংগীদমক মসি মথৌ তাই "
+
+msgid ""
+"This volume is currently attached to an instance. In some cases, creating a "
+"snapshot from an attached volume can result in a corrupted snapshot."
+msgstr ""
+"ভোল্যুম অসি হৌজিক্কী ওইনা ইন্সতেন্স অমদা এতেচ তৌই। থৌওং খরদদি, এতেচ তৌরবা ভোল্যুম "
+"অমদগী স্নেপশোত অমা শেম্বনা করপ্ত ওইরবা স্নেপশোত অমা ফংহল্লকপা য়াই।"
+
+msgid "Time Since Event"
+msgstr "ইভেন্ততগী হৌবা মতম"
+
+msgid "Time since created"
+msgstr "শেম্বদগী হৌবা মতম"
+
+msgid "Timeout"
+msgstr "তাইমআউত"
+
+msgid "Timezone"
+msgstr "তাইমজোন"
+
+msgid "To Port"
+msgstr "পোর্ত্তা"
+
+msgid ""
+"To decrypt your password you will need the private key of your key pair for "
+"this instance. Select the private key file, or copy and paste the content of "
+"your private key file into the text area below, then click Decrypt Password."
+msgstr ""
+"নহাক্কী পাসৱার্দ দিক্রিপ্ত তৌনবা নহাক্না ইন্সতেন্স অসিগী নহাক্কী কী পেয়রগী প্রাইভেত "
+"কী অদু মথৌ তাগনি। প্রাইভেত কী ফাইল অদু খল্লু, নত্ত্রগা নহাক্কী প্রাইভেত কী ফাইলগী "
+"কন্তেন্ত অদু মখাগী তেক্সট এরিয়া অসিদা কোপি তৌ অমসুং পেষ্ট তৌ, অদুদগী দিক্রিপ্ত "
+"পাসৱার্দ ক্লিক তৌ।"
+
+msgid "To exit the fullscreen mode, click the browser's back button."
+msgstr "ফুলস্ক্রিন মোদ অদু এক্সিত তৌনবা, ব্রাউজরগী বেক বতন অদু ক্লিক তৌ।"
+
+msgid ""
+"To specify an allowed IP range, select &quot;CIDR&quot;. To allow access "
+"from all members of another security group select &quot;Security Group&quot;."
+msgstr ""
+"অয়াবা লৈরবা IP রেঞ্জ অমা শেংনা তাক্নবা, &quot;CIDR&quot; খল্লু। অতোপ্পা সেক্যুরিতি "
+"গ্রুপ অমগী মেম্বর পুম্নমক্তগী এক্সেস তৌবা য়াহন্নবা &quot;Security Group&quot; খল্লু।"
+
+msgid "Topology"
+msgstr "তোপোলোজি"
+
+msgid "Total Disk"
+msgstr "অপুনবা দিস্ক"
+
+msgid "Total RAM"
+msgstr "অপুনবা RAM"
+
+msgid "Total Size of Volumes and Snapshots (GB)"
+msgstr "ভোল্যুম অমসুং স্নেপশোতশীংগী (GB) অপুনবা সাইজ"
+
+msgid "Total disk usage (GB * Hours Used) for the project"
+msgstr "প্রোজেক্ত অদুগী অপুনবা দিস্ক য়ুসেজ (GB * শীজিন্নখিবা পুংশীং) "
+
+msgid "Type"
+msgstr "মখল "
+
+msgid "URL"
+msgstr "URL"
+
+msgid "UTC"
+msgstr "UTC"
+
+#, python-format
+msgid "UTC %(hour)s:%(min)s"
+msgstr "UTC %(hour)s:%(min)s"
+
+msgid "Unable to add rule to security group."
+msgstr "সেক্যুরিতি গ্রুপ্তা রুল হাপচিনবা ঙমদে।"
+
+msgid "Unable to add user to primary project."
+msgstr "প্রাইমারি প্রোজেক্ততা য়ুজর হাপচিনবা ঙমদে।"
+
+msgid "Unable to allocate Floating IP."
+msgstr "ফ্লোতিং IP এলোকেত তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to associate IP address %s."
+msgstr "IP এদ্রেস %s এসোসিএত তৌবা ঙমদে।"
+
+msgid "Unable to attach volume."
+msgstr "ভোল্যুম এতেচ তৌবা ঙমদে।"
+
+msgid "Unable to change password."
+msgstr "পাসৱার্দ হোংদোকপা ঙমদে।"
+
+#, python-format
+msgid "Unable to change the volume type for volume: \"%s\""
+msgstr "ভোল্যুম: \"%s\"গী ভোল্যুম তাইপ অদু হোংদোকপা ঙমদে"
+
+#, python-format
+msgid "Unable to clear gateway for router \"%(name)s\": \"%(msg)s\""
+msgstr "রাউতর \"%(name)s\"গী গেতৱে ক্লিয়র তৌবা ঙমদে: \"%(msg)s\""
+
+msgid "Unable to connect to Neutron."
+msgstr "ন্যুত্রোন্দা কনেক্ত তৌবা ঙমদে।"
+
+msgid "Unable to create QoS Spec."
+msgstr "QoS স্পেক শেম্বা ঙমদে।"
+
+#, python-format
+msgid "Unable to create domain \"%s\"."
+msgstr "দোমেইন \"%s\" শেম্বা ঙমদে।"
+
+msgid "Unable to create encrypted volume type."
+msgstr "এনক্রিপ তৌরবা ভোল্যুম মখল শেম্বা ঙমদ্রে।"
+
+#, python-format
+msgid "Unable to create flavor \"%s\"."
+msgstr "ফ্লেবর \"%s\" শেম্বা ঙমদে।"
+
+msgid "Unable to create flavor."
+msgstr "ফ্লেবর শেম্বা ঙমদে।"
+
+msgid "Unable to create group."
+msgstr "গ্রুপ শেম্বা ঙমদে।"
+
+#, python-format
+msgid "Unable to create host aggregate \"%s\"."
+msgstr "হোষ্ট এগ্রিগেত \"%s\" শেম্বা ঙমদে।"
+
+msgid "Unable to create host aggregate."
+msgstr "হোষ্ট এগ্রিগেত শেম্বা ঙমদে।"
+
+#, python-format
+msgid "Unable to create network \"%s\"."
+msgstr "নেত‍ৱার্ক \"%s\" শেম্বা ঙমদে।"
+
+#, python-format
+msgid "Unable to create project \"%s\"."
+msgstr "প্রোজেক্ত \"%s\" শেম্বা ঙমদে।"
+
+msgid "Unable to create role."
+msgstr "রোল শেম্বা ঙমদে।"
+
+msgid "Unable to create snapshot."
+msgstr "স্নেপশোত শেম্বা ঙমদে।"
+
+msgid "Unable to create spec."
+msgstr "স্পেক শেম্বা ঙমদে।"
+
+#, python-format
+msgid "Unable to create subnet \"%s\"."
+msgstr "সবনেত \"%s\" শেম্বা ঙমদে।"
+
+msgid "Unable to create user."
+msgstr "য়ুজর শেম্বা ঙমদে।"
+
+msgid "Unable to create volume backup."
+msgstr "ভোল্যুম বেকঅপ শেম্বা ঙমদে।"
+
+msgid "Unable to create volume snapshot."
+msgstr "ভোল্যুম স্নেপশোত শেম্বা ঙমদে।"
+
+msgid "Unable to create volume type extra spec."
+msgstr "ভোল্যুম তাইপ এক্সত্রা স্পেক শেম্বা ঙমদ্রে।"
+
+msgid "Unable to create volume type."
+msgstr "ভোল্যুম তাইপ শেম্বা ঙমদে।"
+
+msgid "Unable to create volume."
+msgstr "ভোল্যুম শেম্বা ঙমদে।"
+
+#, python-format
+msgid "Unable to delete router \"%s\""
+msgstr "রাউতর \"%s\" দিলিত তৌবা ঙমদে"
+
+msgid "Unable to determine if availability zones extension is supported."
+msgstr "এভেলএবিলিতি জোনশীংগী এক্সতেন্সন সপোর্ত তৌব্রা হায়বা খংবা ঙমদে।"
+
+msgid "Unable to determine if volume type encryption is supported."
+msgstr "ভোল্যুম তাইপ এনক্রিপসন সপোর্ত তৌব্রা হায়বদু খংদোকপা ঙমদে।"
+
+msgid "Unable to disassociate floating IP."
+msgstr "ফ্লোতিং IP দিসএসোসিএত তৌবা ঙমদে।"
+
+msgid "Unable to edit spec."
+msgstr "স্পেক এদিত তৌবা ঙমদে।"
+
+msgid "Unable to edit volume type extra spec."
+msgstr "ভোল্যুম তাইপ এক্সত্রা স্পেক এদিত তৌবা ঙমদে।"
+
+msgid "Unable to extend volume."
+msgstr "ভোল্যুম এক্সতেন্দ তৌবা ঙমদে।"
+
+msgid "Unable to fetch EC2 credentials."
+msgstr "EC2 ক্রিদেন্সিএলশীং ফংবা ঙমদে।"
+
+msgid "Unable to find default role."
+msgstr "দিফোল্ট রোল ফংবা ঙমদে।"
+
+msgid "Unable to get EC2 credentials"
+msgstr "EC2 ক্রিদেন্সিএলশীং ফংবা ঙমদে"
+
+#, python-format
+msgid "Unable to get RDP console for instance \"%s\"."
+msgstr "ইন্সতেন্স \"%s\"গী RDP কন্সোল ফংবা ঙমদে।"
+
+#, python-format
+msgid "Unable to get SPICE console for instance \"%s\"."
+msgstr "ইন্সতেন্স \"%s\"গী SPICE কন্সোল ফংবা ঙমদে।"
+
+#, python-format
+msgid "Unable to get VNC console for instance \"%s\"."
+msgstr "ইন্সতেন্স \"%s\"গী VNC কন্সোল ফংবা ঙমদে।"
+
+msgid "Unable to get cinder services list."
+msgstr "সিন্দর সর্ভিসশীংগী লিষ্ট ফংবা ঙমদে।"
+
+#, python-format
+msgid "Unable to get events for stack \"%s\"."
+msgstr "ষ্টেক \"%s\"গী ইভেন্তশীং ফংবা ঙমদে।"
+
+msgid "Unable to get flavor list"
+msgstr "ফ্লেবর লিষ্ট ফংবা ঙমদে"
+
+msgid "Unable to get host aggregate list"
+msgstr "হোষ্ট এগ্রিগেত লিষ্ট ফংবা ঙমদে"
+
+#, python-format
+msgid "Unable to get log for instance \"%s\"."
+msgstr "ইন্সতেন্স \"%s\"গী লোগ ফংবা ঙমদে।"
+
+msgid "Unable to get network agents info."
+msgstr "নেতৱার্ক এজেন্তশীংগী ইনফো ফংবা ঙমদে।"
+
+msgid "Unable to get network agents list."
+msgstr "নেতৱার্ক এজেন্তশীংগী লিষ্ট ফংবা ঙমদে।"
+
+msgid "Unable to get nova services list."
+msgstr "নোভা সর্ভিসশীংগী লিষ্ট ফংবা ঙমদে।"
+
+msgid "Unable to get openrc credentials"
+msgstr "ওপনrc ক্রিদেন্সিএলশীং ফংবা ঙমদে"
+
+msgid "Unable to get quota info."
+msgstr "ক্যুওতাগী ইনফো ফংবা ঙমদে।"
+
+#, python-format
+msgid "Unable to get resources for stack \"%s\"."
+msgstr "ষ্টেক \"%s\"গী রিসোর্সশীং ফংবা ঙমদে।"
+
+#, python-format
+msgid "Unable to get subnet \"%s\""
+msgstr "সবনেত \"%s\" ফংবা ঙমদে"
+
+msgid "Unable to get the available hosts"
+msgstr "অফংবা হোষ্টশীং অদু ফংবা ঙমদে"
+
+msgid "Unable to import key pair."
+msgstr "কী পেয়র ইম্পোর্ত তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to launch %(count)s named \"%(name)s\"."
+msgstr "\"%(name)s\" হায়না মমীং থোল্লবা %(count)s শেমগৎপা ঙমদ্রে।"
+
+msgid "Unable to list dhcp agents hosting network."
+msgstr "নেতৱার্ক হোষ্ট তৌরিবা dhcp এজেন্তশীংগী লিষ্ট শেম্বা ঙমদে।"
+
+#, python-format
+msgid "Unable to load the specified image. %s"
+msgstr "তাক্লবা ইমেজ অদু লোদ তৌবা ঙমদে. %s"
+
+msgid "Unable to load the specified snapshot."
+msgstr "তাক্লবা স্নেপশোত অদু লোদ তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to load the specified volume. %s"
+msgstr "তাক্লবা ভোল্যুম অদু লোদ তৌবা ঙমদে. %s"
+
+msgid "Unable to lookup volume or backup information."
+msgstr "ভোল্যুম লুকঅপ তৌবা নত্ত্রগা ইনফোর্মেসন বেকঅপ তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to modify domain \"%s\"."
+msgstr "দোমেইন \"%s\" শেমদোক-শেমজিন তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to modify flavor \"%s\"."
+msgstr "ফ্লেবর \"%s\" শেমদোক-শেমজিন তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to modify instance \"%s\"."
+msgstr "ইন্সতেন্স \"%s\" শেমদোক-শেমজিন তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to modify project \"%s\"."
+msgstr "প্রোজেক্ত \"%s\" শেমদোক-শেমজিন তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to parse IP address %s."
+msgstr " IP এদ্রেস %s পার্স তৌবা ঙমদে।"
+
+msgid "Unable to rebuild instance."
+msgstr "ইন্সতেন্স রিবিল্ড তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to resize instance \"%s\"."
+msgstr "ইন্সতেন্স \"%s\" রিসাইজ তৌবা ঙমদে।"
+
+msgid "Unable to restore backup."
+msgstr "বেকঅপ রেষ্টোর তৌবা ঙমদে।"
+
+#, python-format
+msgid ""
+"Unable to retrieve IP addresses from Neutron for instance \"%(name)s"
+"\" (%(id)s)."
+msgstr ""
+"ইন্সতেন্স \"%(name)s\" (%(id)s)গী ন্যুত্রোন্দগী IP এদ্রেসশীং রিত্রিভ তৌবা ঙমদে। "
+
+msgid "Unable to retrieve IP addresses from Neutron."
+msgstr "ন্যুত্রোন্দগী IP এদ্রেসশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve Nova availability zones."
+msgstr "নোভা এভেলএবিলিতি জোনশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve QoS Spec association."
+msgstr "QoS স্পেক এসোসিএসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve QoS Spec details."
+msgstr "QoS স্পেক্কী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve QoS Specs."
+msgstr "QoS স্পেকশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve QoS spec details."
+msgstr "QoS স্পেক্কী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve QoS spec list."
+msgstr "QoS স্পেক লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve QoS specs"
+msgstr "QoS স্পেকশীং রিত্রিভ তৌবা ঙমদে"
+
+#, python-format
+msgid "Unable to retrieve a list of external networks \"%s\"."
+msgstr "এক্সতর্নেল নেতৱার্ক \"%s\"গী লিষ্ট অমা রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve agent list."
+msgstr "এজেন্ত লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to retrieve an external network \"%s\"."
+msgstr "এক্সতর্নেল নেতৱার্ক \"%s\" অমা রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve attachment information."
+msgstr "এতেচমেন্তকী ইনফোর্মেসন রিত্রিভ তৌবা ঙমদ্রে।"
+
+msgid "Unable to retrieve availability zone list."
+msgstr "এভেলএবিলিতি জোন লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve availability zones."
+msgstr "এভেলএবিলিতি জোনশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve backup details."
+msgstr "বেকঅপকী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve compute host information."
+msgstr "কম্প্যুত হোষ্ট ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve compute limit information."
+msgstr "কম্প্যুত লিমিত ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve default Neutron quota values."
+msgstr "দিফোল্ট ন্যুত্রোন ক্যুওতা ভেল্যুশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve default quota values."
+msgstr "দিফোল্ট ক্যুওতা ভেল্যুশীং রিত্রিভ তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to retrieve details for instance \"%s\"."
+msgstr "ইন্সতেন্স \"%s\"গী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to retrieve details for network \"%s\"."
+msgstr "নেতৱার্ক \"%s\"গী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to retrieve details for router \"%s\"."
+msgstr "রাউতর \"%s\"গী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve domain details."
+msgstr "দোমেইনগী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve domain information."
+msgstr "দোমেইন ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve domain list."
+msgstr "দোমেইন লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve extensions information."
+msgstr "এক্সতেন্সনশীংগী ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve extra spec list."
+msgstr "অহেনবা স্পেক লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve flavor access list. Please try again later."
+msgstr "ফ্লেবর এক্সেস লিষ্ট রিত্রিভ তৌবা ঙমদ্রে। চানবীদুনা মতুংদা অমুক হন্না হোৎনবীয়ু।"
+
+msgid "Unable to retrieve flavor details."
+msgstr "ফ্লেবরগী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+#, python-format
+msgid ""
+"Unable to retrieve flavor information for instance \"%(name)s\" (%(id)s)."
+msgstr "ইন্সতেন্স \"%(name)s\" (%(id)s)গীদমক ফ্লেভর ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to retrieve flavor information for instance \"%s\"."
+msgstr "ইন্সতেন্স \"%s\"গীদমক ফ্লেভর ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve flavor list."
+msgstr "ফ্লেবর লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve flavors."
+msgstr "ফ্লেভরশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve floating IP addresses."
+msgstr "ফ্লোতিং IP এদ্রেসশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve floating IP pools."
+msgstr "ফ্লোতিং IP পুলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve group list."
+msgstr "গ্রুপ লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve group list. Please try again later."
+msgstr "গ্রুপ লিষ্ট রিত্রিভ তৌবা ঙমদে। চানবীদুনা মতুংদা অমুক হন্না হোৎনবীয়ু।"
+
+msgid "Unable to retrieve group users."
+msgstr "গ্রুপ য়ুজরশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve host aggregates list."
+msgstr "হোষ্ট এগ্রিগেতশীংগী লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve host information."
+msgstr "হোষ্ট ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve hypervisor information."
+msgstr "হাইপরভিজর ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve hypervisor instances list."
+msgstr "হাইপরভিজর ইন্সতেন্সশীংগী লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve hypervisor statistics."
+msgstr "হাইপরভিজর ষ্টেতিষ্টিক্স রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve image details."
+msgstr "ইমেজগী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve image list."
+msgstr "ইমেজগী লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve image."
+msgstr "ইমেজ রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve images for the current project."
+msgstr "হৌজিক্কী প্রোজেক্ত অসিগীদমক ইমেজশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve images."
+msgstr "ইমেজশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve instance action list."
+msgstr "ইন্সতেন্স এক্সন লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve instance details."
+msgstr "ইন্সতেন্সকী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve instance flavors."
+msgstr "ইন্সতেন্স ফ্লেভরশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve instance list."
+msgstr "ইন্সতেন্স লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve instance password."
+msgstr "ইন্সতেন্স পাসৱার্দ রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve instance project information."
+msgstr "ইন্সতেন্স প্রোজেক্ত ইনফোর্মসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve instance size information."
+msgstr "ইন্সতেন্স সাইজ ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve instance."
+msgstr "ইন্সতেন্স রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve instances."
+msgstr "ইন্সতেন্সশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve key pair list."
+msgstr "কী পেয়রগী লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve key pairs."
+msgstr "কী পেয়রশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve limit information."
+msgstr "লিমিত ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve list of security groups"
+msgstr "সেক্যুরিতি গ্রুপশীংগী লিষ্ট রিত্রিভ তৌবা ঙমদে"
+
+msgid "Unable to retrieve list of volume snapshots."
+msgstr "ভোল্যুম স্নেপশোতকী লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve list of volumes."
+msgstr "ভোল্যুমশীংগী লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve metadata."
+msgstr "মেতাদেতা রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve network details."
+msgstr "নেতৱার্ক্কী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve network quota information."
+msgstr "নেতৱার্ক ক্যুওতা ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve network."
+msgstr "নেতৱার্ক রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve port details"
+msgstr "পোর্তকী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে"
+
+msgid "Unable to retrieve port details."
+msgstr "পোর্তকী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve project details."
+msgstr "প্রোজেক্কী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve project domain."
+msgstr "প্রোজেক্ত দোমেইন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve project information."
+msgstr "প্রোজেক্ত ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve project list."
+msgstr "প্রোজেক্ত লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve public images."
+msgstr "পব্লিক ইমেজশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve quota information."
+msgstr "ক্যুওতা ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve resource."
+msgstr "রিসোর্স রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve role list."
+msgstr "রোল লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve roles list."
+msgstr "রোলশীংগী লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve router details."
+msgstr "রাউতরগী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve router list."
+msgstr "রাউতর লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve router."
+msgstr "রাউতর রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve security group list. Please try again later."
+msgstr "সেক্যুরিতি গ্রুপ লিষ্ট রিত্রিভ তৌবা ঙমদে। চানবীদুনা মতুংদা অমুক হন্না হোৎনবীয়ু।"
+
+msgid "Unable to retrieve security group."
+msgstr "সেক্যুরিতি গ্রুপ রিত্রিভ তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to retrieve security groups for instance \"%(name)s\" (%(id)s)."
+msgstr "ইন্সতেন্স \"%(name)s\" (%(id)s)গী সেক্যুরিতি গ্রুপশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve security groups."
+msgstr "সেক্যুরিতি গ্রুপশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve snapshot details."
+msgstr "স্নেপশোতকী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve snapshot list."
+msgstr "স্নেপশোত লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve stack list."
+msgstr "ষ্টেক লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve stack template."
+msgstr "ষ্টেক তেমপ্লেত রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve stack."
+msgstr "ষ্টেক রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve subnet details"
+msgstr "সবনেতকী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে"
+
+msgid "Unable to retrieve subnet details."
+msgstr "সবনেতকী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে"
+
+msgid "Unable to retrieve tenant limits."
+msgstr "তেনেন্ত লিমিতশীং রিত্রিভ তৌবা ঙমদ্রে।"
+
+msgid "Unable to retrieve the aggregate to be updated"
+msgstr "অপদেত তৌনবা এগ্রিগেত অদু রিত্রিভ তৌবা ঙমদে"
+
+msgid "Unable to retrieve the volume type list."
+msgstr "ভোল্যুম তাইপ লিষ্ট অদু রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve usage information."
+msgstr "য়ুসেজ ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve user domain role assignments."
+msgstr "য়ুজর দোমেইন রোল এসাইনমেন্তশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve user information."
+msgstr "য়ুজর ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve user list."
+msgstr "য়ুজর লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve user list. Please try again later."
+msgstr "য়ুজর লিষ্ট রিত্রিভ তৌবা ঙমদে। চানবীদুনা মতুংদা অমুক হন্না হোৎনবীয়ু।"
+
+msgid "Unable to retrieve user roles."
+msgstr "য়ুজর রোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve users."
+msgstr "য়ুজরশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve version information."
+msgstr "ভর্সন ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume backups."
+msgstr "ভোল্যুম বেকঅপশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume details."
+msgstr "ভোল্যুমগী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to retrieve volume information for volume: \"%s\""
+msgstr "ভোল্যুম: \"%s\"গী ভোল্যুম ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে"
+
+msgid "Unable to retrieve volume information."
+msgstr "ভোল্যুম ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume limit information."
+msgstr "ভোল্যুম লিমিত ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to retrieve volume list for instance \"%(name)s\" (%(id)s)."
+msgstr "ইন্সতেন্স \"%(name)s\" (%(id)s)গী ভোল্যুম লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume list."
+msgstr "ভোল্যুম লিষ্ট রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume project information."
+msgstr "ভোল্যুম প্রোজেক্ত ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume snapshot."
+msgstr "ভোল্যুম স্নেপশোত রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume snapshots."
+msgstr "ভোল্যুম স্নেপশোতশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume type details."
+msgstr "ভোল্যুম তাইপকী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume type encryption details."
+msgstr "ভোল্যুম তাইপ এনক্রিপসনগী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume type encryption information."
+msgstr "ভোল্যুম তাইপ এনক্রিপসন ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume type extra spec details."
+msgstr "ভোল্যুম তাইপ এক্সত্রা স্পেক্কী অকুপ্পা মরোলশীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume type name."
+msgstr "ভোল্যুম তাইপ মমীং রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume types"
+msgstr "ভোল্যুম মখলশীং রিত্রিভ তৌবা ঙমদে"
+
+msgid "Unable to retrieve volume."
+msgstr "ভোল্যুম রিত্রিভ তৌবা ঙমদে।"
+
+msgid "Unable to retrieve volume/instance attachment information"
+msgstr "ভোল্যুম/ইন্সতেন্স এতেচমেন্ত ইনফোর্মেসন রিত্রিভ তৌবা ঙমদে"
+
+msgid "Unable to set Domain Context."
+msgstr "দোমেইন কন্তেক্স সেত তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to set flavor access for project %s."
+msgstr "প্রোজেক্ত %sগীদমক ফ্লেবর এক্সেস সেত তৌবা ঙমদে।"
+
+msgid "Unable to set gateway."
+msgstr "গেতৱে সেত তৌবা ঙমদে।"
+
+msgid "Unable to set project quotas."
+msgstr "প্রোজেক্ত ক্যুওতাশীং সেত তৌবা ঙমদে।"
+
+msgid "Unable to sort instance flavors."
+msgstr "ইন্সতেন্স ফ্লেভরশীং সোর্ত তৌবা ঙমদে।"
+
+msgid "Unable to update default quotas."
+msgstr "দিফোল্ট ক্যুওতাশীং অপদেত তৌবা ঙমদে।"
+
+msgid "Unable to update group."
+msgstr "গ্রুপ অপদেত তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to update image \"%s\"."
+msgstr "ইমেজ \"%s\" অপদেত তৌবা ঙমদে।"
+
+msgid "Unable to update role."
+msgstr "রোল অপদেত তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to update subnet \"%s\"."
+msgstr "সবনেত \"%s\" অপদেত তৌবা ঙমদে।"
+
+msgid "Unable to update the aggregate."
+msgstr "এগ্রিগেত অদু অপদেত তৌবা ঙমদে।"
+
+msgid "Unable to update the group."
+msgstr "গ্রুপ অদু অপদেত তৌবা ঙমদে।"
+
+msgid "Unable to update the user."
+msgstr "য়ুজর অদু অপদেত তৌবা ঙমদে।"
+
+msgid "Unable to update volume snapshot status."
+msgstr "ভোল্যুম স্নেপশোত ষ্টেতস অপদেত তৌবা ঙমদে।"
+
+msgid "Unable to update volume snapshot."
+msgstr "ভোল্যুম স্নেপশোত অপদেত তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to update volume status to \"%s\"."
+msgstr "ভোল্যুম ষ্টেতস অদু \"%s\"দা অপদেত তৌবা ঙমদে।"
+
+msgid "Unable to update volume."
+msgstr "ভোল্যুম অপদেত তৌবা ঙমদে।"
+
+#, python-format
+msgid "Unable to upload volume to image for volume: \"%s\""
+msgstr "ভোল্যুম: \"%s\"গী ইমেজদা ভোল্যুম অপলোদ তৌবা ঙমদে"
+
+msgid "Unknown"
+msgstr "শকখংদবা"
+
+msgid "Unknown instance"
+msgstr "শকখংদবা ইন্সতেন্স"
+
+msgid "Unknown instance (None)"
+msgstr "শকখংদবা ইন্সতেন্স (অমত্তা লৈতে)"
+
+msgid "Up"
+msgstr "অপ"
+
+msgctxt "Current state of a Hypervisor"
+msgid "Up"
+msgstr "অপ"
+
+msgid "Update"
+msgstr "অপদেত তৌ"
+
+msgid "Update Default Quotas"
+msgstr "দিফোল্ট ক্যুওতাশীং অপদেত তৌ"
+
+msgid "Update Defaults"
+msgstr "দিফোল্টশীং অপদেত তৌ"
+
+msgid "Update Group"
+msgstr "গ্রুপ অপদেত তৌ"
+
+msgid "Update Metadata"
+msgstr "মেতাদেতা অপদেত তৌ"
+
+msgid "Update Network"
+msgstr "নেতৱার্ক অপদেত তৌ"
+
+msgid "Update Port"
+msgstr "পোর্ত অপদেত তৌ"
+
+msgid "Update Role"
+msgstr "রোল অপদেত তৌ"
+
+msgid "Update Router"
+msgstr "রাউতর অপদেত তৌ"
+
+msgid "Update Stack"
+msgstr "ষ্টেক অপদেত তৌ"
+
+msgid "Update Stack Parameters"
+msgstr "ষ্টেক পেরামিতরশীং অপদেত তৌ"
+
+msgid "Update Status"
+msgstr "ষ্টেতস অপদেত তৌ"
+
+msgid "Update User"
+msgstr "য়ুজর অপদেত তৌ"
+
+msgid "Update Volume Snapshot Status"
+msgstr "ভোল্যুম স্নেপশোত ষ্টেতস অপদেত তৌ"
+
+msgid "Update Volume Status"
+msgstr "ভোল্যুম ষ্টেতস অপদেত তৌ"
+
+msgid ""
+"Update a stack with the provided values. Please note that any encrypted "
+"parameters, such as passwords, will be reset to default if you do not change "
+"them here."
+msgstr ""
+"ষ্টেক অমা পীরিবা ভেল্যুশীংদুগা লোয়ননা অপদেত তৌ। চানবীদুনা খংবীগদবদি এনক্রিপ্ত তৌরবা "
+"পেরামিতর অমহেক্তা, হায়বদি পাসৱার্দকুম্বসি, করিগুম্বা নহাক্না মখোয় অসি মফম অসিদা "
+"হোংদোক্ত্রবদি, দিফোল্টতা রিসেত তৌগনি।"
+
+msgid ""
+"Update a subnet associated with the network. Advanced configuration are "
+"available at \"Subnet Details\" tab."
+msgstr ""
+"নেতৱার্ক অদুগা এসোসিএত তৌবা সবনেত অমা অপদেত তৌ। \"সবনেতকী অকুপ্পা মরোলশীং\" "
+"তেবতা এদভান্স ওইবা কনফিগুরেসন ফংই।"
+
+#, python-format
+msgid "Update the \"extra spec\" value for \"%(key)s\""
+msgstr " \"%(key)s\"গী \"extra spec\" ভেল্যু অদু অপদেত তৌ"
+
+#, python-format
+msgid "Update the spec value for \"%(key)s\""
+msgstr "\"%(key)s\"গী স্পেক ভেল্যু অদু অপদেত তৌ"
+
+msgid "Updated"
+msgstr "অপদেত তৌরে"
+
+msgid "Updated At"
+msgstr "...দা অপদেত তৌরবা"
+
+#, python-format
+msgid "Updated subnet \"%s\"."
+msgstr "অপদেত তৌরবা সবনেত \"%s\""
+
+#, python-format
+msgid "Updating volume \"%s\""
+msgstr "ভোল্যুম \"%s\" অপদেত তৌরি"
+
+#, python-format
+msgid "Updating volume snapshot \"%s\""
+msgstr "ভোল্যুম স্নেপশোত \"%s\" অপদেত তৌরি"
+
+msgid "Upload"
+msgstr "অপলোদ তৌ"
+
+msgid "Upload Volume to Image"
+msgstr "ইমেজদা ভোল্যুম অপলোদ তৌ"
+
+msgid "Upload to Image"
+msgstr "ইমেজদা অপলোদ তৌ"
+
+msgid "Usage"
+msgstr "য়ুসেজ"
+
+msgid "Usage (Hours)"
+msgstr "য়ুসেজ (পুং)"
+
+msgid "Usage Overview"
+msgstr "য়ুসেজ ওভরভ্যু"
+
+msgid "Use Server Default"
+msgstr "সর্ভর দিফোল্ট শীজিন্নৌ"
+
+msgid "Use a volume as source"
+msgstr "ভোল্যুম অমা সোর্স অমগুম্না শীজিন্নৌ"
+
+msgid "Use image as a source"
+msgstr "ইমেজ সোর্স অমগুম্না শীজিন্নৌ"
+
+msgid ""
+"Use one of the available template source options to specify the template to "
+"be used in creating this stack."
+msgstr ""
+"ষ্টেক অসি শেম্বদা শীজিন্ননবা তেমপ্লেত অদু তাক্নবা অফংবা তেমপ্লেত সোর্স ওপসনশীংদগী "
+"অমা শীজিন্নৌ।"
+
+msgid "Use snapshot as a source"
+msgstr "স্নেপশোত সোর্স অমগুম্না শীজিন্নৌ"
+
+#, python-format
+msgid "Used <span> %(used)s </span> of <span> %(available)s </span>"
+msgstr "শীজিন্নরবা <span> %(used)s </span> of <span> %(available)s </span>"
+
+msgid "User"
+msgstr "য়ুজর"
+
+#, python-format
+msgid "User \"%s\" was successfully created."
+msgstr "য়ুজর \"%s\" মায় পাক্না শেমখ্রে।"
+
+#, python-format
+msgid "User %s has no role defined for that project."
+msgstr "প্রোজেক্ত অদুগীদমক য়ুজর %sগী শেংনা তাক্লবা রোল অমত্তা লৈতে।"
+
+msgid "User Credentials Details"
+msgstr "য়ুজর ক্রিদেন্সিএলশীংগী অকুপ্পা মরোলশীং"
+
+msgid "User ID"
+msgstr "য়ুজর ID"
+
+msgid "User Name"
+msgstr "য়ুজর মমীং"
+
+msgid "User Settings"
+msgstr "য়ুজর সেত্তিংশীং"
+
+msgid "User has been updated successfully."
+msgstr "য়ুজর মায় পাক্না অপদেত তৌরে।"
+
+#, python-format
+msgid "User name \"%s\" is already used."
+msgstr "য়ুজর মমীং \"%s\" অসি হান্ননা শীজিন্নরে।"
+
+msgid "Users"
+msgstr "য়ুজরশীং"
+
+msgid "VCPU"
+msgstr "VCPU"
+
+msgid "VCPU Hours"
+msgstr "VCPU পুংশীং"
+
+msgid "VCPU Usage"
+msgstr "VCPU য়ুসেজ"
+
+msgid "VCPUs"
+msgstr "VCPUশীং"
+
+msgid "VCPUs (total)"
+msgstr "VCPUs (অপুনবা)"
+
+msgid "VCPUs (used)"
+msgstr "VCPUs (শীজিন্নরবা)"
+
+msgid "VLAN"
+msgstr "VLAN"
+
+msgid "VXLAN"
+msgstr "VXLAN"
+
+msgid "Value"
+msgstr "ভেল্যু"
+
+msgid "View Credentials"
+msgstr "ক্রিদেন্সিএলশীং য়েংউ"
+
+msgid "View Extra Specs"
+msgstr "অহেনবা স্পেকশীং য়েংউ"
+
+msgid "View Full Log"
+msgstr "ফুল লোগ য়েংউ"
+
+msgid "View Log"
+msgstr "লোগ য়েংউ"
+
+msgid "View Usage"
+msgstr "য়ুসেজ য়েংউ"
+
+msgid "Volume"
+msgstr "ভোল্যুম"
+
+#, python-format
+msgid "Volume %(volume_name)s on instance %(instance_name)s"
+msgstr "ইন্সতেন্স %(instance_name)sদা ভোল্যুম %(volume_name)s"
+
+msgid "Volume Backup:"
+msgstr "ভোল্যুম বেকঅপ:"
+
+msgid "Volume Backups"
+msgstr "ভোল্যুম বেকঅপশীং"
+
+msgid ""
+"Volume Backups are stored using the Object Storage service. You must have "
+"this service activated in order to create a backup."
+msgstr ""
+"ভোল্যুম বেকঅপশীং অসি ওবজেক্ত ষ্টোরেজ সর্ভিস শীজিন্নদুনা ষ্টোর তৌই। বেকঅপ অমা "
+"শেম্নবগীদমক নহাক্না সর্ভিস অসি এক্তিভেত তৌগদবনি।"
+
+msgid "Volume Limits"
+msgstr "ভোল্যুম লিমিতশীং"
+
+msgid "Volume Name"
+msgstr "ভোল্যুম মমীং"
+
+msgid "Volume Snapshot"
+msgstr "ভোল্যুম স্নেপশোত"
+
+msgid "Volume Snapshots"
+msgstr "ভোল্যুম স্নেপশোতশীং"
+
+msgid "Volume Source"
+msgstr "ভোল্যুম সোর্স"
+
+msgid "Volume Type Encryption Details"
+msgstr "ভোল্যুম তাইপ এনক্রিপসনগী অকুপ্পা মরোলশীং"
+
+msgid "Volume Type Encryption Overview"
+msgstr "ভোল্যুম তাইপ এনক্রিপসন ওভরভ্যু"
+
+msgid "Volume Type Extra Specs"
+msgstr "ভোল্যুম তাইপ এক্সত্রা স্পেকশীং"
+
+msgid "Volume Type is Unencrypted."
+msgstr "ভোল্যুম তাইপ অসি অনএনক্রিপ্ত তৌরে।"
+
+#, python-format
+msgid "Volume Type: %(volume_type_name)s"
+msgstr "ভোল্যুম তাইপ: %(volume_type_name)s"
+
+#, python-format
+msgid "Volume Type: %(volume_type_name)s "
+msgstr "ভোল্যুম তাইপ: %(volume_type_name)s"
+
+msgid "Volume Types"
+msgstr "ভোল্যুম মখলশীং"
+
+msgid ""
+"Volume mount point (e.g. 'vda' mounts at '/dev/vda'). Leave this field blank "
+"to let the system choose a device name for you."
+msgstr ""
+"ভোল্যুমনা পোইন্ত য়ৌনা কারে (খুদম ওইনা, '/dev/vda' য়ৌনা 'vda'না কারে)। সিষ্টেম "
+"অদুনা নহাক্কীদমক দিভাইস মমীং অমা খনবা য়াহন্নবা ফিল্ড অসি হাংনা থম্মু।"
+
+msgid "Volume size in gigabytes (integer value)."
+msgstr "গিগাবাইত্তা ওইবা ভোল্যুমগী সাইজ (ইন্তিজর ভেল্যু)"
+
+#, python-format
+msgid "Volume size must be equal to or greater than the image size (%s)"
+msgstr "ভোল্যুম সাইজ অদু ইমেজ সাইজগা (%s) মান্নবা নত্ত্রগা হেন্না চাউবা ওইগদবনি"
+
+msgid "Volume size must be greater than 0"
+msgstr "ভোল্যুম সাইজ অদু 0দগী হেন্না চাউগদবনি"
+
+msgid "Volume source must be specified"
+msgstr "ভোল্যুম সোর্স অদু শেংনা তাক্কদবনি"
+
+msgid "Volumes"
+msgstr "ভোল্যুমশীং"
+
+msgid "Volumes Attached"
+msgstr "ভোল্যুমশীং এতেচ তৌরে"
+
+msgid "Yes"
+msgstr "য়েস"
+
+msgid "You are already using all of your available floating IPs."
+msgstr "নহাক্না হান্ননা নহাক্কী অফংবা ফ্লোতিং IP পুম্নমক শীজিন্নরি।"
+
+msgid "You are already using all of your available volumes."
+msgstr "নহাক্কী অফংবা ভোল্যুম পুম্নমক নহাক্না হান্ননা শীজিন্নরি।"
+
+msgid ""
+"You can connect a specified external network to the router. The external "
+"network is regarded as a default route of the router and the router acts as "
+"a gateway for external connectivity."
+msgstr ""
+"নহাক্না রাউতর অদুদা তাক্লবা এক্সতর্নেল নেতৱার্ক অমা কনেক্ত তৌবা য়াই। এক্সতর্নেল "
+"নেতৱার্ক অসি রাউতর অদুগী দিফোল্ট রুত অমগুম্না লৌনৈ অমসুং রাউতর অদু এক্সতর্নেল "
+"কনেক্তিভিতিগীদমক গেতৱে অমগুম্না থবক তৌই।"
+
+msgid "You can connect a specified subnet to the router."
+msgstr "নহাক্না রাউতর অদুদা শেংনা তাক্লবা সবনেত অমা কনেক্ত তৌবা য়াই।"
+
+msgid ""
+"You can create a port for the network. If you specify device ID to be "
+"attached, the device specified will be attached to the port created."
+msgstr ""
+"নহাক্না নেতৱার্ক অদুগীদমক পোর্ট অমা শেম্বা য়াই। করিগুম্বা নহাক্না এতেচ তৌগদবা দিভাইস "
+"ID শেংনা তাক্লবদি, তাক্লিবা দিভাইস অদু শেম্লিবা পোর্ত অদুদা এতেচ তৌগনি।"
+
+msgid ""
+"You can customize your instance after it has launched using the options "
+"available here."
+msgstr ""
+"নহাক্কী ইন্সতেন্স অদু মফমসিদা ফংলিবা ওপসনশীং অসি শীজিন্নদুনা শেমগৎলবা মতুংদা নহাক্না "
+"কষ্টমাইজ তৌবা য়াই।"
+
+msgid ""
+"You can specify the desired rule template or use custom rules, the options "
+"are Custom TCP Rule, Custom UDP Rule, or Custom ICMP Rule."
+msgstr ""
+"নহাক্না অপাম্বা রুল তেমপ্লেত তাকপা য়াই নত্ত্রগা কষ্টম রুলশীং শীজিন্নবা য়াই, ওপসনশীংদি "
+"কষ্টম TCP রুল, কষ্টম UDP রুল, নত্ত্রগা কষ্টম ICMP রুল অসিনি।"
+
+msgid ""
+"You cannot revoke your administrative privileges from the domain you are "
+"currently logged into. Please switch to another domain with administrative "
+"privileges or remove the administrative role manually via the CLI."
+msgstr ""
+"নহাক্না হৌজিক্কী ওইনা লোগ তৌরিবা দোমেইন অদুদগী নহাক্কী এদমিনিষ্ট্রেতিভ প্রিভিলেজশীং "
+"অদু নহাক্না রিভোক তৌবা ঙমদে। চানবীদুনা এদমিনিষ্ট্রেতিভ প্রিভিলেজশীংগা লোয়নবা "
+"অতোপ্পা দোমেইন অমদা স্বিতচ তৌবীয়ু নত্ত্রগা এদমিনিষ্ট্রেতিভ রোল অদু CLIগী মতেংনা "
+"মেন্যুএল ওইনা লৌথোকউ।"
+
+msgid ""
+"You cannot revoke your administrative privileges from the project you are "
+"currently logged into. Please switch to another project with administrative "
+"privileges or remove the administrative role manually via the CLI."
+msgstr ""
+"নহাক্না হৌজিক্কী ওইনা লোগ তৌরিবা প্রোজেক্ত অদুদগী নহাক্কী এদমিনিষ্ট্রেতিভ "
+"প্রিভিলেজশীং অদু নহাক্না রিভোক তৌবা ঙমদে। চানবীদুনা এদমিনিষ্ট্রেতিভ প্রিভিলেজশীংগা "
+"লোয়নবা অতোপ্পা প্রোজেক্ত অমদা স্বিতচ তৌবীয়ু নত্ত্রগা এদমিনিষ্ট্রেতিভ রোল অদু CLIগী "
+"মতেংনা মেন্যুএল ওইনা লৌথোকউ।"
+
+msgid "You may have mistyped the address or the page may have moved."
+msgstr "নহাক্না এদ্রেস অদু মিসতাইপ তৌখ্রে নত্ত্রগা পেজ অদু মফম হোংখ্রে।"
+
+msgid "You may optionally set a password on the rebuilt instance."
+msgstr ""
+"অমুক হন্না শেম্লবা ইন্সতেন্স অদুদা নহাক্না ওপস্নেল ওইনা পাসৱার্দ অমা সেত তৌবা য়াই।"
+
+msgid "You may update the editable properties of your network here."
+msgstr ""
+"নহাক্কী নেতৱার্ক্কী এদিত তৌবা য়াবা প্রোপর্টিশীং অদু নহাক্না মফমশিদা অপদেত তৌবা য়াই।"
+
+msgid "You may update the editable properties of your port here."
+msgstr ""
+"নহাক্কী পোর্তকী এদিত তৌবা য়াবা প্রোপর্টিশীং অদু নহাক্না মফমশিদা অপদেত তৌবা য়াই।"
+
+msgid "You may update the editable properties of your router here."
+msgstr ""
+"নহাক্কী রাউতরগী এদিত তৌবা য়াবা প্রোপর্টিশীং অদু নহাক্না মফমশিদা অপদেত তৌবা য়াই।"
+
+msgid "You must select a snapshot."
+msgstr "নহাক্না স্নেপশোত অমা খনগদবনি।"
+
+msgid "You must select a volume."
+msgstr "নহাক্না ভোল্যুম অমা খনগদবনি।"
+
+msgid "You must select an image."
+msgstr "নহাক্না ইমেজ অমা খনগদবনি।"
+
+msgid "You must set volume size"
+msgstr "নহাক্না ভোল্যুম সাইজ সেত তৌগদবনি"
+
+msgid "You must specify a template via one of the available sources."
+msgstr "নহাক্না অফংবা সোর্সশীংদগী অমগী মতেংনা তেমপ্লেত অমা তাক্কদবনি।"
+
+msgid ""
+"You must specify the source of the traffic to be allowed via this rule. You "
+"may do so either in the form of an IP address block (CIDR) or via a source "
+"group (Security Group). Selecting a security group as the source will allow "
+"any other instance in that security group access to any other instance via "
+"this rule."
+msgstr ""
+"রুল অসিগী মতেংনা য়াহন্নবা নহাক্না ত্রাফিক্কী সোর্স অদু ময়েক শেংনা তাকপা তাই। নহাক্না "
+"মসি IP এদ্রেস ব্লোক (CIDR) অমা নত্ত্রগা সোর্স গ্রুপ অমগী (সেক্যুরিতি গ্রুপ) খুত্থাংদা "
+"তৌবা য়াই। সেক্যুরিতি গ্রুপ অমবু সোর্সকুম্না খনবনা সেক্যুরিতি গ্রুপ অদুদা লৈরিবা অতোপ্পা "
+"ইন্সতেন্স অমহেক্তনা রুল অসিগী খুত্থাংদা অতোপ্পা ইন্সতেন্স অমহেক্তদা এক্সেস তৌবা য়াহনগনি।"
+
+#, python-format
+msgid "Your image %s has been queued for creation."
+msgstr "শেম্নবগীদমক্তা নহাক্কী ইমেজ %s অসি ক্যু শেম্লে।"
+
+msgid "Zone"
+msgstr "জোন"
+
+msgid "back-end"
+msgstr "বেক-এন্দ"
+
+msgid "dm-crypt"
+msgstr "dm-ক্রিপ্ত"
+
+msgid "environment"
+msgstr "ইনভাইরোনমেন্ত"
+
+msgid "front-end"
+msgstr "ফ্রন্ত-এন্দ"
+
+msgid "instance"
+msgstr "ইন্সতেন্স"
+
+msgid "template"
+msgstr "তেমপ্লেত"
+
+msgid "undefined"
+msgstr "শেংনা তাক্তে"
+
+msgid "unknown IP address"
+msgstr "শকখংদবা IP এদ্রেস"

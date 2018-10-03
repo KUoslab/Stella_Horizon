@@ -1,0 +1,236 @@
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2018-02-17 05:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-09-09 04:13+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Punjabi (India)\n"
+"Language: pa_IN\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s bytes"
+msgstr "%s ਬਾਈਟਾਂ"
+
+msgid "Active"
+msgstr "فعال كریں"
+
+msgid "Allocated"
+msgstr "ਵੰਡਿਆ ਜਾ ਚੁੱਕਾ"
+
+msgid "An error occurred while updating."
+msgstr "ਅੱਪਡੇਟ ਕਰਨ ਵੇਲੇ ਇੱਕ ਗਲਤੀ ਹੋਈ।"
+
+msgid "An error occurred. Please try again later."
+msgstr "ਇੱਕ ਗਲਤੀ ਵਾਪਰੀ। ਕਿਰਪਾ ਕਰ ਕੇ ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+msgid "Available"
+msgstr "ਉਪਲੱਬਧ"
+
+msgid "Available Metadata"
+msgstr "ਉਪਲੱਬਧ ਮੈਟਾਡਾਟਾ"
+
+msgid "Back"
+msgstr "ਪਿੱਛੇ"
+
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+msgid "Click here to expand the row and view the errors."
+msgstr "ਸਤਰ੍ਹ ਨੂੰ ਫੈਲਾਉਣ ਤੇ ਗਲਤੀਆਂ ਨੂੰ ਵੇਖਣ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ।"
+
+msgid "Click to see more details"
+msgstr "ਹੋਰ ਵੇਰਵੇ ਵੇਖਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
+
+msgid "Click to show or hide"
+msgstr "ਵਿਖਾਉਣ ਜਾਂ ਲੁਕਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
+
+#, python-format
+msgid "Confirm %s"
+msgstr "%s ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
+
+msgid "Custom"
+msgstr "ਚੁਣਿੰਦਾ"
+
+msgid "Danger"
+msgstr "ਖਤਰਾ"
+
+msgid "Danger: "
+msgstr "ਖਤਰਾ:"
+
+msgid "Decimal required"
+msgstr "ਦਸ਼ਮਲਵ ਲੋੜੀਂਦਾ"
+
+msgid "Delete"
+msgstr "ਮਿਟਾਉ"
+
+msgid "Detail Information"
+msgstr "ਵਿਸਥਾਰ ਜਾਣਕਾਰੀ"
+
+msgid "Duplicate keys are not allowed"
+msgstr "ਨਕਲ ਚਾਬੀਆਂ ਪਰਵਾਨਤ ਨਹੀਂ ਹਨ"
+
+msgid "Error"
+msgstr "ਗਲਤੀ"
+
+msgid "Error: "
+msgstr "ਗਲਤੀ: "
+
+msgid "Existing Metadata"
+msgstr "ਮੌਜੂਦਾ ਮੈਟਾਡਾਟਾ"
+
+msgid "Expand to see allocated items"
+msgstr "ਵੰਡ ਹੋ ਚੁੱਕੀਆਂ ਚੀਜ਼ਾਂ ਵੇਖਣ ਲਈ ਫੈਲਾਉ"
+
+msgid "Expand to see available items"
+msgstr "ਉਪਲੱਬਧ ਚੀਜ਼ਾਂ ਵੇਖਣ ਲਈ ਫੈਲਾਉ"
+
+msgid "Filter"
+msgstr "ਛਾਣਨੀ (ਫਿਲਟਰ)"
+
+msgid "Finish"
+msgstr "ਮੁਕੰਮਲ"
+
+msgid "Flavor"
+msgstr "فلیور"
+
+msgid "Info"
+msgstr "ਜਾਣਕਾਰੀ"
+
+msgid "Integer required"
+msgstr "ਅੰਕ ਲੋੜੀਂਦਾ"
+
+msgid "Loading"
+msgstr "ਲੋਡ ਹੋ ਰਿਹਾ"
+
+msgid "Max"
+msgstr "ਵੱਧੋ-ਵੱਧ"
+
+msgid "Max length"
+msgstr "ਵੱਧੋ-ਵੱਧ ਲੰਬਾਈ"
+
+msgid "Min"
+msgstr "ਘੱਟੋ-ਘੱਟ"
+
+msgid "Min length"
+msgstr "ਘੱਟੋ-ਘੱਟ ਲੰਬਾਈ"
+
+msgid "Name"
+msgstr "ਨਾਂ"
+
+msgid "Next"
+msgstr "ਅਗਲਾ"
+
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+msgid "No available items"
+msgstr "ਕੋਈ ਉਪਲੱਬਧ ਚੀਜ਼ ਨਹੀਂ"
+
+msgid "No available metadata"
+msgstr "ਕੋਈ ਮੈਟਾਡਾਟਾ ਉਪਲੱਬਧ ਨਹੀਂ"
+
+msgid "No data available."
+msgstr "ਕੋਈ ਡਾਟਾ ਉਪਲੱਬਧ ਨਹੀ।"
+
+msgid "No existing metadata"
+msgstr "ਕੋਈ ਮੌਜੂਦਾ ਮੈਟਾਡਾਟਾ ਨਹੀਂ"
+
+msgid "No items to display."
+msgstr "ਪਰਦਰਸ਼ਿਤ ਕਰਨ ਲਈ ਕੋਈ ਚੀਜ਼ ਨਹੀਂ।"
+
+msgid "No roles"
+msgstr "ਕੋਈ ਰੋਲ ਨਹੀੰ"
+
+msgid "None"
+msgstr "ਕੋਈ ਨਹੀਂ"
+
+msgid "Not authorized to do this operation."
+msgstr "ਇਹ ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਅਧਿਕਾਰਤ ਨਹੀੰ ਕੀਤਾ ਹੋਇਆ।"
+
+msgid "Notice: "
+msgstr "ਸੂਚਨਾ:"
+
+msgid "Passwords do not match."
+msgstr "ਪਛਾਣ-ਸ਼ਬਦ ਮੇਲ ਨਹੀੰ ਖਾਂਦੇ।"
+
+msgid "Pattern mismatch"
+msgstr "ਬੇਮੇਲ ਨਮੂਨਾ"
+
+msgid "Please confirm your selection. "
+msgstr "ਕਿਰਪਾ ਕਰ ਕੇ ਆਪਣੀ ਚੋਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"
+
+msgid "Re-order items using drag and drop"
+msgstr "ਧੂਹ ਕੇ ਸੁੱਟਣ (ਡਰੈਗ ਐੰਡ ਡਰੌਪ) ਨਾਲ ਚੀਜ਼ਾਂ ਨੂੰ ਮੁੜ ਤਰਤੀਬ ਦਿਉ"
+
+msgid "Remove"
+msgstr "نكالیں"
+
+msgid "Required"
+msgstr "ਲੋੜੀਂਦਾ"
+
+msgid "Roles"
+msgstr "ਰੋਲ"
+
+msgid "Select an item from Available items below"
+msgstr "ਹੇਠਾਂ ਉਪਲੱਬਧ ਚੀਜ਼ਾਂ ਵਿੱਚੋਂ ਇੱਕ ਚੀਜ਼ ਚੁਣੋ"
+
+msgid "Select one"
+msgstr "ਇੱਕ ਚੁਣੋ"
+
+msgid "Status"
+msgstr "ਹਾਲਾਤ"
+
+msgid "Submit"
+msgstr "ਦਾਖਲ ਕਰੋ"
+
+msgid "Success"
+msgstr "ਸਫਲਤਾ"
+
+msgid "Success: "
+msgstr "ਸਫਲਤਾ: "
+
+msgid ""
+"The action cannot be performed. The contents of this row have errors or are "
+"missing information."
+msgstr "ਇਹ ਕਾਰਵਾਈ ਨਹੀਂ ਹੋ ਸਕਦੀ। ਇਸ ਸਤਰ੍ਹ ਦੇ ਅੰਸ਼ਾਂ ਵਿੱਚ ਗਲਤੀਆਂ ਹਨ ਜਾਂ ਕੋਈ ਜਾਣਕਾਰੀ ਘੱਟ ਹੈ।"
+
+msgid "There was a problem communicating with the server, please try again."
+msgstr "ਸਰਵਰ ਨਾਲ ਸੰਚਾਰ ਕਰਨ ਵੇਲੇ ਇੱਕ ਮੁਸ਼ਕਿਲ ਸੀ, ਕਿਰਪਾ ਕਰ ਕੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+msgid "There was an error submitting the form. Please try again."
+msgstr "ਫਾਰਮ ਸਮਰਪਣ ਵੇਲੇ ਇੱਕ ਗਲਤੀ ਸੀ। ਕਿਰਪਾ ਕਰ ਕੇ ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+msgid "Warning"
+msgstr "ਚੇਤਾਵਨੀ"
+
+msgid "Warning: "
+msgstr "ਚੇਤਾਵਨੀ: "
+
+msgid "Working"
+msgstr "ਕੰਮ ਕਰ ਰਿਹਾ"
+
+msgid "Yes"
+msgstr "ਹਾਂ"

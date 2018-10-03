@@ -1,0 +1,495 @@
+# Yuko Katabami <yukokatabami@gmail.com>, 2015. #zanata
+# Mie Yamamoto <myamamot@redhat.com>, 2016. #zanata
+# Yuko Katabami <yukokatabami@gmail.com>, 2016. #zanata
+# Akihiro Motoki <amotoki@gmail.com>, 2017. #zanata
+# Yuko Katabami <yukokatabami@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon 12.0.0.0b4.dev51\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2017-08-07 12:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-08-07 01:16+0000\n"
+"Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#, python-format
+msgid "%(total)s %(type)s"
+msgstr "%(total)s %(type)s"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s bytes"
+msgstr "%s バイト"
+
+msgid "(Modified)"
+msgstr "(変更済み)"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 GB"
+msgstr "0 GB"
+
+msgid "0 MB"
+msgstr "0 MB"
+
+msgid "Active"
+msgstr "稼働中"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Added"
+msgstr "追加済み"
+
+msgid "Additional items not allowed"
+msgstr "追加の要素は許可されていません"
+
+msgid "Additional properties not allowed"
+msgstr "追加のプロパティーは許可されていません"
+
+msgid "Allocated"
+msgstr "割り当て済み"
+
+msgid "An error occurred while updating."
+msgstr "更新中にエラーが発生しました。"
+
+msgid "An error occurred. Please try again later."
+msgstr "エラーが発生しました。後からもう一度お試しください。"
+
+msgid "Array is too long ({$value.length$} items), maximum {$schema.maxItems$}"
+msgstr ""
+"配列が長すぎます (要素数 {$value.length$} )。最小は {$schema.maxItems$} です"
+
+msgid ""
+"Array is too short ({$value.length$} items), minimum {$schema.minItems$}"
+msgstr ""
+"配列が短すぎます (要素数 {$value.length$} )。最小は {$schema.minItems$} です"
+
+msgid "Array items must be unique"
+msgstr "配列の要素は一意でなければいけません"
+
+msgid "Available"
+msgstr "利用可能"
+
+msgid "Available Metadata"
+msgstr "利用可能なメタデータ"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "Cancel"
+msgstr "取り消し"
+
+msgid "Circular $refs"
+msgstr "循環参照 $refs"
+
+msgid "Click each item to get its description here."
+msgstr "説明を表示するには、それぞれのアイテムをクリックしてください。"
+
+msgid "Click here for filters."
+msgstr "フィルターを指定するにはここをクリックしてください。"
+
+msgid "Click here to expand the row and view the errors."
+msgstr "行を展開してエラーを表示するには、ここをクリックしてください。"
+
+msgid "Click to see more details"
+msgstr "クリックすると詳しい情報が表示されます。"
+
+msgid "Click to show or hide"
+msgstr "クリックして表示/非表示を切り替えてください。"
+
+msgid "Close"
+msgstr "閉じる"
+
+#, python-format
+msgid "Confirm %s"
+msgstr "%sの確認"
+
+msgid "Confirm Delete Foobars"
+msgstr "Foobar の削除の確認"
+
+msgid "Current Usage"
+msgstr "現在使用中"
+
+msgid "Custom"
+msgstr "カスタム"
+
+msgid "Customization Script"
+msgstr "カスタマイズスクリプト"
+
+msgid "Danger"
+msgstr "危険"
+
+msgid "Danger: "
+msgstr "危険:"
+
+msgid "Data does not match any schemas from 'anyOf'"
+msgstr "データは、'anyOf' で指定されたスキーマのいずれとも一致しません。"
+
+msgid "Data does not match any schemas from 'oneOf'"
+msgstr "データは、'oneOf' で指定されたスキーマのいずれとも一致しません。"
+
+msgid "Data is valid against more than one schema from 'oneOf'"
+msgstr "データは、'oneOf' で指定された複数のスキーマに対して有効です。"
+
+msgid "Data matches schema from 'not'"
+msgstr "データは、'not' で指定されたスキーマに一致します。"
+
+msgid "Decimal required"
+msgstr "十進数を指定する必要があります。"
+
+msgid "Delete"
+msgstr "削除"
+
+#, python-format
+msgid "Deleted : %s."
+msgstr "%s を削除しました"
+
+msgid "Dependency failed - key must exist"
+msgstr "依存関係でエラーが発生しました。キーが存在している必要があります"
+
+msgid "Detail Information"
+msgstr "詳細情報"
+
+#, python-format
+msgid "Displaying %(count)s of %(total)s items"
+msgstr "%(total)s 件中 %(count)s 件表示"
+
+#, python-format
+msgid "Displaying %s item"
+msgid_plural "Displaying %s items"
+msgstr[0] "%s 件表示"
+
+msgid "Duplicate keys are not allowed"
+msgstr "重複するキーは使用できません"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Error: "
+msgstr "エラー: "
+
+msgid "Example"
+msgstr "例"
+
+msgid "Existing Metadata"
+msgstr "選択済みのメタデータ"
+
+msgid "Expand to see allocated items"
+msgstr "割り当て済みのアイテムを表示するには展開してください。"
+
+msgid "Expand to see available items"
+msgstr "利用可能なアイテムを表示するには展開してください。"
+
+msgid "Filter"
+msgstr "フィルター"
+
+msgid "Finish"
+msgstr "完了"
+
+msgid "Flavor"
+msgstr "フレーバー"
+
+msgid "Format validation failed"
+msgstr "フォーマットの検証に失敗しました"
+
+msgid "Full Text Search"
+msgstr "フルテキスト検索"
+
+msgid "Info"
+msgstr "情報"
+
+msgid "Integer required"
+msgstr "整数を指定する必要があります。"
+
+msgid "Invalid type, expected {$schema.type$}"
+msgstr "無効な種別です。期待値: {$schema.type$}"
+
+msgid "Keyword failed: '{$title$}'"
+msgstr "キーワードでエラーが発生しました: '{$title$}'"
+
+msgid "Load script from a file"
+msgstr "ファイルからのスクリプト読み込み"
+
+msgid "Loading"
+msgstr "読み込み中"
+
+msgid "Max"
+msgstr "最大値"
+
+msgid "Max length"
+msgstr "最大長"
+
+msgid "Min"
+msgstr "最小値"
+
+msgid "Min length"
+msgstr "最小長"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Next"
+msgstr "次へ"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No Limit"
+msgstr "制限なし"
+
+msgid "No available items"
+msgstr "利用できるアイテムがありません。"
+
+msgid "No available metadata"
+msgstr "利用可能なメタデータはありません"
+
+msgid "No data available."
+msgstr "データがありません。"
+
+msgid "No enum match for: {$viewValue$}"
+msgstr "{$viewValue$} に一致する enum がありません"
+
+msgid "No existing metadata"
+msgstr "選択済みのメタデータはありません"
+
+msgid "No items to display."
+msgstr "表示する項目がありません"
+
+msgid "No roles"
+msgstr "ロールがありません"
+
+msgid "None"
+msgstr "なし"
+
+msgid "Not authorized to do this operation."
+msgstr "この操作を行う権限がありません。"
+
+msgid "Notice: "
+msgstr "注意:"
+
+msgid "Passwords do not match."
+msgstr "パスワードが一致しません。"
+
+msgid "Pattern mismatch"
+msgstr "パターンが一致しません。"
+
+msgid "Please Wait"
+msgstr "お待ちください"
+
+msgid "Please confirm your selection. "
+msgstr "選択内容を確認してください。"
+
+msgid "Prompt"
+msgstr "プロンプト"
+
+msgid "Re-order items using drag and drop"
+msgstr "順番を並べ替えるには、アイテムをドラッグ＆ドロップしてください。"
+
+msgid "Remaining"
+msgstr "残り"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "Required"
+msgstr "必須"
+
+msgid "Roles"
+msgstr "ロール"
+
+#. Strings between {$ and $} should be left untranslated.
+msgid ""
+"Script size: {$ (scriptLength || 0) | bytes $} of {$ config.MAX_SCRIPT_SIZE "
+"| bytes $}"
+msgstr ""
+"スクリプトのサイズ: {$ config.MAX_SCRIPT_SIZE | bytes $} 中 {$ (scriptLength "
+"|| 0) | bytes $}"
+
+msgid "Search in current results"
+msgstr "現在の結果内の検索"
+
+msgid "Select an item from Available items below"
+msgstr "以下の利用可能なアイテムから 1 つ選択してください。"
+
+msgid "Select one"
+msgstr "1 つ選択してください。"
+
+msgid "Server Name"
+msgstr "サーバー名"
+
+msgid "Shutdown"
+msgstr "シャットダウン"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Success"
+msgstr "成功"
+
+msgid "Success: "
+msgstr "成功: "
+
+msgid "Text"
+msgstr "テキスト"
+
+msgid ""
+"The action cannot be performed. The contents of this row have errors or are "
+"missing information."
+msgstr ""
+"操作を実行できません。この行の内容にエラーがあるか、情報が見つかりません。"
+
+msgid "The data in this field is invalid"
+msgstr "このフィールドのデータは無効です。"
+
+msgid "The script is larger than the maximum size"
+msgstr "スクリプトが最大サイズを超えています。"
+
+msgid "There was a problem communicating with the server, please try again."
+msgstr "サーバーとの通信中に問題がありました。再度お試しください。"
+
+msgid "There was an error submitting the form. Please try again."
+msgstr "フォームの送信中にエラーが発生しました。再度お試しください。"
+
+msgid "Toggle Dropdown"
+msgstr "ドロップダウンの切り替え"
+
+msgid "Toggle navigation"
+msgstr "ナビゲーションの切り替え"
+
+msgid "Too few properties defined, minimum {$schema.minProperties$}"
+msgstr ""
+"定義されているプロパティーが少なすぎます。最小は {$schema.minProperties$} で"
+"す"
+
+msgid "Too many properties defined, maximum {$schema.maxProperties$}"
+msgstr ""
+"定義されているプロパティーが多すぎます。最大は {$schema.maxProperties$} です"
+
+#, python-format
+msgid "Unable to delete: %s."
+msgstr "削除できません: %s"
+
+msgid "Unknown property (not in schema)"
+msgstr "不明なプロパティー (スキーマにありません)"
+
+msgid "Unlimited"
+msgstr "無制限"
+
+msgid "Uploading image"
+msgstr "イメージアップロード中"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Warning: "
+msgstr "警告: "
+
+msgid "Working"
+msgstr "反映中"
+
+msgid "Yes"
+msgstr "はい"
+
+msgid ""
+"You can specify resource metadata by moving items from the left column to "
+"the right column. In the left column there are metadata definitions from the "
+"Glance Metadata Catalog. Use the \"Custom\" option to add metadata with "
+"the key of your choice."
+msgstr ""
+"左の列から右の列にアイテムを移動して、リソースのメタデータを指定できます。左"
+"の列には、Glance のメタデータカタログに登録されているメタデータの定義が表示さ"
+"れています。キーを自分で指定してメタデータを追加するには、「カスタム」 オプ"
+"ションを使用してください。"
+
+msgid "description"
+msgstr "説明"
+
+msgid "m1.small"
+msgstr "m1.small"
+
+msgid "m1.tiny"
+msgstr "m1.tiny"
+
+msgid "pool default"
+msgstr "プールのデフォルト値"
+
+#, python-format
+msgid "selected \"%s\""
+msgstr "\"%s\" を選択しました。"
+
+msgid "{$ 'Please provide a search criteria first.' $}"
+msgstr "{$ 'まず最初に、検索条件を指定してください。' $}"
+
+msgid "{$ column.title $}"
+msgstr "{$ column.title $}"
+
+msgid "{$ message || 'No items to display.' $}"
+msgstr "{$ message || '表示する項目がありません' $}"
+
+msgid "{$schema.title$} is a required field"
+msgstr "{$schema.title$} は必須フィールドです"
+
+msgid "{$schema.title$} is formatted incorrectly"
+msgstr "{$schema.title$} が不正なフォーマットです"
+
+msgid ""
+"{$schema.title$} is too long ({$viewValue.length$} characters), maximum "
+"{$schema.maxLength$}"
+msgstr ""
+"{$schema.title$} は長すぎます ({$viewValue.length$} 文字)。上限は {$schema."
+"maxLength$} です"
+
+msgid ""
+"{$schema.title$} is too short ({$viewValue.length$} characters), minimum "
+"{$schema.minLength$}"
+msgstr ""
+"{$schema.title$} は短すぎます ({$viewValue.length$} 文字)。下限は {$schema."
+"minLength$} です"
+
+msgid "{$viewValue$} is equal to the exclusive maximum {$schema.maximum$}"
+msgstr ""
+"{$viewValue$} は、範囲に含まれない最大値 {$schema.maximum$} と等しい値です。"
+
+msgid "{$viewValue$} is equal to the exclusive minimum {$schema.minimum$}"
+msgstr ""
+"{$viewValue$} は、範囲に含まれない最小値 {$schema.minimum$} と等しい値です。"
+
+msgid "{$viewValue$} is greater than the allowed maximum of {$schema.maximum$}"
+msgstr ""
+"{$viewValue$} は、許可されている最大値 {$schema.maximum$} よりも大きいです"
+
+msgid "{$viewValue$} is less than the allowed minimum of {$schema.minimum$}"
+msgstr ""
+"{$viewValue$} は、許可されている最小値 {$schema.minimum$} よりも小さいです"
+
+msgid "{$viewValue$} is not a multiple of {$schema.multipleOf$}"
+msgstr "{$viewValue$} は {$schema.multipleOf$} の倍数ではありません"
+
+msgid "{$viewValue$} is not a valid number"
+msgstr "{$viewValue$} は有効な数値ではありません"

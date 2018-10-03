@@ -1,0 +1,260 @@
+$em-per-priority: floor($table-col-avg-width / $font-size-base) * 3;
+
+.table > thead > tr > th {
+  border-top: 0; // Remove once search bar is outside table HTML
+}
+
+[hz-table] {
+
+  td.action-col {
+    .popover {
+      min-width: 15em;
+    }
+  }
+
+  .detail-row td {
+    display: none;
+
+    &.detail .detail-expanded {
+      display: none;
+    }
+  }
+
+  .expanded + tr td {
+    display: table-cell;
+  }
+
+  .fa {
+    cursor: pointer;
+  }
+
+  .invalid {
+    color: $brand-warning;
+  }
+
+  .no-rows-help {
+    font-style: italic;
+    text-align: center;
+  }
+
+  .reorder {
+    min-width: 4em;
+    max-width: 4em;
+    width: 4em;
+  }
+
+  .search-header {
+    padding: 0;
+    border-bottom: 0; // Remove once search bar is outside table HTML
+
+    .btn-addon {
+      display: table-cell;
+      padding-left: 0.3em;
+      width: 1%;
+    }
+
+    .basic-search-bar {
+      width: 100%;
+    }
+  }
+}
+
+.table-rsp {
+  width: 100%;
+
+  tbody tr {
+    &.lr-drop-target-before td {
+      border-top: $reorder-border;
+    }
+
+    &.lr-drop-target-after td {
+      border-bottom: $reorder-border;
+    }
+
+  }
+
+  .numeric {
+    text-align: right;
+  }
+
+  [st-sort] {
+    cursor: pointer;
+
+    &:after {
+      content: $fa-var-sort;
+      font-family: 'FontAwesome';
+      margin-left: $padding-small-vertical;
+      opacity: 0;
+    }
+
+    &:not(.st-sort-ascent),
+    &:not(.st-sort-descent) {
+      &:hover:after {
+        opacity: 1;
+      }
+    }
+  }
+
+  .st-sort-ascent:after {
+    content: $fa-var-sort-asc;
+    opacity: 1;
+  }
+
+  .st-sort-descent:after {
+    content: $fa-var-sort-desc;
+    opacity: 1;
+  }
+
+
+  &.table-detail {
+    border-spacing: 0;
+
+    tbody {
+      tr td {
+        border-bottom: none;
+      }
+
+      tr:last-child:not(.spacer-row) td {
+        border-bottom: $table-border;
+      }
+
+      tr.expanded:nth-last-child(-n+3) [rowspan='2'].action-col {
+        border-bottom: $table-border;
+      }
+
+      tr:nth-last-child(2):not(.expanded) td {
+        border-bottom: $table-border;
+      }
+
+      tr:nth-last-child(3).expanded + .detail-row + tr.spacer-row td {
+        border-top: none;
+      }
+
+      tr + .detail-row + tr.spacer-row td {
+        border-top: $table-border;
+      }
+    }
+
+    .expander {
+      cursor: pointer;
+      max-width: $expander-width;
+      width: $expander-width;
+    }
+
+    .spacer-row td {
+      background-color: inherit;
+      border: none;
+      height: $table-gap-height;
+      padding: 0;
+      position: relative;
+    }
+
+    &.table-striped {
+      tbody {
+        tr {
+          &:nth-child(2n+1) {
+
+            > td,
+            + .detail-row > td {
+              background-color: $table-bg-accent;
+            }
+          }
+
+          &,
+          &.spacer-row > td,
+          &.spacer-row:nth-child(6n+3) + tr + tr.detail-row td {
+            background-color: transparent;
+          }
+          &.detail-row:nth-child(4n+2) + tr:not(.spacer-row) {
+            td,
+            + tr.detail-row td {
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only all {
+    .rsp-p1,
+    .rsp-p2,
+    .rsp-p3,
+    .rsp-p4 {
+      display: none;
+    }
+
+    th,td {
+      &.rsp-alt-p1,
+      &.rsp-alt-p2,
+      &.rsp-alt-p3,
+      &.rsp-alt-p4 {
+        display: inline-block;
+      }
+    }
+  }
+
+  @media (min-width: 0em) {
+    $content-width: $main-content-min-width - $sidebar-width;
+    $max-priority: floor($content-width / $font-size-base / $em-per-priority);
+
+    @for $i from 1 through $max-priority {
+      .rsp-p#{$i} {
+        display: table-cell;
+      }
+
+      .rsp-alt-p#{$i} {
+        display: none;
+      }
+    }
+  }
+
+  $p1-width: 5em + $em-per-priority * 1em;
+  @media (min-width: $p1-width) {
+    .rsp-p1 {
+      display: table-cell;
+    }
+
+    .rsp-alt-p1 {
+      display: none;
+    }
+  }
+
+  $p2-width: 5em + $em-per-priority * 2em;
+  @media (min-width: $p2-width) {
+    .rsp-p2 {
+      display: table-cell;
+    }
+
+    .rsp-alt-p2 {
+      display: none;
+    }
+  }
+
+  $p3-width: 5em + $em-per-priority * 3em;
+  @media (min-width: $p3-width) {
+    .rsp-p3 {
+      display: table-cell;
+    }
+
+    .rsp-alt-p3 {
+      display: none;
+    }
+  }
+
+  $p4-width: 5em + $em-per-priority * 4em;
+  @media (min-width: $p4-width) {
+    .rsp-p4 {
+      display: table-cell;
+    }
+
+    .rsp-alt-p4 {
+      display: none;
+    }
+  }
+
+  .pagination > li > a,
+  .pagination > li > span {
+    cursor: pointer;
+  }
+}

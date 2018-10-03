@@ -1,0 +1,60 @@
+<div ng-controller="LaunchInstanceDetailsController as ctrl">
+  <p class="step-description" translate>Please provide the initial hostname for the instance, the availability zone where it will be deployed, and the instance count.
+    Increase the Count to create multiple instances with the same settings.</p>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-8">
+      <div class="form-group"
+         ng-class="{ 'has-error': launchInstanceDetailsForm.name.$invalid && launchInstanceDetailsForm.name.$dirty }">
+        <label for="name" class="control-label">
+          <translate>Instance Name</translate>
+          <span class="hz-icon-required fa fa-asterisk"></span>
+        </label>
+        <input id="name" name="name" type="text" class="form-control"
+               ng-model="model.newInstanceSpec.name" ng-required="true">
+
+          <span class="help-block"
+                ng-show="launchInstanceDetailsForm.name.$invalid && launchInstanceDetailsForm.name.$dirty">
+            {$ ctrl.instanceNameError $}
+          </span>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label" translate for="availability-zone">Availability Zone</label>
+        <div class="horizon-loading-bar" ng-if="!model.loaded.availabilityZones">
+          <div class="progress progress-striped active">
+            <div class="progress-bar"></div>
+          </div>
+        </div>
+        <div class="alert alert-warning"
+             ng-if="model.loaded.availabilityZones && model.availabilityZones.length === 0"
+             translate>There are no Availability Zones.</div>
+        <select ng-if="model.loaded.availabilityZones && model.availabilityZones.length !== 0"
+                class="form-control"
+                id="availability-zone"
+                ng-options="zone.value as zone.label for zone in model.availabilityZones"
+                ng-model="model.newInstanceSpec.availability_zone">
+        </select>
+      </div>
+
+      <div class="form-group" ng-class="{ 'has-error': launchInstanceDetailsForm.count.$invalid }">
+        <label class="control-label" for="instance-count">
+          <translate>Count</translate>
+          <span class="hz-icon-required fa fa-asterisk"></span>
+        </label>
+        <input id="instance-count" name="count" type="number" class="form-control" min="1"
+               ng-model="model.newInstanceSpec.instance_count"
+               ng-required="true" ng-pattern="/^[0-9]+$/"
+               validate-number-min="1"
+               validate-number-max="{$ ctrl.maxInstanceCount $}">
+        <span class="help-block" ng-show="launchInstanceDetailsForm.count.$invalid">
+          {$ launchInstanceDetailsForm.count.$error.validateNumberMax ? ctrl.instanceCountMaxError : ctrl.instanceCountError $}
+        </span>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <pie-chart chart-data="ctrl.instanceStats" chart-settings="ctrl.chartSettings"></pie-chart>
+    </div>
+  </div>
+</div>

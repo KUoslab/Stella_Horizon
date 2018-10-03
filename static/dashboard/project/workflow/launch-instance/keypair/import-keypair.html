@@ -1,0 +1,51 @@
+<div class="ng-wizard" ng-form="wizardForm">
+
+  <div class="modal-header">
+    <button type="button" class="close" ng-click="ctrl.cancel()" aria-hidden="true" aria-label="Close">
+      <span aria-hidden="true" class="fa fa-close"></span>
+    </button>
+    <span translate class="h4 modal-title">Import Key Pair</span>
+  </div>
+
+  <div class="modal-body">
+    <p translate>
+      Key Pairs are how you login to your instance after it is launched.
+      Choose a key pair name you will recognize and paste your SSH public key into the
+      space provided.
+    </p>
+
+    <div class="form-group">
+      <label for="keypair-name">
+        <translate>Key Pair Name</translate>
+        <span class="hz-icon-required fa fa-asterisk"></span>
+      </label>
+      <input class="form-control" name="name" id="keypair-name"
+             ng-model="ctrl.model.name"
+             ng-required="true"/>
+    </div>
+
+    <div class="form-group">
+      <label for="public-key">
+        <translate>Public Key</translate>
+        <span class="hz-icon-required fa fa-asterisk"></span>
+      </label>
+      <textarea class="form-control" id="public-key" name="key" rows="15"
+                  ng-model="ctrl.model.public_key"
+                  ng-required="true">
+      </textarea>
+    </div>
+
+  </div>
+
+  <div class="modal-footer">
+    <button class="btn btn-default pull-left" ng-click="ctrl.cancel()">
+      <span class="fa fa-close"></span>
+      <translate>Cancel</translate>
+    </button>
+    <button class="btn btn-primary"
+            ng-click="ctrl.submit()" ng-disabled="wizardForm.$invalid">
+      <span class="fa fa-upload"></span>
+      <translate>Import Key Pair</translate>
+    </button>
+  </div>
+</div>

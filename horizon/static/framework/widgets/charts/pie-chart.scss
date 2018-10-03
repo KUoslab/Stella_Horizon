@@ -1,0 +1,119 @@
+.pie-chart {
+  display: inline-block;
+
+  .svg-pie-chart {
+    margin: $padding-small-horizontal 0;
+
+    .slice {
+      cursor: pointer;
+
+      &.usage {
+        fill: $brand-primary;
+      }
+
+      &.added {
+        fill: lighten($brand-primary, 20%);
+      }
+
+      &.remaining {
+        fill: $gray-lighter;
+      }
+    }
+  }
+
+  .pie-chart-label {
+    font-size: $font-size-large;
+    text-anchor: middle;
+    width: 100%;
+
+    text {
+      font-size: $font-size-large;
+      fill: $text-color;
+    }
+  }
+
+  .pie-chart-legend {
+    text-align: left;
+
+    .slice-legend {
+      display: table-row;
+
+      & > :last-child {
+        padding-left: $padding-xs-horizontal;
+      }
+
+      div {
+        display: table-cell;
+      }
+
+      .slice-key {
+        color: transparent;
+        display: inline-block;
+        height: 1em;
+        position: relative;
+        top: 0.12em;
+        width: 0.7em;
+        margin-right: $padding-xs-horizontal;
+
+        &.usage {
+          background-color: $brand-primary;
+        }
+
+        &.added {
+          background-color: lighten($brand-primary, 20%);
+        }
+
+        &.remaining {
+          background-color: $gray-lighter;
+        }
+      }
+
+      .chartless {
+        font-size: $font-size-large;
+        text-align: right;
+        padding-top: $padding-large-vertical;
+        font-weight: bold;
+        &.usage {
+          color: $brand-primary;
+        }
+
+        &.added {
+          color: lighten($brand-primary, 20%);
+        }
+
+        &.remaining {
+          color: $gray-lighter;
+        }
+      }
+    }
+  }
+}
+
+// styles for donut charts over quota
+.pie-chart.danger {
+  .svg-pie-chart {
+    .slice {
+      &.added,
+      &.usage,
+      &.remaining {
+        fill: $brand-danger;
+      }
+    }
+  }
+
+  .pie-chart-label {
+    text {
+      fill: $brand-danger;
+    }
+  }
+
+  .pie-chart-legend {
+    .slice-legend {
+      .slice-key {
+        &.added {
+          background-color: $brand-danger;
+        }
+      }
+    }
+  }
+}

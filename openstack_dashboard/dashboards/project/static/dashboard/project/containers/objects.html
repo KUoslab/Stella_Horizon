@@ -1,0 +1,23 @@
+<div ng-controller="horizon.dashboard.project.containers.ObjectsController as oc">
+  <ol class="breadcrumb hz-object-path">
+    <li class="h4">
+      <a ng-href="{$ oc.containerURL $}">{$ oc.model.container.name $}</a>
+    </li>
+    <li ng-repeat="crumb in oc.breadcrumbs track by $index" ng-class="{'active':$last}">
+      <span>
+        <a ng-href="{$ crumb.url $}" ng-if="!$last">{$ crumb.label $}</a>
+        <span ng-if="$last">{$ crumb.label $}</span>
+      </span>
+    </li>
+  </ol>
+
+  <hz-dynamic-table
+    config="oc.tableConfig"
+    items="oc.model.objects"
+    table="oc"
+    filter-facets="oc.filterFacets"
+    batch-actions="oc.batchActions"
+    item-actions="oc.rowActions"
+    result-handler="oc.actionResultHandler">
+  </hz-dynamic-table>
+</div>

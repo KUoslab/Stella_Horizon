@@ -1,0 +1,29 @@
+<div class="modal-header">
+  <button type="button" class="close" ng-click="modal.cancel()" aria-hidden="true" aria-label="Close">
+    <span aria-hidden="true" class="fa fa-times"></span>
+  </button>
+  <h3 class="modal-title">
+    <span translate ng-if="modal.resourceType==='aggregate'">Update Aggregate Metadata</span>
+    <span translate ng-if="modal.resourceType==='flavor'">Update Flavor Metadata</span>
+    <span translate ng-if="modal.resourceType==='image'">Update Image Metadata</span>
+    <span translate ng-if="modal.resourceType==='instance'">Update Instance Metadata</span>
+    <span translate ng-if="modal.resourceType==='volume'">Update Volume Metadata</span>
+    <span translate ng-if="modal.resourceType==='volume_snapshot'">Update Volume Snapshot Metadata</span>
+    <span translate ng-if="modal.resourceType==='volume_type'">Update Volume Type Metadata</span>
+  </h3>
+</div>
+<div class="modal-body">
+  <metadata-tree model="modal.tree" form="form"></metadata-tree>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-default cancel" ng-click="modal.cancel()">
+    <span class="fa fa-close"></span>
+    <span translate>Cancel</span>
+  </button>
+  <button class="btn btn-primary"
+          ng-click="modal.save()"
+          ng-disabled="form.$invalid">
+    <span class="fa" ng-class="modal.saving ? 'fa-spinner fa-spin' : 'fa-save'"></span>
+    <span translate>Save</span>
+  </button>
+</div>

@@ -1,0 +1,40 @@
+{% extends "horizon/client_side/template.html" %}
+{% load horizon i18n %}
+
+{% block id %}balloon_net{% endblock %}
+
+{% block template %}
+{% jstemplate %}
+<div class="portTableHeader">
+  <div class="title">[[subnets_label]]</div>
+  <div class="action">
+    <a class="add-subnet btn btn-default btn-xs ajax-modal [[type]]" href="[[add_subnet_url]]">
+      <span class="fa fa-plus"></span>
+      [[add_subnet_label]]
+    </a>
+  </div>
+</div>
+<table class="detailInfoTable">
+  <caption></caption>
+  <tbody>
+    [[#subnet]]
+    <tr>
+      <th>
+        <span data-display="[[id]]" title="[[id]]">
+          <a href="[[url]]">[[id]]</a>
+        </span>
+      </th>
+      <td>[[cidr]]</td>
+      <td class="delete">
+        <button class="delete-port btn btn-danger btn-xs"
+          data-router-id="[[router_id]]" data-network-id="[[network_id]]"
+          data-port-id="[[id]]" help_text="{% trans "This action cannot be undone." %}">
+            [[delete_subnet_label]]
+        </button>
+      </td>
+    </tr>
+    [[/subnet]]
+  </tbody>
+</table>
+{% endjstemplate %}
+{% endblock %}

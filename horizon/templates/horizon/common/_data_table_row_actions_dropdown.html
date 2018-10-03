@@ -1,0 +1,28 @@
+{% load horizon i18n %}
+
+{% spaceless %} {# This makes sure whitespace doesn't affect positioning for dropdown. #}
+
+  {% if row_actions|length == 1 %}
+    {% include "horizon/common/_data_table_action.html" with action=row_actions.0 is_single=1 %}
+  {% elif row_actions|length > 1 %}
+    <div class="btn-group">
+      {% for action in row_actions %}
+        {% if forloop.first %}
+          {% include "horizon/common/_data_table_action.html" with is_small=1 is_single=1 %}
+          <a class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" href="#">
+            <span class="fa fa-caret-down"></span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-right row_actions">
+        {% else %}
+          <li>
+            {% include "horizon/common/_data_table_action.html" %}
+          </li>
+        {% endif %}
+        {% if forloop.last %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+{% endspaceless %}

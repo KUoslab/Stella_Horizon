@@ -1,0 +1,440 @@
+# Carsten Duch <carsten.duch@posteo.de>, 2015. #zanata
+# Carsten Duch <carsten.duch@posteo.de>, 2016. #zanata
+# Frank Kloeker <eumel@arcor.de>, 2016. #zanata
+# Robert Simai <robert.simai@suse.com>, 2016. #zanata
+# Frank Kloeker <eumel@arcor.de>, 2017. #zanata
+# Robert Simai <robert.simai@suse.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon 12.0.0.0b4.dev9\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2017-07-30 20:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-07-31 10:49+0000\n"
+"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid ""
+"\n"
+"            Displaying %(counter)s item"
+msgid_plural ""
+"\n"
+"            Displaying %(counter)s items"
+msgstr[0] ""
+"\n"
+"Zeige %(counter)s Eintrag"
+msgstr[1] ""
+"\n"
+"Zeige %(counter)s Einträge"
+
+#, python-format
+msgid "%(action)s: %(objs)s"
+msgstr "%(action)s: %(objs)s"
+
+#, python-format
+msgid "%(context_name)s:"
+msgstr "%(context_name)s:"
+
+#, python-format
+msgid "%(name)s: %(error)s"
+msgstr "%(name)s: %(error)s"
+
+#, python-format
+msgid "%(size)d Byte"
+msgid_plural "%(size)d Bytes"
+msgstr[0] "%(size)d Byte"
+msgstr[1] "%(size)d Bytes"
+
+#, python-format
+msgid "%s EB"
+msgstr "%s EB"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s YB"
+msgstr "%s YB"
+
+#, python-format
+msgid "%s ZB"
+msgstr "%s ZB"
+
+#, python-format
+msgid "%s completed successfully."
+msgstr "%s erfolgreich abgeschlossen."
+
+#, python-format
+msgid "%s did not complete."
+msgstr "%s nicht abgeschlossen."
+
+msgid "&laquo;&nbsp;Prev"
+msgstr "&laquo;&nbsp;Zurück"
+
+msgid "(No Limit)"
+msgstr "(Keine Begrenzung)"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 Bytes"
+msgstr "0 Bytes"
+
+#, python-format
+msgid "A %(resource)s with the name \"%(name)s\" already exists."
+msgstr "Ein(e) %(resource)s mit dem Namen \"%(name)s\" existiert bereits."
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Active Instances:"
+msgstr "Aktive Instanzen:"
+
+msgid "Active RAM:"
+msgstr "Aktiver RAM:"
+
+msgid "Add a row"
+msgstr "Eine Zeile hinzufügen"
+
+msgid "All available"
+msgstr "Alle verfügbaren"
+
+msgid "Available"
+msgstr "Verfügbar"
+
+msgid "Back"
+msgstr "Zurück"
+
+#. Translators: test code, don't really have to translate
+msgid "Batch Item"
+msgid_plural "Batch Items"
+msgstr[0] "Eintrag Stapeln"
+msgstr[1] "Einträge Stapeln"
+
+#. Translators: test code, don't really have to translate
+msgid "Batched Item"
+msgid_plural "Batched Items"
+msgstr[0] "Stapel Eintrag"
+msgstr[1] "Stapel Einträge"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Connect"
+msgstr "Verbinden"
+
+#, python-format
+msgid "Displaying %(content_items)s item"
+msgid_plural "Displaying %(content_items)s items"
+msgstr[0] "Zeige %(content_items)s Eintrag"
+msgstr[1] "Zeige %(content_items)s Einträge"
+
+#, python-format
+msgid "Displaying %(nav_items)s item"
+msgid_plural "Displaying %(nav_items)s items"
+msgstr[0] "Zeige %(nav_items)s Eintrag"
+msgstr[1] "Zeige %(nav_items)s Einträge"
+
+#. Translators: test code, don't really have to translate
+msgid "Down Item"
+msgid_plural "Down Items"
+msgstr[0] "Eintrag Heruntersetzen"
+msgstr[1] "Einträge Heruntersetzen"
+
+#. Translators: test code, don't really have to translate
+msgid "Downed Item"
+msgid_plural "Downed Items"
+msgstr[0] "Heruntergesetzter Eintrag"
+msgstr[1] "Heruntergesetzte Einträge"
+
+#, python-format
+msgid "Error processing message json file '%(path)s': %(exception)s"
+msgstr "Fehler beim Verarbeiten der json-Datei '%(path)s': %(exception)s"
+
+msgid "Error: "
+msgstr "Fehler:"
+
+msgid "Fake"
+msgstr "Fälschung"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Horizon"
+msgstr "Horizon"
+
+msgid ""
+"If you are not sure which authentication method to use, contact your "
+"administrator."
+msgstr ""
+"Wenn Sie nicht sicher sind, welche Authentifizierungsmethode zu verwenden "
+"ist, kontaktieren Sie Ihren Administrator."
+
+msgid "Incorrect format for IP address"
+msgstr "Ungültiges Format der IP-Adresse"
+
+msgid "Infinity"
+msgstr "Unendlichkeit"
+
+msgid "Info: "
+msgstr "Information:"
+
+msgid "Invalid MAC Address format"
+msgstr "Ungültiges MAC-Adressenformat"
+
+msgid "Invalid metadata entry. Use comma-separated key=value pairs"
+msgstr ""
+"Ungültiger Metadateneintrag. Verwenden Sie durch Kommas separierte "
+"Schlüssel=Wert Paare"
+
+msgid "Invalid subnet mask"
+msgstr "Ungültige Subnetzmaske"
+
+msgid "Invalid version for IP address"
+msgstr "Ungültige Version der IP-Adresse"
+
+msgid "Keystone Providers:"
+msgstr "Keystone Anbieter:"
+
+msgid "Limit Summary"
+msgstr "Übersicht Kontingente"
+
+msgid "Log in"
+msgstr "Anmeldung"
+
+msgid "Login"
+msgstr "Login"
+
+#, python-format
+msgid ""
+"Login as different user or go back to <a href=\"%(home_url)s\">home page</a>"
+msgstr ""
+"Melden Sie sich als anderer Benutzer an oder gehen Sie zurück zur <a href="
+"\"%(home_url)s\">Startseite</a>"
+
+msgid "Members"
+msgstr "Mitglieder"
+
+#, python-format
+msgid "Message json file '%(path)s' is malformed. %(exception)s"
+msgstr ""
+"Nachrichten JSON Datei '%(path)s' ist im falschen Format. %(exception)s"
+
+msgid "More Actions"
+msgstr "Weitere Aktionen"
+
+msgid "Navigation Item"
+msgstr "Navigations-Eintrag"
+
+msgid "Never"
+msgstr "Niemals"
+
+msgid "Next"
+msgstr "Weiter"
+
+msgid "Next&nbsp;&raquo;"
+msgstr "Weiter&nbsp;&raquo;"
+
+msgid "No items to display."
+msgstr "Keine Einträge zum Anzeigen."
+
+#, python-format
+msgid "No match returned for the id \"%s\"."
+msgstr "Keine Übereinstimmung für die ID \"%s\"."
+
+msgid "No members."
+msgstr "Keine Mitglieder."
+
+msgid "None available."
+msgstr "Keine verfügbar."
+
+msgid "Not a valid ICMP code"
+msgstr "Kein gültiger ICMP Code"
+
+msgid "Not a valid ICMP type"
+msgstr "Kein gültiger ICMP Typ"
+
+msgid "Not a valid IP protocol number"
+msgstr "Keine gültige IP-Protokollnummer"
+
+msgid "Not a valid port number"
+msgstr "Keine gültige Port-Nummer"
+
+msgid "One colon allowed in port range"
+msgstr "Im Port-Bereich ist nur ein Doppelpunkt erlaubt"
+
+msgid "Other"
+msgstr "Andere"
+
+msgid "Password is not accepted"
+msgstr "Password wurde nicht akzeptiert"
+
+msgid "Please confirm your selection."
+msgstr "Bitte bestätigen Sie Ihre Auswahl."
+
+msgid "Please log in to continue."
+msgstr "Bitte melden Sie sich an um fortzufahren."
+
+msgid "Please select a row before taking that action."
+msgstr "Bitte wählen Sie vor dem Ausführen dieser Aktion eine Zeile aus."
+
+msgid "Please specify a search criteria first."
+msgstr "Bitte geben Sie zuerst ein Suchkriterium an."
+
+msgid "Processing..."
+msgstr "Verarbeite..."
+
+msgid "Save"
+msgstr "Speichern"
+
+#, python-format
+msgid "Select a %s to browse."
+msgstr "Wähle %s zum Durchsuchen."
+
+msgid "Select a period of time to query its usage:"
+msgstr "Wählen Sie einen Zeitbereich, um die Auslastung abzurufen:"
+
+#. Translators: test code, don't really have to translate
+msgid "Sell Puppy"
+msgid_plural "Sell Puppies"
+msgstr[0] "Sell Puppy"
+msgstr[1] "Sell Puppies"
+
+msgid "Sign In"
+msgstr "Anmelden"
+
+#. Translators: test code, don't really have to translate
+msgid "Sold Puppy"
+msgid_plural "Sold Puppies"
+msgstr[0] "Sold Puppy"
+msgstr[1] "Sold Puppies"
+
+msgid "Submit"
+msgstr "Abschicken"
+
+msgid "Success: "
+msgstr "Erfolg:"
+
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+msgid ""
+"The current user has insufficient permission to complete the requested task."
+msgstr ""
+"Der aktuelle Benutzer hat unzureichende Berechtigungen, um die angeforderte "
+"Aufgabe abzuschließen."
+
+msgid "The date should be in YYYY-MM-DD format."
+msgstr "Das Datum sollte im Format YYYY-MM-DD sein."
+
+msgid "The string may only contain ASCII printable characters."
+msgstr "Die Zeichenkette darf nur druckbare ASCII-Zeichen enthalten."
+
+#, python-format
+msgid ""
+"The value of %(resource)s is %(name)s inside the template. When launching a "
+"stack from this interface, the value must start with \"http://\" or "
+"\"https://\""
+msgstr ""
+"Der Wert von %(resource)s innerhalb der Vorlage ist %(name)s. Der Wert muss "
+"mit \"http://\" or \"https://\" beginnen, wenn ein Stack von diesem "
+"Interface gestartet wird."
+
+msgid "This Period's GB-Hours:"
+msgstr "GB-Stunden in diesem Zeitraum:"
+
+msgid "This Period's RAM-Hours:"
+msgstr "RAM-Stunden in diesem Zeitraum:"
+
+msgid "This Period's VCPU-Hours:"
+msgstr "VCPU-Stunden in diesem Zeitraum:"
+
+msgid "This action cannot be undone."
+msgstr "Diese Aktion kann nicht rückgängig gemacht werden."
+
+#, python-format
+msgid "Unable to %(action)s: %(objs)s"
+msgstr "Nicht möglich: %(action)s: %(objs)s"
+
+msgid "Unauthorized. Please try logging in again."
+msgstr "Nicht autorisiert. Bitte melden Sie sich erneut an."
+
+#, python-format
+msgid "Unauthorized: %s"
+msgstr "Nicht berechtigt: %s"
+
+#. Translators: test code, don't really have to translate
+msgid "Up Item"
+msgid_plural "Up Items"
+msgstr[0] "Eintrag Hochsetzen"
+msgstr[1] "Einträge Hochsetzen"
+
+msgid "Update Item"
+msgid_plural "Update Items"
+msgstr[0] "Eintrag aktualisieren"
+msgstr[1] "Einträge aktualisieren"
+
+msgid "Updated Item"
+msgid_plural "Updated Items"
+msgstr[0] "Aktualisierter Eintrag"
+msgstr[1] "Aktualisierter Einträge"
+
+#. Translators: test code, don't really have to translate
+msgid "Upped Item"
+msgid_plural "Upped Items"
+msgstr[0] "Hochgesetzter Eentrag"
+msgstr[1] "Hochgesetzte Einträge"
+
+msgid "Usage Summary"
+msgstr "Nutzungsübersicht"
+
+#, python-format
+msgid "Used <span> %(used)s </span>(No Limit)"
+msgstr "Verwendet <span> %(used)s </span>(Keine Begrenzung)"
+
+#, python-format
+msgid "Used <span> %(used)s </span>of<span> %(available)s </span>"
+msgstr "Verwendet <span> %(used)s </span>von<span> %(available)s </span>"
+
+msgid "Warning: "
+msgstr "Warnung:"
+
+#, python-format
+msgid "You are not allowed to %(action)s: %(objs)s"
+msgstr "Sie haben keine Berechtigung für %(action)s: %(objs)s"
+
+#, python-format
+msgid "You are not authorized to access %s"
+msgstr "Sie sind nicht berechtigt für den Zugriff auf %s"
+
+msgid "You do not have permission to access the resource:"
+msgstr "Sie haben keine Zugriffsrechte auf die Ressource:"
+
+msgid "You have selected: [[selection]]. "
+msgstr "Sie haben ausgewählt: [[selection]]."
+
+msgid "to"
+msgstr "bis"

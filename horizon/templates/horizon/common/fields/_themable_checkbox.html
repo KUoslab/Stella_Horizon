@@ -1,0 +1,15 @@
+<div class="themable-checkbox">
+  {% if field.auto_id %}
+    {{ field }}
+    <label
+     {% if field.field.required and form.required_css_class %}
+       class="{{ form.required_css_class }}"
+     {% endif %}
+       for="{{ field.auto_id }}">
+     {% if not is_horizontal %}
+       <span class="control-label">{{ field.label }}</span>
+       {% include "horizon/common/_form_field_decorator.html" %}
+     {% endif %}
+    </label>
+  {% endif %}
+</div>

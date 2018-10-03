@@ -1,0 +1,37 @@
+action-list.btn-group {
+
+  &:not(:first-child) {
+    padding-left: $padding-small-vertical;
+  }
+
+  &[button-tooltip] {
+    cursor: pointer;
+  }
+
+  .dropdown-menu > li {
+
+     &.disabled {
+      color: $dropdown-link-disabled-color;
+     }
+
+     > a.text-danger {
+      color: $brand-danger;
+    }
+  }
+
+  notifications {
+    bottom: -0.5em;
+    opacity: 1;
+    position: absolute;
+    right: -0.35em;
+    z-index: 3;
+  }
+
+  .invalid {
+    color: $brand-warning;
+  }
+
+  & + .popover a {
+    cursor: pointer;
+  }
+}

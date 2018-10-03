@@ -1,0 +1,51 @@
+.chart-tooltip {
+  background-color: $tooltip-bg;
+  display: none;
+  padding: $tooltip-padding;
+  position: absolute;
+  white-space: nowrap;
+  z-index: $zindex-popover;
+
+  &.tooltip-enabled {
+    display: inline-block;
+  }
+
+  .tooltip-key {
+    color: $tooltip-color;
+  }
+
+  .tooltip-value {
+    color: $tooltip-color;
+  }
+
+  span.fa {
+    fill: none;
+
+    &.usage {
+      color: $brand-primary;
+    }
+
+    &.added {
+      color: lighten($brand-primary, 20%);
+    }
+
+    &.remaining {
+      color: $gray-lighter;
+    }
+
+    &.danger {
+      color: $brand-danger;
+    }
+  }
+}
+
+// styles for donut chart tooltips over quota
+.pie-chart.danger {
+  .chart-tooltip {
+    span.fa {
+      &.added {
+        color: $brand-danger;
+      }
+    }
+  }
+}

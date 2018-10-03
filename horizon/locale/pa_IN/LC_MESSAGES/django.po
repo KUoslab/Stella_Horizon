@@ -1,0 +1,282 @@
+# Amandeep Singh Saini <jimidar@gmail.com>, 2015. #zanata
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2018-02-17 05:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-10-06 02:02+0000\n"
+"Last-Translator: Amandeep Singh Saini <jimidar@gmail.com>\n"
+"Language-Team: Punjabi (India)\n"
+"Language: pa_IN\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid "%(action)s: %(objs)s"
+msgstr "%(action)s: %(objs)s"
+
+#, python-format
+msgid "%(context_name)s:"
+msgstr "%(context_name)s:"
+
+#, python-format
+msgid "%(name)s: %(error)s"
+msgstr "%(name)s: %(error)s"
+
+#, python-format
+msgid "%(size)d Byte"
+msgid_plural "%(size)d Bytes"
+msgstr[0] "%(size)d ਬਾਈਟ"
+msgstr[1] "%(size)d ਬਾਈਟਾਂ"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s completed successfully."
+msgstr "%s ਸਫਲਤਾ ਪੂਰਵਕ ਪੂਰਾ ਹੋਇਆ।"
+
+#, python-format
+msgid "%s did not complete."
+msgstr "%s ਪੂਰਾ ਨਹੀੰ ਹੋਇਆ।"
+
+msgid "&laquo;&nbsp;Prev"
+msgstr "&laquo;&nbsp;Prev"
+
+msgid "(No Limit)"
+msgstr "(ਕੋਈ ਹੱਦ ਨਹੀਂ)"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 Bytes"
+msgstr "0 ਬਾਈਟਾਂ"
+
+#, python-format
+msgid "A %(resource)s with the name \"%(name)s\" already exists."
+msgstr "ਇੱਕ %(resource)s ਪਹਿਲਾਂ ਹੀ \"%(name)s\" ਨਾਂ ਨਾਲ ਮੌਜੂਦ ਹੈ।"
+
+msgid "Actions"
+msgstr "ਕਾਰਵਾਈਆਂ"
+
+msgid "Active Instances:"
+msgstr "ਕਿਰਿਆਸ਼ੀਲ ਇੰਸਟਾਸਜ਼:"
+
+msgid "Active RAM:"
+msgstr "ਕਿਰਿਆਸ਼ੀਲ RAM:"
+
+msgid "Add a row"
+msgstr "ਇੱਕ ਸਤਰ੍ਹ ਜੋੜੋ"
+
+msgid "All available"
+msgstr "ਸਾਰੇ ਉਪਲੱਬਧ"
+
+msgid "Available"
+msgstr "ਉਪਲੱਬਧ"
+
+msgid "Back"
+msgstr "ਪਿੱਛੇ"
+
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+msgid "Connect"
+msgstr "ਜੁੜੋ"
+
+#, python-format
+msgid "Displaying %(content_items)s item"
+msgid_plural "Displaying %(content_items)s items"
+msgstr[0] "%(content_items)s ਚੀਜ਼ ਵਿਖਾ ਰਿਹਾ"
+msgstr[1] "%(content_items)s ਚੀਜ਼ਾਂ ਵਿਖਾ ਰਿਹਾ"
+
+#, python-format
+msgid "Displaying %(nav_items)s item"
+msgid_plural "Displaying %(nav_items)s items"
+msgstr[0] "%(nav_items)s ਚੀਜ਼ ਵਿਖਾ ਰਿਹਾ"
+msgstr[1] "%(nav_items)s ਚੀਜ਼ਾਂ ਵਿਖਾ ਰਿਹਾ"
+
+msgid "Error: "
+msgstr "ਗਲਤੀ: "
+
+msgid "Fake"
+msgstr "ਨਕਲੀ"
+
+msgid "Filter"
+msgstr "ਛਾਣਨੀ (ਫਿਲਟਰ)"
+
+msgid "Horizon"
+msgstr "Horizon"
+
+msgid "Incorrect format for IP address"
+msgstr "IP ਪਤੇ ਲਈ ਗਲਤ ਬਣਤਰ"
+
+msgid "Info: "
+msgstr "ਜਾਣਕਾਰੀ: "
+
+msgid "Invalid metadata entry. Use comma-separated key=value pairs"
+msgstr "ਗਲਤ ਮੈਟਾਡੇਟਾ ਇੰਦਰਾਜ। ਕੌਮਿਆਂ ਨਾਲ ਵੱਖ ਕੀਤੇ ਹੋਏ key=value ਜੋੜੇ ਹੀ ਵਰਤੋ"
+
+msgid "Invalid subnet mask"
+msgstr "ਅਢੁਕਵਾਂ ਸਬਨੈੱਟ ਮਾਸਕ"
+
+msgid "Invalid version for IP address"
+msgstr "IP ਪਤੇ ਲਈ ਅਢੁਕਵਾਂ ਸੰਸਕਰਣ"
+
+msgid "Limit Summary"
+msgstr "ਹੱਦ ਸਾਰ"
+
+msgid "Login"
+msgstr "ਲਾਗਇਨ"
+
+msgid "Members"
+msgstr "ਜੀਅ"
+
+msgid "More Actions"
+msgstr "ਹੋਰ ਕਾਰਵਾਈਆਂ"
+
+msgid "Navigation Item"
+msgstr "ਨੈਵੀਗੇਸ਼ਨ ਚੀਜ਼"
+
+msgid "Never"
+msgstr "ਕਦੇ ਨਹੀਂ"
+
+msgid "Next"
+msgstr "ਅਗਲਾ"
+
+msgid "Next&nbsp;&raquo;"
+msgstr "Next&nbsp;&raquo;"
+
+msgid "No items to display."
+msgstr "ਪਰਦਰਸ਼ਿਤ ਕਰਨ ਲਈ ਕੋਈ ਚੀਜ਼ ਨਹੀਂ।"
+
+#, python-format
+msgid "No match returned for the id \"%s\"."
+msgstr "id \"%s\" ਲਈ ਕੁੱਝ ਵੀ ਮੇਲ ਖਾਂਦਾ ਵਾਪਿਸ ਨਹੀਂ ਹੋਇਆ।"
+
+msgid "No members."
+msgstr "ਕੋਈ ਜੀਅ ਨਹੀਂ।"
+
+msgid "None available."
+msgstr "ਕੋਈ ਉਪਲੱਬਧ ਨਹੀਂ"
+
+msgid "Not a valid IP protocol number"
+msgstr "ਇੱਕ ਢੁਕਵਾਂ IP ਜਾਬਤਾ ਅੰਕ ਨਹੀਂ"
+
+msgid "Not a valid port number"
+msgstr "ਇੱਕ ਢੁਕਵਾਂ ਪੋਰਟ ਨੰਬਰ ਨਹੀਂ"
+
+msgid "One colon allowed in port range"
+msgstr "ਪੋਰਟ ਹੱਦ ਵਿੱਚ ਇੱਕ ਕੌਲਨ ਦੀ ਪਰਵਾਨਗੀ ਹੈ"
+
+msgid "Other"
+msgstr "ਹੋਰ"
+
+msgid "Password is not accepted"
+msgstr "ਪਛਾਣ-ਸ਼ਬਦ ਪਰਵਾਨਿਤ ਨਹੀਂ ਹੈ"
+
+msgid "Please log in to continue."
+msgstr "ਜਾਰੀ ਰਹਿਣ ਲਈ ਕਿਰਪਾ ਕਰ ਕੇ ਲਾਗਇਨ ਕਰੋ।"
+
+msgid "Please select a row before taking that action."
+msgstr "ਉਹ ਕਾਰਵਾਈ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਿਰਪਾ ਕਰ ਕੇ ਇੱਕ ਸਤਰ੍ਹ ਚੁਣੋ।"
+
+msgid "Processing..."
+msgstr "...ਕਾਰਵਾਈ ਚੱਲ ਰਹੀ ਹੈ"
+
+msgid "Save"
+msgstr "ਸੰਭਾਲੋ"
+
+#, python-format
+msgid "Select a %s to browse."
+msgstr "ਬਰਾਊਜ਼ ਕਰਨ ਲਈ ਇੱਕ %s ਚੁਣੋ।"
+
+msgid "Select a period of time to query its usage:"
+msgstr "ਇਸਦੀ ਵਰਤੋਂ ਬਾਰੇ ਪੁੱਛ-ਗਿੱਛ ਲਈ ਇੱਕ ਸਮਾਂ ਅੰਤਰਾਲ ਚੁਣੋ:"
+
+#. Translators: test code, don't really have to translate
+msgid "Sell Puppy"
+msgid_plural "Sell Puppies"
+msgstr[0] "ਪਪੀ ਵੇਚੋ"
+msgstr[1] "ਪਪੀ ਵੇਚੋ"
+
+msgid "Sign In"
+msgstr "ਸਾਈਨ ਇਨ ਕਰੋ"
+
+#. Translators: test code, don't really have to translate
+msgid "Sold Puppy"
+msgid_plural "Sold Puppies"
+msgstr[0] "ਵਿਕਿਆ ਹੋਇਆ ਪਪੀ"
+msgstr[1] "ਵਿਕੇ ਹੋਏ ਪਪੀ"
+
+msgid "Submit"
+msgstr "ਦਾਖਲ ਕਰੋ"
+
+msgid "Success: "
+msgstr "ਸਫਲਤਾ: "
+
+msgid "Summary"
+msgstr "ਸਾਰ"
+
+msgid "The string may only contain ASCII printable characters."
+msgstr "ਇਸ ਸਤਰ੍ਹ ਵਿੱਚ ਸਿਰਫ਼ ਛਾਪੇ ਜਾ ਸਕਣ ਵਾਲੇ ASCII ਅੱਖਰ ਹੀ ਸ਼ਾਮਲ ਹੋ ਸਕਦੇ ਹਨ।"
+
+msgid "This Period's GB-Hours:"
+msgstr "ਇਸ ਅੰਤਰਾਲ ਦੇ GB-ਘੰਟੇ:"
+
+msgid "This Period's RAM-Hours:"
+msgstr "ਇਸ ਅੰਤਰਾਲ ਦੇ RAM-ਘੰਟੇ:"
+
+msgid "This Period's VCPU-Hours:"
+msgstr "ਇਸ ਅੰਤਰਾਲ ਦੇ VCPU-ਘੰਟੇ:"
+
+msgid "This action cannot be undone."
+msgstr "ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀੰ ਲਈ ਜਾ ਸਕੇਗੀ।"
+
+#, python-format
+msgid "Unable to %(action)s: %(objs)s"
+msgstr "%(action)s ਤੋਂ ਅਸਮਰੱਥ: %(objs)s"
+
+msgid "Unauthorized. Please try logging in again."
+msgstr "ਅਣਅਧਿਕਾਰਤ। ਕਿਰਪਾ ਕਰ ਕੇ ਦੁਬਾਰਾ ਲਾਗਇਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+#, python-format
+msgid "Unauthorized: %s"
+msgstr "ਅਣ-ਅਧਿਕਾਰਤ ਕੀਤਾ: %s"
+
+msgid "Usage Summary"
+msgstr "ਵਰਤੋਂ ਸਾਰ"
+
+msgid "Warning: "
+msgstr "ਚੇਤਾਵਨੀ: "
+
+#, python-format
+msgid "You are not allowed to %(action)s: %(objs)s"
+msgstr "ਤੁਹਾਨੂੰ %(action)s: ਦੀ ਮਨਜੂਰੀ ਨਹੀਂ ਹੈ: %(objs)s"
+
+#, python-format
+msgid "You are not authorized to access %s"
+msgstr "ਤੁਸੀਂ %s ਤੇ ਦਖਲ ਦੇਣ ਲਈ ਅਧਿਕਾਰਤ ਨਹੀਂ ਹੋ"
+
+msgid "You do not have permission to access the resource:"
+msgstr "ਤੁਹਾਡੇ ਕੋਲ ਵਸੀਲੇ ਤੱਕ ਦਖਲ ਦੀ ਪਰਵਾਨਗੀ ਨਹੀਂ ਹੈ:"

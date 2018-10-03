@@ -1,0 +1,102 @@
+/* The styles in this file need to be researched and/or removed when possible */
+
+#usage {
+  margin-bottom: 25px;
+  height: 125px;
+}
+
+ul {
+  margin: 0;
+}
+
+// should be removed and replaced by row + col-sm-6 in template
+.left, .right {
+  @extend .col-sm-6;
+}
+
+.dynamic-error {
+  background: $body-bg;
+  border: 1px solid $border-color;
+  color: $brand-danger;
+  margin-bottom: 0.5em;
+}
+
+iframe {
+  border: none;
+}
+
+.progress_bar {
+  height: 100%;
+  width: 100%;
+  border: 1px solid $gray-light;
+  background-color: $gray-light;
+}
+
+.progress_bar_fill,
+.progress_bar_selected {
+  height: 100%;
+  float: left;
+}
+
+.progress_bar_fill {
+  background-color: $gray;
+}
+
+.progress_bar_selected {
+  background-color: $brand-primary;
+  width: 0;
+}
+
+.progress_bar_over {
+  background-color: $brand-danger;
+}
+
+/* ============ */
+/* Known issues */
+/* ============ */
+
+/* Tables */
+/* This works around a known bug in Bootstrap, the
+   wrapping of button groups within the cell of a table:
+       https://github.com/twbs/bootstrap/issues/3130
+*/
+td .btn-group {
+  white-space: nowrap;
+
+  // We want the actions column to be a small button, but
+  // we can't get to the class attribute yet to customize
+  // that outside of every action, including table header
+  .btn {
+    @extend .btn-sm;
+  }
+
+  & > .btn-group,
+  & > .btn {
+    float: none;
+  }
+}
+
+/* Note: (hurgleburgler) this issue is closed. This might be fixed.
+/* Fix tooltip z-index to show above modals. Bootstrap bug 582*/
+.tooltip {
+  z-index: 12000;
+  word-wrap: break-word;
+}
+
+/*
+Hack to allow a <div> to be wrapped around a disabled element that
+needs to have a tooltip. The disabled element won't allow a JS tooltip
+to receive events, so we wrap it in another tag. For some reason a
+<span> also doesn't receive the events, but a <div> does. We set
+display to inline-block so that existing formatting is unaffected.
+*/
+div.tooltip-hack {
+  display: inline-block;
+}
+
+/*
+Rickshaw graphs don't grow their detail box appropriately
+*/
+.rickshaw_graph .detail .item {
+  width: auto;
+}

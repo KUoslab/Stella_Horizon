@@ -1,0 +1,245 @@
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon 12.0.0.0b2.dev85\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2017-05-05 01:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-09-09 04:10+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Portuguese\n"
+"Language: pt\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid "%(action)s: %(objs)s"
+msgstr "%(action)s: %(objs)s"
+
+#, python-format
+msgid "%(context_name)s:"
+msgstr "%(context_name)s:"
+
+#, python-format
+msgid "%(name)s: %(error)s"
+msgstr "%(name)s: %(error)s"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s completed successfully."
+msgstr "%s concluída com êxito."
+
+#, python-format
+msgid "%s did not complete."
+msgstr "%s não foi concluída."
+
+msgid "&laquo;&nbsp;Prev"
+msgstr "&laquo;&nbsp;Anterior"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 Bytes"
+msgstr "0 bytes"
+
+#, python-format
+msgid "A %(resource)s with the name \"%(name)s\" already exists."
+msgstr "Já existe um %(resource)s com o nome \"%(name)s\"."
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "Active Instances:"
+msgstr "Casos Ativos:"
+
+msgid "Active RAM:"
+msgstr "RAM Ativa:"
+
+msgid "Add a row"
+msgstr "Adicione uma fila"
+
+msgid "All available"
+msgstr "Todos disponíveis."
+
+msgid "Available"
+msgstr "Disponível"
+
+msgid "Back"
+msgstr "Voltar"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Connect"
+msgstr "Conectar-se"
+
+msgid "Error: "
+msgstr "Erro: "
+
+msgid "Fake"
+msgstr "Falso"
+
+msgid "Filter"
+msgstr "Filtro"
+
+msgid "Horizon"
+msgstr "Horizon"
+
+msgid "Incorrect format for IP address"
+msgstr "Formato incorreto para o endereço de IP"
+
+msgid "Info: "
+msgstr "Informação: "
+
+msgid "Invalid subnet mask"
+msgstr "Máscara de sub-rede inválida"
+
+msgid "Invalid version for IP address"
+msgstr "Versão inválido para o endereço de IP"
+
+msgid "Limit Summary"
+msgstr "Resumo do Limite"
+
+msgid "Login"
+msgstr "Iniciar Sessão"
+
+msgid "Members"
+msgstr "Membros."
+
+msgid "More Actions"
+msgstr "Mais Ações"
+
+msgid "Navigation Item"
+msgstr "Item de Navegação"
+
+msgid "Never"
+msgstr "Nunca"
+
+msgid "Next"
+msgstr "Seguinte"
+
+msgid "Next&nbsp;&raquo;"
+msgstr "Seguinte&nbsp;&raquo;"
+
+msgid "No items to display."
+msgstr "Não há itens para exibir."
+
+#, python-format
+msgid "No match returned for the id \"%s\"."
+msgstr "Não foi encontrada correspondência para a id. \"%s\"."
+
+msgid "No members."
+msgstr "Sem membros."
+
+msgid "None available."
+msgstr "Nenhum disponível."
+
+msgid "Not a valid IP protocol number"
+msgstr "Não é um número de protocolo de IP válido"
+
+msgid "Not a valid port number"
+msgstr "Não é um número de porta válido"
+
+msgid "One colon allowed in port range"
+msgstr "São permitidos dois pontos no limite da porta"
+
+msgid "Other"
+msgstr "Outros"
+
+msgid "Password is not accepted"
+msgstr "A senha não foi aceite"
+
+msgid "Please log in to continue."
+msgstr "Por favor, inicie a sessão para continuar."
+
+msgid "Please select a row before taking that action."
+msgstr "Por favor, selecione uma linha antes de realizar esta ação."
+
+msgid "Processing..."
+msgstr "A processar ..."
+
+msgid "Save"
+msgstr "Guardar"
+
+#, python-format
+msgid "Select a %s to browse."
+msgstr "Selecione um %s para explorar."
+
+msgid "Select a period of time to query its usage:"
+msgstr "Selecione um período de tempo para consultar a sua utilização:"
+
+msgid "Sign In"
+msgstr "Registar"
+
+msgid "Submit"
+msgstr "Submeter"
+
+msgid "Success: "
+msgstr "Sucesso: "
+
+msgid "Summary"
+msgstr "Resumo"
+
+msgid "The string may only contain ASCII printable characters."
+msgstr "Esta string só pode conter caracteres ASCII imprimíveis."
+
+msgid "This Period's GB-Hours:"
+msgstr "Horas-GB deste Período:"
+
+msgid "This Period's RAM-Hours:"
+msgstr "Horas-RAM deste Período:"
+
+msgid "This Period's VCPU-Hours:"
+msgstr "Horas-VCPU deste Período:"
+
+msgid "This action cannot be undone."
+msgstr "Esta acão não pode ser desfeita."
+
+#, python-format
+msgid "Unable to %(action)s: %(objs)s"
+msgstr "Não é possível %(action)s: %(objs)s"
+
+msgid "Unauthorized. Please try logging in again."
+msgstr "Não autorizado. Por favor, tente iniciar a sessão novamente."
+
+#, python-format
+msgid "Unauthorized: %s"
+msgstr "Não autorizado: %s"
+
+msgid "Usage Summary"
+msgstr "Resumo da Utilização"
+
+msgid "Warning: "
+msgstr "Aviso: "
+
+#, python-format
+msgid "You are not allowed to %(action)s: %(objs)s"
+msgstr "Não está autorizado para %(action)s: %(objs)s"
+
+#, python-format
+msgid "You are not authorized to access %s"
+msgstr "Não está autorizado a aceder %s"
+
+msgid "You do not have permission to access the resource:"
+msgstr "Não tem autorização para aceder ao recurso:"

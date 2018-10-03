@@ -1,0 +1,128 @@
+// General Pie Chart Styles
+
+// The idea behind this mixin in to allow a variety of
+// colors to be configured, from 1 - $num, that will
+// toggle between an incrementing percentage ($increment)
+// from the theme's primary brand color.  This should
+// adapt nicely to most themes.
+
+// Distribution Chart Mixins
+@mixin make_pie_chart_distribution($color: $brand-primary, $num: 8, $increment: 8) {
+
+  // Set the arc stroke
+  .arc {
+    stroke: $color;
+  }
+
+  @for $ii from 1 through $num {
+    $color_increment: $increment * ($ii/2);
+
+    // Set the arc color
+    .arc:nth-child(#{$ii}n) {
+      @if $ii % 2 == 0 {
+        fill: lighten($color, $color_increment * 1%);
+      } @else {
+        fill: darken($color, $color_increment * 1%);
+      }
+    }
+
+    // Set the corresponding legend symbol
+    .legend-group:nth-child(#{$ii}n) .legend-symbol {
+      @if $ii % 2 == 0 {
+        color: lighten($color, $color_increment * 1%);
+      } @else {
+        color: darken($color, $color_increment * 1%);
+      }
+    }
+  }
+}
+
+@mixin make_pie_chart_type($type: '', $color: $brand-primary) {
+  @if $type == '' {
+    @include make_pie_chart_distribution($color);
+  } @else {
+    &.chart-#{$type} {
+      @include make_pie_chart_distribution($color);
+    }
+  }
+}
+
+// This is who sets the size of the pie chart
+.legacy-pie-chart {
+
+  // The container arc's color and stroke
+  .arc {
+    fill: $table-border-color;
+    stroke-width: 1px;
+  }
+}
+
+// Chart Usage Specifics
+.pie-chart-usage {
+
+  .arc {
+    stroke: $table-border-color;
+  }
+
+  // The inner arc
+  .arc.inner {
+    fill: $brand-primary;
+    stroke: none;
+
+    // Specialness if its full
+    &.FULL {
+      fill: $brand-danger;
+    }
+
+    // Specialness if its almost full
+    &.NEARLY_FULL {
+      fill: $brand-warning;
+    }
+  }
+}
+
+// Chart Distribution Specifics
+// The container arc's color and stroke
+
+.pie-chart-distribution {
+
+  @include make_pie_chart_type();
+  @include make_pie_chart_type('danger', $brand-danger);
+  @include make_pie_chart_type('success', $brand-success);
+  @include make_pie_chart_type('info', $brand-info);
+  @include make_pie_chart_type('warning', $brand-warning);
+
+  .legend {
+    padding: $padding-base-horizontal $padding-base-vertical;
+    text-align: left;
+  }
+
+  .legend-group {
+    padding: $padding-xs-horizontal $padding-small-vertical;
+  }
+
+  .legend-symbol {
+    @extend .fa;
+    @extend .fa-square;
+    font-size: $font-size-h3;
+    padding-right: $padding-small-vertical;
+  }
+
+  .legend-symbol,
+  .legend-key,
+  .legend-value {
+    display: inline-block;
+    line-height: $line-height-computed;
+    vertical-align: middle;
+  }
+
+  .legend-key {
+    padding-right: $padding-small-vertical;
+  }
+}
+
+.chart-numbers {
+  fill: $gray-dark;
+  font-size: $font-size-h3;
+}
+

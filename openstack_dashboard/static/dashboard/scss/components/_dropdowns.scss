@@ -1,0 +1,85 @@
+/* Dropdown Actions */
+/* Unfortunately, we want to style a button in a dropdown
+   the same way that we style an anchor.  This isn't possible
+   in the current Bootstrap:
+       https://github.com/twbs/bootstrap/issues/10248
+*/
+
+/* Specificity required */
+.dropdown-menu > li > .btn {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0; // prevent the form-inline styles from messing with margin
+  padding: $bs-dropdown-item-padding-vertical $bs-dropdown-item-padding-horizontal;
+  white-space: nowrap; // prevent links from breaking onto new lines
+  min-width: 100%;
+  text-align: left;
+  background: transparent;
+  display: block;
+  clear: both;
+  font-weight: normal;
+  line-height: $line-height-base;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+  &.disabled,
+  &[disabled] {
+    cursor: not-allowed;
+    pointer-events: none; // Future-proof disabling of clicks
+    @include opacity(.65);
+    @include box-shadow(none);
+  }
+
+  &.btn-primary {
+    color: $brand-primary;
+  }
+
+  &.btn-danger {
+    color: $brand-danger;
+  }
+
+  &.btn-warning {
+    color: $brand-warning;
+  }
+
+  &.btn-info {
+    color: $brand-info;
+  }
+
+  @include dropdown-button('default', $dropdown-link-color, $dropdown-link-hover-bg);
+  @include dropdown-button('primary', $btn-primary-bg, $btn-primary-bg, $btn-primary-color);
+  @include dropdown-button('info', $btn-info-bg, $btn-info-bg, $btn-info-color);
+  @include dropdown-button('warning', $btn-warning-bg, $btn-warning-bg, $btn-warning-color);
+  @include dropdown-button('danger', $btn-danger-bg, $btn-danger-bg, $btn-danger-color);
+}
+
+.table_search .themable-select,
+.table_actions_menu {
+  display: inline-block;
+  position: relative;
+}
+
+.table_actions {
+  float: right;
+  @extend .form-inline;
+}
+
+.table_search,
+.table_filter {
+  display: inline-block;
+}
+
+// Push the table filter padding over to compensate for that little magnifying glass icon
+.table_search {
+  input[type="text"] {
+    padding-right: $input-height-base;
+  }
+}
+
+td.actions_column {
+  width: 1px; // Slight hack to make sure the column shrinks to the button width
+}

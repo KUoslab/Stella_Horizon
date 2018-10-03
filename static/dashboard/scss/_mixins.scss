@@ -1,0 +1,44 @@
+/* This file contains any custom SCSS mixins that can be shared */
+/* For more information on the benefits of Sass mixins and the @mixin syntax,
+ * check out http://www.sass-lang.com/guide#topic-6
+ */
+
+@mixin input-placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    @content;
+  }
+  &::-moz-placeholder {  /* Firefox 19+ */
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+@mixin horizontal-center {
+  float: none;
+  margin: 0 auto;
+}
+
+@mixin vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+// Mixin for the dropdown button styling of the table action rows
+@mixin dropdown-button($class, $color, $hover-bg, $hover-color: $color) {
+  &.btn-#{$class} {
+    color: $color;
+
+    &:focus,
+    &.active,
+    &:active,
+    &:hover {
+      color: $hover-color;
+      background: $hover-bg;
+    }
+  }
+}

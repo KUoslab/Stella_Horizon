@@ -1,0 +1,192 @@
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon 12.0.0.0b2.dev85\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2017-05-05 01:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-09-09 04:11+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Serbian\n"
+"Language: sr\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#, python-format
+msgid "%(action)s: %(objs)s"
+msgstr "%(action)s: %(objs)s"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s completed successfully."
+msgstr "%s završeno uspešno."
+
+#, python-format
+msgid "%s did not complete."
+msgstr "%s nije završen."
+
+msgid "-"
+msgstr "-"
+
+msgid "Actions"
+msgstr "Akcije"
+
+msgid "Add a row"
+msgstr "Dodavanje vrste"
+
+msgid "All available"
+msgstr "Sve dostupno"
+
+msgid "Available"
+msgstr "Dostupno"
+
+msgid "Back"
+msgstr "Nazad"
+
+msgid "Cancel"
+msgstr "Odustani"
+
+msgid "Error: "
+msgstr "Greška:"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Horizon"
+msgstr "Horizon"
+
+msgid "Incorrect format for IP address"
+msgstr "Neispravan format za IP adresu"
+
+msgid "Info: "
+msgstr "Info:"
+
+msgid "Invalid subnet mask"
+msgstr "Nevažeća maska podmreže"
+
+msgid "Invalid version for IP address"
+msgstr "Neispravna verzija IP adrese"
+
+msgid "Limit Summary"
+msgstr "Rezime ograničenja"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Members"
+msgstr "Članovi"
+
+msgid "Navigation Item"
+msgstr "Stavka za navigaciju"
+
+msgid "Never"
+msgstr "Nikad"
+
+msgid "Next"
+msgstr "Sledeći"
+
+msgid "No items to display."
+msgstr "Nema stavki za prikaz."
+
+#, python-format
+msgid "No match returned for the id \"%s\"."
+msgstr "Ne postoji podudaranje za id \"%s\"."
+
+msgid "No members."
+msgstr "Nema članova."
+
+msgid "None available."
+msgstr "Ništa nije dostupno."
+
+msgid "Not a valid IP protocol number"
+msgstr "Nevažeći broj IP protokola"
+
+msgid "Not a valid port number"
+msgstr "Nevažeći broj porta"
+
+msgid "One colon allowed in port range"
+msgstr "Jedna dvotačka je dozvoljena u opsegu portova"
+
+msgid "Other"
+msgstr "Drugi"
+
+msgid "Password is not accepted"
+msgstr "Lozinka nije prihvaćena"
+
+msgid "Please log in to continue."
+msgstr "Molim, ulogujte se za nastavak."
+
+msgid "Please select a row before taking that action."
+msgstr "Molim odaberite vrstu pre nego počnete."
+
+msgid "Processing..."
+msgstr "Obrada..."
+
+msgid "Save"
+msgstr "Sačuvaj"
+
+#, python-format
+msgid "Select a %s to browse."
+msgstr "Odaberite %s za pregledanje."
+
+msgid "Sign In"
+msgstr "Pristup"
+
+msgid "Submit"
+msgstr "Predaj"
+
+msgid "Success: "
+msgstr "Uspeh:"
+
+msgid "Summary"
+msgstr "Rezime"
+
+#, python-format
+msgid "Unable to %(action)s: %(objs)s"
+msgstr "Nemoguće je %(action)s: %(objs)s"
+
+msgid "Unauthorized. Please try logging in again."
+msgstr "Niste ovlašćeni. Molim, pokušajte da se ulogujete ponovo."
+
+#, python-format
+msgid "Unauthorized: %s"
+msgstr "Neovlašćen: %s"
+
+msgid "Usage Summary"
+msgstr "Rezime korišćenja"
+
+msgid "Warning: "
+msgstr "Upozorenje:"
+
+#, python-format
+msgid "You are not allowed to %(action)s: %(objs)s"
+msgstr "Nije vam dozvoljeno da %(action)s: %(objs)s"
+
+#, python-format
+msgid "You are not authorized to access %s"
+msgstr "Niste ovlašćeni za pristup %s"
+
+msgid "You do not have permission to access the resource:"
+msgstr "Nemate dozvolu za pristup resursu:"

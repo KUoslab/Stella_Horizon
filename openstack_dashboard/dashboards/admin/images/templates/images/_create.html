@@ -1,0 +1,17 @@
+{% extends "horizon/common/_modal_form.html" %}
+{% load i18n %}
+
+{% block ng_controller %}ImageFormController as ctrl{% endblock %}
+{% block form_attrs %}enctype="multipart/form-data"{% endblock %}
+
+{% block modal-body-right %}
+  <h3>{% trans "Description:" %}</h3>
+  <p>{% trans "Specify an image to upload to the Image Service." %}</p>
+  <p>
+    {% trans "Currently only images available via an HTTP/HTTPS URL are supported. The image location must be accessible to the Image Service." %}
+  </p>
+  <p>
+    <strong>{% trans "Please note: " %}</strong>
+    {% trans "The Image Location field MUST be a valid and direct URL to the image binary. URLs that redirect or serve error pages will result in unusable images." %}
+  </p>
+{% endblock %}

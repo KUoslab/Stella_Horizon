@@ -1,0 +1,20 @@
+// Controls the size of the "?" icon on the right of the wizards
+
+.help-toggle {
+  &,
+  &:active:hover,
+  &:hover,
+  &:active,
+  &:focus {
+    background: none;
+    box-shadow: none;
+    color: $brand-primary;
+  }
+}
+
+.help-panel {
+  // Material is all about depth, lets add some
+  & > .well {
+    @extend .panel;
+  }
+}

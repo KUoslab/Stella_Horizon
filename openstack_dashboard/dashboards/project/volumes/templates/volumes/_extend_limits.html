@@ -1,0 +1,35 @@
+{% load i18n horizon humanize bootstrap %}
+
+<h3>{% trans "Description:" %}</h3>
+
+<p>{% trans "Extend the size of a volume." %}</p>
+
+<h3>{% trans "Volume Limits" %}</h3>
+
+<div class="quota_title">
+  <div class="pull-left">
+    <strong>{% trans "Total Gibibytes" %}</strong>
+  </div>
+  <span class="pull-right">
+      {% blocktrans with used=usages.totalGigabytesUsed|intcomma quota=usages.maxTotalVolumeGigabytes|intcomma|quotainf %}{{ used }} of {{ quota }} GiB Used{% endblocktrans %}
+  </span>
+</div>
+
+<div id="quota_size"
+     data-progress-indicator-for="id_new_size"
+     data-quota-limit="{{ usages.maxTotalVolumeGigabytes }}"
+     data-quota-used="{{ usages.totalGigabytesUsed }}"
+     class="quota_bar">
+  {% widthratio usages.totalGigabytesUsed usages.maxTotalVolumeGigabytes 100 as gigabytes_percent %}
+  {% bs_progress_bar gigabytes_percent 0 %}
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  if(typeof horizon.Quota !== 'undefined') {
+    horizon.Quota.init();
+  } else {
+    addHorizonLoadEvent(function() {
+      horizon.Quota.init();
+    });
+  }
+</script>

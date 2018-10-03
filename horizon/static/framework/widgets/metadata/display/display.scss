@@ -1,0 +1,25 @@
+.metadata-display {
+  .selector {
+    .selector-item {
+      padding: $padding-base-vertical $padding-base-horizontal;
+      color: $link-color;
+      cursor: pointer;
+      border-radius: $nav-pills-border-radius;
+
+      &.active {
+        background: $nav-pills-active-link-hover-bg;
+        color: $nav-pills-active-link-hover-color;
+      }
+    }
+  }
+
+  &,
+  .description,
+  .selected-details {
+    padding-top: $padding-base-horizontal;
+  }
+
+  .auto-width {
+    width: auto;
+  }
+}

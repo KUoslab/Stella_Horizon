@@ -1,0 +1,495 @@
+# André Campos <andrecbezerra@gmail.com>, 2015. #zanata
+# Gabriel Wainer <gabrielcw@gmail.com>, 2015. #zanata
+# OpenStack Infra <zanata@openstack.org>, 2015. #zanata
+# Carlos Marques <marquesc@br.ibm.com>, 2016. #zanata
+# José Mello <jose.eduardo.jr@gmail.com>, 2016. #zanata
+# Renato Lipi <renatolipi@gmail.com>, 2016. #zanata
+# Fernando Pimenta <fernando.c.pimenta@gmail.com>, 2017. #zanata
+# Marcio <marciofoz@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2018-02-17 05:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-06-21 11:47+0000\n"
+"Last-Translator: Fernando Pimenta <fernando.c.pimenta@gmail.com>\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid "%(total)s %(type)s"
+msgstr "%(total)s %(type)s"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s bytes"
+msgstr "%s bytes"
+
+msgid "(Modified)"
+msgstr "(Modificado)"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 GB"
+msgstr "0 GB"
+
+msgid "0 MB"
+msgstr "0 MB"
+
+msgid "Active"
+msgstr "Ativo"
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "Added"
+msgstr "Adicionado"
+
+msgid "Additional items not allowed"
+msgstr "Itens adicionais não permitidos"
+
+msgid "Additional properties not allowed"
+msgstr "Propriedades adicionais não permitidas"
+
+msgid "Allocated"
+msgstr "Alocado"
+
+msgid "An error occurred while updating."
+msgstr "Um erro ocorreu ao atualizar."
+
+msgid "An error occurred. Please try again later."
+msgstr "Um erro ocorreu. Por favor tente novamente mais tarde."
+
+msgid "Array is too long ({$value.length$} items), maximum {$schema.maxItems$}"
+msgstr ""
+"O Array é muito longo ({$value.length$} itens), máximo de  {$schema.maxItems"
+"$}"
+
+msgid ""
+"Array is too short ({$value.length$} items), minimum {$schema.minItems$}"
+msgstr ""
+"O Array é muito curto ({$value.length$} itens), mínimo de {$schema.minItems$}"
+
+msgid "Array items must be unique"
+msgstr "Itens do vetor devem ser únicos"
+
+msgid "Available"
+msgstr "Disponível"
+
+msgid "Available Metadata"
+msgstr "Metadados disponível"
+
+msgid "Back"
+msgstr "Voltar"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Circular $refs"
+msgstr "$refs Circular"
+
+msgid "Click each item to get its description here."
+msgstr "Clique em cada item para obter sua descrição aqui."
+
+msgid "Click here for filters."
+msgstr "Clique aqui para filtros."
+
+msgid "Click here to expand the row and view the errors."
+msgstr "Clique aqui para expandir a linha e ver os erros."
+
+msgid "Click to see more details"
+msgstr "Clique para ver mais detalhes."
+
+msgid "Click to show or hide"
+msgstr "Clique para exibir ou esconder"
+
+msgid "Close"
+msgstr "Fechar"
+
+#, python-format
+msgid "Confirm %s"
+msgstr "Confirma %s"
+
+msgid "Confirm Delete Foobars"
+msgstr "Confirmar Exclusão de Foobars "
+
+msgid "Current Usage"
+msgstr "Uso atual"
+
+msgid "Custom"
+msgstr "Customizado"
+
+msgid "Customization Script"
+msgstr "Script de customização"
+
+msgid "Danger"
+msgstr "Perigo"
+
+msgid "Danger: "
+msgstr "Perigo:"
+
+msgid "Data does not match any schemas from 'anyOf'"
+msgstr "Os dados não correspondem a nenhum esquema de 'anyOf'"
+
+msgid "Data does not match any schemas from 'oneOf'"
+msgstr "Os dados não correspondem a nenhum esquema de 'oneOf'"
+
+msgid "Data is valid against more than one schema from 'oneOf'"
+msgstr "Os dados são válidos para mais de um esquema de 'oneOf'"
+
+msgid "Data matches schema from 'not'"
+msgstr "Dados correspondem ao esquema 'not'"
+
+msgid "Decimal required"
+msgstr "Decimal requerido"
+
+msgid "Delete"
+msgstr "Excluir"
+
+#, python-format
+msgid "Deleted : %s."
+msgstr "Excluídos :  %s."
+
+msgid "Dependency failed - key must exist"
+msgstr "Falha na dependência - chave deve existir"
+
+msgid "Detail Information"
+msgstr "Informações delhadas"
+
+#, python-format
+msgid "Displaying %(count)s of %(total)s items"
+msgstr "Exibindo %(count)s de %(total)s itens"
+
+#, python-format
+msgid "Displaying %s item"
+msgid_plural "Displaying %s items"
+msgstr[0] "Exibindo %s item"
+msgstr[1] "Exibindo %s itens"
+
+msgid "Duplicate keys are not allowed"
+msgstr "Chaves duplicadas não são permitidas"
+
+msgid "Error"
+msgstr "Erro"
+
+msgid "Error: "
+msgstr "Erro:"
+
+msgid "Example"
+msgstr "Exemplo"
+
+msgid "Existing Metadata"
+msgstr "Metadados existente"
+
+msgid "Expand to see allocated items"
+msgstr "Expanda para ver os itens alocados"
+
+msgid "Expand to see available items"
+msgstr "Expanda para ver os itens disponíveis"
+
+msgid "Filter"
+msgstr "Filtro"
+
+msgid "Finish"
+msgstr "Encerrar"
+
+msgid "Flavor"
+msgstr "Flavor"
+
+msgid "Format validation failed"
+msgstr "Validação de formato falhou"
+
+msgid "Full Text Search"
+msgstr "Procura de Texto Completa"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Integer required"
+msgstr "Inteiro requerido"
+
+msgid "Invalid type, expected {$schema.type$}"
+msgstr "Tipo inválido, esperado {$schema.type$}"
+
+msgid "Keyword failed: '{$title$}'"
+msgstr "Palavra-chave falhou: '{title$}'"
+
+msgid "Load script from a file"
+msgstr "Carregar script a partir de um arquivo"
+
+msgid "Loading"
+msgstr "Carregando"
+
+msgid "Max"
+msgstr "Máx."
+
+msgid "Max length"
+msgstr "Tamanho máximo"
+
+msgid "Min"
+msgstr "Mín. "
+
+msgid "Min length"
+msgstr "Tamanho mínimo"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Next"
+msgstr "Próximo"
+
+msgid "No"
+msgstr "Não"
+
+msgid "No Limit"
+msgstr "Nenhum limite"
+
+msgid "No available items"
+msgstr "Itens indisponíveis"
+
+msgid "No available metadata"
+msgstr "Metadados não disponível"
+
+msgid "No data available."
+msgstr "Não há dados disponíveis."
+
+msgid "No enum match for: {$viewValue$}"
+msgstr "Nenhuma correspondência localizada para: {$viewValue$}"
+
+msgid "No existing metadata"
+msgstr "Metadados não existente"
+
+msgid "No items to display."
+msgstr "Sem itens para exibir."
+
+msgid "No roles"
+msgstr "Sem papéis"
+
+msgid "None"
+msgstr "Nenhum"
+
+msgid "Not authorized to do this operation."
+msgstr "Não autorizado para realizar esta operação."
+
+msgid "Notice: "
+msgstr "Notificação:"
+
+msgid "Passwords do not match."
+msgstr "As senhas não conferem."
+
+msgid "Pattern mismatch"
+msgstr "Incompatibilidade de padrão"
+
+msgid "Please Wait"
+msgstr "Por favor Aguarde"
+
+msgid "Please confirm your selection. "
+msgstr "Por favor confirme a sua seleção."
+
+msgid "Prompt"
+msgstr "Prompt"
+
+msgid "Re-order items using drag and drop"
+msgstr "reordene os itens clicando em um deles e arrastando-o"
+
+msgid "Remaining"
+msgstr "Restante"
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Required"
+msgstr "Requerido"
+
+msgid "Roles"
+msgstr "Papéis"
+
+#. Strings between {$ and $} should be left untranslated.
+msgid ""
+"Script size: {$ (scriptLength || 0) | bytes $} of {$ config.MAX_SCRIPT_SIZE "
+"| bytes $}"
+msgstr ""
+"Tamanho do script: {$ (scriptLength || 0) | bytes $} de {$ config."
+"MAX_SCRIPT_SIZE | bytes $}"
+
+msgid "Search in current results"
+msgstr "Procurar nos resultados atuais"
+
+msgid "Select an item from Available items below"
+msgstr "Selecione um item dentre os disponíveis abaixo"
+
+msgid "Select one"
+msgstr "Selecione"
+
+msgid "Server Name"
+msgstr "Nome do Servidor"
+
+msgid "Shutdown"
+msgstr "Desligar"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Success"
+msgstr "Sucesso"
+
+msgid "Success: "
+msgstr "Sucesso:"
+
+msgid "Text"
+msgstr "Texto"
+
+msgid ""
+"The action cannot be performed. The contents of this row have errors or are "
+"missing information."
+msgstr ""
+"A ação não pôde ser executada. O conteúdo desta linha possui erros ou "
+"informações indisponíveis"
+
+msgid "The data in this field is invalid"
+msgstr "A informação neste campo é inválida"
+
+msgid "The script is larger than the maximum size"
+msgstr "O script é maior que o tamanho máximo"
+
+msgid "There was a problem communicating with the server, please try again."
+msgstr ""
+"Houve um problema ao comunicar-se com o servidor, por favor tente novamente."
+
+msgid "There was an error submitting the form. Please try again."
+msgstr "Houve um erro ao enviar o formulário. Por favor tente novamente."
+
+msgid "Toggle Dropdown"
+msgstr "Alternar Opções"
+
+msgid "Toggle navigation"
+msgstr "Alternar navegação"
+
+msgid "Too few properties defined, minimum {$schema.minProperties$}"
+msgstr "Muito poucas propriedades definidas, mínimo {$schema.minProperties$}"
+
+msgid "Too many properties defined, maximum {$schema.maxProperties$}"
+msgstr "Muitas propriedades definidas, máximo {$schema.maxProperties$}"
+
+#, python-format
+msgid "Unable to delete: %s."
+msgstr "Não é possível excluir: %s."
+
+msgid "Unknown property (not in schema)"
+msgstr "Propriedade desconhecida (não está no esquema)"
+
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+msgid "Uploading image"
+msgstr "Enviando imagem"
+
+msgid "Warning"
+msgstr "Aviso"
+
+msgid "Warning: "
+msgstr "Alerta:"
+
+msgid "Working"
+msgstr "Trabalhando"
+
+msgid "Yes"
+msgstr "Sim"
+
+msgid ""
+"You can specify resource metadata by moving items from the left column to "
+"the right column. In the left column there are metadata definitions from the "
+"Glance Metadata Catalog. Use the \"Custom\" option to add metadata with "
+"the key of your choice."
+msgstr ""
+"É possível especificar metadados de recurso ao mover os itens da coluna "
+"esquerda para a coluna direita. Na coluna esquerda, há definições de "
+"metadados a partir do Catálogo de Metadados Glance. Use a opção \"Customizado"
+"\" para incluir metadados com a chave de sua opção."
+
+msgid "description"
+msgstr "descrição"
+
+msgid "m1.small"
+msgstr "m1.small"
+
+msgid "m1.tiny"
+msgstr "m1.tiny"
+
+msgid "pool default"
+msgstr "pool default"
+
+#, python-format
+msgid "selected \"%s\""
+msgstr "\"%s\" selecionados"
+
+msgid "{$ 'Please provide a search criteria first.' $}"
+msgstr "{$ 'Por favor, forneça um critério de pesquisa primeiro.' $}"
+
+msgid "{$ column.title $}"
+msgstr "{$ column.title $}"
+
+msgid "{$ message || 'No items to display.' $}"
+msgstr "{$ message || 'No items to display.' $}"
+
+msgid "{$schema.title$} is a required field"
+msgstr "{$schema.title$} é um campo requerido"
+
+msgid "{$schema.title$} is formatted incorrectly"
+msgstr "{$schema.title$} está formatado incorretamente"
+
+msgid ""
+"{$schema.title$} is too long ({$viewValue.length$} characters), maximum "
+"{$schema.maxLength$}"
+msgstr ""
+"{$schema.title$} é muito longo ({$viewValue.length$} caracteres), máximo "
+"{$schema.maxLength$}"
+
+msgid ""
+"{$schema.title$} is too short ({$viewValue.length$} characters), minimum "
+"{$schema.minLength$}"
+msgstr ""
+"{$schema.title$} é muito curto ({$viewValue.length$} caracteres), mínimo "
+"{$schema.minLength$}"
+
+msgid "{$viewValue$} is equal to the exclusive maximum {$schema.maximum$}"
+msgstr "{$viewValue$} é igual ao máximo exclusivo {$schema.maximum$}"
+
+msgid "{$viewValue$} is equal to the exclusive minimum {$schema.minimum$}"
+msgstr "{$viewValue$} é igual ao mínimo exclusivo  {$schema.minimum$}"
+
+msgid "{$viewValue$} is greater than the allowed maximum of {$schema.maximum$}"
+msgstr "{$viewValue$} é maior do que o máximo permitido de {$schema.maximum$}"
+
+msgid "{$viewValue$} is less than the allowed minimum of {$schema.minimum$}"
+msgstr "{$viewValue$}  é inferior ao mínimo permitido de {$schema.minimum$}"
+
+msgid "{$viewValue$} is not a multiple of {$schema.multipleOf$}"
+msgstr "{$viewValue$} não é um múltiplo de {$schema.multipleOf$}"
+
+msgid "{$viewValue$} is not a valid number"
+msgstr "{$viewValue$} não é um numero válido"

@@ -1,0 +1,17 @@
+{% extends "horizon/common/_modal_form.html" %}
+{% load i18n %}
+
+{% block modal-body-right %}
+  <div class="quota-dynamic">
+    {% include "project/volumes/_snapshot_limits.html" with usages=usages snapshot_quota=True %}
+  </div>
+{% endblock %}
+
+{% block modal-footer %}
+  <a href="{% url 'horizon:project:volumes:index' %}" class="btn btn-default cancel">{% trans "Cancel" %}</a>
+  {% if attached %}
+    <input class="btn btn-warning" type="submit" value="{% trans "Create Volume Snapshot (Force)" %}" />
+  {% else %}
+    <input class="btn btn-primary" type="submit" value="{% trans "Create Volume Snapshot" %}" />
+  {% endif %}
+{% endblock %}

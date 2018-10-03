@@ -1,0 +1,12 @@
+{% extends "horizon/common/_modal_form.html" %}
+{% load i18n %}
+
+{% block modal-body-right %}
+    <h3>{% trans "Description:" %}</h3>
+    <p>{% blocktrans trimmed %}
+      Ownership of a volume can be transferred from one project to another.
+      Once a volume transfer is created in a donor project, it then can be
+      "accepted" by a recipient project. This is equivalent to the
+      <tt>openstack volume transfer create</tt> command.
+     {% endblocktrans %}</p>
+{% endblock %}

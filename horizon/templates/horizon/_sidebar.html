@@ -1,0 +1,56 @@
+{% load horizon i18n %}
+
+<ul id="sidebar-accordion" class="nav nav-pills nav-stacked">
+  {% for dashboard, panel_info in components %}
+    {% if user|has_permissions:dashboard %}
+      <li class="panel openstack-dashboard">
+        <a data-toggle="collapse"
+           data-parent="#sidebar-accordion"
+           data-target="#sidebar-accordion-{{ dashboard.slug }}"
+           aria-controls="sidebar-accordion-{{ dashboard.slug }}"
+           {% if current.slug != dashboard.slug %}
+             class="collapsed"
+           {% endif %}>
+          {{ dashboard.name }}
+          <span class="openstack-toggle pull-right fa"></span>
+        </a>
+        <ul id="sidebar-accordion-{{ dashboard.slug }}"
+            class="nav collapse panel-collapse{% if current.slug == dashboard.slug %} in{% endif %}">
+          {% for group, panels in panel_info.items %}
+            {% with panels|has_permissions_on_list:user as filtered_panels %}
+              {% if filtered_panels %}
+                {% if group.name %}
+                  <li class="panel openstack-panel-group">
+                    <a data-toggle="collapse"
+                       data-parent="#sidebar-accordion-{{ dashboard.slug }}"
+                       data-target="#sidebar-accordion-{{ dashboard.slug }}-{{ group.slug }}"
+                       aria-controls="sidebar-accordion-{{ dashboard.slug }}-{{ group.slug }}"
+                       {% if current.slug == dashboard.slug and current_panel_group != group.slug %}class="collapsed"
+                       {% elif current.slug != dashboard.slug and forloop.counter0 != 0 %}class="collapsed"{% endif %}>
+                      {{ group.name }}
+                      <span class="openstack-toggle fa pull-right"></span>
+                    </a>
+                {% endif %}
+                    <div id="sidebar-accordion-{{ dashboard.slug }}-{{ group.slug }}"
+                      class="list-group collapse 
+                        {% if current.slug == dashboard.slug and current_panel_group == group.slug or group.slug == 'default' %} in
+                        {% elif current.slug != dashboard.slug and forloop.counter0 == 0 %} in{% endif %}">
+                {% for panel in filtered_panels %}
+                    <a class="openstack-spin list-group-item openstack-panel {% if current.slug == dashboard.slug and current_panel == panel.slug %}active{% endif %}" href="{{ panel.get_absolute_url }}"
+                       target="_self"
+                       tabindex="{{ forloop.counter }}" >
+                      {{ panel.name }}
+                    </a>
+                {% endfor %}
+                    </div>
+                {% if group.name %}
+                  </li>
+                {% endif %}
+              {% endif %}
+            {% endwith %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

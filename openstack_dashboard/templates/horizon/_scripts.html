@@ -1,0 +1,93 @@
+{% load compress %}
+{% load datepicker_locale from horizon %}
+{% load template_cache_age from horizon %}
+{% load themes %}
+{% load cache %}
+{% load angular_templates from angular %}
+
+{% datepicker_locale as DATEPICKER_LOCALE %}
+{% current_theme as THEME %}
+{% template_cache_age as NG_TEMPLATE_CACHE_AGE %}
+
+{% include "horizon/_script_i18n.html" %}
+
+{% comment %} Compress Horizon-specific JS. {% endcomment %}
+{% compress js %}
+<script type="text/javascript">
+  var STATIC_URL = "{{ STATIC_URL }}";
+  var WEBROOT = "{{ WEBROOT }}";
+</script>
+<script src="{{ STATIC_URL }}horizon/lib/jquery/jquery.bootstrap.wizard.js"></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.string.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.lists.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.communication.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.datepickers.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.forms.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.formset_table.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.loader.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.messages.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.modals.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.hacks.js'></script>
+<script type="text/javascript">
+  horizon.modals.MODAL_BACKDROP = "{% firstof HORIZON_CONFIG.modal_backdrop 'static' %}";
+</script>
+{% if HORIZON_CONFIG.integration_tests_support %}
+<script src='{{ STATIC_URL }}horizon/js/horizon.selenium.js'></script>
+{% endif %}
+<script src='{{ STATIC_URL }}horizon/js/horizon.tables.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.tables_inline_edit.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.tabs.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.templates.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.users.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.membership.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.d3piechart.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.heattop.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.d3linechart.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.d3barchart.js'></script>
+<script src='{{ STATIC_URL }}horizon/js/horizon.sidebar.js'></script>
+<script src='{{ STATIC_URL }}js/horizon.instances.js'></script>
+<script src='{{ STATIC_URL }}js/horizon.quota.js'></script>
+<script src='{{ STATIC_URL }}js/horizon.metering.js'></script>
+<script src='{{ STATIC_URL }}js/horizon.networktopologycommon.js'></script>
+<script src='{{ STATIC_URL }}js/horizon.flatnetworktopology.js'></script>
+<script src='{{ STATIC_URL }}js/horizon.networktopology.js'></script>
+<script src='{{ STATIC_URL }}js/horizon.volumes.js'></script>
+
+{% for file in HORIZON_CONFIG.js_files %}
+    <script src='{{ STATIC_URL }}{{ file }}'></script>
+{% endfor %}
+
+{% block custom_js_files %}{% endblock %}
+
+{% endcompress %}
+
+{% compress js file angular_template_cache_preloads %}
+  {% cache NG_TEMPLATE_CACHE_AGE angular 'template_cache_preloads' THEME %}
+    {% angular_templates %}
+  {% endcache %}
+{% endcompress %}
+
+{% if profiler_enabled %}
+  <script>
+    (function() {
+      angular.module('horizon.dashboard.developer.profiler')
+          .constant('horizon.dashboard.developer.profiler.headers',
+                {% if x_trace_info %}{{ x_trace_info|safe }}{% else %}{}{% endif %}
+      );
+    })();
+  </script>
+{% endif %}
+
+{% comment %} Client-side Templates (These should *not* be inside the "compress" tag.) {% endcomment %}
+{% include "horizon/client_side/templates.html" %}
+
+{% comment %}Locale sensitive js needs to be included outisde the "compress" tag{% endcomment %}
+{% if DATEPICKER_LOCALE and DATEPICKER_LOCALE != 'en' %}
+<script src='{{ STATIC_URL }}horizon/lib/bootstrap_datepicker/locales/bootstrap-datepicker.{{ DATEPICKER_LOCALE }}.js'></script>
+{% endif %}
+
+{% comment %}Go!{% endcomment %}
+<script>
+  // Call init on DOM ready.
+  $(document).ready(horizon.init);
+</script>

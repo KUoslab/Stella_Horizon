@@ -1,0 +1,69 @@
+{% load i18n bootstrap %}
+<div class="table_actions clearfix">
+{% block table_filter %}
+  {% if filter.filter_type == 'fixed' %}
+    <div class="table_filter btn-group" data-toggle="buttons-radio">
+      {% for button in filter.fixed_buttons %}
+        <button name="{{ filter.get_param_name }}" type="submit" value="{{ button.value }}" class="btn btn-default{% ifequal button.value filter.filter_string %} active{% endifequal %}">
+          {% if button.icon %}
+            <span class="fa {{ button.icon }}"></span>
+          {% endif %}
+          {{ button.text }}
+          {% if button.count >= 0 %}
+            ({{ button.count }})
+          {% endif %}
+        </button>
+      {% endfor %}
+    </div>
+  {% elif filter.filter_type == 'query' %}
+    <div class="table_search client">
+      <div class="form-group has-feedback">
+        <input class="form-control" value="{{ filter.filter_string|default:'' }}" type="text" name="{{ filter.get_param_name }}" placeholder="{% trans "Filter" %}"/>
+        <span class="fa fa-search search-icon form-control-feedback"></span>
+      </div>
+    </div>
+  {% elif filter.filter_type == 'server' %}
+    <div class="table_search">
+      {% with name=filter.get_param_name|add:'_field' options=filter.get_select_options stand_alone=1 value=filter.filter_field %}
+        {% include 'horizon/common/fields/_themable_select.html' %}
+      {% endwith %}
+      <input class="form-control" value="{{ filter.filter_string|default:'' }}" type="text" name="{{ filter.get_param_name }}" />
+      <button type="submit" class="btn btn-default {{ filter.get_final_css|safe }}" {{ filter.attr_string_nc|safe }}>{% trans "Filter" %}</button>
+    </div>
+  {% endif %}
+{% endblock table_filter %}
+
+{% block table_actions %}
+
+  {% comment %}
+    For each single action in the Table Actions area
+  {% endcomment %}
+  {% for action in table_actions_buttons %}
+    {% include "horizon/common/_data_table_action.html" with is_table_action=1 is_single=1 %}
+  {% endfor %}
+
+  {% comment %}
+    If additional actions are defined, scoop them into the actions dropdown menu
+  {% endcomment %}
+  {% if table_actions_menu|length > 0 %}
+    <div class="table_actions_menu">
+      <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+        {% if table_actions_buttons|length > 0 %}
+          {{ table_actions_menu_label|default:_("More Actions") }}
+        {% else %}
+          {{ table_actions_menu_label|default:_("Actions") }}
+        {% endif %}
+        <span class="fa fa-caret-down"></span>
+      </a>
+      <ul class="dropdown-menu dropdown-menu-right">
+      {% for action in table_actions_menu %}
+        <li>
+          {% include "horizon/common/_data_table_action.html" with is_table_action=1 %}
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+{% endblock table_actions %}
+
+</div>

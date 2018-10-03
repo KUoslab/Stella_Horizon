@@ -1,0 +1,55 @@
+.navbar-brand {
+  padding: 0 $padding-small-horizontal;
+  margin: 0;
+  display: block;
+
+  img {
+    display: inline-block;
+    height: $navbar-height - $padding-small-vertical*2;
+    vertical-align: middle;
+  }
+}
+
+//Specifity Required
+.navbar-header .navbar-brand {
+
+  // These allow the vertical centering to work properly
+  line-height: $navbar-height;
+  font-size: 0;
+}
+
+.topbar {
+  .navbar {
+    margin-bottom: 1px;
+  }
+
+  .dropdown-toggle > .fa {
+    padding-left: $padding-small-vertical;
+    padding-right: $padding-small-vertical;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.context-delimiter {
+  font-size: $padding-small-vertical;
+  vertical-align: middle;
+  padding-right: $padding-small-vertical;
+  padding-left: $padding-small-vertical;
+}
+
+// Scrollbar for the project menu on larger screens
+// Not needed for smaller screens, as it is already scrollable
+// and can be collapsed to access the settings menu etc.
+@media(min-width: $screen-sm-min) {
+  .context-selection {
+    max-height: $context-selector-max-height;
+    overflow-y: scroll;
+  }
+}

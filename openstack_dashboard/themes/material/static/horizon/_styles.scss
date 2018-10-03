@@ -1,0 +1,131 @@
+@import "animations";
+@import "icons";
+@import "components/checkboxes";
+@import "components/context_selection";
+@import "components/datepicker";
+@import "components/dropdowns";
+@import "components/hamburger";
+@import "components/help_panel";
+@import "components/loader_circular_example";
+@import "components/loader_line_example";
+@import "components/loader_spinner";
+@import "components/magic_search";
+@import "components/messages";
+@import "components/navbar";
+@import "components/progress_bars";
+@import "components/radiobuttons";
+@import "components/selects";
+@import "components/sidebar";
+@import "components/spinners";
+@import "components/trees";
+
+.login .splash-logo {
+  width: 215px;
+}
+
+#content_body {
+  transition: padding-left $sidebar-animation;
+  display: block;
+
+  @media (max-width: $screen-lg) {
+    padding-left: 0;
+  }
+}
+
+#main_content {
+  display: block;
+  min-width: unset;
+  width: 100%;
+}
+
+
+// Border radius is unattractive here
+.navbar {
+  border-radius: 0;
+
+  // Must adhere to the bootstrap standards, so navbar elements must
+  // inherit from respective navbar-link color.
+  &-default {
+    .navbar-brand {
+      svg {
+        fill: $navbar-default-link-active-color;
+      }
+    }
+
+    .md-hamburger-layer {
+      background: $navbar-default-link-color;
+
+      &:hover {
+        background: $navbar-default-link-hover-color;
+      }
+    }
+  }
+
+  &-inverse {
+    .navbar-brand {
+      svg {
+        fill: $navbar-inverse-link-active-color;
+      }
+    }
+
+    .md-hamburger-layer {
+      background: $navbar-inverse-link-color;
+
+      &:hover {
+        background: $navbar-inverse-link-hover-color;
+      }
+    }
+
+    @media (max-width: $screen-sm) {
+      .dropdown-header {
+        color: $navbar-inverse-link-color;
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  svg {
+    height: $navbar-height - $padding-small-horizontal*2;
+    margin-top: $padding-small-horizontal;
+    display: inline-block;
+  }
+}
+
+// Hamburger menu only shows on smaller screen sizes
+.navbar-header .md-hamburger {
+  display: none;
+
+  @media (max-width: $screen-lg) {
+    display: inline-block;
+    float: left;
+
+    & > button {
+      padding: $navbar-padding-vertical $navbar-padding-horizontal;
+      height: $navbar-height;
+    }
+  }
+}
+
+// The mask that the hamburger menu uses to apply an opacity
+// to the entire page when in smaller screen
+#md-hamburger-mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transform: translateZ(0);
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  z-index: 2;
+  transition: all $hamburger-transition;
+
+  @media (max-width: $screen-lg) {
+    &.active {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}

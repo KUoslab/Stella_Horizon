@@ -1,0 +1,32 @@
+.modal-body {
+  // Subtract the help-button width and add the modal inner padding
+  // because the element is in the place which is applied the modal inner padding.
+  .step-description {
+    width: calc(100% - (#{$padding-xs-horizontal} * 2 + #{$font-size-h3}) + #{$modal-inner-padding});
+  }
+
+  @media (max-width: $screen-sm-min) {
+    max-height: calc(100vh - #{$bs-modal-height-small-screen});
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  & > .nav-pills {
+    padding-bottom: $padding-base-horizontal;
+  }
+}
+
+// Custom Horizon Modal Sizes
+@media (min-width: $screen-sm-min) {
+  .modal-xs {
+    width: $modal-xs;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .modal-xl {
+    width: $modal-xl;
+  }
+}

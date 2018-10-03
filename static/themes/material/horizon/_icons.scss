@@ -1,0 +1,91 @@
+@import "/dashboard/scss/mixins";
+
+// This file does a 1-1 mapping of each font-awesome icon in use to
+// a corresponding Material Design Icon.
+// https://materialdesignicons.com
+
+$mdi-font-path: $static_url + "/horizon/lib/mdi/fonts";
+@import "/horizon/lib/mdi/scss/materialdesignicons.scss";
+
+.fa {
+  @extend .mdi;
+}
+
+$icon-swap: (
+  asterisk: 'star',
+  angle-right: 'arrow-right',
+  angle-left: 'arrow-left',
+  arrow-down: 'arrow-down',
+  arrow-up: 'arrow-up',
+  ban: 'block-helper',
+  bars: 'menu',
+  bug: 'bug',
+  calendar: 'calendar',
+  caret-up: 'menu-up',
+  caret-down: 'menu-down',
+  caret-up: 'menu-up',
+  check: 'check',
+  chevron-down: 'chevron-down',
+  chevron-left: 'chevron-left',
+  chevron-right: 'chevron-right',
+  chevron-up: 'chevron-up',
+  circle-o: 'radiobox-blank',
+  close: 'close',
+  cloud-download: 'cloud-download',
+  cloud-upload: 'cloud-upload',
+  code: 'code-tags',
+  cog: 'settings',
+  desktop: 'desktop-mac',
+  dot-circle-o: 'radiobox-marked',
+  download: 'download',
+  edit: 'pencil',
+  exchange: 'swap-horizontal',
+  exclamation: 'exclamation',
+  exclamation-circle: 'alert-circle',
+  exclamation-triangle: 'alert',
+  eye: 'eye',
+  eye-slash: 'eye-off',
+  filter: 'filter-outline',
+  folder: 'folder',
+  folder-o: 'folder-outline',
+  group: 'account-multiple',
+  home: 'home',
+  info-circle: 'information-outline',
+  link: 'link-variant',
+  list-alt: 'view-list',
+  minus: 'minus',
+  pause: 'pause',
+  pencil: 'pencil',
+  play: 'play',
+  plus: 'plus',
+  question-circle: 'help-circle',
+  random: 'shuffle',
+  refresh: 'refresh',
+  remove: 'close',
+  save: 'floppy',
+  search: 'magnify',
+  server: 'server',
+  share-square-o: 'share',
+  sign-out: 'logout',
+  sort: 'sort',
+  square: 'checkbox-blank',
+  square-o: 'checkbox-blank-outline',
+  spin: 'reload',
+  star-o: 'star-outline',
+  times: 'close',
+  times-circle: 'close',
+  trash: 'delete',
+  trash-o: 'delete',
+  th: 'view-module',
+  th-large: 'view-module',
+  upload: 'upload',
+  unlink: 'link-variant-off',
+  user: 'account',
+  warning: 'alert',
+);
+
+@each $fa-icon, $mdi-icon in $icon-swap {
+  .fa-#{$fa-icon} {
+    @extend .mdi-#{$mdi-icon};
+  }
+}

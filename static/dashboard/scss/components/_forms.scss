@@ -1,0 +1,24 @@
+/**** Prevent long image names from breaking form layout in Firefox ****/
+.form-group {
+  input[type="file"] {
+    width: 100%;
+    white-space: normal;
+  }
+
+  /* Fix for input icon alignment */
+  input + .fa {
+    line-height: $input-height-base;
+  }
+
+  .password-icon {
+    cursor: pointer;
+    pointer-events: auto;
+  }
+}
+
+.form-horizontal {
+  .themable-checkbox {
+    padding-top: $padding-base-vertical;
+  }
+
+}
