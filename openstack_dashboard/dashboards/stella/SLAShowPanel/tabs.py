@@ -4,8 +4,7 @@ from horizon import exceptions
 from horizon import tabs
 
 from openstack_dashboard import api
-from openstack_dashboard.dashboards.mydashboard.SLAConfigPanel import tables
-
+from openstack_dashboard.dashboards.stella.SLAShowPanel import tables
 
 class InstanceTab(tabs.TableTab):
     name = _("Instances Tab")

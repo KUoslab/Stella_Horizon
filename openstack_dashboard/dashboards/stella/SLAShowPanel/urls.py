@@ -1,6 +1,6 @@
 from django.conf.urls import url
 
-from openstack_dashboard.dashboards.mydashboard.SLAConfigPanel import views
+from openstack_dashboard.dashboards.stella.SLAShowPanel import views
 
 
 urlpatterns = [

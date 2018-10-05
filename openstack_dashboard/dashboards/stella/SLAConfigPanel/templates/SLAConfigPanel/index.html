@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "Stella SLA Config Panel" %}{% endblock %}
+
+{% block page_header %}
+   {% include "horizon/common/_page_header.html" with title=_("Stella SLA Config") %}
+{% endblock page_header %}
+
+{% block main %}
+<div class="row">
+   <div class="col-sm-12">
+
+<form method="POST" class="post-form" action=/stella/>{% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" class="save btn btn-default">Save</button>
+    </form>
+
+   </div>
+</div>
+{% endblock %}

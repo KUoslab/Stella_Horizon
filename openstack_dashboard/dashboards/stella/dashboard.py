@@ -16,13 +16,13 @@ import horizon
 
 class SLAConfigGroup(horizon.PanelGroup):
     slug = "mygroup"
-    name = _("SLA Config")
-    panels = ('SLAConfigPanel',)
+    name = _("Stella SLA ")
+    panels = ('SLAConfigPanel', 'SLAShowPanel')
 
 class StellaDashboard(horizon.Dashboard):
     name = _("Stella Dashboard")
-    slug = "mydashboard"
-    panels = (SLAConfigGroup,)  # Add your panels here.
+    slug = "stella"
+    panels = (SLAConfigGroup, )  # Add your panels here.
     default_panel = 'SLAConfigPanel'  # Specify the slug of the dashboard's default panel.
 
 
