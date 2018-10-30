@@ -16,7 +16,7 @@ import horizon
 
 class SLAConfigGroup(horizon.PanelGroup):
     slug = "mygroup"
-    name = _("Stella SLA ")
+    name = _("Stella SLO ")
     panels = ('SLAConfigPanel', 'SLAShowPanel')
 
 class StellaDashboard(horizon.Dashboard):

@@ -5,7 +5,7 @@ import horizon
 from openstack_dashboard.dashboards.stella import dashboard
 
 class ShowPanel(horizon.Panel):
-    name = _("Show SLA")
+    name = _("Show SLO")
     slug = "SLAShowPanel"
 
 

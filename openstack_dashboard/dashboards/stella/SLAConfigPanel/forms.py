@@ -16,8 +16,8 @@ HEADERS = {
 
 class PostForm(forms.Form):
     VM_name = forms.CharField()
-    SLA_Option = forms.CharField()
-    SLA_Value = forms.IntegerField(min_value=1)
+    SLO_Option = forms.CharField()
+    SLO_Value = forms.IntegerField(min_value=1)
 
     def submitSLA(self, request):
         #print(request.POST['VM_name'])
@@ -29,8 +29,8 @@ class PostForm(forms.Form):
         print(URL)
         print(URL)
         _VM_name = request.POST['VM_name']
-        _SLA_Option = request.POST['SLA_Option']
-        _SLA_Value = request.POST['SLA_Value']
+        _SLO_Option = request.POST['SLO_Option']
+        _SLO_Value = request.POST['SLO_Value']
         #Response = requests.get(URL, headers=HEADERS)
         #data = Response.json()
         data = '{"name": "' + _VM_name + '", "SLA_Option": "' + _SLA_Option + '", "SLA_Value": "' + _SLA_Value + '"}'
