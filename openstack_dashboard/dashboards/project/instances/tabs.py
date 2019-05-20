@@ -26,6 +26,7 @@ from openstack_dashboard.dashboards.project.instances \
 from openstack_dashboard import api
 from openstack_dashboard.dashboards.project.instances import console
 
+#This part is irrelevant to  dashboard tab.
 
 class OverviewTab(tabs.Tab):
     name = _("Overview")
