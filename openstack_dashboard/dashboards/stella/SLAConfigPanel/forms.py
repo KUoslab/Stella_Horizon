@@ -33,7 +33,7 @@ class PostForm(forms.Form):
         _SLO_Value = request.POST['SLO_Value']
         #Response = requests.get(URL, headers=HEADERS)
         #data = Response.json()
-        data = '{"name": "' + _VM_name + '", "SLA_Option": "' + _SLA_Option + '", "SLA_Value": "' + _SLA_Value + '"}'
+        data = '{"name": "' + _VM_name + '", "SLA_Option": "' + _SLO_Option + '", "SLA_Value": "' + _SLO_Value + '"}'
         response = requests.post(URL , data=data, headers={"Content-Type": "application/json"})
         print(data)
         print(response)
