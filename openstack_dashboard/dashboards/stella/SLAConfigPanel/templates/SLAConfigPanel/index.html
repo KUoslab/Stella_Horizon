@@ -10,11 +10,38 @@
 <div class="row">
    <div class="col-sm-12">
 
-<form method="POST" class="post-form" action=/stella/>{% csrf_token %}
+<form method="POST" class="post-form" action=/horizon/stella/>{% csrf_token %}
         {{ form.as_p }}
         <input type="submit" class="save btn btn-default"></button>
     </form>
-
    </div>
 </div>
+
+<div>
+        <h3>SLO config description</h3>
+        <p>
+        <b>VM name: Name of VM at Horizon dashboard</b><br />
+        &nbsp&nbsp(e.g. Stella_1, Stella_2, Stella_3 eta.)<br />
+        <b>SLO option: Select SLO option</b><br />
+        &nbsp&nbsp(e.g. n_maxcredit, b_bw, c_usage)<br />
+        <b>SLO value: define specific SLO requirement</b><br />
+        &nbsp&nbsp(Numbers are acceptable. However for c_usage allows between 1 to 100)<br />
+        </p>
+
+        <h3>SLO config example</h3>
+        <p>
+        <b>VM name: Stella_1, SLO option: n_maxcredit, SLO value: 10,000</b><br />
+        &nbsp&nbsp(Set 10,000 pps (packet per sec) for Stella_1 SLO)<br />
+        <b>VM name: Stella_2, SLO option: b_bw, SLO value: 600</b><br />
+        &nbsp&nbsp(Set 600(MB/s) for Stella_2 SLO)<br />
+        <b>VM name: Stella_3, SLO option: c_usage, SLO value: 30 </b><br />
+        &nbsp&nbsp(Set 30% of vcpu per core for Stella_3 SLO)<br />
+        </p>
+</div>
+<div>
+        <a href="http://stellatestbed.korea.ac.kr/grafana/d/q-d0NPaik/stella-performance-dashboard?orgId=1&from=1548228600000&to=1548230100000" target="_blank">VM Performance without SLOs</a>
+        <br />
+        <a href="https://stellatestbed.korea.ac.kr/grafana/d/q-d0NPaik/stella-performance-dashboard?orgId=1&from=1550745990000&to=1550747730000" target="_blank">VM Performance with SLOs</a>
+</div>
+
 {% endblock %}
