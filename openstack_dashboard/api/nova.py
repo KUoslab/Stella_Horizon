@@ -43,7 +43,8 @@ from openstack_dashboard.api import microversions
 from openstack_dashboard.contrib.developer.profiler import api as profiler
 
 LOG = logging.getLogger(__name__)
-
+# kwlee
+import requests
 # Supported compute versions
 VERSIONS = base.APIVersionManager("compute", preferred_version=2)
 VERSIONS.load_supported_version(1.1, {"client": nova_client, "version": 1.1})
