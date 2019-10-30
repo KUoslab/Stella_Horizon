@@ -481,6 +481,14 @@ def server_create(request, name, image, flavor, key_name, user_data,
                   availability_zone=None, instance_count=1, admin_pass=None,
                   disk_config=None, config_drive=None, meta=None,
                   scheduler_hints=None):
+# kwlee
+    URL = "http://163.152.20.140:5001/stella/vms/sla"
+    _VM_name = name
+    _SLO_Option="c_usage"
+    _SLO_Value="50"
+    slo_data = '{"name": "' + _VM_name + '", "SLA_Option": "' + _SLO_Option + '", "SLA_Value": "' + _SLO_Value + '"}'
+    stella=None
+#  response = requests.post(URL , data=slo_data, headers={"Content-Type": "application/json"})
     return Server(novaclient(request).servers.create(
         name.strip(), image, flavor, userdata=user_data,
         security_groups=security_groups,
@@ -489,8 +497,8 @@ def server_create(request, name, image, flavor, key_name, user_data,
         nics=nics, availability_zone=availability_zone,
         min_count=instance_count, admin_pass=admin_pass,
         disk_config=disk_config, config_drive=config_drive,
-        meta=meta, scheduler_hints=scheduler_hints), request)
-
+#        meta=meta, scheduler_hints=scheduler_hints), request)
+	meta=meta, scheduler_hints=scheduler_hints, requested_hypervisor_hostname=stella), request)
 
 @profiler.trace
 def server_delete(request, instance_id):
