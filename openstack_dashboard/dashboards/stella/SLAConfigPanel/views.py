@@ -5,7 +5,7 @@ class SLAConfigView(FormView):
     # A very simple class-based view...
     template_name = 'stella/SLAConfigPanel/index.html'
     form_class = PostForm
-    success_url = '/stella/'
+    success_url = '/horizon/stella/'
 
     def get_data(self, request, context, *args, **kwargs):
         # Add data to the context here...
